@@ -18,8 +18,7 @@ organizations:
   url: "https://allenai.org/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Research Scientist (Allen Institute for AI) focusing on natural language processing and
-machine learning. 
+#bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 #interests:
 #- Artificial Intelligence
@@ -45,7 +44,7 @@ machine learning.
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@kyler@allenai.org".
+  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=LmJN-n4AAAAJ&hl=en
