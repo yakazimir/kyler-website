@@ -66,6 +66,8 @@ subtitle = ""
  css_class = ""
 +++
 
+Kyle Richardson, Hai Hu, Lawrence S. Moss, Ashish Sabharwal (2019). **Probing Natural Language Inference Models through Semantic Fragments**  \[[arxiv](https://arxiv.org/abs/1909.07521)]
+
 Peter Clark, Oren Etzioni, Daniel Khashabi, Tushar Khot, Bhavana Dalvi Mishra, Kyle Richardson, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord, Niket Tandon, Sumithra Bhakthavatsalam, Dirk Groeneveld, Michal Guerquin, Michael Schmitz (2019). **From 'F' to 'A' on the N.Y. Regents Science Exams: An Overview of the Aristo Project**  \[[arxiv](https://arxiv.org/abs/1909.01958)]
 
 Kyle Richardson (2018) **New Resources and Ideas for Semantic Parser Induction**. *PhD Thesis, Institute for Natural Language Processing (IMS),  Faculty of Computer Science, Electrical Engineering and Information Technology*. University of Stuttgart, Germany \[[opus](https://elib.uni-stuttgart.de/handle/11682/10107)]\[[slides](files/richardson_talk.pdf)]\[[resources](https://github.com/yakazimir/zubr_public)]\[[handout](files/print_handout.pdf)]
