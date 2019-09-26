@@ -17,8 +17,6 @@ organizations:
 - name: Allen Institute for Artificial Intelligence
   url: "https://allenai.org/"
 
-A recent talk about some of PhD work can be found {{% staticref "files/richardson_talk.pdf" "newtab" %}}here{{% /staticref %}} (versions of which have been presented at the University of Edinburgh, IBM Research Zurich, [the Allen Institute for AI](https://www.youtube.com/watch?v=dP6N2hGC8Ys&t=478s), Microsoft Research Cambridge, SRI International, Salesforce Research and the French Institute for Research in Computer Science (INRIA) in Paris)"
-
 # Short bio (displayed in user profile at end of posts)
 bio: Research scientist in NLP and machine learning at the Allen Institute for AI. 
 
