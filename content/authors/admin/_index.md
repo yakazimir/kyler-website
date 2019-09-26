@@ -68,6 +68,10 @@ user_groups:
 ---
 
 
-I am a research scientist at the [Allen Institute for Artificial Intelligence](https://allenai.org) in Seattle, Washington where I do work on natural language processing on the [Aristo Project](https://allenai.org/aristo/).  Prior to this, I was a researcher at the Institute for Natural Language Processing (IMS) at the University of Stuttgart in Germany, where I received my PhD in October 2018. Before this, I received my B.A. from the University of Rochester in upstate New York (USA). 
+I am a research scientist at the
+[Allen Institute for Artificial Intelligence](https://allenai.org) in
+Seattle, Washington where I do work on natural language processing on
+the [Aristo Project](https://allenai.org/aristo/) (see
+[here](https://www.nytimes.com/2019/09/04/technology/artificial-intelligence-aristo-passed-test.html)for some recent media coverage of our work).  Prior to this, I was a researcher at the Institute for Natural Language Processing (IMS) at the University of Stuttgart in Germany, where I received my PhD in October 2018. Before this, I received my B.A. from the University of Rochester in upstate New York (USA). 
 
-A recent talk about some of PhD work can be found {{% staticref "files/richardson_talk.pdf" "newtab" %}}here{{% /staticref %}} (versions of which have been presented at the University of Edinburgh, IBM Research Zurich, [the Allen Institute for AI](https://www.youtube.com/watch?v=dP6N2hGC8Ys&t=478s), Microsoft Research Cambridge, SRI International, Salesforce Research and the French Institute for Research in Computer Science (INRIA) in Paris). See [here](https://elib.uni-stuttgart.de/handle/11682/10107?mode=full) for my thesis. 
+A talk about some of PhD work (from before) can be found {{% staticref "files/richardson_talk.pdf" "newtab" %}}here{{% /staticref %}} (versions of which have been presented at the University of Edinburgh, IBM Research Zurich, [the Allen Institute for AI](https://www.youtube.com/watch?v=dP6N2hGC8Ys&t=478s), Microsoft Research Cambridge, SRI International, Salesforce Research and the French Institute for Research in Computer Science (INRIA) in Paris). See [here](https://elib.uni-stuttgart.de/handle/11682/10107?mode=full) for my thesis. 
