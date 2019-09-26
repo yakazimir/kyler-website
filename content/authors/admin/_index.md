@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Kyle Richardson
+name: Nelson Bighetti
 
 # Username (this should match the folder name)
 authors:
@@ -10,32 +10,32 @@ authors:
 superuser: true
 
 # Role/position
-role: Research Scientist
+role: Professor of Artificial Intelligence
 
 # Organizations/Affiliations
 organizations:
-- name: Allen Institute for Artificial Intelligence
-  url: "https://allenai.org/"
+- name: Stanford University
+  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Research scientist in NLP and machine learning at the Allen Institute for AI. 
+bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
-#interests:
-#- Artificial Intelligence
-#- Computational Linguistics
-#- Information Retrieval
+interests:
+- Artificial Intelligence
+- Computational Linguistics
+- Information Retrieval
 
-#education:
-#  courses:
-#  - course: PhD in Artificial Intelligence
-#    institution: Stanford University
-#    year: 2012
-#  - course: MEng in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2009
-#  - course: BSc in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2008
+<!-- education: -->
+<!--   courses: -->
+<!--   - course: PhD in Artificial Intelligence -->
+<!--     institution: Stanford University -->
+<!--     year: 2012 -->
+<!--   - course: MEng in Artificial Intelligence -->
+<!--     institution: Massachusetts Institute of Technology -->
+<!--     year: 2009 -->
+<!--   - course: BSc in Artificial Intelligence -->
+<!--     institution: Massachusetts Institute of Technology -->
+<!--     year: 2008 -->
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -45,12 +45,15 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/GeorgeCushen
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=LmJN-n4AAAAJ&hl=en&oi=ao
+  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/yakazimir
+  link: https://github.com/gcushen
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
@@ -63,10 +66,10 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-#- Researchers
-#- Visitors
-#---
+- Researchers
+- Visitors
+---
 
-I am a research scientist at the [Allen Institute for Artificial Intelligence](https://allenai.org) in Seattle, Washington where I do work on natural language processing on the [Aristo Project](https://allenai.org/aristo/).  Prior to this, I was a researcher at the Institute for Natural Language Processing (IMS) at the University of Stuttgart in Germany, where I received my PhD in October 2018. Before this, I received my B.A. from the University of Rochester in upstate New York (USA). 
+Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 
-A recent talk about some of PhD work can be found {{% staticref "files/richardson_talk.pdf" "newtab" %}}here{{% /staticref %}} (versions of which have been presented at the University of Edinburgh, IBM Research Zurich, [the Allen Institute for AI](https://www.youtube.com/watch?v=dP6N2hGC8Ys&t=478s), Microsoft Research Cambridge, SRI International, Salesforce Research and the French Institute for Research in Computer Science (INRIA) in Paris). See [here](https://elib.uni-stuttgart.de/handle/11682/10107?mode=full) for my thesis. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
