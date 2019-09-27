@@ -79,4 +79,4 @@ A talk about some of PhD work (from before) can be found {{% staticref
 "files/richardson_talk.pdf" "newtab" %}}here{{% /staticref %}} (see
 here
 [the Allen Institute for AI](https://www.youtube.com/watch?v=dP6N2hGC8Ys&t=478s)
-for a video. See [here](https://elib.uni-stuttgart.de/handle/11682/10107?mode=full) for my thesis. 
+for a video). My thesis can be found [here](https://elib.uni-stuttgart.de/handle/11682/10107?mode=full). 
