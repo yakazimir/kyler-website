@@ -41,9 +41,7 @@ The Result
 -------------------------
 
 Now we can ask the question: can we come up with a general algorithm to find this set $R$ and determine if a given $x$ is random?  Somewhat shockingly, it turns out we can't according to the following (it took me some time to find a readable proof; this one is based on this blog post [here](https://jeremykun.com/tag/kolmogorov-complexity/), where as similar set of examples is used as above, the notes here[here](http://theory.stanford.edu/~trevisan/cs154-12/notek.pdf) and this textbook [here](https://www.springer.com/gp/book/9781489984456), which I'm still working through): 
-$$\begin{theorem}
-$R$ is not decidable. 
-\end{theorem}$$
+$$\textbf{Theorem} $R$ \text{ is not decidable. }$$
 
 <!--more-->
 
