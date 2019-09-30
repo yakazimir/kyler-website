@@ -31,17 +31,19 @@ print("11101001")
 which simply returns the total pattern `"11101001"`, and is of size equal to the size of the input. 
 
 With these ideas in mind, we can then quantify the notion of a random string as one whose smallest program is greater than or equal to the size of the string plus this constant $c$ (in other words, we cannot find a program smaller than the one that simply returns the full string). We can further define the set $R$ of all random strings as follows (where $K(x)$ stands for `Kolmogorov complexity`):
+
 $$\gamma_{n} = \frac{ 
 \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
 \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
 {\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+
 I find this definition of randomness to be very satisfying. In the simplest terms, it says that a string is random if we can't come up with a clever pattern to describe or generate it. To me, it is very easy to imagine many such strings. 
 
 
 The Result 
 -------------------------
 
-Now we can ask the question: can we come up with an algorithm to find this set $R$ and determine if a given $x$ is random?  Somewhat shockingly, it turns out we can't according to the following (it took me some time to find a readable proof; this one is based on this blog post [here](https://jeremykun.com/tag/kolmogorov-complexity/) and this textbook [here](https://www.springer.com/gp/book/9781489984456);  in other, often more  casual overviews, of this theorem, it is referred to as the `incompressibility` result for Kolmogorov complexity): 
+Now we can ask the question: can we come up with an algorithm to find this set $R$ and determine if a given $x$ is random?  Somewhat shockingly, it turns out we can't according to the following (it took me some time to find a readable proof; this one is based on this blog post [here](https://jeremykun.com/tag/kolmogorov-complexity/), where as similar set of examples is used as above, and this textbook [here](https://www.springer.com/gp/book/9781489984456);  in other, often more  casual overviews, of this theorem, it is referred to as the `incompressibility` result for Kolmogorov complexity): 
 $$\begin{theorem}
 $R$ is not decidable. 
 \end{theorem}$$
