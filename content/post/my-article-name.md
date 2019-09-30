@@ -41,7 +41,7 @@ Now we can ask the question: can we come up with a general algorithm to find thi
 
 **Theorem** $R$ is not decidable. 
 
-**Proof**. Let's imagine a computer program $M$ (e.g., a Turing machine, Python program, whatever), that computes $R$. If such a program exists, then we can use it for storing all random strings in sorted order  (we can further represent this program $M$ as a string of size $| M |^{\texttt{bits}}$, where $| \cdot |^{\texttt{bits}}$ is the size of the program string in bits).
+**Proof**. Let's imagine a computer program $M$ (e.g., a Turing machine, Python program, whatever; as it turns out, the choice of programming language is not so important), that computes $R$. If such a program exists, then we can use it for storing all random strings in sorted order  (we can further represent this program $M$ as a string of size $| M |^{\texttt{bits}}$, where $| \cdot |^{\texttt{bits}}$ is the size of the program string in bits).
 
 To find if a particular string $x \in R$ (where $|x|=n$), we can then use another program $M'$ that will simply do a look up on $R$ for all strings of size $n$ and return **true** if it finds the input $x$. Imagine that we represent this latter program as a string $s\_{n}$ built from a string rendering of $M'$  (of size $| M' |^{\texttt{bits}}$) concatenated with the number $n$ (where again, the bit representation of $| n |^{\texttt{bits}}$ is approximately  $log_{2}(n)$, as discussed above). In other words:
 $$| s\_{n} |^{\texttt{bits}} =  | M' |^{\texttt{bits}} + | n |^{\texttt{bits}}$$
