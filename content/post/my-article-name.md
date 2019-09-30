@@ -50,11 +50,11 @@ To find if a particular string $x \in R$ (where $|x|=n$), we can then use anothe
 $$| s\_{n} |^{\texttt{bits}} =  | M' |^{\texttt{bits}} + | n |^{\texttt{bits}}$$
 The problem is that according to our definition of randomness, the following must hold:
 $$K(s\_{n}) \ge n $$
-whereas $s\_{n}$ will have a length of $c + \log\_{2} n$ (where $M,M'$ get stuffed into our constant $c$). Therefore, we have the following:
+whereas $s\_{n}$ will have a length of $c + \log\_{2} n$ (where $M,M'$ get stuffed into our constant $c$). Therefore, we have the gitfollowing:
 $$n \le \log\_{2}(n) + c$$
 which cannot hold for most $n$. Therefore $R$ cannot be computed in the general case.
 
-As once remarked by Marvin Minsky, `Kolmogorov complexity` therefore has the fatal flaw that, in the general case, it is not possible to compute exactly what the theory is designed to compute! 
+As once remarked by Marvin Minsky, `Kolmogorov complexity` therefore has the fatal flaw that, in the general case, **it is not possible to compute exactly what the theory is designed to compute**! 
 
 
 Why Does This Happen?
@@ -64,7 +64,7 @@ As mentioned at the onset, this result can be used to derive the famous Gödel i
 ```
 The smallest positive integer than cannot be described in less than 1 billion words in English.
 ```
-While we can imagine the particular number being described, the paradox is that we just described such a number using far less than 1 billion English words (more specifically, we instead used only 16 English words!). This is in essense what we proved above (with the help of this the  $\log_{2}$ bit compression). 
+While we can imagine the particular number being described, the paradox is that we just described such a number using far less than 1 billion English words (more specifically, we instead used only 16 English words!). This is in essense what we proved above with the help of this the  $\log_{2}$ bit compression trick. 
 
 
 
