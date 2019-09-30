@@ -2,7 +2,7 @@
 title = "What is Kolmogorov Complexity?"
 description = "A brief note on Kolmogorov complexity."
 date = "2014-09-29"
-categories = [ "undecidability", "probability" ]
+categories = [ "undecidability", "complexity" ]
 mmark = true
 +++
 
@@ -28,19 +28,19 @@ Now what about the second string $x'$? Clearly, this pattern is more complex, in
 ```python
 print("11101001")
 ```
-which simply returns the total pattern `"11101001"`, and is therefore of size equal to the size of the input. 
+which simply returns the total pattern `"11101001"`, and is therefore of size equal to the size of the input (for now, forget the point about the $log_{2}$ bit conversion and ensure you understand how this second string and programs differs from the first). 
 
 With these ideas in mind, we can then quantify the notion of a random string as one whose smallest program is greater than or equal to the size of the string plus this constant $c$ (in other words, we cannot find a program smaller than the one that simply returns the full string). We can further define the set $R$ of all random strings as follows (where $K(x)$ stands for `Kolmogorov complexity`):
 
 $$R =  x \mid K(x) \ge | x | $$
 
-I find this definition of randomness to be very satisfying. In the simplest terms, it says that a string is random if we can't come up with a clever pattern to describe or generate it. To me, it is very easy to imagine many such strings. 
+I find this definition of randomness to be very satisfying. In the simplest terms, it says that a string is random if we can't come up with a clever pattern to describe or generate it. To me, it is very easy to imagine many such strings, though as it turns out this notion of randomness is fundamentally problematic. 
 
 
 The Result 
 -------------------------
 
-Now we can ask the question: can we come up with an algorithm to find this set $R$ and determine if a given $x$ is random?  Somewhat shockingly, it turns out we can't according to the following (it took me some time to find a readable proof; this one is based on this blog post [here](https://jeremykun.com/tag/kolmogorov-complexity/), where as similar set of examples is used as above, and this textbook [here](https://www.springer.com/gp/book/9781489984456)): 
+Now we can ask the question: can we come up with a general algorithm to find this set $R$ and determine if a given $x$ is random?  Somewhat shockingly, it turns out we can't according to the following (it took me some time to find a readable proof; this one is based on this blog post [here](https://jeremykun.com/tag/kolmogorov-complexity/), where as similar set of examples is used as above, the notes here[here](http://theory.stanford.edu/~trevisan/cs154-12/notek.pdf) and this textbook [here](https://www.springer.com/gp/book/9781489984456), which I'm still making my way through): 
 $$\begin{theorem}
 $R$ is not decidable. 
 \end{theorem}$$
