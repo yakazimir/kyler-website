@@ -18,6 +18,8 @@ In the first case, a reasonably compact Python program for generating $x$ is the
 ```python
 print("01"*4)
 ```
+which, excluding the Python parts `",print, (,), *}` and the prefix `"01"` (since this pattern will stay constant for all such patterns longer than `n=8`), the size of this program reduces the size of the number `4` (or `1/n`), which in bits is  equivalent to the following (using the laws of number-bit conversion; this part about the conversion tripped me up a bit at first):
+$$ \left\lfloor \log_{2}(4) \right\rfloor + c $$ 
 
 <!--more-->
 
