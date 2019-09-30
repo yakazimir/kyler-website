@@ -47,7 +47,7 @@ To find if a particular string $x \in R$ (where $|x|=n$), we can then use anothe
 $$| s\_{n} |^{\texttt{bits}} =  | M' |^{\texttt{bits}} + | n |^{\texttt{bits}}$$
 The problem is that according to our definition of randomness, the following must hold:
 $$K(s\_{n}) \ge n $$
-whereas $s\_{n}$ will have a length of $c + \log\_{2} n$ (where $M,M'$ get stuffed into our constant $c$). Therefore, we have the gitfollowing:
+whereas $s\_{n}$ will have a length of $c + \log\_{2} n$ (where $M,M'$ get stuffed into our constant $c$). Therefore, we have the following:
 $$n \le \log\_{2}(n) + c$$
 which cannot hold for most $n$. Therefore $R$ cannot be computed in the general case.
 
