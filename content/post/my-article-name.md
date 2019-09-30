@@ -29,7 +29,7 @@ print("11101001")
 which simply returns the total pattern `"11101001"`, and hence is of size equal to input $$c + \mid 11101001 \mid $$ = c + 8 (where, again, `c` is equal to however many bits is required to encode the symbols `print""()}`.
 
 With these ideas in mind, we can then quantify the notion of a random string as one whose smallest program is greater than or equal to the size of the string plus this constant `c` (in other words, we cannot find a program smaller than the one that simply returns the full string). We can further define the set `R` of all random strings as follows (where `K(x)` stands for `Kolmogorov complexity`):
-$$  R = \bigg\{ x \mid K(x) \ge | x | \bigg\}$$
+$$R = \bigg\{ x \mid K(x) \ge | x | \bigg\}$$
 
 
 
