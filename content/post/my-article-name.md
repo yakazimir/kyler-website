@@ -17,7 +17,7 @@ In the first case, a reasonably compact Python program for generating $x$ is the
 ```python
 print("01"*4)
 ```
-which, excluding the Python parts `",print, (,), *}` and the prefix `"01"` (since these wil stay constant for all such patterns longer than $n=8$), has a size of $4$ (or $n/2$).  In bits this is equivalent to the following (using the laws of [number-bit conversion](https://www.exploringbinary.com/number-of-bits-in-a-decimal-integer/); this part about the conversion tripped me up a bit at first, but is essential for the result in the next Section):
+which, excluding the Python parts `",print, (,), *` and the prefix `"01"` (since these wil stay constant for all such patterns longer than $n=8$), has a size of $4$ (or $n/2$).  In bits this is equivalent to the following (using the laws of [number-bit conversion](https://www.exploringbinary.com/number-of-bits-in-a-decimal-integer/); this part about the conversion tripped me up a bit at first, but is essential for the result in the next Section):
 $$ \left\lfloor \log_{2}(4) \right\rfloor + c $$
 where $c (\ge 1)$ is the constant that covers the programming language parts and the constant pattern `01`.
 
