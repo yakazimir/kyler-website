@@ -44,9 +44,9 @@ Now we can ask the question: can we come up with a general algorithm to find thi
 
 **Theorem** $R$ is not decidable. 
 
-**Proof**. Let's imagine a computer program $M$ (e.g., a Turing machine, Python program, whatever), that computes $R$. If such a program exists, then we can use it for storing all random strings in sorted order  (we can further represent this program $M$ as a string of size $| M |^{\texttt{bits}}$, where $| \cdot |^{\texttt{bits}}$ is the size of the program string in bits, as discussed above).
+**Proof**. Let's imagine a computer program $M$ (e.g., a Turing machine, Python program, whatever), that computes $R$. If such a program exists, then we can use it for storing all random strings in sorted order  (we can further represent this program $M$ as a string of size $| M |^{\texttt{bits}}$, where $| \cdot |^{\texttt{bits}}$ is the size of the program string in bits).
 
-To find if a particular string $x \in R$ (where $|x|=n$), we can then use another program $M'$ that will simply do a look up on $R$ for all strings of size $n$ and return **true** if it finds the input $x$. Imagine that we represent this latter program as a string $s\_{n}$ built from a string rendering of $M'$  (of size $| M' |^{\texttt{bits}}$) concatenated with the number $n$ (where again, the bit representation of $| n |^{\texttt{bits}}$ is approximately  $log_{2}(n)$). In other words:
+To find if a particular string $x \in R$ (where $|x|=n$), we can then use another program $M'$ that will simply do a look up on $R$ for all strings of size $n$ and return **true** if it finds the input $x$. Imagine that we represent this latter program as a string $s\_{n}$ built from a string rendering of $M'$  (of size $| M' |^{\texttt{bits}}$) concatenated with the number $n$ (where again, the bit representation of $| n |^{\texttt{bits}}$ is approximately  $log_{2}(n)$, as discussed above). In other words:
 $$| s\_{n} |^{\texttt{bits}} =  | M' |^{\texttt{bits}} + | n |^{\texttt{bits}}$$
 The problem is that according to our definition of randomness, the following must hold:
 $$K(s\_{n}) \ge n $$
@@ -54,13 +54,19 @@ whereas $s\_{n}$ will have a length of $c + \log\_{2} n$ (where $M,M'$ get stuff
 $$n \le \log\_{2}(n) + c$$
 which cannot hold for most $n$. Therefore $R$ cannot be computed in the general case.
 
-As once remarked by Marvin Minsky, `Kolmogorov complexity` therefore has the fatal flaw that, in the general case as shown above, it is not possible to compute exactly what the theory is designed to compute!
+As once remarked by Marvin Minsky, `Kolmogorov complexity` therefore has the fatal flaw that, in the general case, it is not possible to compute exactly what the theory is designed to compute! 
 
 
 Why Does This Happen?
 -------------------------
 
-As mentioned at the onset, this result can be used to the famous Gödel incompleteness results (see [Chaitin's paper](https://arxiv.org/pdf/chao-dyn/9406002.pdf) for more details). The source of these results is the so-called Berry Paradox, which involves the following 
+As mentioned at the onset, this result can be used to the famous Gödel incompleteness results (see [Chaitin's paper](https://arxiv.org/pdf/chao-dyn/9406002.pdf)  for more details). The source of these results is the so-called Berry Paradox, which was first published by Bertrand Russell but named after an obscure Oxford University librarian who first posed  the paradox to Russell. The paradox can be understood by thinking about the following description of a number:
+```
+The smallest positive integer than cannot be described in less than 1 billion words in English.
+```
+While we can imagine the particular number being described, the paradox is that we just described such a number using far less than 1 billion English words (more specifically, we instead used only 16 English words!). This is basically what we proved above. 
+
+
 
 
 <!--more-->
