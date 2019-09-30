@@ -41,7 +41,10 @@ The Result
 -------------------------
 
 Now we can ask the question: can we come up with a general algorithm to find this set $R$ and determine if a given $x$ is random?  Somewhat shockingly, it turns out we can't according to the following (it took me some time to find a readable proof; this one is based on this blog post [here](https://jeremykun.com/tag/kolmogorov-complexity/), where as similar set of examples is used as above, the notes [here](http://theory.stanford.edu/~trevisan/cs154-12/notek.pdf) and this textbook [here](https://www.springer.com/gp/book/9781489984456), which I'm still working through): 
-$$\textbf{Theorem} $R$ \text{ is not decidable. }$$
+$$\textbf{Theorem } R \text{ is not decidable. }$$
+
+Proof. Let's imagine a computer program $M$ (e.g., a Turing machine, Python program, whatever), that computes $R$. If such a program exists, then we can use it for all possible inputs, which therefore makes its size part of our constant (we can further represent this program $M$ as a string of size $| M |^{\texttt{bits}}$, where $| \cdot |^{\texttt{bits}}$ is the size in of program string in bits). To find if a particular string $x \in R$ (where $|x|=n$), we can then use another program $M'$ that will do a look up on $R$ for all strings of size $n$ and return \textbf{true} if it finds the input $x$. Imagine that we represent this latter program as a string $s\_{n}$ built from a string rendering of $M'$  (of size $| M' |^{\texttt{bits}}$) concatenated with the number $n$ (where again, the bit representation of $| n |^{\texttt{bits}}$ is approximately  $log_{2}(n)$. In other words:
+$$| s\_{n} |^{\texttt{bits}} =  (| M ' |^{\texttt{bits}}+| M |^{\texttt{bits}}) + | n |^{\texttt{bits}}$$
 
 
 
