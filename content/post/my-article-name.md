@@ -44,18 +44,18 @@ Now we can ask the question: can we come up with a general algorithm to find thi
 
 **Theorem** $R$ is not decidable. 
 
-**Proof**. Let's imagine a computer program $M$ (e.g., a Turing machine, Python program, whatever), that computes $R$. If such a program exists, then we can use it for all possible inputs in sorted order, which therefore makes its size part of our constant (we can further represent this program $M$ as a string of size $| M |^{\texttt{bits}}$, where $| \cdot |^{\texttt{bits}}$ is the size in of program string in bits).
+**Proof**. Let's imagine a computer program $M$ (e.g., a Turing machine, Python program, whatever), that computes $R$. If such a program exists, then we can use it for all possible inputs in sorted order  (we can further represent this program $M$ as a string of size $| M |^{\texttt{bits}}$, where $| \cdot |^{\texttt{bits}}$ is the size in of program string in bits, as discussed above).
 
 To find if a particular string $x \in R$ (where $|x|=n$), we can then use another program $M'$ that will do a look up on $R$ for all strings of size $n$ and return **true** if it finds the input $x$. Imagine that we represent this latter program as a string $s\_{n}$ built from a string rendering of $M'$  (of size $| M' |^{\texttt{bits}}$) concatenated with the number $n$ (where again, the bit representation of $| n |^{\texttt{bits}}$ is approximately  $log_{2}(n)$. In other words:
 $$| s\_{n} |^{\texttt{bits}} =  (| M ' |^{\texttt{bits}}+| M |^{\texttt{bits}}) + | n |^{\texttt{bits}}$$
 The problem is that according to our definition of randomness, the following must hold:
 $$K(s\_{n}) \ge n $$
-whereas $s\_{n}$ will have a length of $c + \log\_{2} n$. Therefore, we have the following:
+whereas $s\_{n}$ will have a length of $c + \log\_{2} n$. Therefore, we have the following (where $c$ covers $M$ and $M'$):
 $$n \le \log\_{2}(n) + c$$
 which cannot hold for most $n$. Therefore $R$ cannot be computed in the general case.
 
 
-The Paradox
+Why?
 -------------------------
 
 
