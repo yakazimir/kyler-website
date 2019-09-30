@@ -65,3 +65,9 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+
+I recently starting converting some of my research notes into blog
+posts, with the hope that someone might find them useful (or, even
+better, that someone might correct me when I'm wrong, since many of
+the topics covered go outside of my area of expertise). 
+
