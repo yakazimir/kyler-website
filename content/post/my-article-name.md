@@ -11,7 +11,7 @@ The Basic Idea
 
 I've been reading about Kolmogorov complexity, with the aim of understanding certain metamathematical results (including general incompleteness). I seem to be on the verge of understanding specifically [Chaitin's reformulation](https://arxiv.org/pdf/chao-dyn/9406002.pdf) of Gödel's results using the [Berry paradox](https://en.wikipedia.org/wiki/Berry_paradox).
 
-First, before getting to the paradox let's first define Kolmogorov complexity (or Kolmogorov-Chaitin-Solomonoff complexity; so-called after the 3 individauals who independently discovered it).  Assuming a given string (or string rendering of a particular problem), the Kolmogorov complexity of that string is defined as  the size of the smallest program that is needed for generate that string. For example, let's assume that we have the following two strings of size $n=8$:
+First, before getting to the paradox let's  define Kolmogorov complexity (or Kolmogorov-Chaitin-Solomonoff complexity; so-called after the 3 individauals who independently discovered it).  Assuming a given string (or string rendering of a particular problem), the Kolmogorov complexity of that string is defined as  the **size of the smallest program** that is needed for generate that string. For example, let's assume that we have the following two strings of size $n=8$:
 $$
 x  = 01010101 \\ 
 x' = 11101001
@@ -40,8 +40,10 @@ I find this definition of randomness to be very satisfying. In the simplest term
 The Result 
 -------------------------
 
-Now we can ask the question: can we come up with a general algorithm to find this set $R$ and determine if a given $x$ is random?  Somewhat shockingly, it turns out we can't according to the following (it took me some time to find a readable proof; this one is based on this blog post [here](https://jeremykun.com/tag/kolmogorov-complexity/), where as similar set of examples is used as above, the notes here[here](http://theory.stanford.edu/~trevisan/cs154-12/notek.pdf) and this textbook [here](https://www.springer.com/gp/book/9781489984456), which I'm still working through): 
+Now we can ask the question: can we come up with a general algorithm to find this set $R$ and determine if a given $x$ is random?  Somewhat shockingly, it turns out we can't according to the following (it took me some time to find a readable proof; this one is based on this blog post [here](https://jeremykun.com/tag/kolmogorov-complexity/), where as similar set of examples is used as above, the notes [here](http://theory.stanford.edu/~trevisan/cs154-12/notek.pdf) and this textbook [here](https://www.springer.com/gp/book/9781489984456), which I'm still working through): 
 $$\textbf{Theorem} $R$ \text{ is not decidable. }$$
+
+
 
 <!--more-->
 
