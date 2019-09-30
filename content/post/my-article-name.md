@@ -20,7 +20,7 @@ In the first case, a reasonably compact Python program for generating $x$ is the
 ```python
 print("01"*4)
 ```
-which, excluding the Python parts `",print, (,), *}` and the prefix `"01"` (since this pattern will stay constant for all such patterns longer than $n=8$), the size of this program reduces the size of the number $4$ (or $n/2$), which in bits is  equivalent to the following (using the laws of number-bit conversion; this part about the conversion tripped me up a bit at first, but is essential for the result in the next Section):
+which, excluding the Python parts `",print, (,), *}` and the prefix `"01"` (since these wil stay constant for all such patterns longer than $n=8$), the size of this program reduces the size of the number $4$ (or $n/2$), which in bits is  equivalent to the following (using the laws of [number-bit conversion](https://www.exploringbinary.com/number-of-bits-in-a-decimal-integer/); this part about the conversion tripped me up a bit at first, but is essential for the result in the next Section):
 $$ \left\lfloor \log_{2}(4) \right\rfloor + c $$
 where $c (\ge 1)$ is the constant that covers the programming language parts and the constant pattern `01`.
 
@@ -28,13 +28,13 @@ Now what about the second string $x'$? Clearly, this pattern is more complex, in
 ```python
 print("11101001")
 ```
-which simply returns the total pattern `"11101001"`, and is therefore of size equal to the size of the input (for now, forget the point about the $log_{2}$ bit conversion and ensure you understand how this second string and programs differs from the first). 
+which simply returns the total pattern `"11101001"`, and is therefore of size equal to the size of the input (for now, forget the point about the $log_{2}$ bit conversion). 
 
 With these ideas in mind, we can then quantify the notion of a random string as one whose smallest program is greater than or equal to the size of the string plus this constant $c$ (in other words, we cannot find a program smaller than the one that simply returns the full string). We can further define the set $R$ of all random strings as follows (where $K(x)$ stands for `Kolmogorov complexity`):
 
 $$R =  x \mid K(x) \ge | x | $$
 
-I find this definition of randomness to be very satisfying. In the simplest terms, it says that a string is random if we can't come up with a clever pattern to describe or generate it. To me, it is very easy to imagine many such strings, though as it turns out this notion of randomness is fundamentally problematic. 
+I find this definition of randomness to be very satisfying. In the simplest terms, it says that a string is random if we can't come up with a clever pattern to describe or generate it. To me, it is very easy to imagine many such strings, this notion of randomness turns out to be fundamentally problematic. 
 
 
 The Result 
