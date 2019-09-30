@@ -1,3 +1,9 @@
+---
+date: 2017-12-01
+title: My first blog post
+markup: mmark
+---
+
 +++
 title = "What is Kolmogorov Complexity?"
 description = "A brief note on Kolmogorov complexity."
