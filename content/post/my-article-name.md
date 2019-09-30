@@ -32,7 +32,7 @@ which simply returns the total pattern `"11101001"`, and is therefore of size eq
 
 With these ideas in mind, we can then quantify the notion of a random string as one whose smallest program is greater than or equal to the size of the string plus this constant $c$ (in other words, we cannot find a program smaller than the one that simply returns the full string). We can further define the set $R$ of all random strings as follows (where $K(x)$ stands for `Kolmogorov complexity`):
 
-$$R = \{ x \mid K(x) \ge | x | $$
+$$R = \{ x \mid K(x) \ge | x | \}$$
 
 I find this definition of randomness to be very satisfying. In the simplest terms, it says that a string is random if we can't come up with a clever pattern to describe or generate it. To me it is very easy to imagine many such strings, though this notion of randomness turns out to be fundamentally problematic as described next. 
 
