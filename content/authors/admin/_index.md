@@ -70,7 +70,8 @@ user_groups:
 
 I am a research scientist at the
 [Allen Institute for Artificial Intelligence](https://allenai.org) in
-Seattle, Washington where I do work on natural language processing on
+Seattle, Washington where I do work on natural language processing and
+machine learning on
 the [Aristo Project](https://allenai.org/aristo/) (see
 [here](https://www.nytimes.com/2019/09/04/technology/artificial-intelligence-aristo-passed-test.html)
 for some recent media coverage of our work).  Prior to this, I was a researcher at the Institute for Natural Language Processing (IMS) at the University of Stuttgart in Germany, where I received my PhD in October 2018. Before this, I received my B.A. from the University of Rochester in upstate New York (USA). 
