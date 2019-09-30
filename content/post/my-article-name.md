@@ -2,12 +2,7 @@
 title = "What is Kolmogorov Complexity?"
 description = "A brief note on Kolmogorov complexity."
 date = "2014-09-29"
-categories = [ "example", "configuration" ]
-tags = [
-    "example",
-    "hugo",
-    "toml"
-]
+categories = [ "undecidability", "probability" ]
 +++
 
 The Basic Idea
@@ -17,40 +12,4 @@ I've been reading about Kolmogorov complexity, with the aim of understanding cer
 
 <!--more-->
 
-The `toml` front matter used on this entry:
 
-```
-+++
-title = "Another Hugo Post"
-description = "Nothing special, but one post is boring."
-date = "2014-09-02"
-categories = [ "example", "configuration" ]
-tags = [
-    "example",
-    "hugo",
-    "toml"
-]
-+++
-```
-
-This flexibility also extends to your site's global configuration file. You're free to use any format you prefer::simply
-name the file `config.yaml`, `config.toml` or `config.json`, and go on your merry way.
-
-JSON Example
-------------
-
-How would this entry's front matter look in `json`? That's easy enough to demonstrate:
-
-```
-{
-    "title": "Another Hugo Post",
-    "description": "Nothing special, but one post is boring.",
-    "date": "2014-09-02",
-    "categories": [ "example", "configuration" ],
-    "tags": [
-        "example",
-        "hugo",
-        "toml"
-    ],
-}
-```
