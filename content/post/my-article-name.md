@@ -8,6 +8,7 @@ tags = [
     "hugo",
     "toml"
 ]
+markup: mmark
 +++
 
 The Basic Idea
