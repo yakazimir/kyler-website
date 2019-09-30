@@ -64,7 +64,7 @@ As mentioned at the onset, this result can be used to the famous Gödel incomple
 ```
 The smallest positive integer than cannot be described in less than 1 billion words in English.
 ```
-While we can imagine the particular number being described, the paradox is that we just described such a number using far less than 1 billion English words (more specifically, we instead used only 16 English words!). This is basically what we proved above. 
+While we can imagine the particular number being described, the paradox is that we just described such a number using far less than 1 billion English words (more specifically, we instead used only 16 English words!). This is in essense what we proved above (with the help of this $\log_{2}$ compression technique). 
 
 
 
