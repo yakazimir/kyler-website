@@ -37,6 +37,8 @@ $$R = { x \mid K(x) \ge \mid x \mid }$$
 The Result 
 -------------------------
 
+Now we can ask the question: can we come up with an algorithm to find this set `R` and determine if a given `x` is random?  Turns out we can't  according to the following (it took me some time to find a readable proof; this one is taken from this nice post here [https://jeremykun.com/tag/kolmogorov-complexity/] and some of the ideas is the  textbook here[https://www.springer.com/gp/book/9781489984456]);  in other, often more  casual overviews, of this theorem, it is referred to as the `incompressibility` result for Kolmogorov complexity): 
+
 
 <!--more-->
 
