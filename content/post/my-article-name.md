@@ -9,9 +9,9 @@ mmark = true
 The Basic Idea
 -------------------------
 
-I've been reading about Kolmogorov complexity, with the aim of understanding certain metamathematical results (including general incompleteness). I seem to be on the verge of understanding specifically [Chaitin's reformulation](https://arxiv.org/pdf/chao-dyn/9406002.pdf) of Gödel's results using the [Berry paradox](https://en.wikipedia.org/wiki/Berry_paradox) (which, interestingly, was first published by Bertrand Russell but named after a librarian in Oxford named Berry who first articulated the problem to Russell).
+I've been reading about Kolmogorov complexity, with the aim of understanding certain metamathematical results (including general incompleteness). I seem to be on the verge of understanding specifically [Chaitin's reformulation](https://arxiv.org/pdf/chao-dyn/9406002.pdf) of Gödel's results using the [Berry paradox](https://en.wikipedia.org/wiki/Berry_paradox).
 
-First, what is Kolmogorov complexity (or Kolmogorov-Chaitin-Solomonoff complexity; so-called after the 3 individauals who independently discovered it)? Assuming a given string (or string rendering of a particular problem), the Kolmogorov complexity of that string is the size of the smallest program that is needed for generate that string. For example, let's assume that we have the following two strings of size $n=8$:
+First, before getting to the paradox let's first define Kolmogorov complexity (or Kolmogorov-Chaitin-Solomonoff complexity; so-called after the 3 individauals who independently discovered it).  Assuming a given string (or string rendering of a particular problem), the Kolmogorov complexity of that string is defined as  the size of the smallest program that is needed for generate that string. For example, let's assume that we have the following two strings of size $n=8$:
 ```
 x  = 01010101 
 x' = 11101001
@@ -20,7 +20,7 @@ In the first case, a reasonably compact Python program for generating $x$ is the
 ```python
 print("01"*4)
 ```
-which, excluding the Python parts `",print, (,), *}` and the prefix `"01"` (since this pattern will stay constant for all such patterns longer than $n=8$), the size of this program reduces the size of the number $4$ (or $1/n$), which in bits is  equivalent to the following (using the laws of number-bit conversion; this part about the conversion tripped me up a bit at first, but is essential for what comes next):
+which, excluding the Python parts `",print, (,), *}` and the prefix `"01"` (since this pattern will stay constant for all such patterns longer than $n=8$), the size of this program reduces the size of the number $4$ (or $n/2$), which in bits is  equivalent to the following (using the laws of number-bit conversion; this part about the conversion tripped me up a bit at first, but is essential for the result in the next Section):
 $$ \left\lfloor \log_{2}(4) \right\rfloor + c $$
 where $c (\ge 1)$ is the constant that covers the programming language parts and the constant pattern `01`.
 
@@ -32,7 +32,7 @@ which simply returns the total pattern `"11101001"`, and is therefore of size eq
 
 With these ideas in mind, we can then quantify the notion of a random string as one whose smallest program is greater than or equal to the size of the string plus this constant $c$ (in other words, we cannot find a program smaller than the one that simply returns the full string). We can further define the set $R$ of all random strings as follows (where $K(x)$ stands for `Kolmogorov complexity`):
 
-$$x = \left{3\right}$$
+$$R =  x \mid K(x) \ge | x | $$
 
 I find this definition of randomness to be very satisfying. In the simplest terms, it says that a string is random if we can't come up with a clever pattern to describe or generate it. To me, it is very easy to imagine many such strings. 
 
