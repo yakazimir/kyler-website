@@ -9,7 +9,9 @@ mmark = true
 The Basic Idea
 -------------------------
 
-I've been reading about Kolmogorov complexity, with the aim of understanding certain metamathematical results (including general incompleteness). I seem to be on the verge of understanding specifically Chaitin's reformulation of Godel's results using the Berry paradox (which, interestingly, was first published by Bertrand Russell but named after a librarian in Oxford named Berry who first articulated the problem to Russell). First, what is Kolmogorov complexity (or Kolmogorov-Chaitin-Solomonoff complexity; so-called after the 3 individauals who independently discovered it)? Assuming a given string (or string rendering of a particular problem), the Kolmogorov complexity of that string is the size of the smallest program that is needed for generate that string. For example, let's assume that we have the following two strings of size `n=8`
+I've been reading about Kolmogorov complexity, with the aim of understanding certain metamathematical results (including general incompleteness). I seem to be on the verge of understanding specifically Chaitin's reformulation of Godel's results using the Berry paradox (which, interestingly, was first published by Bertrand Russell but named after a librarian in Oxford named Berry who first articulated the problem to Russell).
+
+First, what is Kolmogorov complexity (or Kolmogorov-Chaitin-Solomonoff complexity; so-called after the 3 individauals who independently discovered it)? Assuming a given string (or string rendering of a particular problem), the Kolmogorov complexity of that string is the size of the smallest program that is needed for generate that string. For example, let's assume that we have the following two strings of size `n=8`
 ```
 x  = 01010101 
 x' = 11101001
@@ -26,10 +28,14 @@ Now what about the second string `x'`? Clearly, this pattern is more complex, in
 ```python
 print("11101001")
 ```
-which simply returns the total pattern `"11101001"`, and hence is of size equal to input `c + | 11101001 |`  (where, again, `c` is equal to however many bits is required to encode the symbols `print""()}`.
+which simply returns the total pattern `"11101001"`, and is of size equal to the size of the input. 
 
 With these ideas in mind, we can then quantify the notion of a random string as one whose smallest program is greater than or equal to the size of the string plus this constant `c` (in other words, we cannot find a program smaller than the one that simply returns the full string). We can further define the set `R` of all random strings as follows (where `K(x)` stands for `Kolmogorov complexity`):
-$$R = \left\bigg\{ x \mid K(x) \ge | x | \bigg\}\right$$
+$$R = { x \mid K(x) \ge \mid x \mid }$$
+
+
+The Result 
+-------------------------
 
 
 <!--more-->
