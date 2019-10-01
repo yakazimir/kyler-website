@@ -31,17 +31,17 @@ With these ideas in mind, we can then quantify the notion of a random string as 
 
 $$R = \bigg\\{ x \mid K(x) \ge | x | \bigg\\}$$
 
-I find this definition of randomness to be very satisfying. In the simplest terms, it says that a string is random if we cannot come up with a clever pattern to describe or generate it. To me it is very easy to imagine many such strings, though this notion of randomness turns out to be fundamentally problematic, as described next. 
+I find this definition of randomness to be very satisfying. In the simplest terms, it says that a string is random if we cannot come up with a clever pattern to describe or generate it (alternatively, you can think about a random string as one that we cannot **compress** down to something smaller; in other presentations, $R$ is sometimes referred to as the set of **uncompressable strings**.). To me it is very easy to imagine many such strings, though this notion of randomness turns out to be fundamentally problematic, as described next. 
 
 
 The Result 
 -------------------------
 
-Now we can ask the question: can we come up with a general algorithm to find this set $R$ and determine if a given $x$ is random?  Somewhat shockingly, it turns out we can't according to the following (it took me some time to find a readable proof; this one is based on this blog post already cited [above](https://jeremykun.com/tag/kolmogorov-complexity/), these notes [here](http://theory.stanford.edu/~trevisan/cs154-12/notek.pdf) and [this wonderful  textbook](https://www.springer.com/gp/book/9781489984456), which I'm still working through): 
+Now we can ask the question: can we come up with a general algorithm to find this set $R$ and determine if a given $x$ is random?  Somewhat shockingly, it turns out we can't according to the following result (it took me some time to find a readable proof; this one is based on this blog post already cited [above](https://jeremykun.com/tag/kolmogorov-complexity/), these notes [here](http://theory.stanford.edu/~trevisan/cs154-12/notek.pdf) and [this wonderful  textbook](https://www.springer.com/gp/book/9781489984456), which I'm still working through): 
 
 **Theorem** $R$ is not decidable. 
 
-**Proof**. Let's imagine a computer program $M$ (e.g., a Turing machine, Python program, whatever; as it turns out, the choice of programming language is not so important), that computes $R$. If such a program exists, then we can use it for storing all random strings in sorted order  (we can further represent this program $M$ as a string of size $| M |^{\texttt{bits}}$, where $| \cdot |^{\texttt{bits}}$ is the size of the program string in bits; this exploits the fact that we can encode Turing machines as strings).
+**Proof**. Let's imagine a computer program $M$ (e.g., a Turing machine, Python program, whatever; as it turns out, the choice of programming language is not so important), that computes $R$. If such a program exists, then we can use it for storing all random strings in sorted order  (we can further represent this program $M$ as a string of size $| M |^{\texttt{bits}}$, where $| \cdot |^{\texttt{bits}}$ is the size of the program string in bits; this exploits the fact that we can encode Turing machines as binary strings).
 
 To find if a particular string $x \in R$ (where $|x|=n$), we can then use another program $M'$ that will simply do a look up on $R$ for all strings of size $n$ and return **true** if it finds the input $x$. Imagine that we represent this latter program as a string $s\_{n}$ built from a string rendering of $M'$  (of size $| M' |^{\texttt{bits}}$) concatenated with the number $n$ (where again, the bit representation of $| n |^{\texttt{bits}}$ is approximately  $log_{2}(n)$, as discussed above). In other words:
 $$| s\_{n} |^{\texttt{bits}} =  | M' |^{\texttt{bits}} + | n |^{\texttt{bits}}$$
