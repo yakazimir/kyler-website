@@ -31,7 +31,7 @@ With these ideas in mind, we can then quantify the notion of a random string as 
 
 $$R = \bigg\\{ x \mid K(x) \ge | x | \bigg\\}$$
 
-I find this definition of randomness to be very satisfying. In the simplest terms, it says that a string is random if we cannot come up with a clever pattern to describe or generate it (alternatively, you can think about a random string as one that we cannot **compress** down to something smaller; in other presentations, $R$ is sometimes referred to as the set of **uncompressable strings**.). To me it is very easy to imagine many such strings, though this notion of randomness turns out to be fundamentally problematic, as described next. 
+I find this definition of randomness to be very satisfying. In the simplest terms, it says that a string is random if we cannot come up with a clever pattern to describe or generate it (alternatively, you can think about a random string as one that we cannot **compress** down to something smaller; in other presentations, $R$ is sometimes referred to as the set of **uncompressable strings**). To me it is very easy to imagine many such strings, though this notion of randomness turns out to be fundamentally problematic, as described next. 
 
 
 The Result 
