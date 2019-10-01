@@ -2,7 +2,7 @@
 title = "What is Kolmogorov Complexity?"
 description = "A brief note on Kolmogorov complexity."
 date = "2014-09-29"
-categories = [ "undecidability", "complexity","math" ]
+categories = [ "undecidability", "complexity","math","sloppy math" ]
 mmark = true
 +++
 
@@ -61,7 +61,7 @@ As mentioned at the onset, this result can be used to derive the famous Gödel i
 ```
 The smallest positive integer than cannot be described in less than 1 billion words in English.
 ```
-While we can imagine the particular number being described, the paradox is that we just described such a number using far less than 1 billion English words (more exactly, we used only 16 English words!). This is in essense of the proof above,  which involves this $\log_{2}$ bit compression trick. 
+While we can imagine the particular number being described, the paradox is that we just described such a number using far less than 1 billion English words (more exactly, we used only 16 English words!). This is the essense of the proof above,  which involves this $\log_{2}$ bit compression trick. 
 
 
 
