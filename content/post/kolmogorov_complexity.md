@@ -58,7 +58,9 @@ Why Does This Happen?
 -------------------------
 
 As mentioned at the onset, this result can be used to derive the famous Gödel incompleteness results (see [Chaitin's paper](https://arxiv.org/pdf/chao-dyn/9406002.pdf)  for more details). The source of these results is the so-called Berry Paradox, which was first published by Bertrand Russell but named after an obscure Oxford University librarian who first posed  the paradox to Russell (as Chaitin describes, it can be viewed as a variant of the [liar paradox](https://plato.stanford.edu/entries/liar-paradox/) that Gödel relied on to prove his famous results). The paradox can be understood by thinking about the following description of a number:
+
 > The smallest positive integer than cannot be described in less than 1 billion words in English.
+
 While we can imagine the particular number being described, the paradox is that we just described such a number using far less than 1 billion English words (more exactly, we used only 16 English words!). This is the essense of the proof above,  which involves this $\log_{2}$ bit compression trick. 
 
 
