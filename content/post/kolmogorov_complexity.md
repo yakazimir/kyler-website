@@ -49,7 +49,7 @@ The problem is that according to our definition of randomness, the following mus
 $$K(s\_{n}) \ge n $$
 whereas $s\_{n}$ will have a length of $c + \log\_{2} n$ (where $M,M'$ get stuffed into our constant $c$). Therefore, we have the following:
 $$n \le \log\_{2}(n) + c$$
-which cannot hold for most $n$. Therefore $R$ cannot be computed in the general case.
+which cannot hold for most $n$. Therefore $R$ cannot be computed in the general case. □
 
 As once remarked by Marvin Minsky, `Kolmogorov complexity` therefore has the fatal flaw that, in the general case, **it is not possible to compute exactly what the theory is designed to compute**! 
 
