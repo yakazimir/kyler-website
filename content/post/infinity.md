@@ -69,7 +69,7 @@ With these ideas, let's now prove a relatively simple, yet puzzling, theorem abo
   a function:
 
 $$
-f''(x) = \begin{cases} 2f'(x) & \text{if }x \in A, \\
+f''(x) = \begin{cases} 2f'(x) & \text{if }x \in A, \\\\
 2f'(x)+1 & \text {if }x \in B\end{cases}
 $$
 
@@ -91,7 +91,7 @@ developed by Cantor much later in the 19th century. What he noticed
 is that if you can create a one-to-one mapping between square numbers (i.e., the numbers that
 are the product of other natural numbers, e.g., $0,1,4,9,16,...$) and the natural
 numbers (this is similar in spirit to what we did in Theorem 1). More
-technically, he showed that the function  $ f : n \to n^{2} $ is
+technically, he made the observation that the function  $ f : n \to n^{2} $ is
 bijective for all $n \in \mathbb{N}$.  This led him to say the following about infinity in his book [*Two New Sciences*](https://en.wikipedia.org/wiki/Two_New_Sciences): 
 
 > This is one of the difficulties which arise when we attempt, with
