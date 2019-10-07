@@ -140,7 +140,7 @@ following claim:
 
 **Claim 1** $$| \mathbb{N} | \lt | \mathcal{P}(\mathbb{N})  |$$
 since what we are saying is that the size of
-$\mathcal{N}$, which we know is countably infinite, is smaller than
+$\mathbb{N}$, which we know is countably infinite, is smaller than
 something else. 
 
 To demonstrate this, we will do the following: first, we will start with a
@@ -216,10 +216,12 @@ With this, we can prove the main result related to **Claim 1**:
   that can't be indexed with some $j \in \mathbb{N}$.
 
 Given the result above, we still need to exclude the possibility that
-$\mathcal{P}(\mathbb{N})$ is not smaller than $\mathbb{N}$. To do
-this, it suffices to show that there is a 
-
-□
+$\mathcal{P}(\mathbb{N})$ is smaller than $\mathbb{N}$. To do
+this, it suffices to show that some strict subset of
+$\mathcal{P}(\mathbb{N})$ is as big as $\mathcal{N}$. Consider the
+subset $D' = \\{ \{ x \} | \x \in \mathbb{B}  \\}$. Clearly $D$ is a
+strict subset of $\mathcal{P}(\mathbb{N})$ and that it can be mapped
+to $\mathcal{N}$ (i.e., by indexing each $x \in \mathbb{N}$ with its singleton set) □
  
 
 
