@@ -1,5 +1,5 @@
 +++
-title = "Some Basic Results on Infinity, or Why Infinity is Strange"
+title = "Why Infinity is Strange"
 description = "A brief note on some results on infinity"
 date = "2019-10-01"
 categories = [ "math","infinity","set theory","cantor" ]
@@ -114,7 +114,7 @@ power set):
 
 **Cantor's Theorem** $$\text{For any set } A, |A| \lt | \mathcal{P}(A)|$$
 
-*The Finite case*: Notice that we didn't specify whether the set $A$ is finite or
+**The Finite case**: Notice that we didn't specify whether the set $A$ is finite or
 infinite, meaning that this result applies to both.  For finite sets, this is straightforward to prove; if you
 attempt to construct a power set from a given set of cardinality $n$, you will notice
 that the cardinality of the resulting power set will always be $2^{n}$
@@ -124,19 +124,19 @@ b\\}$ of size 2, the power set is the following:
 **Example 1** $$\mathcal{P}(A) = \\{ \\{ a \\} , \\{ b \\} , \\{ a , b \\} , \emptyset  \\} $$
 
 (note the existence of the empty set $\emptyset$, which is always a
-subset of every set). Since $n > 2^{n}$, clearly $2^_{n}$ is always going to be larger than
+subset of every set). Since $n > 2^{n}$, clearly $2^{n}$ is always going to be larger than
 $n$ for any $n \in \mathbb{N}$ (the full
 proof requires a bit more work, but it relates to what comes next
 related to proving this for infinite sets).
 
-*The Infinite case*: The more suprising part of Cantor's theorem is
+**The Infinite case**: The more suprising part of Cantor's theorem is
 that this applies to infinite sets, e.g., for a countably infinite
 set such as the set of natural numbers: 
 
-$$\mathbb{N}$, $| \mathbb{N} | \lt | \mathcal{P}(\mathbb{N})  |$$
+$$| \mathbb{N} | \lt | \mathcal{P}(\mathbb{N})  |$$
 
 To demonstrate this, we will do the following: first, we will start with a
-definition of a set that is **undeniably** in $\mathcal{P}(A\_{inf})$,
+definition of a set that is **undeniably** in $\mathcal{P}(\mathbb{N})$,
 then show that if we try to assign it to a specific natural number to
 this set  (as is required to make the mapping **bijective**), we will run into a
 contradiction. Let's imagine that we were to map the natural numbers
