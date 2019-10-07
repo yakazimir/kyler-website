@@ -12,7 +12,10 @@ The Basic Idea
 I've been reading about Kolmogorov complexity, with the aim of understanding certain metamathematical results (including general incompleteness). I seem to be on the verge of understanding specifically [Chaitin's reformulation](https://arxiv.org/pdf/chao-dyn/9406002.pdf) of Gödel's results using the [Berry paradox](https://en.wikipedia.org/wiki/Berry_paradox).
 
 First, before getting to the paradox let's  define Kolmogorov complexity (or [Kolmogorov](https://en.wikipedia.org/wiki/Andrey_Kolmogorov)-[Chaitin](https://en.wikipedia.org/wiki/Gregory_Chaitin)-[Solomonoff](https://en.wikipedia.org/wiki/Ray_Solomonoff) complexity; so-called after the 3 individauals who independently discovered it).  Assuming a given string (or string rendering of a particular problem), the Kolmogorov complexity of that string is defined as  the **size of the smallest program** that is needed to generate that string. For example (I'm using some of the examples from [here](https://jeremykun.com/tag/kolmogorov-complexity/)), let's assume that we have the following two strings of size $n=8$:
-$$x  = 01010101 \\\\ x' = 11101001$$
+$$
+x  = 01010101 \\\\\\
+x' = 11101001
+$$
 In the first case, a reasonably compact Python program for generating $x$ is the following:
 ```python
 print("01"*4)

@@ -61,7 +61,7 @@ With these ideas, let's now prove a relatively simple, yet puzzling, theorem abo
   \cap B = \emptyset$), the
   union of $A$ and $B$, $A \cup B$, is also countably infinite. 
   
-**Proof** (rough sketch, following the discussion [here](https://math.stackexchange.com/questions/49758/proving-that-a-union-of-countably-infinite-sets-is-countably-infinite)) Given that $A$ and $B$ are countably
+**Proof** (rough sketch following the discussion [here](https://math.stackexchange.com/questions/49758/proving-that-a-union-of-countably-infinite-sets-is-countably-infinite)) Given that $A$ and $B$ are countably
   infinite, we know that there exist two bijective functions $f : A
   \to \mathbb{N}$ and $f' : B \to \mathbb{N}$. To prove the theorem,
   we need to come up with a new bijective  function $g : (A \cup B) \to \mathbb{N}$. Below defines such
@@ -84,7 +84,7 @@ of anything, the result is larger than the
 individual pieces we combined. For example, if I combine the set of chairs in my
 kitchen with the set of chairs in your kitchen (assuming that you have chairs), the resulting set is the sum of our
 two sets and hence is larger. Countable infinity doesn't work this way; when you combine
-two countbaly infinite sets, the resulting set has exactly the same
+two countably infinite sets, the resulting set has exactly the same
 cardinality. 
 
 In the 17th century, Galileo had several observations about
@@ -155,7 +155,14 @@ $$
 3 \to \\{ 3, 5 \\} \\\\\\
 .... 
 $$
-Notice that some of the sets on the right side contian the numbers on
-the left side (i.e., for $0$ and
-$3$,  these numbers are included in the sets $\\{ 0,1 \\}$ and $\\{ 3,
-5\\}$, respectively). 
+Notice that some of the sets on the right side contain the numbers on
+the to which they are indexed (i.e., for $0$ and
+$3$,  these numbers are included in their corresponding sets $\\{ 0,1 \\}$ and $\\{ 3,
+5\\}$), whereras the others do not. Based on this, let's make the following
+definition: 
+
+**Definition** Define the powerset of N as $L = P(N) = \\{S1, S2, ..., \\}$
+  (where, again, each $S_{j}$ is a set of integers), we will then use
+  $D(L)$ to denote the set of all $i \in \mathbb{N} s.t. i \notin
+  S\_{i}$. In ter
+
