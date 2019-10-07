@@ -167,11 +167,10 @@ $$
 D = \bigg\\{ x \mid x \in \mathbb{N} \land  x \notin d(x) \bigg\\}
 $$
 Using again the example mapping above, $D$ would include the numbers $1$ and
-$2$. Since $D$ is a set of positive numbers, **it clearly must
+$2$ (i.e., $\\{ 1, 2\\} \subset D$). Since $D$ is a set of positive numbers, **it clearly must
 appear in the set** $\mathcal{P}(\mathbb{N})$. This definition, it
 turns out, leads to a contradiction, which makes it impossible for $d$
-to be bijective. Somewhat unconventionally, we will state this fact as
-a lemma:
+to be bijective. 
 
 **Lemma 1** 
 
