@@ -16,7 +16,7 @@ non-enumerable) sets (I've been very slowly working through Boolos and
 Jeffrey's
 [Computability and Logic](https://www.goodreads.com/book/show/1556746.Computability_and_Logic);
 I find their notation and general approach to be quite hard to follow,
-so it's been a struggle). This particular result has to do with infinity, which is a
+so it's been a struggle).This particular result has to do with infinity, which is a
 conceptually difficult topic to grasp, even when considered
 non-mathematically. Part of what Cantor discovered is that infinite
 sets can have different cardinalities (where **cardinality** here
@@ -34,16 +34,16 @@ in my kitchen, of which there are 4). A **countably infinite
 set**, then, is a set that can be aligned to all of the natural
 counting numbers. For example, let's imagine we have a simple formal language
 $\mathcal{L} = \{ a^{*} \}$; we can argue that the string set
-associated with this language is infinite by doing the following
-alignment such that the number of $a$s in each string is mapped
-**uniquely** to each associated counting number:
+associated with this language is countably infinite by doing the following
+alignment (such that the number of $a$s in each string is mapped
+**uniquely** to each associated counting number):
 
 $$\lambda  \to 0, a \to 1, aa \to 2, aaa \to 3, aaaa \to 4, ...$$
 
 More formally, you can define an infinite set as a function from
 values in that set to the natural numbers, e.g.,
 
-$f : \mathcal{L} \to \mathbb{N}$
+$$f : \mathcal{L} \to \mathbb{N}$$
 
 To use some terminology
 that will become useful later, we will say that for an infinite set to
