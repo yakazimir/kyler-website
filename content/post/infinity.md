@@ -75,8 +75,8 @@ g(x) =
 \end{cases}
 $$
 
-which simply assigns items in $A$ to the even numbers (of which there
-are a countably infinite amount) and items in $B$ to odd numbers (of
+which simply assigns items in $A$ to the **even numbers** (of which there
+are a countably infinite amount) and items in $B$ to **odd numbers** (of
 which there also are a countably infinite amounnt)  □
 
 Now why is this result puzzling? Well, typically when we combine two
@@ -161,8 +161,11 @@ $3$,  these numbers are included in their corresponding sets $\\{ 0,1 \\}$ and $
 5\\}$), whereras the others do not. Based on this, let's make the following
 definition: 
 
-**Definition** Define the powerset of N as $L = P(N) = \\{S1, S2, ..., \\}$
-  (where, again, each $S_{j}$ is a set of integers), we will then use
-  $D(L)$ to denote the set of all $i \in \mathbb{N} s.t. i \notin
-  S\_{i}$. In ter
+**Definition** Let's define the function $f : \mathbb{N} to
+\mathcal{P}(\mathbb{N})$, and, related to this, define the following
+set D of items: 
+
+$$
+D = \bigg\\{ x \mid x \notin f(x) \bigg\\}
+$$
 
