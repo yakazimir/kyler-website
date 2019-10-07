@@ -4,7 +4,6 @@ description = "A brief note on some results on infinity"
 date = "2019-10-06"
 categories = [ "math","infinity","set theory","cantor" ]
 mmark = true
-draft = false
 +++
 
 
