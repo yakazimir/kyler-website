@@ -178,12 +178,12 @@ lemma, then prove Statement 1 and as a separate theorem:
 **Lemma**  The function $d$ defined above is not bijective/one-to-one.
 
 **Proof** (sketch) We will prove this in relation to the set $D$
-  defined above. Let's assume that $d$ is bijective. It then follows
-  that there exists some set $S_{j} \in \mathcal{P}(\mathbb{N})$
-  s.t. $j \to S\_{j}$ and $D=S\_{j}$. By definition of $D$, the
-  followig must be true: 
+defined above. Let's assume that $d$ is bijective. Let's then imagine
+that we find some set $S_{j} \in \mathcal{P}(\mathbb{N}$ identical to
+$D$, i.e., $S\_{j} = D$ and $d(j) = S\_{j}$.  By definition of $D$,
+the following must be true: 
 $$j \in D \text{ iff } j \notin S\_{j}$$
-If we assume an equivalence between $S\_{j} = D$, however, we get the
+If we assume the equivalence $S\_{j} = D$, however, we get the
 following contradiction by substituting $D$ for $S\_{j}$ in the
   statement above:
 $$j \in S\_{j} \text{ iff } j \notin S\_{j}$$
@@ -192,5 +192,7 @@ There it is not possible to assign a given number $j$ to $D$ (which
 again, is undeniably in $\mathcal{P}(\mathbb{N})$). Therefore, $d$
 cannot be bijective.  □
 
+To be honest, this result still boggles my mind a bit. What is
+demonstrates is that 
 
 
