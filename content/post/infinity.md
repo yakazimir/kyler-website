@@ -6,7 +6,6 @@ categories = [ "math","infinity","set theory","cantor" ]
 mmark = true
 +++
 
-
 Infinite Sets
 -------------------------
 
