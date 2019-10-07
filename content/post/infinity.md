@@ -21,11 +21,11 @@ This particular result has to do with infinity, which is a
 conceptually difficult topic to grasp, even when considered
 non-mathematically. Part of what Cantor discovered is that infinite
 sets can have different cardinalities (where **cardinality** here
-corresponds the number of items in a given set). For example,  the cardinality of the natural (or counting) numbers
+corresponds to the number of items in a given set). For example,  the cardinality of the natural (or counting) numbers
 $\mathbb{N}$ is much smaller than that of the real numbers
 $\mathbb{R}$ (we won't talk directly about the real number, but instead about the **power set** of the natural numbers $\mathcal{P}(\mathbb{N})$,
 which has the same cardinality as $\mathbb{R}$). More generally, Cantor showed that
-infinity is not a singular concept, and that there are in fact **many different
+infinity is not a singular concept  and that there are in fact **many different
 types of infinity** (which, at first glance, is a bewildering proposition). 
 
 Let's start with some definitions. Somewhat informally, we will call
@@ -77,7 +77,7 @@ $$
 
 which simply assigns items in $A$ to the **even numbers** (of which there
 are a countably infinite amount) and items in $B$ to **odd numbers** (of
-which there also are a countably infinite amounnt)  □
+which there also are a countably infinite amount)  □
 
 Now why is this result puzzling? Well, typically when we combine two
 of anything, the result is larger than the
@@ -88,7 +88,7 @@ two countably infinite sets, the resulting set has exactly the same
 cardinality. 
 
 In the 17th century, Galileo had made several observations about
-infinity, even without the  set theoretic machinery that was
+infinity, even without the  set-theoretic machinery that was
 developed by Cantor much later in the 19th century. What he noticed
 is that if you can create a one-to-one mapping between square numbers (i.e., the numbers that
 are the product of other natural numbers, e.g., $0,1,4,9,16,...$) and the natural
@@ -105,7 +105,7 @@ As a mathematical matter, it turns out that his last
 point about how we cannot speak of infinite quantities as being smaller or
 greater than one another is not quite right. Even though countably
 infinite sets are all equal to one another, there are infinities with
-larger cadinalities. This is the result that we turn to next. 
+larger cardinalities. This is the result that we turn to next. 
 
 Cantor's Theorem
 -------------------------
@@ -134,7 +134,7 @@ subset of every set). Clearly  $n \lt 2^{n}$ is always true for all $n \in \math
 proof requires a bit more work, but it relates to what comes next
 related to proving this for infinite sets).
 
-**The Infinite case**: The more suprising part of Cantor's theorem is
+**The Infinite case**: The more surprising part of Cantor's theorem is
 that this applies to infinite sets. This is equivalent to the
 following claim:
 
@@ -175,7 +175,7 @@ $\mathcal{P}(\mathbb{N})$ (Be sure to convince yourself of
 this!). This definition, however, leads to a contradiction that makes it impossible for $d$
 to be bijective (thus making **Claim 1** true). To organize this a
 bit, we will first prove that $d$ is not bijective in the following
-lemma, then prove Claim 1 and as a separate theorem: 
+lemma, then prove Claim 1 as a separate theorem: 
 
 **Lemma 1**  The function $d$ defined above is not bijective/one-to-one.
 
@@ -195,7 +195,7 @@ again, is undeniably in $\mathcal{P}(\mathbb{N})$). Therefore, $d$
 cannot be bijective.  □
 
 To be honest, this result still boggles my mind a bit. What this shows
-is that if we try to construct a bijective relationships between
+is that if we try to construct a bijective relationship between
 $\mathbb{N}$ and $\mathcal{P}(\mathbb{N})$, we will find a hole in 
 the form of a missing set such as $S_{j}$ that is excluded in our
 mapping. As Boolos and Jeffrey remark, even if we
