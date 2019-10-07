@@ -171,7 +171,7 @@ $$
 Using again the example mapping above, $D$ would include the numbers $1$ and
 $2$ (i.e., $\\{ 1, 2\\} \subseteq D$). Since $D$ is a set of positive numbers, **it clearly must
 appear in** the power set of $\mathbb{N}$, or
-$\mathcal{P}(\mathbb{N})$ That is, there should exist some mapping:
+$\mathcal{P}(\mathbb{N})$. That is, there should exist some mapping:
 $$
 j \to D
 $$
