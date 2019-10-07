@@ -161,11 +161,11 @@ $3$,  these numbers are included in their corresponding sets $\\{ 0,1 \\}$ and $
 5\\}$), whereras the others do not. Based on this, let's make the following
 definition: 
 
-**Definition** Let's define the function $f : \mathbb{N} to
+**Definition** Let's define the function $f : \mathbb{N} \to
 \mathcal{P}(\mathbb{N})$, and, related to this, define the following
-set D of items: 
+set D of items that that are not : 
 
 $$
-D = \bigg\\{ x \mid x \notin f(x) \bigg\\}
+D = \bigg\\{ x \mid x \in \mathbb{N} \land  x \notin f(x) \bigg\\}
 $$
 
