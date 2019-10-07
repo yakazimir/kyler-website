@@ -201,8 +201,7 @@ the effect of creating a new hole).
 
 With this, we can prove the main result related to **Claim 1**:
 
-**Theorem 2** Claim 1 is true, i.e., that $$| \mathbb{N} | \lt |
-\mathcal{P}(\mathbb{N})  |$$
+**Theorem 2** Claim 1 is true, i.e., $| \mathbb{N} | \lt | \mathcal{P}(\mathbb{N})  |$
 
 **Proof** (rough sketch) 
 
