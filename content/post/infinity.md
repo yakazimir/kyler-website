@@ -164,7 +164,7 @@ definition:
 **Definition** Let's  define the function $d : \mathbb{N} \to
 \mathcal{P}(\mathbb{N})$, and the  set D of all numbers that are not included in their corresponding set: 
 $$
-D = \bigg\\{ x \mid x \in \mathbb{N} \land  x \notin d(x) \bigg\\}
+D = \bigg\\{ x \in \mathbb{N} \mid   x \notin d(x) \bigg\\}
 $$
 Using again the example mapping above, $D$ would include the numbers $1$ and
 $2$ (i.e., $\\{ 1, 2\\} \subseteq D$). Since $D$ is a set of positive numbers, **it clearly must
