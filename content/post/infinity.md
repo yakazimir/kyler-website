@@ -139,7 +139,7 @@ related to proving this for infinite sets).
 that this applies to infinite sets, e.g., for a countably infinite
 set such as the set of natural numbers: 
 
-**Statement 1** $$| \mathbb{N} | \lt | \mathcal{P}(\mathbb{N})  |$$
+**Claim 1** $$| \mathbb{N} | \lt | \mathcal{P}(\mathbb{N})  |$$
 
 To demonstrate this, we will do the following: first, we will start with a
 definition of a set that is **undeniably** in $\mathcal{P}(\mathbb{N})$,
@@ -171,7 +171,7 @@ $2$ (i.e., $\\{ 1, 2\\} \subseteq D$). Since $D$ is a set of positive numbers, *
 appear in** the power set of $\mathbb{N}$, or
 $\mathcal{P}(\mathbb{N})$ (Be sure to convince yourself of
 this!). This definition, however, leads to a contradiction that makes it impossible for $d$
-to be bijective (thus making Statement 1 true). To organize this a
+to be bijective (thus making **Claim 1** true). To organize this a
 bit, we will first prove that $d$ is not bijective in the following
 lemma, then prove Statement 1 and as a separate theorem: 
 
@@ -188,11 +188,24 @@ following contradiction by substituting $D$ for $S\_{j}$ in the
   statement above:
 $$j \in S\_{j} \text{ iff } j \notin S\_{j}$$
 
-There it is not possible to assign a given number $j$ to $D$ (which
+This shows that It is not possible to assign a given number $j$ to $D$ (which
 again, is undeniably in $\mathcal{P}(\mathbb{N})$). Therefore, $d$
 cannot be bijective.  □
 
-To be honest, this result still boggles my mind a bit. What is
-demonstrates is that 
+To be honest, this result still boggles my mind a bit. What this shows
+is that if we try to construct a bijective relationships between
+$\mathbb{N}$ and $\mathcal{P}(\mathbb{N})$, we will find a hole in 
+the form of a missing set such as $S_{j}$ that is excluded in our mapping  (as Boolos and Jeffrey remark, even if we
+try to repair this hole by trying to add $S\_{j}$, this will only have
+the effect of creating a new hole).
+
+With this, we can prove the main result related to **Claim 1**:
+
+**Theorem 2 ** Claim 1 is true, i.e., that $$| \mathbb{N} | \lt |
+\mathcal{P}(\mathbb{N})  |$$
+
+**Proof** (extremely rough sketch) 
+
+
 
 
