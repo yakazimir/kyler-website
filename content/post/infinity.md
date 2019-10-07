@@ -158,7 +158,7 @@ $$
 ...
 $$
 Notice that some of the sets on the right side contain the numbers on
-the to which they are indexed (i.e., for $0$ and
+to which they indexed (i.e., for $0$ and
 $3$,  these numbers are included in their corresponding sets $\\{ 0,1 \\}$ and $\\{ 3,
 5\\}$), whereas the others do not. Based on this, let's make the following
 definition: 
@@ -171,8 +171,11 @@ $$
 Using again the example mapping above, $D$ would include the numbers $1$ and
 $2$ (i.e., $\\{ 1, 2\\} \subseteq D$). Since $D$ is a set of positive numbers, **it clearly must
 appear in** the power set of $\mathbb{N}$, or
-$\mathcal{P}(\mathbb{N})$ (Be sure to convince yourself of
-this!). This definition, however, leads to a contradiction that makes it impossible for $d$
+$\mathcal{P}(\mathbb{N})$ That is, there should exist some mapping:
+$$
+j \to D
+$$
+This definition, however, leads to a contradiction that makes it impossible for $d$
 to be bijective (thus making **Claim 1** true). To organize this a
 bit, we will first prove that $d$ is not bijective in the following
 lemma, then prove Claim 1 as a separate theorem: 
