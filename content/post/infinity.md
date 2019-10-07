@@ -180,11 +180,16 @@ lemma, then prove Statement 1 and as a separate theorem:
 **Proof** (sketch) We will prove this in relation to the set $D$
   defined above. Let's assume that $d$ is bijective. It then follows
   that there exists some set $S_{j} \in \mathcal{P}(\mathbb{N})$
-  corresponding to the index $j$ (s.t. $S\_{j} = d(j)$). By definition,
-$$j \in D \text{ iff } j \notin S\_{j}$$.
+  corresponding to the index $j$ (s.t. $S\_{j} = D$). By definition,
+$$j \in D \text{ iff } j \notin S\_{j}$$
 If we assume an equivalence between $S\_{j} = D$, however, we get the
-following contradiction by substituting $D$ for $S\_{j}$:
-$$j \in D \text{ iff } j \notin D$$. □
+following contradiction by substituting $D$ for $S\_{j}$ in the
+  statement above:
+$$j \in S\_{j} \text{ iff } j \notin S\_{j}$$
 
-To be frank, I still have issues conceptually understanding this
-result; though 
+There it is not possible to assign a given number $j$ to $D$ (which
+again, is undeniably in $\mathcal{P}(\mathbb{N})$). Therefore, $d$
+cannot be bijective.  □
+
+
+
