@@ -1,7 +1,7 @@
 +++
 title = "Why Infinity is Strange"
 description = "A brief note on some results on infinity"
-date = "2019-10-01"
+date = "2019-10-06"
 categories = [ "math","infinity","set theory","cantor" ]
 mmark = true
 draft = false
@@ -16,7 +16,9 @@ non-enumerable) sets (I've been very slowly working through Boolos and
 Jeffrey's
 [Computability and Logic](https://www.goodreads.com/book/show/1556746.Computability_and_Logic);
 I find their notation and general approach to be quite hard to follow,
-so it's been a struggle).This particular result has to do with infinity, which is a
+so it's been a struggle).
+
+This particular result has to do with infinity, which is a
 conceptually difficult topic to grasp, even when considered
 non-mathematically. Part of what Cantor discovered is that infinite
 sets can have different cardinalities (where **cardinality** here
@@ -66,8 +68,8 @@ With these ideas, let's now prove a relatively simple, yet puzzling, theorem abo
   we need to come up with a new bijective  function $f'' : (A \cup B) \to \mathbb{N}$. Below defines such
   a function:
 
-$$f''(x) = \begin{cases} 2f'(x) & \text{if }x \in A, \\\
-2f'(x)+1 & \text {if }x \in B\end{cases}$$
+$$f(k;p_0^*) = \begin{cases} p_0^* & \text{if }k=1, \\
+1-p_0^* & \text {if }k=0.\end{cases}$$
 
 which simply assigns items in $A$ to the even numbers (of which there
 are a countably infinite amount) and items in $B$ to odd numbers (of
@@ -141,7 +143,7 @@ then show that if we try to assign it to a specific natural number to
 this set  (as is required to make the mapping **bijective**), we will run into a
 contradiction. Let's imagine that we were to map the natural numbers
 to its power set; what we would have, therefore, are individual
-mappings such as those below: 
+mappings such as those shown below: 
 $$
 0 \to \\{ 0, 1 \\} \\\\
 1 \to \\{ 3, 4 \\} \\\\
