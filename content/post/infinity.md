@@ -11,7 +11,7 @@ Infinite Sets
 -------------------------
 
 I think I finally understand [Cantor](https://en.wikipedia.org/wiki/Georg_Cantor)'s proof about non-countable (or
-non-enumerable) sets (I've been very slowly working through Boolos and
+non-enumerable) sets (I've been slowly working through Boolos and
 Jeffrey's
 [Computability and Logic](https://www.goodreads.com/book/show/1556746.Computability_and_Logic);
 I find their notation and general approach to be quite hard to follow,
@@ -218,10 +218,10 @@ With this, we can prove the main result related to **Claim 1**:
 Given the result above, we still need to exclude the possibility that
 $\mathcal{P}(\mathbb{N})$ is smaller than $\mathbb{N}$. To do
 this, it suffices to show that some strict subset of
-$\mathcal{P}(\mathbb{N})$ that is greater or equal to $\mathcal{N}$. Consider the
+$\mathcal{P}(\mathbb{N})$ that is greater or equal to $\mathbb{N}$. Consider the
 subset $D' = \\{ \\{ x \\} \mid x \in \mathbb{N}  \\}$. Clearly $D$ is a
 strict subset of $\mathcal{P}(\mathbb{N})$, and clearly it can have a
-one-to-one mapping to $\mathcal{N}$ (i.e., by indexing each $x \in \mathbb{N}$ with its
+one-to-one mapping to $\mathbb{N}$ (i.e., by indexing each $x \in \mathbb{N}$ with its
 singleton set which will give it the same size) □
  
 
