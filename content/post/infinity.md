@@ -70,7 +70,7 @@ With these ideas, let's now prove a relatively simple, yet puzzling, theorem abo
 $$
 g(x) =
 \begin{cases}
-2f'(x) & \text{iff }x \in A, \\\\
+2f'(x) & \text{iff }x \in A, \\\\\\
 2f'(x)+1 & \text {iff }x \in B
 \end{cases}
 $$
