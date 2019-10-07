@@ -146,12 +146,16 @@ definition of a set that is **undeniably** in $\mathcal{P}(\mathbb{N})$,
 then show that if we try to assign it to a specific natural number to
 this set  (as is required to make the mapping **bijective**), we will run into a
 contradiction. Let's imagine that we were to map the natural numbers
-to its power set; what we would have, therefore, are individual
+to its power set. What we would have  are individual
 mappings such as those shown below: 
 $$
 0 \to \\{ 0, 1 \\} \\\\\\
 1 \to \\{ 3, 4 \\} \\\\\\
 2 \to \\{ 5, 6 \\} \\\\\\
 3 \to \\{ 3, 5 \\} \\\\\\
+.... 
 $$
-
+Notice that some of the sets on the right side contian the numbers on
+the left side (i.e., for $0$ and
+$3$,  these numbers are included in the sets $\\{ 0,1 \\}$ and $\\{ 3,
+5\\}$, respectively). 
