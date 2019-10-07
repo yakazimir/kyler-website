@@ -135,12 +135,12 @@ proof requires a bit more work, but it relates to what comes next
 related to proving this for infinite sets).
 
 **The Infinite case**: The more surprising part of Cantor's theorem is
-that this applies to infinite sets. This is equivalent to the
-following claim:
+that this applies to infinite sets. We will specifically try to prove
+the following claim:
 
 **Claim 1** $$| \mathbb{N} | \lt | \mathcal{P}(\mathbb{N})  |$$
-since what we are saying is that the size of
-$\mathbb{N}$, which we know is countably infinite, is smaller than
+In keeping with our more general theme, what this claim says is that the cardinality of $\mathbb{N}$, which we
+know to be countably infinite, is smaller than
 something else. 
 
 To demonstrate this, we will do the following: first, we will start with a
