@@ -50,7 +50,7 @@ To use some terminology
 that will become useful later, we will say that for an infinite set to
 be countably infinite, there must exist some *bijective* relation, or
 *one-to-one* mapping, between the given set and  the natural numbers (i.e.,
-for each item $x$ in the domain of $f$, which in this case would would be our infinite set,
+for each item $x$ in the **domain** of $f$, which in this case would would be our infinite set,
 there should exist a single item in **co-domain** $f(x) \in
 \mathbb{N}$ and vice versa).
 
@@ -70,8 +70,8 @@ With these ideas, let's now prove a relatively simple, yet puzzling, theorem abo
 $$
 g(x) =
 \begin{cases}
-2f'(x) & \text{iff }x \in A, \\\\\\
-2f'(x)+1 & \text {iff }x \in B
+2f(x) & \text{if }x \in A, \\\\\\
+2f'(x)+1 & \text {if }x \in B
 \end{cases}
 $$
 
