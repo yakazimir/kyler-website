@@ -5,7 +5,6 @@ date = "2019-10-06"
 categories = [ "math","infinity","set theory","cantor" ]
 mmark = true
 draft = false
-math = true
 +++
 
 Infinite Sets
