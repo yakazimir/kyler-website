@@ -208,7 +208,7 @@ With this, we can prove the main result related to **Claim 1**:
 
 **Theorem 2** Claim 1 is true, i.e., $| \mathbb{N} | \lt | \mathcal{P}(\mathbb{N})  |$
 
-**Proof** (rough sketch) Let's assume this claim isn't true, and that
+**Proof** (rough sketch) Let's assume that this claim isn't true, and that
   $\mathbb{N}$ and $\mathcal{P}(\mathbb{N})$ have the same
   cardinality. Since we already know that $\mathbb{N}$ is countably
   infinite, this would mean that $\mathcal{P}(\mathbb{N})$ is also 
