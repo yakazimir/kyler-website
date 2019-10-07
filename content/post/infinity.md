@@ -153,7 +153,7 @@ $$
 1 \to \\{ 3, 4 \\} \\\\\\
 2 \to \\{ 5, 6 \\} \\\\\\
 3 \to \\{ 3, 5 \\} \\\\\\
-.... 
+... \to ...
 $$
 Notice that some of the sets on the right side contain the numbers on
 the to which they are indexed (i.e., for $0$ and
@@ -161,11 +161,18 @@ $3$,  these numbers are included in their corresponding sets $\\{ 0,1 \\}$ and $
 5\\}$), whereras the others do not. Based on this, let's make the following
 definition: 
 
-**Definition** Let's  define the function $f : \mathbb{N} \to
+**Definition** Let's  define the function $d : \mathbb{N} \to
 \mathcal{P}(\mathbb{N})$, and the  set D of all numbers that are not included in their corresponding set: 
 $$
-D = \bigg\\{ x \mid x \in \mathbb{N} \land  x \notin f(x) \bigg\\}
+D = \bigg\\{ x \mid x \in \mathbb{N} \land  x \notin d(x) \bigg\\}
 $$
-Using the above example again, $D$ would include the numbers $1$ and
-$2$. Since $D$ is a set of positive numbers, **it is clearly in**
-$\mathcal{P}(\mathbb{N})$. 
+Using again the example mapping above, $D$ would include the numbers $1$ and
+$2$. Since $D$ is a set of positive numbers, **it clearly must
+appear in the set** $\mathcal{P}(\mathbb{N})$. This definition, it
+turns out, leads to a contradiction, which makes it impossible for $d$
+to be bijective. Somewhat unconventionally, we will state this fact as
+a lemma:
+
+**Lemma 1** 
+
+
