@@ -66,7 +66,7 @@ With these ideas, let's now prove a relatively simple, yet puzzling, theorem abo
   we need to come up with a new bijective  function $f'' : (A \cup B) \to \mathbb{N}$. Below defines such
   a function:
 
-$$f''(x) = \begin{cases} 2f'(x) & \text{if }x \in A, \\
+$$f''(x) = \begin{cases} 2f'(x) & \text{if }x \in A, \\\
 2f'(x)+1 & \text {if }x \in B\end{cases}$$
 
 which simply assigns items in $A$ to the even numbers (of which there
