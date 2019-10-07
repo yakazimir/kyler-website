@@ -68,8 +68,10 @@ With these ideas, let's now prove a relatively simple, yet puzzling, theorem abo
   we need to come up with a new bijective  function $f'' : (A \cup B) \to \mathbb{N}$. Below defines such
   a function:
 
-$$f(k;p_0^*) = \begin{cases} p_0^* & \text{if }k=1, \\
-1-p_0^* & \text {if }k=0.\end{cases}$$
+$$
+f''(x) = \begin{cases} 2f'(x) & \text{if }x \in A, \\
+2f'(x)+1 & \text {if }x \in B\end{cases}
+$$
 
 which simply assigns items in $A$ to the even numbers (of which there
 are a countably infinite amount) and items in $B$ to odd numbers (of
