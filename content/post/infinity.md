@@ -218,10 +218,11 @@ With this, we can prove the main result related to **Claim 1**:
 Given the result above, we still need to exclude the possibility that
 $\mathcal{P}(\mathbb{N})$ is smaller than $\mathbb{N}$. To do
 this, it suffices to show that some strict subset of
-$\mathcal{P}(\mathbb{N})$ is as big as $\mathcal{N}$. Consider the
+$\mathcal{P}(\mathbb{N})$ that is greater or equal to $\mathcal{N}$. Consider the
 subset $D' = \\{ \{ x \} | \x \in \mathbb{B}  \\}$. Clearly $D$ is a
-strict subset of $\mathcal{P}(\mathbb{N})$ and that it can be mapped
-to $\mathcal{N}$ (i.e., by indexing each $x \in \mathbb{N}$ with its singleton set) □
+strict subset of $\mathcal{P}(\mathbb{N})$, and clearly it it can be mapped
+to $\mathcal{N}$ (i.e., by indexing each $x \in \mathbb{N}$ with its
+singleton set which will give it the same size) □
  
 
 
