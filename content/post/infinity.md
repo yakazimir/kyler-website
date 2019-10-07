@@ -64,14 +64,14 @@ With these ideas, let's now prove a relatively simple, yet puzzling, theorem abo
 **Proof** (rough sketch, following the discussion [here](https://math.stackexchange.com/questions/49758/proving-that-a-union-of-countably-infinite-sets-is-countably-infinite)) Given that $A$ and $B$ are countably
   infinite, we know that there exist two bijective functions $f : A
   \to \mathbb{N}$ and $f' : B \to \mathbb{N}$. To prove the theorem,
-  we need to come up with a new bijective  function $f'' : (A \cup B) \to \mathbb{N}$. Below defines such
+  we need to come up with a new bijective  function $g : (A \cup B) \to \mathbb{N}$. Below defines such
   a function:
 
 $$
-f''(x) =
+g(x) =
 \begin{cases}
-2f'(x) & \text{if }x \in A, \\\\
-2f'(x)+1 & \text {if }x \in B
+2f'(x) & \text{iff }x \in A, \\\\
+2f'(x)+1 & \text {iff }x \in B
 \end{cases}
 $$
 
