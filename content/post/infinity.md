@@ -69,10 +69,13 @@ With these ideas, let's now prove a relatively simple, yet puzzling, theorem abo
   a function:
 
 $$
-f''(x) =  \begin{cases}
-2f'(x) & \text{if }x \in A, \\\\
-2f'(x)+1 & \text {if }x \in B
-\end{cases}
+f''(x) =
+\begin{array}{ll}
+      0 & x\leq a \\
+      \frac{x-a}{b-a} & a\leq x\leq b \\
+      \frac{c-x}{c-b} & b\leq x\leq c \\
+      1 & c\leq x \\
+\end{array}
 $$
 
 which simply assigns items in $A$ to the even numbers (of which there
