@@ -149,9 +149,9 @@ contradiction. Let's imagine that we were to map the natural numbers
 to its power set; what we would have, therefore, are individual
 mappings such as those shown below: 
 $$
-0 \to \\{ 0, 1 \\} \\\\
-1 \to \\{ 3, 4 \\} \\\\
-2 \to \\{ 5, 6 \\} \\\\
-3 \to \\{ 3, 5 \\} \\\\
+0 \to \\{ 0, 1 \\} \\\\\\
+1 \to \\{ 3, 4 \\} \\\\\\
+2 \to \\{ 5, 6 \\} \\\\\\
+3 \to \\{ 3, 5 \\} \\\\\\
 $$
 
