@@ -157,7 +157,7 @@ $$
 ...
 $$
 Notice that some of the sets on the right side contain the numbers on
-to which they indexed (i.e., for $0$ and
+the left to which they are indexed (i.e., for $0$ and
 $3$,  these numbers are included in their corresponding sets $\\{ 0,1 \\}$ and $\\{ 3,
 5\\}$), whereas the others do not. Based on this, let's make the following
 definition: 
