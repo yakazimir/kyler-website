@@ -184,7 +184,7 @@ lemma, then prove Claim 1 as a separate theorem:
 **Proof** (sketch) We will prove this in relation to the set $D$
 defined above. Let's assume that $d$ is bijective. Let's then imagine
 that we find some set $S_{j} \in \mathcal{P}(\mathbb{N})$ that is identical to
-$D$ and, since $d$ is bijective, maps  to the number $j$, i.e., $S\_{j} = D$ and $d(j) = S\_{j}$.  By definition of $D$,
+$D$ and, since $d$ is bijective, maps backwards to the number $j$, i.e., $S\_{j} = D$ and $d(j) = S\_{j}$.  By definition of $D$,
 the following must be true: 
 $$j \in D \text{ iff } j \notin S\_{j}$$
 If we assume the equivalence $S\_{j} = D$, however, we get the
