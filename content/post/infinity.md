@@ -136,8 +136,8 @@ proof requires a bit more work, but it relates to what comes next
 related to proving this for infinite sets).
 
 **The Infinite case**: The more suprising part of Cantor's theorem is
-that this applies to infinite sets, e.g., for a countably infinite
-set such as the set of natural numbers: 
+that this applies to infinite sets. This is equivalent to the
+following claim (be sure to understand the connection!): 
 
 **Claim 1** $$| \mathbb{N} | \lt | \mathcal{P}(\mathbb{N})  |$$
 
@@ -175,7 +175,7 @@ to be bijective (thus making **Claim 1** true). To organize this a
 bit, we will first prove that $d$ is not bijective in the following
 lemma, then prove Statement 1 and as a separate theorem: 
 
-**Lemma**  The function $d$ defined above is not bijective/one-to-one.
+**Lemma 1**  The function $d$ defined above is not bijective/one-to-one.
 
 **Proof** (sketch) We will prove this in relation to the set $D$
 defined above. Let's assume that $d$ is bijective. Let's then imagine
@@ -203,8 +203,15 @@ With this, we can prove the main result related to **Claim 1**:
 
 **Theorem 2** Claim 1 is true, i.e., $| \mathbb{N} | \lt | \mathcal{P}(\mathbb{N})  |$
 
-**Proof** (rough sketch) 
-
+**Proof** (rough sketch) Let's assume this claim isn't true, and that
+  $\mathbb{N}$ and $\mathcal{P}(\mathbb{N})$ have the same
+  cardinality. Since we already know that $\mathbb{N}$ is countably
+  infinite, this would mean that $\mathcal{P}(\mathbb{N}$ is also 
+  countably infinite, and hence should have a bijective mapping to
+  $\mathbb{N}$. Through Lemma 1, we know that such a bijection is not
+  possible since it is possible to come up with a set that can't be
+  indexed with some $j \in \mathbb{N}$. 
+ 
 
 
 
