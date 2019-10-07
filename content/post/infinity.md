@@ -51,7 +51,7 @@ that will become useful later, we will say that for an infinite set to
 be countably infinite, there must exist some *bijective* relation, or
 *one-to-one* mapping, between the given set and  the natural numbers (i.e.,
 for each item $x$ in the **domain** of $f$, which in this case would would be our infinite set,
-there should exist a single item in **co-domain** $f(x) \in
+there should exist a single item in the **co-domain** $f(x) \in
 \mathbb{N}$ and vice versa).
 
 With these ideas, let's now prove a relatively simple, yet puzzling, theorem about countably infinite sets. 
@@ -87,7 +87,7 @@ two sets and hence is larger. Countable infinity doesn't work this way; when you
 two countably infinite sets, the resulting set has exactly the same
 cardinality. 
 
-In the 17th century, Galileo had several observations about
+In the 17th century, Galileo had made several observations about
 infinity, even without the  set theoretic machinery that was
 developed by Cantor much later in the 19th century. What he noticed
 is that if you can create a one-to-one mapping between square numbers (i.e., the numbers that
@@ -130,21 +130,23 @@ b\\}$ of size 2, the power set is the following:
 **Example 1** $$\mathcal{P}(A) = \\{ \\{ a \\} , \\{ b \\} , \\{ a , b \\} , \emptyset  \\} $$
 
 (note the existence of the empty set $\emptyset$, which is always a
-subset of every set). Since $n > 2^{n}$, clearly $2^{n}$ is always going to be larger than
-$n$ for any $n \in \mathbb{N}$ (the full
+subset of every set). Clearly  $n \lt 2^{n}$ is always true for all $n \in \mathbb{N}$ (the full
 proof requires a bit more work, but it relates to what comes next
 related to proving this for infinite sets).
 
 **The Infinite case**: The more suprising part of Cantor's theorem is
 that this applies to infinite sets. This is equivalent to the
-following claim (be sure to understand the connection!): 
+following claim:
 
 **Claim 1** $$| \mathbb{N} | \lt | \mathcal{P}(\mathbb{N})  |$$
+since what we are saying is that the size of
+$\mathcal{N}$, which we know is countably infinite, is smaller than
+something else. 
 
 To demonstrate this, we will do the following: first, we will start with a
 definition of a set that is **undeniably** in $\mathcal{P}(\mathbb{N})$,
-then show that if we try to assign it to a specific natural number to
-this set  (as is required to make the mapping **bijective**), we will run into a
+then show that if we try to assign it to a specific natural number
+(as is required to make the mapping **bijective**), we will run into a
 contradiction. Let's imagine that we were to map the natural numbers
 to its power set. What we would have  are individual
 mappings such as those shown below: 
@@ -173,7 +175,7 @@ $\mathcal{P}(\mathbb{N})$ (Be sure to convince yourself of
 this!). This definition, however, leads to a contradiction that makes it impossible for $d$
 to be bijective (thus making **Claim 1** true). To organize this a
 bit, we will first prove that $d$ is not bijective in the following
-lemma, then prove Statement 1 and as a separate theorem: 
+lemma, then prove Claim 1 and as a separate theorem: 
 
 **Lemma 1**  The function $d$ defined above is not bijective/one-to-one.
 
@@ -195,9 +197,10 @@ cannot be bijective.  □
 To be honest, this result still boggles my mind a bit. What this shows
 is that if we try to construct a bijective relationships between
 $\mathbb{N}$ and $\mathcal{P}(\mathbb{N})$, we will find a hole in 
-the form of a missing set such as $S_{j}$ that is excluded in our mapping  (as Boolos and Jeffrey remark, even if we
+the form of a missing set such as $S_{j}$ that is excluded in our
+mapping. As Boolos and Jeffrey remark, even if we
 try to repair this hole by trying to add $S\_{j}$, this will only have
-the effect of creating a new hole).
+the effect of creating a new hole.
 
 With this, we can prove the main result related to **Claim 1**:
 
@@ -206,11 +209,17 @@ With this, we can prove the main result related to **Claim 1**:
 **Proof** (rough sketch) Let's assume this claim isn't true, and that
   $\mathbb{N}$ and $\mathcal{P}(\mathbb{N})$ have the same
   cardinality. Since we already know that $\mathbb{N}$ is countably
-  infinite, this would mean that $\mathcal{P}(\mathbb{N}$ is also 
-  countably infinite, and hence should have a bijective mapping to
+  infinite, this would mean that $\mathcal{P}(\mathbb{N})$ is also 
+  countably infinite, and hence should have a bijective/one-to-one mapping to
   $\mathbb{N}$. Through Lemma 1, we know that such a bijection is not
-  possible since it is possible to come up with a set that can't be
-  indexed with some $j \in \mathbb{N}$. 
+  possible since it is possible to come up with a set in the power set
+  that can't be indexed with some $j \in \mathbb{N}$.
+
+Given the result above, we still need to exclude the possibility that
+$\mathcal{P}(\mathbb{N})$ is not smaller than $\mathbb{N}$. To do
+this, it suffices to show that there is a 
+
+□
  
 
 
