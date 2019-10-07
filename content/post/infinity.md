@@ -181,11 +181,10 @@ lemma, then prove Statement 1 and as a separate theorem:
   defined above. Let's assume that $d$ is bijective. It then follows
   that there exists some set $S_{j} \in \mathcal{P}(\mathbb{N})$
   corresponding to the index $j$ (s.t. $S\_{j} = d(j)$). By definition,
-
 $$j \in D \text{ iff } j \notin S\_{j}$$.
+If we assume an equivalence between $S\_{j} = D$, however, we get the
+following contradiction by substituting $D$ for $S\_{j}$:
+$$j \in D \text{ iff } j \notin D$$. □
 
-If we assume an equivalence between $S\_{j} = D$, however, 
-
-
-
-
+To be frank, I still have issues conceptually understanding this
+result; though 
