@@ -179,7 +179,9 @@ lemma, then prove Statement 1 and as a separate theorem:
 
 **Proof** (sketch) We will prove this in relation to the set $D$
   defined above. Let's assume that $d$ is bijective. It then follows
-  that there exists some $j \in \mathbb{N}$ such that $j \to D$ in
-  $d$. By definition of $D$, $j $ 
+  that there exists some set $S_{j} \in \mathcal{P}(\mathbb{N})$
+  corresponds to the index $j$. By definition, $j \in D iff j \notin S\_{j}$
+
+
 
 
