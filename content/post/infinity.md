@@ -228,9 +228,9 @@ singleton set which will give it the same size) □
 
 A natural question to ask at this point is whether there is an
 infinity that has a greater cardinality than
-$\mathcal{P}(\mathbb{N})$. Using similar arguments, we can prove that
+$\mathcal{P}(\mathbb{N})$ (perhaps this is the largest infinity). Using similar arguments, we can prove that
 $| \mathcal{P}(\mathbb{N}) | \lt
-\mathcal{P}(\mathcal{P}(\mathbb{N}))$, which in turn is less than $
-\mathcal{P}(\mathcal{P}(\mathcal{P}(\mathbb{N})))$, which is less than $
-\mathcal{P}(\mathcal{P}(\mathcal{P}(\mathcal{P}(\mathbb{N}))))$, which
+|\mathcal{P}(\mathcal{P}(\mathbb{N})) |$, which in turn is less than $
+| \mathcal{P}(\mathcal{P}(\mathcal{P}(\mathbb{N}))) |$, which is less than $
+| \mathcal{P}(\mathcal{P}(\mathcal{P}(\mathcal{P}(\mathbb{N})))) |$, which
 is less than....
