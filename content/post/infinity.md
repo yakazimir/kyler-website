@@ -140,7 +140,7 @@ the following claim:
 **Claim 1** $$| \mathbb{N} | \lt | \mathcal{P}(\mathbb{N})  |$$
 In keeping with our more general theme, what this claim says is that the cardinality of $\mathbb{N}$, which we
 know to be countably infinite, is smaller than
-something else. 
+something else (hence, there is an infinity larger than $| \mathbb{N} |$!). 
 
 To demonstrate this, we will do the following: first, we will start with a
 definition of a set that is **undeniably** in $\mathcal{P}(\mathbb{N})$,
@@ -225,7 +225,12 @@ subset $D' = \\{ \\{ x \\} \mid x \in \mathbb{N}  \\}$. Clearly $D'$ is a
 strict subset of $\mathcal{P}(\mathbb{N})$, and clearly it can have a
 one-to-one mapping to $\mathbb{N}$ (i.e., by indexing each $x \in \mathbb{N}$ with its
 singleton set which will give it the same size) □
- 
 
-
-
+A natural question to ask at this point is whether there is an
+infinity that has a greater cardinality than
+$\mathcal{P}(\mathbb{N})$. Using similar arguments, we can prove that
+$| \mathcal{P}(\mathbb{N}) | \lt
+\mathcal{P}(\mathcal{P}(\mathbb{N}))$, which in turn is less than $
+\mathcal{P}(\mathcal{P}(\mathcal{P}(\mathbb{N})))$, which is less than $
+\mathcal{P}(\mathcal{P}(\mathcal{P}(\mathcal{P}(\mathbb{N}))))$, which
+is less than....
