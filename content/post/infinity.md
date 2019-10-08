@@ -220,7 +220,7 @@ With this, we can prove the main result related to **Claim 1**:
 Given the result above, we still need to exclude the possibility that
 $\mathcal{P}(\mathbb{N})$ is smaller than $\mathbb{N}$. To do
 this, it suffices to show that some strict subset of
-$\mathcal{P}(\mathbb{N})$ that is greater or equal to $\mathbb{N}$. Consider the
+$\mathcal{P}(\mathbb{N})$ is greater or equal to $\mathbb{N}$. Consider the
 subset $D' = \\{ \\{ x \\} \mid x \in \mathbb{N}  \\}$. Clearly $D'$ is a
 strict subset of $\mathcal{P}(\mathbb{N})$, and clearly it can have a
 one-to-one mapping to $\mathbb{N}$ (i.e., by indexing each $x \in \mathbb{N}$ with its
