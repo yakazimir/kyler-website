@@ -4,6 +4,7 @@ description = "A brief note on Kolmogorov complexity."
 date = "2019-09-29"
 categories = [ "undecidability", "complexity","math","sloppy math" ]
 mmark = true
+disable_comments: false
 +++
 
 The Basic Idea
