@@ -77,5 +77,5 @@ or [here](https://www.geekwire.com/2019/allen-institutes-aristo-ai-program-final
 
 A talk about some of PhD work (from before) can be found {{% staticref
 "files/richardson_talk.pdf" "newtab" %}}here{{% /staticref %}} (see
-[hereI](https://www.youtube.com/watch?v=dP6N2hGC8Ys&t=478s)
-for a video). My thesis can be found [here](https://elib.uni-stuttgart.de/handle/11682/10107?mode=full). 
+[here](https://www.youtube.com/watch?v=dP6N2hGC8Ys&t=478s)
+for a video of a related talk). My thesis can be found [here](https://elib.uni-stuttgart.de/handle/11682/10107?mode=full). 
