@@ -4,7 +4,7 @@ description = "Some notes on the history and origins of the Lisp programming lan
 date = "2019-09-29"
 categories = ["programming languages","lisp","recursive functions","eval"]
 mmark = true
-draft = true
+draft = false
 +++
 
 <span style="color:red">
@@ -173,10 +173,19 @@ generally) using a tree representation, such as the one shown below
 (where  $N=3$):
 
 ```mermaid
-graph TD;
-  A(factorial(3))-->B[3];
-  A(factorial(3))-->C{*};
-  A(factorial(3))-->D(factorial(2);
+
+graph TD
+A["factorial(3)"] --> B(3)
+A["factorial(3)"] --> G(*)
+A[factorial 3] --> H[factorial 3]
+H[factorial 2] --> I(2)
+H[factorial 2] --> J(*)
+H[factorial 2] --> K[factorial 1]
+K[factorial 1] --> l(1)
+K[factorial 1] --> m(*)
+K[factorial 1] --> n[factorial 0]
+n[factorial 0] --> 1
+
 ```
 
 Here we can see that $\texttt{factorial}$ continues to be called until we reach a  zero point, at which point $1$ is returned ) and  multiplication is incrementally applied over the remaining numbers (or *leaf nodes*) in the tree (i.e., $1,2,3$).  One important thing to observe  is that we have explained away the factorial function in terms of three much simpler operations, namely **multiplication**, **subtraction**  and **returning 1** (or what is sometimes referred to as the $\texttt{constant}$ function). In other words, if we are concerned about whether the factorial function will reliably give us a solution for any number $N$, we can be reassured by seeing through its recursive definition that it relies on these much simpler operations. We can even decompose the multiplication function for positive numbers into a recursive function, as shown below:
