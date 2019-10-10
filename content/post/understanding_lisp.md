@@ -274,7 +274,7 @@ computable functions in *neater* way than *Turing machines
 or the general recursive definitions
 [e.g., the somewhat counter intuitive mathematical notation shown above]
 used in recursive function theory* (as he writes in his
-[History of Lisp](http://jmc.stanford.edu/articles/lisp/lisp.pdf). He
+[History of Lisp](http://jmc.stanford.edu/articles/lisp/lisp.pdf)). He
 adds that:
 
 >The fact that Turing machines constitute an awkward programming language doesn't much bother recursive function theorists, because they almost never have any reason to write particular recursive definitions, since the theory concerns recursive functions in general. They often have reason to prove that recursive functions with specific properties exist, but this can be done by an informal argument without having to write them down explicitly.... Anyway, I decided to write a paper describing **LISP both as a programming language and as a formalism for doing recursive function theory**.... The paper had no influence on recursive function theorists, because it didn't address the questions that interested them. 
@@ -304,6 +304,65 @@ the preface of his seminal work
 Again, a key point to focus on here is describing complex concepts
 with only a **handful of more primitive notions**. Now, let's get into
 the details of the actual Lisp language and see how this is done.
+
+## The Main Ingredients of the Lisp Formalism
+
+So now let's look at how McCarthy defines Lisp in his paper (note that his presentation deviates from more modern presentations of the language e.g., 
+[*Anatomy of Lisp*](https://dl.acm.org/citation.cfm?id=542865), my
+personal favorite; we will try to explain the reason for this in the
+next section). One of the main contributions in this paper is the
+introduction of a new notation called a *s-expression*, or symbolic
+expression, which is the basic building block of Lisp programs. An
+s-expression is defined recursively as follows:
+
+1. Atomic symbols are s-expressions
+2. If $e_{1}$ and $e_{2}$ are s-expressions, so is $(e_{1} \cdot e_{2})$
+
+where the set of *atomic symbols* includes strings (including the
+blank symbol), numeric values (in reality, McCarthy's original
+formulation didn't have a complete implementation of numbers, but we
+will ignore this in this article), booleans, and other primitives that
+one would expect to see in most modern programming languages. These
+atomic symbols can then be joined together to create more complex
+s-expressions, or *ordered lists* (i.e., part 2 of the definition)
+that use the special symbols $(,)$ (brackets) and $\cdot$ (the dot
+symbol). For example, the three strings *\texttt{first}*,
+*\texttt{second}* and *\texttt{third}* are types of atomic symbols
+(and hence are s-expressions), and can be joined together to create
+the following more complex s-expression:
+
+$$
+\begin{align*}
+\texttt{(first $\cdot$ (second $\cdot$ (third $\cdot$ Nil))}
+\end{align*}
+$$
+
+While it might not be entirely obvious (even to those already familiar
+with Lisp and s-expressions), this last representation is a
+lower-level representation of the ordered list $\texttt{(first second
+third)}$, where $\texttt{Nil}$ is a special end of list
+symbol. Shortly after introducing s-expressions in this manner,
+McCarthy acknowledges that it is  more convenient to use the latter
+notation without the dots, which is the notation that it is more
+commonly encountered in modern presentations and implementations of
+Lisp. We will henceforth  use the notation on the left as shorthand
+for the more precise representation with dots to the right of
+$\equiv$:
+
+$$
+\begin{align*}
+\texttt{(m$_{1 }$ m$_{2}$ ... m$_{n}$)} \equiv \texttt{(m$_{1}$ $\cdot$ (m$_{2}$ $\cdot$ ( ... $\cdot$ (m$_{n}$ $\cdot$ Nil )))))}
+\end{align*}
+$$
+
+It is important to note, however, that this lower-level notation (and
+s-expressions more generally) can be visualized as trees, which are
+similar to the tree representations that we considered in the
+beginning. In the tree below, we will use a *prefix notation* here by
+putting each $\cdot$ symbol in front of the items in the list (this
+*prefix* notation will become important when we discuss Lisp
+functions):
+
 
 
 
