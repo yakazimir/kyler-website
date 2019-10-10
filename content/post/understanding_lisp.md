@@ -26,27 +26,7 @@ I've been slowly making my way  through John McCarthy's seminal paper
 on Lisp,  [*Recursive Functions of Symbolic Expressions: Their
 Computation by Machine, Part 1*](http://www-formal.stanford.edu/jmc/recursive.pdf). It
 was only after a week or so of digesting the content that I started to
-understand the significance of his ideas and the broader context within which the Lisp programming language was developed. In this article, I will attempt to summarize what I've learned so far about the history and development of this fascinating programming language [^1].
-
-\noindent In trying to understand the Lisp language and its origins, I
-think it helps to ask two separate questions. First, why is a language
-or a \emph{formalism} such as Lisp (as we discuss, Lisp is much more
-than simply a programming language) needed or desirable? Answering
-this question first requires considering the  shortcomings of the
-programming languages available at the time when McCarthy started his
-work, as well as the theoretical motivations that prompted McCarthy to
-work on Lisp in the first place.  These topics are addressed in
-Section~\ref{sec:idea}, and center around the topic of recursive
-functions and programming, which are fundamental to the design and
-spirit of Lisp and many subsequent programming languages in the
-\emph{functional programming} tradition. The second question is: what
-is the nature of the \emph{actual} Lisp language that McCarthy and his
-colleagues first proposed and implemented, and what, if anything, is
-special about it?  The topic is discussed in Section 2, with a focus
-on the Lisp \texttt{eval} function and the idea of self interpreting
-code (both of which were initially theoretical ideas that even
-McCarthy, at the time of writing his article, didn't realize had many
-practical applications in programming language design).
+understand the significance of his ideas and the broader context within which the Lisp programming language was developed. In this article, I will attempt to summarize what I've learned so far about the history and development of this fascinating programming language.[^1]
 
 In trying to understand the Lisp language and its origins, I think it
 helps to ask two separate questions. First, why is a language or a
@@ -75,7 +55,7 @@ is that Lisp is the second oldest programming language in continuous
 use behind Fortran. While it's hard to find a readable and concise
 code example involving earlier versions of Fortran,  a good starting
 point is to consider the following program in a modern version of
-Fortran [^2]:
+Fortran: [^2]
 ```fortran
 
 PROGRAM MAIN
@@ -145,7 +125,7 @@ during each pass in the $\texttt{while}$ loop). In fact, there are
 good reasons for avoiding recursion in languages such as Python; if
 you change the value $\texttt{N}=2000$, for example, Python will raise
 a $\texttt{RuntimeError}$ and complain that you have exceeded a
-$\emph{maximum recursion depth}$ (this is related to certain internal
+$\texttt{maximum recursion depth}$ (this is related to certain internal
 properties of how Python is implemented that we won't delve into here;
 see [here](https://realpython.com/python-thinking-recursively/) for a
 more general discussion of recursion in Python).
@@ -156,7 +136,7 @@ more general discussion of recursion in Python).
 
 [^1]: Part way through writing this article, I discovered Paul Graham's paper [The Roots of Lisp](http://languagelog.ldc.upenn.edu/myl/llog/jmc.pdf),which has the same goal of understanding *what McCarthy discovered* in his original paper; I have borrowed some of his explanations throughout this paper. I urge readers to look at this paper, which gets much deeper into the details of McCarthy's original code, and specifically the **eval** function and its broader significance in programming (whereas here we focus more on the theoretical ideas that motivated Lisp and the broader historical context).
 
-[^2] This example is taken from [here](https://sites.esm.psu.edu/~ajm138/fortranexamples.html)
+[^2]: This example is taken from [here](https://sites.esm.psu.edu/~ajm138/fortranexamples.html)
 
 
 
