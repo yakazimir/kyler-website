@@ -316,9 +316,11 @@ expression, which is the basic building block of Lisp programs. An
 s-expression is defined recursively as follows:
 
 $$
-1. \text{ Atomic symbols are s-expressions} \\\\\\
-2. \text{If } e\_{1} \text{ and } e\_{2} \text{ are s-expressions, so is
-} (e\_{1} \cdot e\_{2})$
+\begin{align}
+1.& \text{ Atomic symbols are s-expressions} \\\\\\
+2.& \text{If } e\_{1} \text{ and } e\_{2} \text{ are s-expressions, so is
+} (e\_{1} \cdot e\_{2})
+\end{align}
 $$
 
 where the set of *atomic symbols* includes strings (including the
