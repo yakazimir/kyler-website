@@ -174,11 +174,10 @@ generally) using a tree representation, such as the one shown below
 
 ```mermaid
 graph TD;
-A[Move] -->|Define Date| B(Rent a van from the moving company);
-B --> C{Pack boxes};
-C -->|15 boxes| D[Livingroom];
-C -->|5 boxes| E[Kitchen/Bath];
-C -->|4 boxes| F[Bedroom];
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
 ```
 
 Here we can see that $\texttt{factorial}$ continues to be called until we reach a  zero point, at which point $1$ is returned ) and  multiplication is incrementally applied over the remaining numbers (or *leaf nodes*) in the tree (i.e., $1,2,3$).  One important thing to observe  is that we have explained away the factorial function in terms of three much simpler operations, namely **multiplication**, **subtraction**  and **returning 1** (or what is sometimes referred to as the $\texttt{constant}$ function). In other words, if we are concerned about whether the factorial function will reliably give us a solution for any number $N$, we can be reassured by seeing through its recursive definition that it relies on these much simpler operations. We can even decompose the multiplication function for positive numbers into a recursive function, as shown below:
