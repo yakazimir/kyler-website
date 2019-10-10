@@ -315,8 +315,11 @@ introduction of a new notation called a *s-expression*, or symbolic
 expression, which is the basic building block of Lisp programs. An
 s-expression is defined recursively as follows:
 
-1. Atomic symbols are s-expressions
-2. If $e_{1}$ and $e_{2}$ are s-expressions, so is $(e_{1} \cdot e_{2})$
+$$
+1. \text{ Atomic symbols are s-expressions} \\\\\\
+2. \text{If } e_{1} \text{ and } e_{2} \text{ are s-expressions, so is
+} (e_{1} \cdot e_{2})$
+$$
 
 where the set of *atomic symbols* includes strings (including the
 blank symbol), numeric values (in reality, McCarthy's original
@@ -332,9 +335,9 @@ symbol). For example, the three strings *\texttt{first}*,
 the following more complex s-expression:
 
 $$
-\begin{align*}
+\begin{align}
 \texttt{(first $\cdot$ (second $\cdot$ (third $\cdot$ Nil))}
-\end{align*}
+\end{align}
 $$
 
 While it might not be entirely obvious (even to those already familiar
@@ -350,9 +353,9 @@ for the more precise representation with dots to the right of
 $\equiv$:
 
 $$
-\begin{align*}
+\begin{align}
 \texttt{(m$_{1 }$ m$_{2}$ ... m$_{n}$)} \equiv \texttt{(m$_{1}$ $\cdot$ (m$_{2}$ $\cdot$ ( ... $\cdot$ (m$_{n}$ $\cdot$ Nil )))))}
-\end{align*}
+\end{align}
 $$
 
 It is important to note, however, that this lower-level notation (and
