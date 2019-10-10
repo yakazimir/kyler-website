@@ -107,7 +107,7 @@ N = 10
 
 def recursive_version(x):
 	if x < N: 
-	    print("x = %d" % x)
+        print("x = %d" % x)
 	    recursive_version(x+1)
 	
 def non_recursive_version(x):
@@ -172,7 +172,7 @@ I find it helpful to visualize the program above (and recursion more
 generally) using a tree representation, such as the one shown below
 (where  $N=3$):
 
-```
+```mermaid
 graph TD;
 A[Move] -->|Define Date| B(Rent a van from the moving company);
 B --> C{Pack boxes};
