@@ -92,7 +92,6 @@ $$
 $$
 he second argument is the actual function $\texttt{SUB1}$. As discussed in the article cited above, Fortran 77 (in contrast to later versions of Fortran such as Fortran 90 and 95) does not fully support recursion (i.e., the ability for a function to call itself); a function in Fortran 77 can only make a recursive call if it calls itself as an argument. 
 
-
 To illustrate recursion a bit more, the code below shows two versions
 of this same function in the
 [Python programming language](https://www.python.org/), a recursive
@@ -234,14 +233,12 @@ with how mathematicians, specifically those working in the field of
 that it is slightly backwards from how we have been implementing
 recursive in our Python program.  An equivalent, though more
 programmatic, notation might looks as follows:
-
 $$
 \texttt{add}(x,y) = \begin{cases}
   x,  & \text{when}\ y=0 \\\\\\
   \texttt{succ}(\texttt{add}(x,y-1)),  & \text{when}\ y > 0 
   \end{cases}
 $$
-
 which shows more precisely how we would implement the function in
 Python or any comparable programming language (i.e., all we need to do
 is translate the *when* conditions to $\texttt{if}$ statements and
@@ -310,7 +307,7 @@ So now let's look at how McCarthy defines Lisp in his paper (note that his prese
 [*Anatomy of Lisp*](https://dl.acm.org/citation.cfm?id=542865), my
 personal favorite; we will try to explain the reason for this in the
 next section). One of the main contributions in this paper is the
-introduction of a new notation called a *s-expression*, or symbolic
+introduction of a new notation called a **s-expression**, or symbolic
 expression, which is the basic building block of Lisp programs. An
 s-expression is defined recursively as follows:
 $$
@@ -398,12 +395,11 @@ VP, VBZ,..}$) are the prefixes in each constituent s-expression:
             (VP (VBN represented)
               (PP (IN as)
                 (NP (DT an) (NN s-expression)))))))))) 
-
 ```
 
 Given our definition of s-expressions so far, however, this notation
 only permits us to construct more complex structure from atomic
-symbols, or what we might refer to as the \emph{data} in our
+symbols, or what we might refer to as the *data* in our
 language. McCarthy therefore adds the following three additional
 ingredients:
 
@@ -414,13 +410,11 @@ ingredients:
 ### **Conditional expressions**
 
 A conditional expression takes the following form:
-
 $$
 \begin{align}
 (p\_{1} \to e\_{1}, ... , p\_{n} \to e\_{n}) 
 \end{align}
 $$
-
 where each $p\_{j}$ is a proposition (i.e., a true or false statement)
 and the corresponding $e\_{j}$ is an arbitrary s-expression that
 follows from $p\_{j}$ being true. For example, the following
@@ -438,12 +432,12 @@ Expanding this expressions for $n=2$ then gives the following result:
 
 $$
 \begin{align}
-2! &= (2 = 0 \to 1, T \to 2 * (2 - 1)! ) &&\text{second cond. holds} \\\\\\
+2! &= (2 = 0 \to 1, T \to 2 * (2 - 1)! )  \\\\\\
 &= 2 \cdot (2 - 1)! &&\text{expand again} \\\\\\
-&= 2 \cdot (1 = 0 \to 1, T \to 1 * (1 - 1)) &&\text{second condition again} \\\\\\
+&= 2 \cdot (1 = 0 \to 1, T \to 1 * (1 - 1)) \\\\\\
 &= 2 \cdot 1 \cdot 0! &&\text{...} \\\\\\
-&= 2 \cdot 1 \cdot (0 = 0 \to 1, T \to 0 * (0 - 1)!) &&\text{finally first cond. holds} \\\\\\
-&= 2 \cdot 1 \cdot 1 &&\text{terminate}
+&= 2 \cdot 1 \cdot (0 = 0 \to 1, T \to 0 * (0 - 1)!)  \\\\\\
+&= 2 \cdot 1 \cdot 1 
 \end{align}
 $$
 
@@ -453,13 +447,11 @@ non-recursive functions (in the same way that primitive recursive
 definitions can be used for defining non-recursive functions). The
 conditions can also be of arbitrary depth, as shown in the following
 example involving the $\texttt{sign}$ or *signum* function:
-
 $$
 \begin{align}
 \texttt{sign}(x) = (x < 0 \to -1, x = 0 \to 0, T \to 1)
 \end{align}
 $$
-
 McCarthy shows how to use conditional expressions to express
 connectives in classical propositional logic;  this gets us a bit
 closer to McCarthy's other motivation for developing Lisp, which was
@@ -479,8 +471,7 @@ p \lor q &= (p \to T, q \to T, T \to F) \\\\\\
 p \to q &= (p \to T, T \to T)
 \end{align}
 $$
-Also note that these definitions already involve some basic functions such as multiplication (\*), equivalence (=) and less than ($<$). As before, we can now decompose these simpler function and try to narrow them down to a small set of primitives. Before we do this, however, we will briefly describe the second ingredient that McCarthy introduces, which is called *lambda abstraction*. 
-
+Also note that these definitions already involve some basic functions such as multiplication (\*), equivalence (=) and less than ($<$). As before, we can now decompose these simpler function and try to narrow them down to a small set of primitives. Before we do this, however, we will briefly describe the second ingredient that McCarthy introduces, which is called *lambda abstraction*.
 
 ### **Lambda Abstraction**
 
@@ -503,7 +494,7 @@ variables through a process called $\beta$-reduction. In the following
 example:
 $$
 \begin{align}
-\lambda(x)\bigg(x=0 \to 1, T \to x * (x-1)!\bigg)(2) &\equiv \bigg(2 = 0 \to 1, T \to 2 * (2 - 1)! \bigg) \\
+\lambda(x)\bigg(x=0 \to 1, T \to x * (x-1)!\bigg)(2) & \\\\\\ &\equiv \bigg(2 = 0 \to 1, T \to 2 * (2 - 1)! \bigg) \\\\\\
 	&= 2 
 \end{align} 
 $$
@@ -515,11 +506,11 @@ developed by the mathematician
 [Alonzo Church](https://en.wikipedia.org/wiki/Alonzo_Church)); we will
 unfortunately save this discussion for another time. In the parlance
 of everyday programming, these functions are often referred to as
-\emph{anonymous functions}, since they lack any kind of name or
+*anonymous functions*, since they lack any kind of name or
 variable identifier. In the example above, the lack of a name is
 problematic since we have no way of identifying the function when we
 make a recursive call in the second condition. To handle this,
-McCarthy introduces a function called \texttt{label}, which allows
+McCarthy introduces a function called $\texttt{label}$, which allows
 these functions to take names:
 $$
 \begin{align}
@@ -529,7 +520,7 @@ $$
 Interestingly, while anonymous lambda functions were popularized in
 programming by McCarthy and Lisp, they have found there way into
 modern programming languages, as shown below in Python (where the
-\texttt{label} function can be achieved by doing ordinary variable
+$\texttt{label}$ function can be achieved by doing ordinary variable
 assignment):
 ```python
 
@@ -549,6 +540,15 @@ a single notation in the next section). The 5 functions in the Table
 below are the basic functions that McCarthy defines, each of which
 operates over s-expressions (for readability, we will write these
 functions without the $\texttt{label}$ function and without lambdas).
+
+| Function | Definition                                            | Description                                          |
+|----------|-------------------------------------------------------|------------------------------------------------------|
+| 1. atom  | atom[X] = T;  atom[(X . A)] = F                       | checks if an s-expression is atomic                  |
+| 2. eq.   | eq[X,X] = T; eq[X,A] = F;  eq[X,(X . A)] = undefined  | checks if two atomic s-expressions are the same      |
+| 3. car   | car[(X . A)] = X car[((X . A) . Y)] = (X . A)         | Returns the first element in s-expression            |
+| 4. cdr   | cdr[(X . A)] = A cdr[((X . A) . Y)] = Y               | Returns the last element in s-expression after first |
+| 5. cons  | cons[X,A] = (X . A) cons[(X . A),Y] = ((X . A) . Y)   | joins two s-expressions.                             |
+
 
 
 
