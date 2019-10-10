@@ -175,16 +175,17 @@ generally) using a tree representation, such as the one shown below
 ```mermaid
 
 graph TD
-A["factorial(3)"] --> B(3)
+A["mult(3,4)"] --> B(3)
 A["factorial(3)"] --> G(*)
-A[factorial 3] --> H[factorial 3]
-H[factorial 2] --> I(2)
-H[factorial 2] --> J(*)
-H[factorial 2] --> K[factorial 1]
-K[factorial 1] --> l(1)
-K[factorial 1] --> m(*)
-K[factorial 1] --> n[factorial 0]
-n[factorial 0] --> 1
+A["factorial(3)"] --> |subtract 3-1| H[factorial 3]
+H["factorial(2)"] --> I(2)
+H["factorial(2)"] --> J(*)
+H["factorial(2)"] --> |subtract 2-1| K[factorial 1]
+K["factorial(1)"] --> l(1)
+K["factorial(1)"] --> m(*)
+K["factorial(1)"] --> |subtract 1-1| n[factorial 0]
+n["factorial(0)"] --> |constant| 1
+
 
 ```
 
