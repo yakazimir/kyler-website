@@ -317,8 +317,8 @@ s-expression is defined recursively as follows:
 
 $$
 1. \text{ Atomic symbols are s-expressions} \\\\\\
-2. \text{If } e_{1} \text{ and } e_{2} \text{ are s-expressions, so is
-} (e_{1} \cdot e_{2})$
+2. \text{If } e\_{1} \text{ and } e\_{2} \text{ are s-expressions, so is
+} (e\_{1} \cdot e\_{2})$
 $$
 
 where the set of *atomic symbols* includes strings (including the
@@ -354,7 +354,7 @@ $\equiv$:
 
 $$
 \begin{align}
-\texttt{(m$_{1 }$ m$_{2}$ ... m$_{n}$)} \equiv \texttt{(m$_{1}$ $\cdot$ (m$_{2}$ $\cdot$ ( ... $\cdot$ (m$_{n}$ $\cdot$ Nil ))))}
+\texttt{(m$\_{1 }$ m$\_{2}$ ... m$\_{n}$)} \equiv \texttt{(m$\_{1}$ $\cdot$ (m$\_{2}$ $\cdot$ ( ... $\cdot$ (m$\_{n}$ $\cdot$ Nil ))))}
 \end{align}
 $$
 
