@@ -176,13 +176,13 @@ generally) using a tree representation, such as the one shown below
 
 graph TD
 A["mult(3,4)"] --> B(3)
-A["factorial(3)"] --> G(*)
+A["factorial(3)"] --> |multplication| G(*)
 A["factorial(3)"] --> |subtract 3-1| H[factorial 3]
 H["factorial(2)"] --> I(2)
-H["factorial(2)"] --> J(*)
+H["factorial(2)"] --> |multiplication| J(*)
 H["factorial(2)"] --> |subtract 2-1| K[factorial 1]
 K["factorial(1)"] --> l(1)
-K["factorial(1)"] --> m(*)
+K["factorial(1)"] --> |multiplication| m(*)
 K["factorial(1)"] --> |subtract 1-1| n[factorial 0]
 n["factorial(0)"] --> |constant| 1
 
@@ -197,6 +197,113 @@ def mult(x,y):
     return y + mult(x-1, y)
 ```
 which in turn relies on the constant and subtraction functions again and the addition function. If we apply this function to the values $3,4$, the recursive process can be visualized again as a tree, as shown below:
+
+```mermaid
+
+graph TD
+A["mult(3,4)"] --> B(4)
+A["mult(3,4)"] --> |addition| G(+)
+A["mult(3,4)"] --> |subtract 3-1| H[factorial 3]
+H["mult(2,4)"] --> I(4)
+H --> |addition| J(+)
+H --> |subtract 2-1| K[factorial 1]
+K["mult(1,4)"] --> |constant| l(4)
+
+```
+
+As with the factorial function, the meaning of the multiplication
+function ceases to be anything other than a label. We can even proceed
+further down this path by now defining basic addition in terms of
+simpler functions. For completeness, we define addition recursively
+below using a more conventional mathematical notation for recursive
+definitions (or, more technically, *primitive recursive definitions*):
+
+$$
+\texttt{add}(x,0) &= x  \\\\\\
+\texttt{add}(x,\texttt{succ}(y)) &= \texttt{succ}(\texttt{add}(x,y))
+$$
+
+where the first equation shows the point at which the recursion
+reaches the end (e.g., the zero point in the first tree we considered
+above), and the second equation shows each subsequent step from this
+end point via the successor function $\texttt{succ}$, which for a
+given number $n$ simply returns $n+1$. This notation is more in line
+with how mathematicians, specifically those working in the field of
+**recursive function theory**, describe recursive functions. Notice
+that it is slightly backwards from how we have been implementing
+recursive in our Python program.  An equivalent, though more
+programmatic, notation might looks as follows:
+
+$$
+\texttt{add}(x,y) = \begin{cases}
+  x,  & \text{when}\ y=0 \\\\\\
+  \texttt{succ}(\texttt{add}(x,y-1)),  & \text{when}\ y > 0 
+  \end{cases}
+$$
+
+which shows more precisely how we would implement the function in
+Python or any comparable programming language (i.e., all we need to do
+is translate the *when* conditions to $\texttt{if}$ statements and
+$\texttt{for}$ loops). Note that this definition involves the
+*composition* of two functions (i.e., the $\texttt{succ}$ function is
+applied over the output of the $\texttt{add}$ function, or
+$\texttt{succ}(\texttt{add}(\cdot))$), which is another important
+aspect of building recursive functions that we will gloss over here
+but that nonetheless merits closer examination.
+
+## Lisp as a Formalism (and a Programming Language)
+
+Now, why is this discussion about recursion important? If we continue
+to decompose the basic arithmetic functions in the manner above, we
+will eventually converge on a set of functions called the \emph{basic
+primitive recursive functions}, of which the successor function
+[is a member](https://proofwiki.org/wiki/Definition:Basic_Primitive_Recursive_Function).
+These functions are important in the mathematical theory of
+computation since they are the basic building blocks of a large
+portion of the set of **computable functions**. Loosely speaking, the
+computable functions are  the set of functions that are theoretically
+guaranteed to be calculable by a computer. It is within this context
+that McCarthy first conceived of Lisp; he wanted to use Lisp as a tool
+for investigating
+[recursive function theory](https://legacy.earlham.edu/~peters/courses/logsys/recursiv.htm). He
+was specifically interested in a new formalism for describing
+computable functions in *neater* way than *Turing machines
+[i.e., the de-facto model of a computer used by theoretical computer scientists to study computation]
+or the general recursive definitions
+[e.g., the somewhat counter intuitive mathematical notation shown above]
+used in recursive function theory* (as he writes in his
+[History of Lisp](http://jmc.stanford.edu/articles/lisp/lisp.pdf). He
+adds that:
+
+>The fact that Turing machines constitute an awkward programming language doesn't much bother recursive function theorists, because they almost never have any reason to write particular recursive definitions, since the theory concerns recursive functions in general. They often have reason to prove that recursive functions with specific properties exist, but this can be done by an informal argument without having to write them down explicitly.... Anyway, I decided to write a paper describing **LISP both as a programming language and as a formalism for doing recursive function theory**.... The paper had no influence on recursive function theorists, because it didn't address the questions that interested them. 
+
+As McCarthy acknowledges, he largely failed at getting pure mathematicians interested in the Lisp formalism. Nonetheless, the style of programming that Lisp facilitates is closely aligned to the mathematical ideas we outlined above. Again, in McCarthy's own words:
+
+> One mathematical consideration that influenced LISP was to express
+> programs as applicative expressions built up from variables and
+> constants using functions. I considered it important to make these
+> expressions obey the usual mathematical laws allowing replacement of
+> expressions by expressions giving the same value. The motive was to
+> allow proofs of properties of programs using ordinary mathematical
+> methods.
+
+One mathematician who has been greatly influenced by Lisp is
+[Gregory Chaitin](https://en.wikipedia.org/wiki/Gregory_Chaitin) (we
+already touched on some of his work in my post on
+[Kolmogorov complexity](https://www.nlp-kyle.com/post/kolmogorov_complexity/)),
+who once referred to Lisp as the only *computer programming language
+that is mathematically respectable*. He concurs with McCarthy on the
+lack of interest in Lisp among theoreticians and adds the following in
+the preface of his seminal work
+[Algorithmic Information Theory](https://www.goodreads.com/book/show/852501.Algorithmic_Information_Theory):
+
+> But by a quirk of fate LISP has largely been ignored by theoreticians and has instead become the standard programming language for work on artificial intelligence. I believe that pure LISP is in precisely the same role in computational mathematics that set theory is in theoretical mathematics, in that it provides a beautifully elegant and extremely powerful formalism which enables concepts such as that of numbers and functions to be defined from a **handful of more primitive notions**.
+
+Again, a key point to focus on here is describing complex concepts
+with only a **handful of more primitive notions**. Now, let's get into
+the details of the actual Lisp language and see how this is done.
+
+
 
 
 [^1]: Part way through writing this article, I discovered Paul Graham's paper [The Roots of Lisp](http://languagelog.ldc.upenn.edu/myl/llog/jmc.pdf),which has the same goal of understanding *what McCarthy discovered* in his original paper; I have borrowed some of his explanations throughout this paper. I urge readers to look at this paper, which gets much deeper into the details of McCarthy's original code, and specifically the **eval** function and its broader significance in programming (whereas here we focus more on the theoretical ideas that motivated Lisp and the broader historical context).
