@@ -475,9 +475,9 @@ using only $\texttt{if}$ statements as he discusses in
 [this paper again](http://jmc.stanford.edu/articles/lisp/lisp.pdf)).
 $$
 \begin{align}
-p \land q &= (p \to (\textcolor{red}{q \to T; T \to F}), T \to F) \\ 
-p \lor q &= (p \to T, q \to T, T \to F) \\ 
-\neg p &= (p \to F, T \to T) \\ 
+p \land q &= (p \to (q \to T; T \to F), T \to F) \\\\\\
+p \lor q &= (p \to T, q \to T, T \to F) \\\\\\
+\neg p &= (p \to F, T \to T) \\\\\\
 p \to q &= (p \to T, T \to T)
 \end{align}
 $$
