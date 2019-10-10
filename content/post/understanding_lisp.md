@@ -186,7 +186,6 @@ K["factorial(1)"] --> |multiplication| m(*)
 K["factorial(1)"] --> |subtract 1-1| n[factorial 0]
 n["factorial(0)"] --> |constant| 1
 
-
 ```
 
 Here we can see that $\texttt{factorial}$ continues to be called until we reach a  zero point, at which point $1$ is returned ) and  multiplication is incrementally applied over the remaining numbers (or *leaf nodes*) in the tree (i.e., $1,2,3$).  One important thing to observe  is that we have explained away the factorial function in terms of three much simpler operations, namely **multiplication**, **subtraction**  and **returning 1** (or what is sometimes referred to as the $\texttt{constant}$ function). In other words, if we are concerned about whether the factorial function will reliably give us a solution for any number $N$, we can be reassured by seeing through its recursive definition that it relies on these much simpler operations. We can even decompose the multiplication function for positive numbers into a recursive function, as shown below:
@@ -368,6 +367,51 @@ putting each $\cdot$ symbol in front of the items in the list (this
 *prefix* notation will become important when we discuss Lisp
 functions):
 
+```mermaid
+
+graph TD
+A[.] --> B(first)
+A --> H[.]
+H --> I(second)
+H -->  J(.)
+J --> K(third)
+J --> L(Nil)
+```
+S-expressions therefore make it possible to express the types of
+nested structures that we encountered in our recursive definitions and
+programs above. Beyond Lisp, s-expressions have proven to be a popular
+notation for representing hierarchical  linguistic information in
+research on computational linguistics. For example, the structure
+below is a representation of the grammatical structure for the
+sentence *This is an example of a sentence represented as an
+s-expression*, where the grammatical categories (i.e., $\texttt{S, NP,
+VP, VBZ,..}$) are the prefixes in each constituent s-expression:
+
+```
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (NP
+        (NP (DT an) (NN example))
+        (PP (IN of)
+          (NP
+            (NP (DT a) (NN sentence))
+            (VP (VBN represented)
+              (PP (IN as)
+                (NP (DT an) (NN s-expression))))))))))   
+
+```
+
+Given our definition of s-expressions so far, however, this notation
+only permits us to construct more complex structure from atomic
+symbols, or what we might refer to as the \emph{data} in our
+language. McCarthy therefore adds the following three additional
+ingredients:
+
+1.  **Conditional expressions**, which will allow us to define recursive functions and predicates.
+2. **Lambda abstraction**, which will allow us to formally define functions and function application.
+3. **Primitive symbolic functions** over s-expressions, which play the role of the basic primitive recursive functions that we described in the beginning.
 
 
 
