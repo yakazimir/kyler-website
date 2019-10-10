@@ -219,8 +219,10 @@ below using a more conventional mathematical notation for recursive
 definitions (or, more technically, *primitive recursive definitions*):
 
 $$
+\begin{align}
 \texttt{add}(x,0) &= x  \\\\\\
 \texttt{add}(x,\texttt{succ}(y)) &= \texttt{succ}(\texttt{add}(x,y))
+\end{align}
 $$
 
 where the first equation shows the point at which the recursion
@@ -255,8 +257,8 @@ but that nonetheless merits closer examination.
 
 Now, why is this discussion about recursion important? If we continue
 to decompose the basic arithmetic functions in the manner above, we
-will eventually converge on a set of functions called the \emph{basic
-primitive recursive functions}, of which the successor function
+will eventually converge on a set of functions called the *basic
+primitive recursive functions*, of which the successor function
 [is a member](https://proofwiki.org/wiki/Definition:Basic_Primitive_Recursive_Function).
 These functions are important in the mathematical theory of
 computation since they are the basic building blocks of a large
