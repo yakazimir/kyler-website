@@ -4,7 +4,7 @@ description = "Some notes on the history and origins of the Lisp programming lan
 date = "2019-09-29"
 categories = ["programming languages","lisp","recursive functions","eval"]
 mmark = true
-draft = false
+draft = true
 +++
 
 <span style="color:red">
@@ -313,15 +313,13 @@ next section). One of the main contributions in this paper is the
 introduction of a new notation called a *s-expression*, or symbolic
 expression, which is the basic building block of Lisp programs. An
 s-expression is defined recursively as follows:
-
 $$
 \begin{align}
 1.& \text{ Atomic symbols are s-expressions} \\\\\\
-2.& \text{If } e\_{1} \text{ and } e\_{2} \text{ are s-expressions, so is
+2.& \text{ If } e\_{1} \text{ and } e\_{2} \text{ are s-expressions, so is
 } (e\_{1} \cdot e\_{2})
 \end{align}
 $$
-
 where the set of *atomic symbols* includes strings (including the
 blank symbol), numeric values (in reality, McCarthy's original
 formulation didn't have a complete implementation of numbers, but we
