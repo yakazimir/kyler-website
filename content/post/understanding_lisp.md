@@ -543,8 +543,8 @@ functions without the $\texttt{label}$ function and without lambdas).
 
 | Function | Definition                                            | Description                                          |
 |----------|-------------------------------------------------------|------------------------------------------------------|
-| 1. $\texttt{atom}$  | $atom[X] = T$;  $atom[(X \cdot A)] = F$                       | checks if an s-expression is atomic                  |
-| 2. $\texttt{eq}$   | eq[X,X] = T; eq[X,A] = F;  eq[X,(X . A)] = undefined  | checks if two atomic s-expressions are the same      |
+| 1. $\texttt{atom}$  | $\texttt{atom}[X] = \texttt{T}$ \\\\\\ $\texttt{atom}[(X \cdot A)] = \texttt{F}$                       | checks if an s-expression is atomic                  |
+| 2. $\texttt{eq}$   | $\texttt{eq}[X,X] = \texttt{T}; \texttt{eq}[X,A] = \texttt{F};  \texttt{eq}[X,(X . A)] = \texttt{undefined}$  | checks if two atomic s-expressions are the same      |
 | 3. $\texttt{car}$   | car[(X . A)] = X car[((X . A) . Y)] = (X . A)         | Returns the first element in s-expression            |
 | 4. $\texttt{cdr}$   | cdr[(X . A)] = A cdr[((X . A) . Y)] = Y               | Returns the last element in s-expression after first |
 | 5. $\texttt{cons}$  | cons[X,A] = (X . A) cons[(X . A),Y] = ((X . A) . Y)   | joins two s-expressions.                             |
