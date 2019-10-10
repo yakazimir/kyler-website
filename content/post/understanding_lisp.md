@@ -1,0 +1,187 @@
+---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
+title: "Understanding Lisp: Part 1"
+subtitle: ""
+summary: "Some notes on the history and origins of the Lisp
+programming language."
+authors: []
+tags: []
+categories: ["programming languages","lisp","recursive functions","eval"]
+date: 2019-10-09T19:16:48-07:00
+lastmod: 2019-10-09T19:16:48-07:00
+featured: false
+draft: false
+mmark = true
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+---
+
+<span style="color:red">
+*Note: this post is still in progress. When I started writing these notes
+several months ago, I quickly realized that it is very difficult to
+describe the Lisp language and McCarthy's original paper on Lisp
+without going deep into details (during my initial attempt to write a cursory
+overview of Lisp, I also realized that there were many
+aspects of the language and its history that I never truely
+understood). Posting these notes in an unfinished version is meant to
+serve as a forcing function to get me to finally finish this article,
+since it has remained dormant in the past month.  I hope
+that, even in its current unfinished form, it still provides some
+interesting insight.*
+</span>
+
+
+I've been slowly making my way  through John McCarthy's seminal paper
+on Lisp,  [*Recursive Functions of Symbolic Expressions: Their
+Computation by Machine, Part 1*](http://www-formal.stanford.edu/jmc/recursive.pdf). It
+was only after a week or so of digesting the content that I started to
+understand the significance of his ideas and the broader context within which the Lisp programming language was developed. In this article, I will attempt to summarize what I've learned so far about the history and development of this fascinating programming language [^1].
+
+\noindent In trying to understand the Lisp language and its origins, I
+think it helps to ask two separate questions. First, why is a language
+or a \emph{formalism} such as Lisp (as we discuss, Lisp is much more
+than simply a programming language) needed or desirable? Answering
+this question first requires considering the  shortcomings of the
+programming languages available at the time when McCarthy started his
+work, as well as the theoretical motivations that prompted McCarthy to
+work on Lisp in the first place.  These topics are addressed in
+Section~\ref{sec:idea}, and center around the topic of recursive
+functions and programming, which are fundamental to the design and
+spirit of Lisp and many subsequent programming languages in the
+\emph{functional programming} tradition. The second question is: what
+is the nature of the \emph{actual} Lisp language that McCarthy and his
+colleagues first proposed and implemented, and what, if anything, is
+special about it?  The topic is discussed in Section 2, with a focus
+on the Lisp \texttt{eval} function and the idea of self interpreting
+code (both of which were initially theoretical ideas that even
+McCarthy, at the time of writing his article, didn't realize had many
+practical applications in programming language design).
+
+In trying to understand the Lisp language and its origins, I think it
+helps to ask two separate questions. First, why is a language or a
+*formalism* such as Lisp (as we discuss, Lisp is much more than
+simply a programming language) needed or desirable? Answering this
+question first requires considering the  shortcomings of the
+programming languages available at the time when McCarthy started his
+work, as well as the theoretical motivations that prompted McCarthy to
+work on Lisp in the first place.  These topics are addressed in the
+first Section, and center around the topic of **recursive functions
+and programming**, which are fundamental to the design and spirit of
+Lisp and many subsequent programming languages in the *functional
+programming* tradition. The second question is: what is the nature of
+the actual Lisp language that McCarthy and his colleagues first
+proposed and implemented, and what, if anything, is special about it?
+The topic is discussed in the second section, with a focus on the Lisp **eval** function and the idea of **self interpreting code** (both of which were initially theoretical ideas that even McCarthy, at the time of writing his article, didn't realize had many practical applications in programming language design).
+
+# Lisp the Idea
+
+## The Historical Context and Recursive Programs
+
+First, a rather obvious point about the historical context: Lisp was
+developed during a time when only a few modern programming languages
+existed (specifically, during the late 1950s). The conventional wisdom
+is that Lisp is the second oldest programming language in continuous
+use behind Fortran. While it's hard to find a readable and concise
+code example involving earlier versions of Fortran,  a good starting
+point is to consider the following program in a modern version of
+Fortran [^2]:
+```fortran
+
+PROGRAM MAIN
+      INTEGER N, X
+      EXTERNAL SUB1
+      COMMON /GLOBALS/ N
+      X = 0
+      PRINT *, 'Enter number of repeats'
+      READ (*,*) N
+      CALL SUB1(X,SUB1)
+      END
+
+      SUBROUTINE SUB1(X,DUMSUB)
+      INTEGER N, X
+      EXTERNAL DUMSUB
+      COMMON /GLOBALS/ N
+      IF(X .LT. N)THEN
+        PRINT *, 'x = ', X
+        X = X + 1
+        CALL DUMSUB(X,DUMSUB)
+      END IF
+      END
+```
+
+This program, which takes a given number \texttt{N} from a user prompt
+and prints all intermediate numbers using a variable $\texttt{X}$ a
+subroutine $\texttt{SUB1}$, is implemented in Fortran 77, which became
+the Fortran standard in 1978 (nearly twenty years after Lisp). The
+details of this program are not important. What is important is the
+part that involves the second argument to $\texttt{SUB1}$ called
+$\texttt{DUMSUB}$. When this subroutine is called,  as shown below:
+$$
+\texttt{CALL SUB1(X,SUB1)}
+$$
+he second argument is the actual function $\texttt{SUB1}$. As discussed in the article cited above, Fortran 77 (in contrast to later versions of Fortran such as Fortran 90 and 95) does not fully support recursion (i.e., the ability for a function to call itself); a function in Fortran 77 can only make a recursive call if it calls itself as an argument. 
+
+
+To illustrate recursion a bit more, the code below shows two versions
+of this same function in the
+[Python programming language](https://www.python.org/), a recursive
+version ($\texttt{recursive\_version}$, where the function calls
+itself on line 6) and a non-recursive version
+($\texttt{non\_recursive\_version}$, which instead uses a while
+loop). In the former case, we get rid of the need to change *the
+state* or value of the variable $\texttt{x}$, and instead call the
+function directly with $\texttt{x + 1}$.
+```python
+N = 10
+
+def recursive\_version(x):
+	if x < N: 
+	    print("x = %d" % x)
+	    recursive_version(x+1)
+	
+def non\_recursive_version(x):
+    while x < N:
+        print("x = %d" % x)
+        x += 1
+
+recursive_version(0)
+non\_recursive_version(0)
+```
+Casual users of Python may only rarely encounter recursion and instead
+choose to always write their functions in the second *iterative* or
+*imperative* style (in this case, we mutate the value of $\texttt{x}$
+during each pass in the $\texttt{while}$ loop). In fact, there are
+good reasons for avoiding recursion in languages such as Python; if
+you change the value $\texttt{N}=2000$, for example, Python will raise
+a $\texttt{RuntimeError}$ and complain that you have exceeded a
+$\emph{maximum recursion depth}$ (this is related to certain internal
+properties of how Python is implemented that we won't delve into here;
+see [here](https://realpython.com/python-thinking-recursively/) for a
+more general discussion of recursion in Python).
+
+
+
+
+
+[^1]: Part way through writing this article, I discovered Paul Graham's paper [The Roots of Lisp](http://languagelog.ldc.upenn.edu/myl/llog/jmc.pdf),which has the same goal of understanding *what McCarthy discovered* in his original paper; I have borrowed some of his explanations throughout this paper. I urge readers to look at this paper, which gets much deeper into the details of McCarthy's original code, and specifically the **eval** function and its broader significance in programming (whereas here we focus more on the theoretical ideas that motivated Lisp and the broader historical context).
+
+[^2] This example is taken from [here](https://sites.esm.psu.edu/~ajm138/fortranexamples.html)
+
+
+
+
+
