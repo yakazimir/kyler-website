@@ -105,18 +105,18 @@ function directly with $\texttt{x + 1}$.
 ```python
 N = 10
 
-def recursive\_version(x):
+def recursive_version(x):
 	if x < N: 
 	    print("x = %d" % x)
 	    recursive_version(x+1)
 	
-def non\_recursive_version(x):
+def non_recursive_version(x):
     while x < N:
         print("x = %d" % x)
         x += 1
 
 recursive_version(0)
-non\_recursive_version(0)
+non_recursive_version(0)
 ```
 Casual users of Python may only rarely encounter recursion and instead
 choose to always write their functions in the second *iterative* or
