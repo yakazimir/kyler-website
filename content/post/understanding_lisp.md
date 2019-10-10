@@ -433,9 +433,9 @@ Expanding this expressions for $n=2$ then gives the following result:
 $$
 \begin{align}
 2! &= (2 = 0 \to 1, T \to 2 * (2 - 1)! )  \\\\\\
-&= 2 \cdot (2 - 1)! &&\text{expand again} \\\\\\
+&= 2 \cdot (2 - 1)!  \\\\\\
 &= 2 \cdot (1 = 0 \to 1, T \to 1 * (1 - 1)) \\\\\\
-&= 2 \cdot 1 \cdot 0! &&\text{...} \\\\\\
+&= 2 \cdot 1 \cdot 0! \\\\\\
 &= 2 \cdot 1 \cdot (0 = 0 \to 1, T \to 0 * (0 - 1)!)  \\\\\\
 &= 2 \cdot 1 \cdot 1 
 \end{align}
@@ -543,7 +543,7 @@ functions without the $\texttt{label}$ function and without lambdas).
 
 | Function | Definition                                            | Description                                          |
 |----------|-------------------------------------------------------|------------------------------------------------------|
-| 1. $\texttt{atom}$  | $\texttt{atom}[X] = \texttt{T}$ \\\\\\ $\texttt{atom}[(X \cdot A)] = \texttt{F}$                       | checks if an s-expression is atomic                  |
+| 1. $\texttt{atom}$  | $$\texttt{atom}[X] = \texttt{T}$ \\\\\\ $\texttt{atom}[(X \cdot A)] = \texttt{F}$$                       | checks if an s-expression is atomic                  |
 | 2. $\texttt{eq}$   | $\texttt{eq}[X,X] = \texttt{T}; \texttt{eq}[X,A] = \texttt{F};  \texttt{eq}[X,(X . A)] = \texttt{undefined}$  | checks if two atomic s-expressions are the same      |
 | 3. $\texttt{car}$   | car[(X . A)] = X car[((X . A) . Y)] = (X . A)         | Returns the first element in s-expression            |
 | 4. $\texttt{cdr}$   | cdr[(X . A)] = A cdr[((X . A) . Y)] = Y               | Returns the last element in s-expression after first |
