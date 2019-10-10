@@ -4,7 +4,7 @@ description = "Some notes on the history and origins of the Lisp programming lan
 date = "2019-09-29"
 categories = ["programming languages","lisp","recursive functions","eval"]
 mmark = true
-draft = true
+draft = false
 +++
 
 <span style="color:red">
@@ -399,7 +399,7 @@ VP, VBZ,..}$) are the prefixes in each constituent s-expression:
             (NP (DT a) (NN sentence))
             (VP (VBN represented)
               (PP (IN as)
-                (NP (DT an) (NN s-expression))))))))))   
+                (NP (DT an) (NN s-expression)))))))))) 
 
 ```
 
@@ -413,6 +413,144 @@ ingredients:
 2. **Lambda abstraction**, which will allow us to formally define functions and function application.
 3. **Primitive symbolic functions** over s-expressions, which play the role of the basic primitive recursive functions that we described in the beginning.
 
+### **Conditional expressions**
+
+A conditional expression takes the following form:
+
+$$
+\begin{align}
+(p\_{1} \to e\_{1}, ... , p\_{n} \to e\_{n}) 
+\end{align}
+$$
+
+where each $p\_{j}$ is a proposition (i.e., a true or false statement)
+and the corresponding $e\_{j}$ is an arbitrary s-expression that
+follows from $p\_{j}$ being true. For example, the following
+conditional expression defines the factorial function considered
+before (where $T$ in the second condition means $\texttt{true}$ and is
+special type of atomic symbol):
+
+$$
+\begin{align}
+n! = ( n = 0 \to 1, T \to n * (n-1)!)
+\end{align}
+$$
+
+Expanding this expressions for $n=2$ then gives the following result:
+
+$$
+\begin{align}
+2! &= (2 = 0 \to 1, T \to 2 * (2 - 1)! ) &&\text{second cond. holds} \\\\\\
+&= 2 \cdot (2 - 1)! &&\text{expand again} \\\\\\
+&= 2 \cdot (1 = 0 \to 1, T \to 1 * (1 - 1)) &&\text{second condition again} \\\\\\
+&= 2 \cdot 1 \cdot 0! &&\text{...} \\\\\\
+&= 2 \cdot 1 \cdot (0 = 0 \to 1, T \to 0 * (0 - 1)!) &&\text{finally first cond. holds} \\\\\\
+&= 2 \cdot 1 \cdot 1 &&\text{terminate}
+\end{align}
+$$
+
+It is important to note that while conditional expressions are meant
+for creating recursive definitions, they can also be used to define
+non-recursive functions (in the same way that primitive recursive
+definitions can be used for defining non-recursive functions). The
+conditions can also be of arbitrary depth, as shown in the following
+example involving the $\texttt{sign}$ or *signum* function:
+
+$$
+\begin{align}
+\texttt{sign}(x) = (x < 0 \to -1, x = 0 \to 0, T \to 1)
+\end{align}
+$$
+
+McCarthy shows how to use conditional expressions to express
+connectives in classical propositional logic;  this gets us a bit
+closer to McCarthy's other motivation for developing Lisp, which was
+to support symbolic and logic-based artificial intelligence. Notice in
+the first expression that the right hand side of the first condition
+is itself a conditional expression. In addition to having arbitrary
+atomic conditions, each condition can contain an arbitrary number of
+conditions on the right hand side (which was tricky to do in
+imperative languages, especially the language available before Lisp,
+using only $\texttt{if}$ statements as he discusses in
+[this paper again](http://jmc.stanford.edu/articles/lisp/lisp.pdf)).
+$$
+\begin{align}
+p \land q &= (p \to (\textcolor{red}{q \to T; T \to F}), T \to F) \\ 
+p \lor q &= (p \to T, q \to T, T \to F) \\ 
+\neg p &= (p \to F, T \to T) \\ 
+p \to q &= (p \to T, T \to T)
+\end{align}
+$$
+Also note that these definitions already involve some basic functions such as multiplication (\*), equivalence (=) and less than ($<$). As before, we can now decompose these simpler function and try to narrow them down to a small set of primitives. Before we do this, however, we will briefly describe the second ingredient that McCarthy introduces, which is called *lambda abstraction*. 
+
+
+### **Lambda Abstraction**
+
+In its simplest form, lambda abstraction is  a notation for
+associating values to function components. For example, in our
+factorial example, the $\lambda(x)$ in the following (we use large
+parenthesis here to show the conditional expression, or what McCarthy
+calls the *form* of the function):
+$$
+\begin{align}
+\lambda(x)\bigg(x = 0 \to 1, T \to x * (x-1)! \bigg) 
+\end{align}
+$$
+serves as a kind of placeholder for $x$ in the main equation and
+abstracts over all the possible numeric values that the equation might
+take. More technically, the lambda notation is a way of creating
+functions. When supplied with a set of arguments, the variables in the
+function form are substituted with the arguments tied to the lambda
+variables through a process called $\beta$-reduction. In the following
+example:
+$$
+\begin{align}
+\lambda(x)\bigg(x=0 \to 1, T \to x * (x-1)!\bigg)(2) &\equiv \bigg(2 = 0 \to 1, T \to 2 * (2 - 1)! \bigg) \\
+	&= 2 
+\end{align} 
+$$
+the value 2 is substituted for all occurrences of $x$. There is a lot
+more to be said about this lambda notation, which is based on a much
+broader theory of computation called the
+[lambda calculus](https://www.inf.fu-berlin.de/lehre/WS03/alpi/lambda.pdf)
+developed by the mathematician
+[Alonzo Church](https://en.wikipedia.org/wiki/Alonzo_Church)); we will
+unfortunately save this discussion for another time. In the parlance
+of everyday programming, these functions are often referred to as
+\emph{anonymous functions}, since they lack any kind of name or
+variable identifier. In the example above, the lack of a name is
+problematic since we have no way of identifying the function when we
+make a recursive call in the second condition. To handle this,
+McCarthy introduces a function called \texttt{label}, which allows
+these functions to take names:
+$$
+\begin{align}
+\texttt{label}\big(\texttt{factorial}, \lambda(x) \bigg(x = 0 \to 1; T \to x * \texttt{factorial}(x - 1)\bigg)\big)
+\end{align}
+$$
+Interestingly, while anonymous lambda functions were popularized in
+programming by McCarthy and Lisp, they have found there way into
+modern programming languages, as shown below in Python (where the
+\texttt{label} function can be achieved by doing ordinary variable
+assignment):
+```python
+
+factorial = lambda x : (1 if x == 0 else x * factorial(x-1))
+```
+
+### **Primitive symbolic functions (some examples)**
+
+Now with these two ingredients (i.e., conditional expressions and
+lambda notation), we can get to the set of primitive functions that
+McCarthy defines, or what he calls *s-functions* that operate over
+s-expressions. To represent these functions, McCarthy uses a bracket
+notation $[ \thinspace\thinspace]$ called *m-expressions* to
+distinguish function application over s-expressions from actual
+s-expressions (so many notations, I know, but this will all blend into
+a single notation in the next section). The 5 functions in the Table
+below are the basic functions that McCarthy defines, each of which
+operates over s-expressions (for readability, we will write these
+functions without the $\texttt{label}$ function and without lambdas).
 
 
 
