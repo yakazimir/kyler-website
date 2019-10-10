@@ -130,7 +130,46 @@ properties of how Python is implemented that we won't delve into here;
 see [here](https://realpython.com/python-thinking-recursively/) for a
 more general discussion of recursion in Python).
 
+## Recursive Functions: Some Theoretical Perspective
 
+The point of the examples above is that recursion is not an essential
+part of classical imperative programming; this is reflected in the
+shortcomings of the languages discussed above, languages which  came
+into existence  long after McCarthy's initial work on Lisp (case in
+point: in Fortran 77, which again came out nearly 20 years after Lisp,
+function recursion is not directly supported). In Lisp, however,
+recursion is not only well supported, but it is fundamental to the
+design and spirit of the language. This is perhaps one main reason why
+the language is hard to grasp. What's more, the motivation for using
+recursion (especially in McCarthy's original work) is related to
+theoretical considerations that are not likely to be understood by
+many programmers. This is precisely the topic I intend to explore a
+bit more in this section.
+
+Before getting into the theoretical motivations, let's ensure that we
+have the correct intuitions about recursion by looking again at an
+example in Python.  This example is a naive implementation of the
+factorial function $n!$, which takes a positive integer $n$  and
+returns the product of $1 \times 2 \times ... \times n$. For example,
+$6! = 1 \times 2 \times 3 \times 4 \times 5 \times 6 = 720$.  The
+factorial function is a classic recursive function, which can be
+expressed as the following *recurrence* (or recursive definition):
+$$
+n!=n \times (n-1)!
+$$
+This can be implemented directly in the Python program shown below (again, we have to be careful not to make $N$ too large in order to avoid exceeding the maximum recursion depth):
+```python
+N = 10
+
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+    
+factorial(N)
+
+```
+I find it helpful to visualize the program above (and recursion more generally) using a tree representation, such as the one shown below (where  $N=3$): 
 
 
 
