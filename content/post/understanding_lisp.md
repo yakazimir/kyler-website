@@ -336,7 +336,7 @@ the following more complex s-expression:
 
 $$
 \begin{align}
-\texttt{(first $\cdot$ (second $\cdot$ (third $\cdot$ Nil))}
+\texttt{(first $\cdot$ (second $\cdot$ (third $\cdot$ Nil)))}
 \end{align}
 $$
 
@@ -354,7 +354,7 @@ $\equiv$:
 
 $$
 \begin{align}
-\texttt{(m$_{1 }$ m$_{2}$ ... m$_{n}$)} \equiv \texttt{(m$_{1}$ $\cdot$ (m$_{2}$ $\cdot$ ( ... $\cdot$ (m$_{n}$ $\cdot$ Nil )))))}
+\texttt{(m$_{1 }$ m$_{2}$ ... m$_{n}$)} \equiv \texttt{(m$_{1}$ $\cdot$ (m$_{2}$ $\cdot$ ( ... $\cdot$ (m$_{n}$ $\cdot$ Nil ))))}
 \end{align}
 $$
 
