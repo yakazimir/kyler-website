@@ -87,7 +87,7 @@ the Fortran standard in 1978 (nearly twenty years after Lisp). The
 details of this program are not important. What is important is the
 part that involves the second argument to $\texttt{SUB1}$ called
 $\texttt{DUMSUB}$. When this subroutine is called,  as shown below:
-$$
+$$\small
 \texttt{CALL SUB1(X,SUB1)}
 $$
 he second argument is the actual function $\texttt{SUB1}$. As discussed in the article cited above, Fortran 77 (in contrast to later versions of Fortran such as Fortran 90 and 95) does not fully support recursion (i.e., the ability for a function to call itself); a function in Fortran 77 can only make a recursive call if it calls itself as an argument. 
@@ -153,7 +153,7 @@ returns the product of $1 \times 2 \times ... \times n$. For example,
 $6! = 1 \times 2 \times 3 \times 4 \times 5 \times 6 = 720$.  The
 factorial function is a classic recursive function, which can be
 expressed as the following *recurrence* (or recursive definition):
-$$
+$$\small
 n!=n \times (n-1)!
 $$
 This can be implemented directly in the Python program shown below (again, we have to be careful not to make $N$ too large in order to avoid exceeding the maximum recursion depth):
@@ -548,18 +548,18 @@ functions without the $\texttt{label}$ function and without lambdas).
 | 5. cons  | $$\begin{align} &\texttt{cons}[X,A] = (X . A) \\\\\\  &\texttt{cons}[(X . A),Y] = ((X . A) . Y) \end{align}$$   | joins two s-expressions.                             |
 
 The first two function operate over atomic expressions, whereas next the two functions operate over non-atomic expressions and the last one operates over both types of expressions. These are henceforth our basic ingredients; we can now build on these primitives and additionally use conditional expressions to build much more complex functions (we can in fact define all computable functions).  McCarthy defines several such recursive functions, for example the function $\texttt{ff}$ below:
-$$
+$$\small
 \texttt{ff}[x] = ( \texttt{atomic}[x] \to x; T \to \texttt{ff}[\texttt{car}[x]])
 $$
 which takes a (potentially complex) s-expression and returns the first atomic item in that expression. For example:
-$$
+$$\small
 \begin{align}
 \texttt{ff}[\texttt{first}] = \texttt{first} \\
 \texttt{ff}[\texttt{(first second third)}] = \texttt{first}
 \end{align}
 $$
  With the help of the boolean connectives we defined as conditional expressions, we can now define the \texttt{equal} function, which determines equality between arbitrary (i.e., potentially non-atomic) s-expressions $x$ and $y$:
- $$
+ $$\small
  \begin{align}
  \texttt{equal}[x,y] &= \bigg(\big( \texttt{atom}[x] \land \texttt{atom}[y] \land \texttt{eq}(x,y) \big)  \lor \\\\\\ 
  & \big( \neg \texttt{atom}[x] \land \neg \texttt{atom}[y]  \land \texttt{equal}[\texttt{car}[x], \texttt{car}[y]] \land \texttt{equal}[ \texttt{cdr}[x], \texttt{cdr}[y]] \big) \to T; T \to F\bigg) 
@@ -584,19 +584,23 @@ First, related to this issue of notation, he describes how to translation m-expr
 explicitly abandoned. It just receded into the indefinite future, and a new generation of programmers appeared who preferred **internal notation** [i.e,. the s-expression notation we introduce below; we will explain more below about what he means what he says *internal notation*] to any FORTRAN-like or ALGOL-like notation that could be devised.
 
 The rough translation that he initially proposes in his paper works as follows (as warned above, this is when the prefix notation enters the scene, which many people love to hate about Lisp): functions of the form $f[e\_{1}, ...,e\_{n}]$ are translated as: 
-$$
+$$\small
 \begin{align}
 \texttt{(f e$\_{1 }$ e$\_{2 }$  e$\_{n }$)}
 \end{align}
 $$
 n which the function name $f$ in placed in the prefix position (McCarthy adds a further rule that function and variables names should be capitalized, which we ignore here).  Conditional expressions $(p\_{1} \to e\_{1}; p\_{2} \to e\_{2})$ are then translated in the following way using the special symbol $\texttt{cond}$: 
+$$\small
 \begin{align}
 \texttt{(cond (p$\_{1}$ e$\_{1}$)(p$\_{2}$ e$\_{2}$)...)}
 \end{align}
+$$
 And finally, lambda abstraction takes the following form for a given expression or function form $\varepsilon\*$ (i.e., the types of expressions inside of the large parentheses above): 
+$$\small
 \begin{align}
 \texttt{(lambda (x$\_{1}$, ..., x$\_{n}$) $\varepsilon*$)}
 \end{align}
+$$
 As an example, applying this translation to our factorial function yields the following s-expression (with the $\texttt{label}$ function having the same meaning as above): 
 
 ```scheme
