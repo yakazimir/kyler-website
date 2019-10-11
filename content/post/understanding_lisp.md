@@ -4,7 +4,7 @@ description = "Some notes on the history and origins of the Lisp programming lan
 date = "2019-09-29"
 categories = ["programming languages","lisp","recursive functions","eval"]
 mmark = true
-draft = true
+draft = false
 +++
 
 <span style="color:red">
@@ -172,7 +172,6 @@ generally) using a tree representation, such as the one shown below
 (where  $N=3$):
 
 ```mermaid
-
 graph TD
 A["mult(3,4)"] --> B(3)
 A["factorial(3)"] --> |multplication| G(*)
@@ -184,7 +183,6 @@ K["factorial(1)"] --> l(1)
 K["factorial(1)"] --> |multiplication| m(*)
 K["factorial(1)"] --> |subtract 1-1| n[factorial 0]
 n["factorial(0)"] --> |constant| 1
-
 ```
 
 Here we can see that $\texttt{factorial}$ continues to be called until we reach a  zero point, at which point $1$ is returned ) and  multiplication is incrementally applied over the remaining numbers (or *leaf nodes*) in the tree (i.e., $1,2,3$).  One important thing to observe  is that we have explained away the factorial function in terms of three much simpler operations, namely **multiplication**, **subtraction**  and **returning 1** (or what is sometimes referred to as the $\texttt{constant}$ function). In other words, if we are concerned about whether the factorial function will reliably give us a solution for any number $N$, we can be reassured by seeing through its recursive definition that it relies on these much simpler operations. We can even decompose the multiplication function for positive numbers into a recursive function, as shown below:
@@ -216,7 +214,7 @@ simpler functions. For completeness, we define addition recursively
 below using a more conventional mathematical notation for recursive
 definitions (or, more technically, *primitive recursive definitions*):
 
-$$
+$$\small
 \begin{align}
 \texttt{add}(x,0) &= x  \\\\\\
 \texttt{add}(x,\texttt{succ}(y)) &= \texttt{succ}(\texttt{add}(x,y))
@@ -233,7 +231,7 @@ with how mathematicians, specifically those working in the field of
 that it is slightly backwards from how we have been implementing
 recursive in our Python program.  An equivalent, though more
 programmatic, notation might looks as follows:
-$$
+$$\small
 \texttt{add}(x,y) = \begin{cases}
   x,  & \text{when}\ y=0 \\\\\\
   \texttt{succ}(\texttt{add}(x,y-1)),  & \text{when}\ y > 0 
@@ -330,7 +328,7 @@ symbol). For example, the three strings *\texttt{first}*,
 (and hence are s-expressions), and can be joined together to create
 the following more complex s-expression:
 
-$$
+$$\small
 \begin{align}
 \texttt{(first $\cdot$ (second $\cdot$ (third $\cdot$ Nil)))}
 \end{align}
@@ -348,7 +346,7 @@ Lisp. We will henceforth  use the notation on the left as shorthand
 for the more precise representation with dots to the right of
 $\equiv$:
 
-$$
+$$\small
 \begin{align}
 \texttt{(m$\_{1 }$ m$\_{2}$ ... m$\_{n}$)} \equiv \texttt{(m$\_{1}$ $\cdot$ (m$\_{2}$ $\cdot$ ( ... $\cdot$ (m$\_{n}$ $\cdot$ Nil ))))}
 \end{align}
@@ -410,7 +408,7 @@ ingredients:
 ### **Conditional expressions**
 
 A conditional expression takes the following form:
-$$
+$$\small
 \begin{align}
 (p\_{1} \to e\_{1}, ... , p\_{n} \to e\_{n}) 
 \end{align}
@@ -422,7 +420,7 @@ conditional expression defines the factorial function considered
 before (where $T$ in the second condition means $\texttt{true}$ and is
 special type of atomic symbol):
 
-$$
+$$\small
 \begin{align}
 n! = ( n = 0 \to 1, T \to n * (n-1)!)
 \end{align}
@@ -430,7 +428,7 @@ $$
 
 Expanding this expressions for $n=2$ then gives the following result:
 
-$$
+$$\small
 \begin{align}
 2! &= (2 = 0 \to 1, T \to 2 * (2 - 1)! )  \\\\\\
 &= 2 \cdot (2 - 1)!  \\\\\\
@@ -447,7 +445,7 @@ non-recursive functions (in the same way that primitive recursive
 definitions can be used for defining non-recursive functions). The
 conditions can also be of arbitrary depth, as shown in the following
 example involving the $\texttt{sign}$ or *signum* function:
-$$
+$$\small
 \begin{align}
 \texttt{sign}(x) = (x < 0 \to -1, x = 0 \to 0, T \to 1)
 \end{align}
@@ -463,7 +461,7 @@ conditions on the right hand side (which was tricky to do in
 imperative languages, especially the language available before Lisp,
 using only $\texttt{if}$ statements as he discusses in
 [this paper again](http://jmc.stanford.edu/articles/lisp/lisp.pdf)).
-$$
+$$\small
 \begin{align}
 p \land q &= (p \to (q \to T; T \to F), T \to F) \\\\\\
 p \lor q &= (p \to T, q \to T, T \to F) \\\\\\
@@ -480,7 +478,7 @@ associating values to function components. For example, in our
 factorial example, the $\lambda(x)$ in the following (we use large
 parenthesis here to show the conditional expression, or what McCarthy
 calls the *form* of the function):
-$$
+$$\small
 \begin{align}
 \lambda(x)\bigg(x = 0 \to 1, T \to x * (x-1)! \bigg) 
 \end{align}
@@ -492,7 +490,7 @@ functions. When supplied with a set of arguments, the variables in the
 function form are substituted with the arguments tied to the lambda
 variables through a process called $\beta$-reduction. In the following
 example:
-$$
+$$\small
 \begin{align}
 \lambda(x)\bigg(x=0 \to 1, T \to x * (x-1)!\bigg)(2)  &\equiv \bigg(2 = 0 \to 1, T \to 2 * (2 - 1)! \bigg) \\\\\\
 	&= 2 
@@ -512,7 +510,7 @@ problematic since we have no way of identifying the function when we
 make a recursive call in the second condition. To handle this,
 McCarthy introduces a function called $\texttt{label}$, which allows
 these functions to take names:
-$$
+$$\small
 \begin{align}
 \texttt{label}\big(\texttt{factorial}, \lambda(x) \bigg(x = 0 \to 1; T \to x * \texttt{factorial}(x - 1)\bigg)\big)
 \end{align}
