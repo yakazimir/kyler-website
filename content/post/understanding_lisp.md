@@ -779,7 +779,7 @@ namely the language that takes arbitrary Lisp expressions and returns
 the third thing in that expression. What McCarthy showed (or rather
 *discovered*, as
 [described](http://www.paulgraham.com/rootsoflisp.html) by Paul
-Graham,  is that one can elaborate on this basic idea to create a Lisp
+Graham),  is that one can elaborate on this basic idea to create a Lisp
 $\texttt{eval}$ function that interprets all of Lisp. Hence, to answer
 the question we started with about how we can built an interpreter for
 Lisp, we can use Lisp itself to define an interpreter for Lisp, which
