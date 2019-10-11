@@ -591,7 +591,22 @@ $$
 \texttt{(f e$\_{1 }$ e$\_{2 }$  e$\_{n }$)}
 \end{align}
 $$
+n which the function name $f$ in placed in the prefix position (McCarthy adds a further rule that function and variables names should be capitalized, which we ignore here).  Conditional expressions $(p\_{1} \to e\_{1}; p\_{2} \to e\_{2})$ are then translated in the following way using the special symbol $\texttt{cond}$: 
+\begin{align}
+\texttt{(cond (p$\_{1}$ e$\_{1}$)(p$\_{2}$ e$\_{2}$)...)}
+\end{align}
+And finally, lambda abstraction takes the following form for a given expression or *unction form *$\varepsilon*$ (i.e., the types of expressions inside of the large parentheses above): 
+\begin{align}
+\texttt{(lambda (x$\_{1}$, ..., x$\_{n}$) $\varepsilon*$)}
+\end{align}
+As an example, applying this translation to our factorial function yields the following s-expression (with the \texttt{label} function having the same meaning as above): 
 
+```lisp 
+(label factorial
+(lambda (x) ;; argument
+(cond ((= x 0) 1) ;; conditions
+(T (mult x (factorial (- x 1))))))) 
+```
 
 
 
