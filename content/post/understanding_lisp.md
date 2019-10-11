@@ -4,7 +4,7 @@ description = "Some notes on the history and origins of the Lisp programming lan
 date = "2019-09-29"
 categories = ["programming languages","lisp","recursive functions","eval"]
 mmark = true
-draft = true
+draft = false
 +++
 
 <span style="color:red">
@@ -691,11 +691,30 @@ As shown above, we only introduced a few translation rules but we have already c
 Okay, so now we have a new high-level notation (i.e., s-expressons) and high-level language for defining functions and complex data. Returning to a point mentioned above in the McCarthy quote, both the  data and the code in Lisp are written in the same underlying *internal notation* (i.e., the s-expression list notation). In other words, everything in Lisp is a list.[^3] A natural question to ask at this point, however, is: how do we now use this language for actual computation? In the absence of an **interpreter** (i.e., a computer program that has instructions for directly executing this code), the language so far is nothing more than a neat new syntax for expressing programs. 
 
 But wait a minute. If the *code* in our language takes the same form as the data in our language (i.e., both code and data are s-expressions), then it follows that we can manipulate Lisp code in the same way that we manipulate Lisp data. Taking this further, it follows that if we can manipulate Lisp code in the same way as we manipulate Lisp data, we can (at least in theory) write Lisp code that interprets our Lisp code! This is a very hard concept to grasp, so let's draw this out a bit. A key component here is a function that McCarthy introduces called the $\texttt{quote}$ function, which simply takes a given s-expression  $\varepsilon$ and returns $\varepsilon$ \emph{unevaluated}: 
-$$
+$$\small
 \begin{align}
 \texttt{(quote $\varepsilon$)}
 \end{align}
 $$
+
+To see what it means to be \emph{unevaluated}, let's jump into a
+[Scheme repl](https://repl.it/languages/scheme) and see what happens
+when we define the $\texttt{factorial}$ function and apply it to the
+number $4$, as well as what happens when we try to call a non-existing
+function called $\texttt{non-factorial}$:
+
+```lisp
+> (define factorial
+        (lambda (x)
+          (cond ((= x 0) 1)
+                (1 (* x (factorial (- x 1)))))))     
+=> #<Closure> ;; what define returns
+> (factorial 4)
+=> 24 ;; what (factorial 4) returns
+> (non-factorial 4) 
+=> Error: execute: unbound symbol: "non-factorial" [] 
+```
+
 
 
 [^1]: Part way through writing this article, I discovered Paul Graham's paper [The Roots of Lisp](http://languagelog.ldc.upenn.edu/myl/llog/jmc.pdf),which has the same goal of understanding *what McCarthy discovered* in his original paper; I have borrowed some of his explanations throughout this paper. I urge readers to look at this paper, which gets much deeper into the details of McCarthy's original code, and specifically the **eval** function and its broader significance in programming (whereas here we focus more on the theoretical ideas that motivated Lisp and the broader historical context).
