@@ -715,6 +715,84 @@ function called $\texttt{non-factorial}$:
 => Error: execute: unbound symbol: "non-factorial" [] 
 ```
 
+As should be expected, the $\texttt{factorial}$ function works as
+intended, whereas we get an error when we try to call
+$\texttt{non-factorial}$ (because it doesn't exist and hence is
+*unbounded*). Now let's use the $\texttt{quote}$ function:
+
+```lisp
+> (quote
+      (define factorial
+        (lambda (x)
+          (cond ((= x 0) 1)
+                (1 (* x (factorial (- x 1))))))))
+=> (define factorial (lambda (x) (...)))
+> (factorial 4)
+=> Error: execute: unbound symbol: "factorial" []
+```
+
+Here, we see that the $\texttt{quote}$ function takes the
+$\texttt{factorial}$ declaration, but doesn't actually define a
+factorial function (as evidenced by the execution error), but rather
+freezes this declaration and returns the full expression as an
+ordinary s-expression (i.e., a list). This allows us to apply ordinary
+Lisp functions to our declaration, for example:
+
+```lisp
+
+> (car (quote
+      (define factorial
+        (lambda (x)
+          (cond ((= x 0) 1)
+                (1 (* x (factorial (- x 1)))))))))
+=> define
+> (car (cdr (quote
+           (define factorial
+             (lambda (x)
+               (cond ((= x 0) 1)
+                     (1 (* x (factorial (- x 1)))))))))) 
+=> factorial
+```
+
+Here we are getting a bit closer to the idea of writing Lisp code
+that can interpret other Lisp code; that is, we wrote Lisp that takes
+a Lisp function declaration (i.e., other Lisp code) and manipulates
+this declaration by pulling out information from this declaration
+using the built-in $\texttt{car}$ and $\texttt{cdr}$ functions. We can
+take the last bit of code to write the following function
+$\texttt{useless-eval}$:
+
+```scheme
+(define useless-eval
+  (lambda (f) 
+    (car (cdr (quote f)))))
+```
+
+which again takes an arbitrary Lisp function declaration and returns
+the name of that function as a string. While this function is of
+absolutely no practical use, we can say that it is an evaluator or an
+**interpreter** for a small (and utterly uninteresting) language,
+namely the language that takes arbitrary Lisp expressions and returns
+the third thing in that expression. What McCarthy showed (or rather
+*discovered*, as
+[described](http://www.paulgraham.com/rootsoflisp.html) by Paul
+Graham,  is that one can elaborate on this basic idea to create a Lisp
+$\texttt{eval}$ function that interprets all of Lisp. Hence, to answer
+the question we started with about how we can built an interpreter for
+Lisp, we can use Lisp itself to define an interpreter for Lisp, which
+is what we will try to do more completely in the next subsection.
+
+Now, of course to *actually* implement this language, we still need to
+implement $\texttt{useless-eval}$ somehow using some **host
+programming language** (e.g., Python, see again Peter Norvig's [article](https://norvig.com/lispy.html); or Javascript, which is the host language [here](https://repl.it/languages/scheme)). But the important part here is the following: the underlying instructions for interpreting Lisp are written in Lisp, not in the host language. The host language *only* does exactly what the Lisp code tells it to do, therefore making the Lisp code the true interpreter. 
+
+#### **A More Complete Eval**
+
+<span style="color:red">
+*still under construction!*
+</span>
+
+
 
 
 [^1]: Part way through writing this article, I discovered Paul Graham's paper [The Roots of Lisp](http://languagelog.ldc.upenn.edu/myl/llog/jmc.pdf),which has the same goal of understanding *what McCarthy discovered* in his original paper; I have borrowed some of his explanations throughout this paper. I urge readers to look at this paper, which gets much deeper into the details of McCarthy's original code, and specifically the **eval** function and its broader significance in programming (whereas here we focus more on the theoretical ideas that motivated Lisp and the broader historical context).
