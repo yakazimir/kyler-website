@@ -7,7 +7,7 @@ mmark = true
 draft = false
 +++
 
-![where is the image](files/programming.jpg)
+![where is the image](https://www.nlp-kyle.com/files/programming.jpg)
 
 
 <span style="color:red">
