@@ -378,7 +378,7 @@ nested structures that we encountered in our recursive definitions and
 programs above. Beyond Lisp, s-expressions have proven to be a popular
 notation for representing hierarchical  linguistic information in
 research on computational linguistics. For example, the structure
-below is a representation of the grammatical structure for the
+below is a representation of the [grammatical structure](http://nlp.stanford.edu:8080/parser/index.jsp) for the
 sentence *This is an example of a sentence represented as an
 s-expression*, where the grammatical categories (i.e., $\texttt{S, NP,
 VP, VBZ,..}$) are the prefixes in each constituent s-expression:
