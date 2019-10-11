@@ -541,6 +541,15 @@ below are the basic functions that McCarthy defines, each of which
 operates over s-expressions (for readability, we will write these
 functions without the $\texttt{label}$ function and without lambdas).
 
+# Lisp the Language and Implementation 
+
+## Functions as S-expressions and Lisp as an Interpreter 
+
+We could continue on and define increasingly complex functions, but as you can see the notation is already getting a bit out of hand. The m-expression syntax takes inspiration from another programming language of the 1950s called [Algol](http://www.softwarepreservation.org/projects/ALGOL/). While it was McCarthy's initial intention to write functions in this style, such a notation was never widely adopted in the Lisp community (for this reason, it is not easy to follow the code in his original paper). Nonetheless, McCarthy does the following two rather remarkable things in the remainder of his paper. 
+
+
+
+
 
 | Function | Definition                                            | Description                                          |
 |----------|-------------------------------------------------------|------------------------------------------------------|
@@ -549,6 +558,28 @@ functions without the $\texttt{label}$ function and without lambdas).
 | 3. car   | $$\begin{align} &\texttt{car}[(X . A)] = X \\\\\\  &\texttt{car}[((X . A) . Y)] = (X . A) \end{align}$$         | Returns the first element in s-expression            |
 | 4. cdr   | $$\begin{align}&\texttt{cdr}[(X . A)] = A \\\\\\ &\texttt{cdr}[((X . A) . Y)] = Y \end{align}$$               | Returns the last element in s-expression after first |
 | 5. cons  | $$\begin{align} &\texttt{cons}[X,A] = (X . A) \\\\\\  &\texttt{cons}[(X . A),Y] = ((X . A) . Y) \end{align}$$   | joins two s-expressions.                             |
+
+The first two function operate over atomic expressions, whereas next the two functions operate over non-atomic expressions and the last one operates over both types of expressions. These are henceforth our basic ingredients; we can now build on these primitives and additionally use conditional expressions to build much more complex functions (we can in fact define all computable functions).  McCarthy defines several such recursive functions, for example the function $\texttt{ff}$ below:
+$$
+\texttt{ff}[x] = ( \texttt{atomic}[x] \to x; T \to \texttt{ff}[\texttt{car}[x]])
+$$
+which takes a (potentially complex) s-expression and returns the first atomic item in that expression. For example:
+$$
+\begin{align}
+\texttt{ff}[\texttt{first}] = \texttt{first} \\
+\texttt{ff}[\texttt{(first second third)}] = \texttt{first}
+\end{align}
+$$
+ With the help of the boolean connectives we defined as conditional expressions, we can now define the \texttt{equal} function, which determines equality between arbitrary (i.e., potentially non-atomic) s-expressions $x$ and $y$:
+ $$
+ \begin{align}
+ \texttt{ff}[\texttt{first}] = \texttt{first} \\
+ \texttt{ff}[\texttt{(first second third)}] = \texttt{first}
+ \end{align}
+ $$
+ In other words, two s-expressions expressions are equal if they are atomic and equal according to our primitive function $\texttt{eq}$, or are non-atomic and satisfy the recursive constraint that each atomic expression starting from beginning and end of each complex expression via $\texttt{car}$ and $\texttt{cdr}$ will evaluate to true.
+
+
 
 
 [^1]: Part way through writing this article, I discovered Paul Graham's paper [The Roots of Lisp](http://languagelog.ldc.upenn.edu/myl/llog/jmc.pdf),which has the same goal of understanding *what McCarthy discovered* in his original paper; I have borrowed some of his explanations throughout this paper. I urge readers to look at this paper, which gets much deeper into the details of McCarthy's original code, and specifically the **eval** function and its broader significance in programming (whereas here we focus more on the theoretical ideas that motivated Lisp and the broader historical context).
