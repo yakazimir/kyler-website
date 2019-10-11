@@ -545,10 +545,10 @@ functions without the $\texttt{label}$ function and without lambdas).
 | Function | Definition                                            | Description                                          |
 |----------|-------------------------------------------------------|------------------------------------------------------|
 | 1. atom  | $$\begin{align} &\texttt{atom}[X] = \texttt{T} \\\\\\  &\texttt{atom}[(X . A)] = \texttt{F} \end{align}$$                       | checks if an s-expression is atomic                  |
-| 2. eq.   | $$\begin{align} &\texttt{eq}[X,X] = T \\\\\\ &\texttt{eq}[X,A] = \texttt{F} \\\\\\ &\texttt{eq}[X,(X . A)] = \texttt{undefined}$$  | checks if two atomic s-expressions are the same      |
-| 3. car   | $$\texttt{car}[(X . A)] = X \texttt{car}[((X . A) . Y)] = (X . A)$$         | Returns the first element in s-expression            |
-| 4. cdr   | $$\texttt{cdr}[(X . A)] = A \texttt{cdr}[((X . A) . Y)] = Y$$               | Returns the last element in s-expression after first |
-| 5. cons  | $$\texttt{cons}[X,A] = (X . A) \texttt{cons}[(X . A),Y] = ((X . A) . Y)$$   | joins two s-expressions.                             |
+| 2. eq.   | $$\begin{align} &\texttt{eq}[X,X] = T \\\\\\ &\texttt{eq}[X,A] = \texttt{F} \\\\\\ &\texttt{eq}[X,(X . A)] = \texttt{undefined} \end{align}$$  | checks if two atomic s-expressions are the same      |
+| 3. car   | $$\begin{align} &\texttt{car}[(X . A)] = X \\\\\\  &\texttt{car}[((X . A) . Y)] = (X . A) \end{align}$$         | Returns the first element in s-expression            |
+| 4. cdr   | $$\begin{align}&\texttt{cdr}[(X . A)] = A \\\\\\ &\texttt{cdr}[((X . A) . Y)] = Y \end{align}$$               | Returns the last element in s-expression after first |
+| 5. cons  | $$\begin{align} &\texttt{cons}[X,A] = (X . A) \\\\\\  &\texttt{cons}[(X . A),Y] = ((X . A) . Y) \end{align}$$   | joins two s-expressions.                             |
 
 
 [^1]: Part way through writing this article, I discovered Paul Graham's paper [The Roots of Lisp](http://languagelog.ldc.upenn.edu/myl/llog/jmc.pdf),which has the same goal of understanding *what McCarthy discovered* in his original paper; I have borrowed some of his explanations throughout this paper. I urge readers to look at this paper, which gets much deeper into the details of McCarthy's original code, and specifically the **eval** function and its broader significance in programming (whereas here we focus more on the theoretical ideas that motivated Lisp and the broader historical context).
