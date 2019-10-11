@@ -7,7 +7,7 @@ mmark = true
 draft = false
 +++
 
-![alt text](files/programming.jpg "John McCarthy")
+![where is the image](files/programming.jpg)
 
 
 <span style="color:red">
