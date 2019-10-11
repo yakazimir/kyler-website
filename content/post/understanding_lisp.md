@@ -4,7 +4,7 @@ description = "Some notes on the history and origins of the Lisp programming lan
 date = "2019-09-29"
 categories = ["programming languages","lisp","recursive functions","eval"]
 mmark = true
-draft = true
+draft = false
 +++
 
 <span style="color:red">
@@ -541,13 +541,14 @@ below are the basic functions that McCarthy defines, each of which
 operates over s-expressions (for readability, we will write these
 functions without the $\texttt{label}$ function and without lambdas).
 
+
 | Function | Definition                                            | Description                                          |
 |----------|-------------------------------------------------------|------------------------------------------------------|
-| 1. $\texttt{atom}$  | $$\texttt{atom}[X] = \texttt{T}$ \\\\\\ $\texttt{atom}[(X \cdot A)] = \texttt{F}$$                       | checks if an s-expression is atomic                  |
-| 2. $\texttt{eq}$   | $\texttt{eq}[X,X] = \texttt{T}; \texttt{eq}[X,A] = \texttt{F};  \texttt{eq}[X,(X . A)] = \texttt{undefined}$  | checks if two atomic s-expressions are the same      |
-| 3. $\texttt{car}$   | car[(X . A)] = X car[((X . A) . Y)] = (X . A)         | Returns the first element in s-expression            |
-| 4. $\texttt{cdr}$   | cdr[(X . A)] = A cdr[((X . A) . Y)] = Y               | Returns the last element in s-expression after first |
-| 5. $\texttt{cons}$  | cons[X,A] = (X . A) cons[(X . A),Y] = ((X . A) . Y)   | joins two s-expressions.                             |
+| 1. atom  | $$\begin{align} &\texttt{atom}[X] = \texttt{T} \\\\\\  &\texttt{atom}[(X . A)] = \texttt{F} \end{align}$$                       | checks if an s-expression is atomic                  |
+| 2. eq.   | $$\begin{align} &\texttt{eq}[X,X] = T \\\\\\ &\texttt{eq}[X,A] = \texttt{F} \\\\\\ &\texttt{eq}[X,(X . A)] = \texttt{undefined}$$  | checks if two atomic s-expressions are the same      |
+| 3. car   | $$\texttt{car}[(X . A)] = X \texttt{car}[((X . A) . Y)] = (X . A)$$         | Returns the first element in s-expression            |
+| 4. cdr   | $$\texttt{cdr}[(X . A)] = A \texttt{cdr}[((X . A) . Y)] = Y$$               | Returns the last element in s-expression after first |
+| 5. cons  | $$\texttt{cons}[X,A] = (X . A) \texttt{cons}[(X . A),Y] = ((X . A) . Y)$$   | joins two s-expressions.                             |
 
 
 [^1]: Part way through writing this article, I discovered Paul Graham's paper [The Roots of Lisp](http://languagelog.ldc.upenn.edu/myl/llog/jmc.pdf),which has the same goal of understanding *what McCarthy discovered* in his original paper; I have borrowed some of his explanations throughout this paper. I urge readers to look at this paper, which gets much deeper into the details of McCarthy's original code, and specifically the **eval** function and its broader significance in programming (whereas here we focus more on the theoretical ideas that motivated Lisp and the broader historical context).
