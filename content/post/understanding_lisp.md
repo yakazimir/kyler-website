@@ -603,7 +603,7 @@ As an example, applying this translation to our factorial function yields the fo
 
 
 
-```lisp 
+```scheme
 (label factorial
        (lambda (x) ;; argument
          (cond ((= x 0) 1) ;; conditions
@@ -612,7 +612,7 @@ As an example, applying this translation to our factorial function yields the fo
 
 Below shows more complicated examples involving the $\texttt{ff}$ and $\texttt{equals}$ functions from before. 
 
-```lisp
+```scheme
 (label ff
   (lambda (x)
     (cond ((atomic x) x) ;; atomic item is found
