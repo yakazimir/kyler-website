@@ -595,7 +595,7 @@ n which the function name $f$ in placed in the prefix position (McCarthy adds a 
 \begin{align}
 \texttt{(cond (p$\_{1}$ e$\_{1}$)(p$\_{2}$ e$\_{2}$)...)}
 \end{align}
-And finally, lambda abstraction takes the following form for a given expression or *unction form *$\varepsilon*$ (i.e., the types of expressions inside of the large parentheses above): 
+And finally, lambda abstraction takes the following form for a given expression or function form $\varepsilon\*$ (i.e., the types of expressions inside of the large parentheses above): 
 \begin{align}
 \texttt{(lambda (x$\_{1}$, ..., x$\_{n}$) $\varepsilon*$)}
 \end{align}
