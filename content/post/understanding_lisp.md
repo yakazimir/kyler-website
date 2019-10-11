@@ -7,6 +7,9 @@ mmark = true
 draft = false
 +++
 
+![alt text](files/programming.jpg "John McCarthy")
+
+
 <span style="color:red">
 *Note: this post is still in progress. When I started writing these notes
 several months ago, I quickly realized that it is very difficult to
@@ -636,7 +639,7 @@ Below shows more complicated examples involving the $\texttt{ff}$ and $\texttt{e
 ```
 
 Note that I am trying to stay faithful to McCarthy's notation here.
-In *Scheme*, which is one popular implementation of Lisp, the
+In [*Scheme*](https://www.gnu.org/software/mit-scheme/), which is one popular implementation of Lisp, the
 $\texttt{equal}$ function above is valid if you replace the
 $\texttt{label}$ function with $\texttt{define}$, which we will do in
 the remainder of this article (see
