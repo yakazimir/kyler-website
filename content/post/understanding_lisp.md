@@ -571,9 +571,10 @@ $$
  In other words, two s-expressions expressions are equal if they are atomic and equal according to our primitive function $\texttt{eq}$, or are non-atomic and satisfy the recursive constraint that each atomic expression starting from beginning and end of each complex expression via $\texttt{car}$ and $\texttt{cdr}$ will evaluate to true.
  
  
- # Lisp the Language and Implementation 
+ #  Lisp the Language and Implementation 
  
- ## Functions as S-expressions and Lisp as an Interpreter 
+ 
+ ##  Functions as S-expressions and Lisp as an Interpreter 
 
 
 We could continue on and define increasingly complex functions, but as you can see the notation is already getting a bit out of hand. The m-expression syntax takes inspiration from another programming language of the 1950s called [Algol](http://www.softwarepreservation.org/projects/ALGOL/). While it was McCarthy's initial intention to write functions in this style, such a notation was never widely adopted in the Lisp community (for this reason, it is not easy to follow the code in his original paper). Nonetheless, McCarthy does the following two rather remarkable things in the remainder of his paper. 
