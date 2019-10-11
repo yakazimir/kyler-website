@@ -612,7 +612,7 @@ As an example, applying this translation to our factorial function yields the fo
 
 Below shows more complicated examples involving the $\texttt{ff}$ and $\texttt{equals}$ functions from before. 
 
-```lisp
+```lisp
 (label ff
   (lambda (x)
     (cond ((atomic x) x) ;; atomic item is found
@@ -634,6 +634,9 @@ Below shows more complicated examples involving the $\texttt{ff}$ and $\texttt{e
              T)
             (T F)))) ;; second condition
 ```
+
+Note that I am trying to stay faithful to McCarthy's notation here.  In *Scheme*, which is one popular implementation of Lisp, the $\texttt{equal}$ function above is valid if you replace the $\texttt{label}$ function with $\texttt{define}$, which we will do in the remainder of this article (see [here](https://repl.it/languages/scheme)). In the spirit of the decomposing complex operations to simpler functions, below we show how to implement in Scheme some of the functions (e.g., $\texttt{and}$, $\texttt{or}$, $\texttt{neg}$) that  we glossed over in the code examples above and in the last section, and below that an example of our positive multiplication function from before: 
+
 
 [^1]: Part way through writing this article, I discovered Paul Graham's paper [The Roots of Lisp](http://languagelog.ldc.upenn.edu/myl/llog/jmc.pdf),which has the same goal of understanding *what McCarthy discovered* in his original paper; I have borrowed some of his explanations throughout this paper. I urge readers to look at this paper, which gets much deeper into the details of McCarthy's original code, and specifically the **eval** function and its broader significance in programming (whereas here we focus more on the theoretical ideas that motivated Lisp and the broader historical context).
 
