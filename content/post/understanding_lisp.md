@@ -644,8 +644,7 @@ the remainder of this article (see
 decomposing complex operations to simpler functions, below we show how
 to implement in Scheme some of the functions (e.g., $\texttt{and}$,
 $\texttt{or}$, $\texttt{neg}$) that  we glossed over in the code
-examples above and in the last section, and below that an example of
-our positive multiplication function from before:
+examples above and in the last section: 
 
 ```scheme
 (define neg
@@ -653,7 +652,7 @@ our positive multiplication function from before:
     (cond (x #f)  ;; #f is equal to F used above
           (#t #t) ;; #t is equal to T used above
  )))
- ;; e.g., (neg #f) $\textcolor{ipython_red}{=>}$ #t
+ ;; e.g., (neg #f) =>$ #t
 	
 (define and
   (lambda (x y)
@@ -668,8 +667,24 @@ our positive multiplication function from before:
     (cond (x #t)
           (y #t)
           (#t f))))
-;; (or (= 1 1) (= 1 2) => #r
+;; (or (= 1 1) (= 1 2) => #t
 ```
+
+And our posiive multiplication function from before:
+
+```scheme
+(define mult
+  (lambda (x y) 
+    (cond ((= x 1) y)
+          (#t (+ y (mult
+                    (- x 1) y))))))
+```
+
+#### **Bottom-up Programming** And again, we can continue on with defining more complex functions from these primitive ones. Unlike in other paradigms of programming such as object-oriented programming, Lisp encourages a bottom-up programming style; rather than solving problems by working top down from large and abstract constructs such as classes, Lisp encourages a programmer to build abstraction from smaller components in the form of pure functions (see the discussion in [Paul Graham](http://www.paulgraham.com/)'s book [On Lisp](http://www.paulgraham.com/onlisp.html), especially Chapter 1). 
+
+As shown above, we only introduced a few translation rules but we have already created a fairly expressive language. In fact,  these rules more or less described all the basic syntactic forms in pure Lisp. It is worth reflecting on how the Lisp language is relative to other programming languages. In contrast, the Python language has around 110 syntactic forms and 33 keywords, whereas Java has 50 keywords and around 133 synthetic forms (For further discussion, see [Peter Norvig](https://en.wikipedia.org/wiki/Peter_Norvig)'s article [here](http://norvig.com/lispy.html), which also gets into the details about how to implement a Lisp interpreter, which is the topic that we discuss in the next section).  As we discuss at the end, one unique feature of modern Lisp  is the ability to define new syntactic forms and entirely new languages on-the-fly using what's called Lisp *meta-programming*.
+
+### **2. Evaluating Lisp and Code as Data**  
 
 
 [^1]: Part way through writing this article, I discovered Paul Graham's paper [The Roots of Lisp](http://languagelog.ldc.upenn.edu/myl/llog/jmc.pdf),which has the same goal of understanding *what McCarthy discovered* in his original paper; I have borrowed some of his explanations throughout this paper. I urge readers to look at this paper, which gets much deeper into the details of McCarthy's original code, and specifically the **eval** function and its broader significance in programming (whereas here we focus more on the theoretical ideas that motivated Lisp and the broader historical context).
