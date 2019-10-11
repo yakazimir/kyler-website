@@ -45,8 +45,8 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 
 [params]
   highlight = true
-  highlight_languages = ["fortran","lisp","python","scheme"]
-  # highlight_style = "github"
+  #highlight_languages = ["fortran","lisp","python","scheme"]
+  highlight_style = "github"
 
 [mediaTypes."application/manifest+json"]
   suffixes = ["webmanifest"]
