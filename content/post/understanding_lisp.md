@@ -216,7 +216,7 @@ simpler functions. For completeness, we define addition recursively
 below using a more conventional mathematical notation for recursive
 definitions (or, more technically, *primitive recursive definitions*):
 
-<span font-size: 9px;>
+<span font-size: 7px;>
 $$
 \begin{align}
 \texttt{add}(x,0) &= x  \\\\\\
