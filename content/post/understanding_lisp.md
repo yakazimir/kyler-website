@@ -601,15 +601,39 @@ And finally, lambda abstraction takes the following form for a given expression 
 \end{align}
 As an example, applying this translation to our factorial function yields the following s-expression (with the $\texttt{label}$ function having the same meaning as above): 
 
-```lisp 
 
+
+```lisp 
 (label factorial
-    (lambda (x) ;; argument
-      (cond ((= x 0) 1) ;; conditions
-      (T (mult x (factorial (- x 1))))))) 
+       (lambda (x) ;; argument
+         (cond ((= x 0) 1) ;; conditions
+               (T (mult x (factorial (- x 1))))))) 
 ```
 
+Below shows more complicated examples involving the $\texttt{ff}$ and $\texttt{equals}$ functions from before. 
 
+```lisp
+(label ff
+  (lambda (x)
+    (cond ((atomic x) x) ;; atomic item is found
+          (T (ff (car x)))))) ;;recursive call
+
+(label equal
+    (lambda (x y) ;; arguments to compare
+           (cond
+            ((or  ;; first cond. disjunction
+             (and (atom x) ;; first disjunct
+                  (atom y)
+                  (eq x y))
+             (and (not (atom x));;second disjunct
+                   (not (atom y))
+                   (equal (car x)
+                          (car y))
+                   (equal (cdr x)
+                         (cdr y))))
+             T)
+            (T F)))) ;; second condition
+```
 
 [^1]: Part way through writing this article, I discovered Paul Graham's paper [The Roots of Lisp](http://languagelog.ldc.upenn.edu/myl/llog/jmc.pdf),which has the same goal of understanding *what McCarthy discovered* in his original paper; I have borrowed some of his explanations throughout this paper. I urge readers to look at this paper, which gets much deeper into the details of McCarthy's original code, and specifically the **eval** function and its broader significance in programming (whereas here we focus more on the theoretical ideas that motivated Lisp and the broader historical context).
 
