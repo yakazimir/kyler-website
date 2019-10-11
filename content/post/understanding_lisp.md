@@ -308,7 +308,7 @@ next section). One of the main contributions in this paper is the
 introduction of a new notation called a **s-expression**, or symbolic
 expression, which is the basic building block of Lisp programs. An
 s-expression is defined recursively as follows:
-$$
+$$\small
 \begin{align}
 1.& \text{ Atomic symbols are s-expressions} \\\\\\
 2.& \text{ If } e\_{1} \text{ and } e\_{2} \text{ are s-expressions, so is
