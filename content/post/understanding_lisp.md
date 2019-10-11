@@ -599,13 +599,14 @@ And finally, lambda abstraction takes the following form for a given expression 
 \begin{align}
 \texttt{(lambda (x$\_{1}$, ..., x$\_{n}$) $\varepsilon*$)}
 \end{align}
-As an example, applying this translation to our factorial function yields the following s-expression (with the \texttt{label} function having the same meaning as above): 
+As an example, applying this translation to our factorial function yields the following s-expression (with the $\texttt{label}$ function having the same meaning as above): 
 
 ```lisp 
+
 (label factorial
-(lambda (x) ;; argument
-(cond ((= x 0) 1) ;; conditions
-(T (mult x (factorial (- x 1))))))) 
+    (lambda (x) ;; argument
+      (cond ((= x 0) 1) ;; conditions
+      (T (mult x (factorial (- x 1))))))) 
 ```
 
 
