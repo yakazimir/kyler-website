@@ -565,7 +565,7 @@ $$
  $$
  \begin{align}
  \texttt{equal}[x,y] &= \bigg(\big( \texttt{atom}[x] \land \texttt{atom}[y] \land \texttt{eq}(x,y) \big)  \lor \\\\\\ 
- & \big( \neg \texttt{atom}[x] \land \neg \texttt{atom}[y]  \land \texttt{equal}[\texttt{car}[x], \texttt{car}[y]] \land \texttt{equal}[ \texttt{cdr}[x], \texttt{cdr}[y]] \big) \to T; T \to F\bigg) \\\\\\ 
+ & \big( \neg \texttt{atom}[x] \land \neg \texttt{atom}[y]  \land \texttt{equal}[\texttt{car}[x], \texttt{car}[y]] \land \texttt{equal}[ \texttt{cdr}[x], \texttt{cdr}[y]] \big) \to T; T \to F\bigg) 
  \end{align}
  $$
  In other words, two s-expressions expressions are equal if they are atomic and equal according to our primitive function $\texttt{eq}$, or are non-atomic and satisfy the recursive constraint that each atomic expression starting from beginning and end of each complex expression via $\texttt{car}$ and $\texttt{cdr}$ will evaluate to true.
@@ -587,9 +587,9 @@ explicitly abandoned. It just receded into the indefinite future, and a new gene
 
 The rough translation that he initially proposes in his paper works as follows (as warned above, this is when the prefix notation enters the scene, which many people love to hate about Lisp): functions of the form $f[e\_{1}, ...,e\_{n}]$ are translated as: 
 $$
-\begin{align*}
+\begin{align}
 \texttt{(f e$\_{1 }$ e$\_{2 }$  e$\_{n }$)}
-\end{align*}
+\end{align}
 $$
 
 
