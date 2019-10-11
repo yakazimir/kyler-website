@@ -216,12 +216,14 @@ simpler functions. For completeness, we define addition recursively
 below using a more conventional mathematical notation for recursive
 definitions (or, more technically, *primitive recursive definitions*):
 
+<span font-size: 9px;>
 $$
 \begin{align}
 \texttt{add}(x,0) &= x  \\\\\\
 \texttt{add}(x,\texttt{succ}(y)) &= \texttt{succ}(\texttt{add}(x,y))
 \end{align}
 $$
+</span>
 
 where the first equation shows the point at which the recursion
 reaches the end (e.g., the zero point in the first tree we considered
