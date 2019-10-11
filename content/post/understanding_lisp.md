@@ -541,15 +541,6 @@ below are the basic functions that McCarthy defines, each of which
 operates over s-expressions (for readability, we will write these
 functions without the $\texttt{label}$ function and without lambdas).
 
-# Lisp the Language and Implementation 
-
-## Functions as S-expressions and Lisp as an Interpreter 
-
-We could continue on and define increasingly complex functions, but as you can see the notation is already getting a bit out of hand. The m-expression syntax takes inspiration from another programming language of the 1950s called [Algol](http://www.softwarepreservation.org/projects/ALGOL/). While it was McCarthy's initial intention to write functions in this style, such a notation was never widely adopted in the Lisp community (for this reason, it is not easy to follow the code in his original paper). Nonetheless, McCarthy does the following two rather remarkable things in the remainder of his paper. 
-
-
-
-
 
 | Function | Definition                                            | Description                                          |
 |----------|-------------------------------------------------------|------------------------------------------------------|
@@ -573,11 +564,33 @@ $$
  With the help of the boolean connectives we defined as conditional expressions, we can now define the \texttt{equal} function, which determines equality between arbitrary (i.e., potentially non-atomic) s-expressions $x$ and $y$:
  $$
  \begin{align}
- \texttt{ff}[\texttt{first}] = \texttt{first} \\
- \texttt{ff}[\texttt{(first second third)}] = \texttt{first}
+ \texttt{equal}[x,y] &= \bigg(\big( \texttt{atom}[x] \land \texttt{atom}[y] \land \texttt{eq}(x,y) \big)  \lor \\\\\\ 
+ & \big( \neg \texttt{atom}[x] \land \neg \texttt{atom}[y]  \land \texttt{equal}[\texttt{car}[x], \texttt{car}[y]] \land \texttt{equal}[ \texttt{cdr}[x], \texttt{cdr}[y]] \big) \to T; T \to F\bigg) \\\\\\ 
  \end{align}
  $$
  In other words, two s-expressions expressions are equal if they are atomic and equal according to our primitive function $\texttt{eq}$, or are non-atomic and satisfy the recursive constraint that each atomic expression starting from beginning and end of each complex expression via $\texttt{car}$ and $\texttt{cdr}$ will evaluate to true.
+ 
+ 
+ # Lisp the Language and Implementation 
+ 
+ ## Functions as S-expressions and Lisp as an Interpreter 
+
+
+We could continue on and define increasingly complex functions, but as you can see the notation is already getting a bit out of hand. The m-expression syntax takes inspiration from another programming language of the 1950s called [Algol](http://www.softwarepreservation.org/projects/ALGOL/). While it was McCarthy's initial intention to write functions in this style, such a notation was never widely adopted in the Lisp community (for this reason, it is not easy to follow the code in his original paper). Nonetheless, McCarthy does the following two rather remarkable things in the remainder of his paper. 
+
+### **1. M-expression as S-expressions: What Modern Lisp Looks Like** 
+
+First, related to this issue of notation, he describes how to translation m-expressions into s-expressions, which brings up closer to modern day Lisp. In his own words again, he writes that
+
+> The project of defining M-expressions [i.e., the function notation given in the last section] precisely and compiling them or at least translating them into S-expressions was neither finalized nor
+explicitly abandoned. It just receded into the indefinite future, and a new generation of programmers appeared who preferred **internal notation** [i.e,. the s-expression notation we introduce below; we will explain more below about what he means what he says *internal notation*] to any FORTRAN-like or ALGOL-like notation that could be devised.
+
+The rough translation that he initially proposes in his paper works as follows (as warned above, this is when the prefix notation enters the scene, which many people love to hate about Lisp): functions of the form $f[e\_{1}, ...,e\_{n}]$ are translated as: 
+$$
+\begin{align*}
+\texttt{(f e$\_{1 }$ e$\_{2 }$  e$\_{n }$)}
+\end{align*}
+$$
 
 
 
