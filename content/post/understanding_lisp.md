@@ -83,7 +83,7 @@ PROGRAM MAIN
       END
 ```
 
-This program, which takes a given number \texttt{N} from a user prompt
+This program, which takes a given number $\texttt{N}$ from a user prompt
 and prints all intermediate numbers using a variable $\texttt{X}$ a
 subroutine $\texttt{SUB1}$, is implemented in Fortran 77, which became
 the Fortran standard in 1978 (nearly twenty years after Lisp). The
