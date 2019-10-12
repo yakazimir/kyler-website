@@ -55,7 +55,7 @@ First, a rather obvious point about the historical context: Lisp was
 developed during a time when only a few modern programming languages
 existed (specifically, during the late 1950s). The conventional wisdom
 is that Lisp is the second oldest programming language in continuous
-use behind Fortran. While it's hard to find a readable and concise
+use behind [Fortran](https://en.wikipedia.org/wiki/Fortran). While it's hard to find a readable and concise
 code example involving earlier versions of Fortran,  a good starting
 point is to consider the following program in a modern version of
 Fortran: [^2]
@@ -779,7 +779,7 @@ namely the language that takes arbitrary Lisp expressions and returns
 the third thing in that expression. What McCarthy showed (or rather
 *discovered*, as
 [described](http://www.paulgraham.com/rootsoflisp.html) by Paul
-Graham),  is that one can elaborate on this basic idea to create a Lisp
+Graham), is that one can elaborate on this basic idea to create a Lisp
 $\texttt{eval}$ function that interprets all of Lisp. Hence, to answer
 the question we started with about how we can built an interpreter for
 Lisp, we can use Lisp itself to define an interpreter for Lisp, which
