@@ -326,8 +326,8 @@ one would expect to see in most modern programming languages. These
 atomic symbols can then be joined together to create more complex
 s-expressions, or *ordered lists* (i.e., part 2 of the definition)
 that use the special symbols $(,)$ (brackets) and $\cdot$ (the dot
-symbol). For example, the three strings *\texttt{first}*,
-*\texttt{second}* and *\texttt{third}* are types of atomic symbols
+symbol). For example, the three strings $\texttt{first}$,
+$\texttt{second}$ and $\texttt{third}$ are types of atomic symbols
 (and hence are s-expressions), and can be joined together to create
 the following more complex s-expression:
 
