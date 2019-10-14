@@ -6,6 +6,9 @@ categories = [ "undecidability", "complexity","math","sloppy math" ]
 mmark = true
 +++
 
+![where is the image](https://www.nlp-kyle.com/files/Kolmogorov-m.jpg)
+
+
 The Basic Idea
 -------------------------
 
