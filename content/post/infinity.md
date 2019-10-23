@@ -7,7 +7,7 @@ mmark = true
 +++
 
 
-![where is the image](https://www.nlp-kyle.com/files/cantor_infinity.jpg)
+![where is the image](https://www.nlp-kyle.com/files/cantor_infinity.jpeg)
 
 Infinite Sets
 -------------------------
