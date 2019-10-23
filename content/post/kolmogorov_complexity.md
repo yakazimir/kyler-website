@@ -71,9 +71,4 @@ As mentioned at the onset, this result can be used to derive the famous Gödel i
 
 While we can imagine the particular number being described, the paradox is that we just described such a number using far less than 1 billion English words (more exactly, we used only 16 English words!). This is the essense of the proof above,  which involves this $\log_{2}$ bit compression trick. 
 
-
-
-
 <!--more-->
-
-

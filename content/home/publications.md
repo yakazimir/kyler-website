@@ -66,7 +66,7 @@ subtitle = ""
  css_class = ""
 +++
 
-Hai Hu, Qi Chen, Kyle Richardson, Atreyee Mukherjee, Lawrence S. Moss,Sandra Kuebler (2019). **MonaLog: a Lightweight System for Natural Language Inference Based on Monotonicity**. *accepted to SCIL 2020* 
+Hai Hu, Qi Chen, Kyle Richardson, Atreyee Mukherjee, Lawrence S. Moss,Sandra Kuebler (2019). **MonaLog: a Lightweight System for Natural Language Inference Based on Monotonicity**. *accepted to SCIL 2020* \[[arxiv](https://arxiv.org/abs/1910.08772)]
 
 Kyle Richardson, Hai Hu, Lawrence S. Moss, Ashish Sabharwal (2019). **Probing Natural Language Inference Models through Semantic Fragments**  \[[arxiv](https://arxiv.org/abs/1909.07521)]
 
