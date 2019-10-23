@@ -6,6 +6,9 @@ categories = [ "math","infinity","set theory","cantor" ]
 mmark = true
 +++
 
+
+![where is the image](https://www.nlp-kyle.com/files/cantor_infinity.jpg)
+
 Infinite Sets
 -------------------------
 
