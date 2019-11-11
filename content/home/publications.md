@@ -68,7 +68,7 @@ subtitle = ""
 
 Hai Hu, Qi Chen, Kyle Richardson, Atreyee Mukherjee, Lawrence S. Moss,Sandra Kuebler (2019). **MonaLog: a Lightweight System for Natural Language Inference Based on Monotonicity**. *accepted to SCIL 2020* \[[arxiv](https://arxiv.org/abs/1910.08772)]
 
-Kyle Richardson, Hai Hu, Lawrence S. Moss, Ashish Sabharwal (2019). **Probing Natural Language Inference Models through Semantic Fragments**  \[[arxiv](https://arxiv.org/abs/1909.07521)]
+Kyle Richardson, Hai Hu, Lawrence S. Moss, Ashish Sabharwal (2019). **Probing Natural Language Inference Models through Semantic Fragments** *accepted to AAAI 2020* \[[arxiv](https://arxiv.org/abs/1909.07521)]
 
 Peter Clark,Oren Etzioni, Daniel Khashabi, Tushar Khot, Bhavana Dalvi Mishra, Kyle Richardson, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord, Niket Tandon, Sumithra Bhakthavatsalam, Dirk Groeneveld,Michal Guerquin, Michael Schmitz (2019). **From 'F' to 'A' on the N.Y. Regents Science Exams: An Overview of the Aristo Project**\[[arxiv](https://arxiv.org/abs/1909.01958)]\[[New York Times](https://www.nytimes.com/2019/09/04/technology/artificial-intelligence-aristo-passed-test.html), [GeekWire](https://www.geekwire.com/2019/allen-institutes-aristo-ai-program-finally-passes-8th-grade-science-test/)]
 
