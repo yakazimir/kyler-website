@@ -68,7 +68,7 @@ subtitle = ""
 
 Hai Hu, Qi Chen, Kyle Richardson, Atreyee Mukherjee, Lawrence S. Moss,Sandra Kuebler (2020). **MonaLog: a Lightweight System for Natural Language Inference Based on Monotonicity**. *SCIL 2020* \[[arxiv](https://arxiv.org/abs/1910.08772)] \[[proceedings](https://scholarworks.umass.edu/scil/vol3/iss1/31/)] \[[data](https://github.com/huhailinguist/SICK_correction)]
 
-Kyle Richardson, Hai Hu, Lawrence S. Moss, Ashish Sabharwal (2020). **Probing Natural Language Inference Models through Semantic Fragments** *AAAI 2020* \[[arxiv](https://arxiv.org/abs/1909.07521)]\[[resources](https://github.com/yakazimir/semantic_fragments)]\[[slides](files/semantic_fragments.pdf)
+Kyle Richardson, Hai Hu, Lawrence S. Moss, Ashish Sabharwal (2020). **Probing Natural Language Inference Models through Semantic Fragments** *AAAI 2020* \[[arxiv](https://arxiv.org/abs/1909.07521)]\[[resources](https://github.com/yakazimir/semantic_fragments)]\[[slides](files/semantic_fragments.pdf)]
 
 Kyle Richardson, Ashish Sabharwal (2019). **What Does My QA Model Know? Devising Controlled Probes using Expert Knowledge**.  \[[arxiv](https://arxiv.org/abs/1912.13337)] 
 
