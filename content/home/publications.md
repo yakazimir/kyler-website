@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 90  # Order that this section will appear.
 
-title = "Recent Publications"
+title = "Selected Publications"
 subtitle = ""
 
 [content]
@@ -65,6 +65,8 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+
+Peter Clark, Oyvind Tafjord, Kyle Richardson (2020). **Transformers as Soft Reasoners over Language**.  \[[arxiv](https://arxiv.org/pdf/2002.05867.pdf)]
 
 Hai Hu, Qi Chen, Kyle Richardson, Atreyee Mukherjee, Lawrence S. Moss,Sandra Kuebler (2020). **MonaLog: a Lightweight System for Natural Language Inference Based on Monotonicity**. *SCIL 2020* \[[arxiv](https://arxiv.org/abs/1910.08772)] \[[proceedings](https://scholarworks.umass.edu/scil/vol3/iss1/31/)] \[[data](https://github.com/huhailinguist/SICK_correction)]
 
