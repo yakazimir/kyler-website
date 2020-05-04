@@ -7,7 +7,7 @@ mmark = true
 draft = true
 +++
 
-![where is the image](https://www.nlp-kyle.com/files/cantor_infinity.jpeg)
+![where is the image](https://www.nlp-kyle.com/files/DPRM.jpeg)
 
 
 Solving Equations
@@ -219,7 +219,7 @@ Notice that we didn't need to mention anything about an explicit algorithm or Tu
 
 One alternative way of defining a recursively enumerable set, which is consistent with the definition provided, is a set where there exists an algorithm for verifying membership among inputs that are in the set.  Generalizing from this, there is a more general class of sets that imposes stricter conditions:
 
-**Definition 5** A **recursive** (or *computable,decidable*) set is any subset $A \subseteq \mathbb{N}$ for which there exist an algorithm that can determine (full) *set membership* (i.e., definitively decide for any arbitrary number $x$ whether $x \in A$ or $x \notin A$).
+**Definition 5**: A **recursive** (or *computable,decidable*) set is any subset $A \subseteq \mathbb{N}$ for which there exist an algorithm that can determine (full) *set membership* (i.e., definitively decide for any arbitrary number $x$ whether $x \in A$ or $x \notin A$).
 
 Using the following result (as before, we leave the proof as a exercise for the reader):
 
@@ -232,7 +232,7 @@ The most important result for Hilbert's 10th problem from computer science is th
 **Not all recursively enumerable sets are recursive** One common way to discover recursively enumerable sets that are not recursive is by exploiting the undecidability of the **Halting Problem**, which is one of the most famous theoretical results in computer science that was proved by Alan Turing. We take a brief detour to discuss this problem, then as a corollary provide an explicit set of numbers that it recursively enumerable though not recursive.
 
 
-**Definition 6** In our simplified version of the Halting Problem, we will consider the following set $K$ that we call the **Halting Set**:
+**Definition 6**: In our simplified version of the Halting Problem, we will consider the following set $K$ that we call the **Halting Set**:
 $$\small
 \begin{align}
 K = \Big\\{ (M\_{x},y) \mid \text{program $x$ }  (M\_{x}) \text{ halts on input } y \Leftrightarrow  M\_{x}(y) \downarrow  \Big\\}
@@ -294,7 +294,7 @@ In terms of this set not being recursive, clearly deciding membership in $A$ wou
 
 Given the relatively low bar, practically speaking, for demonstrating whether a set is recursively enumerable (i.e., we allow algorithms that look through infinite values of numbers and use infinite amounts of time and space), one might wonder whether there are any sets that are not recursively enumerable. To answer this, we have the following result (which might provide additional insight).
 
-**Lemma 3** The complement of the set $A$ from **Corollary 1** $\overline{A}$, **is not recursively enumerable**.
+**Lemma 3**: The complement of the set $A$ from **Corollary 1** $\overline{A}$, **is not recursively enumerable**.
 
 **Proof** (*sketch*) $\overline{A}$ being recursively enumerable (i.e., having an algorithm to enumerate its members) would imply that $A$ is recursive (we could use such an algorithm for deciding $x \notin A$) and that the Halting Problem is decidable, in contradiction to what we have already proven. □
 
@@ -311,6 +311,64 @@ With the computer science background provided in the last section, we can now re
 Now for the most surprising result called the **Matiyasevich Theorem** (or the *Davis-Putnam-Robinson-Matiyasevich* theorem (DPRM), so-called after the overall group of researchers that laid much of the ground work for this result):
 
 **Theorem 4**:  (**DPRM**) Any recursively enumerable set of numbers is diophantine. 
+
+This immediately implies a negative solution to Hilbert's 10th problem (before looking at the proof below, spend a moment to reflect on the profoundness of this theorem!):
+
+**Corollary 2**:  Hilbert's 10th problem is undecidable (i.e., no algorithm exists for solving arbitrary arbitrary diophantine equations).
+
+**Proof* Given the DPRM theorem, every recursively enumerable set is diophantine (or has a corresponding equation $p(a,x\_{1},..,x\_{n}) = 0$). It follows from this that the set $A$ from Corollary 1 is diophantine. Hence, the existence of an algorithm to solve Hilbert's 10th problem would imply an algorithm for determining set membership in $A$ (or any comparable set, such as the diagonal Halting set $K\_{0}$, which would then imply the decidability of the Halting Problem. □
+
+Okay, so we now have now stated the \emph{negative solution} to Hilbert's 10th problem. Of course, really understanding how we got here involves saying a few words about the DPRM theorem, which is the least trivial part of the entire result. Before we do this, however, let's just consider some of the remarkable consequences of the DPRM Theorem outside of the main result above.
+
+**Corollary 3**: The set of prime numbers is diophantine[^10], i.e., there exists a polynomial equation $p(a,x\_{1},...,x\_{n}) = 0$ in positive values that has a solution if and only if $a$ is prime.
+
+While DPRM theorem wasn't proven until around 1970, it was conjectured to be true by Martin Davis dating back to the 1950's. Matiyasevich remarks that it was this corollary to the conjecture that led many mathematicians to doubt its validity (since prime numbers are known to have quite a random nature; the idea that they could be described in a single polynomial equation seemed far-fetched). Subsequent work based on DPRM led to the discovery of specific polynomial equations for primes, the most amusing of which is the following equation (which has 26 variables conveniently matching the number of letters in the alphabet):
+
+**Theorem 5**: The set of all prime numbers is equal to the set of all positive values $k$ of the following polynomial [(Jones et al. 1967)](http://www.math.umd.edu/~laskow/Pubs/713/Diorepofprimes.pdf):
+$$
+\begin{align}
+(k + 2) \{ 1 &-[wx+h+j-q]^{2} \\\\ 
+&-[(gk+2g+k+1)(h+j)+h-z]^{2} \\\\
+&-[2n+p+q+z-e]^{2} \\\\ 
+&-[16(k+1)^{3}(k+2)(n+1)^{2}+1-f^{2}]^{2} \\\\
+&-[e^{3}(e+2)(a+1)^{2}+1-o^{2}]^{2} \\\\
+&-[(a^{2}-1)y^{2}+1 - x^{2}]^{2} \\\\
+&-[16r^{2}y^{4}(a^{2}-1)+1-u^{2}]^{2} \\\\
+&-[n+l+v-y]^{2} \\\\
+&-[((a+u^{2}(u{2}-a))^{2} -1)(n+4dy)^{2}+1-(x+cu)^{2}]^{2} \\\\
+&-[(a^{1}-1)l^{2}+1-m^{2}]^{2} \\\\
+&-[q+y(a-p-1)+s(2ap+2a-p^{2}-2p-2)-x]^{2} \\\\
+&-[z+pl(a-p)+t(2ap-p^{2}-1)-pm]^{2} \\\\
+&-[ai+k+1-l-i]^{2} \\\\
+&-[p+l(a-n-1)+b(2an+2a-n^{2}-2n-n) -m]^{2} \}  % \\\\
+\end{align}
+$$
+assuming non-negative values for all variables.
+
+This equation requires some explanation, since it clearly deviates from the standard diophantine form we have been considering. It involves an alternative way of describing polynomial equations that was first observed by Hilary Putnam in [**Putnam (1960)**](https://www.jstor.org/stable/2964679?seq=1). Given any diophantine set $S \subseteq \mathbb{N}$ (represented by a polynomial $p(a,x\_{1},...,x\_{n})$ with natural number variables), such a set has a corresponding polynomial in natural numbers $q(x\_{0},...,x\_{n})$ where
+$$
+\begin{align}
+q(x\_{0},...,x\_{n}) = x\_{0} \big(1 - p^{2}(x\_{0},...,x\_{n}) \big),
+\end{align}
+$$
+and hence the range of that polynomial includes exactly the numbers $a$ that solve $p$ (i.e., the factor $1-p^{2}$ must be positive, which is only possible when $p$ evaluates to 0). Therefore, it is possible to offer an equation in the form shown above and to express Corollary 3 in the following way:
+
+**Corollary 4**: There exists some polynomial equation $q(x_{1},...,x_{n}) = a$ which has a solution if and only if $a$ is a prime number.
+
+As remarked in [Poonen (2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf), to prove DPRM theorem the authors
+
+> essentially built a computer out of diophantine equations; the proof ...
+> looks curiously like the construction of a complicated computer program,
+> with high-level routines built out of more elementary ones, except that
+> instead of routines one has diophantine equations everywhere}.
+
+One consequence of DPRM is that it becomes possible to construct **universal diophantine equations** that can simulate Universal Turing Machines (or other equivalent (universal) models of computation)!
+
+Regarding the questions asked in the beginning about whether particular equations have a fixed number of solutions (or no solutions),  coming up with a universal algorithm here also turns out to be undecidable as a consequence of DPRM (for details see [Davis (1972)](https://www.jstor.org/stable/2037646)).
+
+**Getting to the DPRM Theorem (rough outline and history)** The DRPM Theorem is a truly remarkable result that had nonetheless been anticipated for several decades before its final resolution (recall again Emil Post's ominous conjecture nearly 25 years before that Hilbert's 10th problem *begs for an unsolvability proof*). A closely related result was obtained by Davis, Putnam and Robinson [(Davis et al. 1961)](https://www.jstor.org/stable/1970289) for **exponential diophantine equations** (i.e., diophantine equations extended to include **exponentials** in combination with addition and multiplication, as permitted in *ordinary* diophantine equations[^11]).
+
+
 
 
 [^1]: This example is taken from [(Poonen 2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf). Other examples and explanations are adapted throughout from the following very readable surveys: [(Smith 2011)](https://www.logicmatters.net/resources/pdfs/MRDP.pdf),[(Pastern 2019)](https://imaginary.org/sites/default/files/snapshots/snapshots-2019-003.pdf)
@@ -329,4 +387,8 @@ Now for the most surprising result called the **Matiyasevich Theorem** (or the *
 
 [^8]: Note that we can make this definition more complex both by considering subsets of $\mathbb{N}^{m}$ (i.e., sets of $m-$tuples over $\mathbb{N}$), or  sets over $\mathbb{Z}$, however our restricted definition will suffice for proving our main results.
 
-[^9]: Clearly this algorithm is impractical since it requires looping through an infinite number of numbers in $\mathbb{N}$. When we argue about the existence of algorithms in mathematics, we are allowed to make unrealistic, even outlandish, assumptions about the amount of resources and time we are allowed (e.g., that we have an infinite of time/memory/parallel computations/..). Part of the reason why we describe abstract algorithms here in terms of Turing Machines, as opposed to Python or Java programs is that they permit such excesses (e.g., by providing a infinite memory in the form of an **infinite memory tape** on which we can read and write). 
+[^9]: Clearly this algorithm is impractical since it requires looping through an infinite number of numbers in $\mathbb{N}$. When we argue about the existence of algorithms in mathematics, we are allowed to make unrealistic, even outlandish, assumptions about the amount of resources and time we are allowed (e.g., that we have an infinite of time/memory/parallel computations/..). Part of the reason why we describe abstract algorithms here in terms of Turing Machines, as opposed to Python or Java programs is that they permit such excesses (e.g., by providing a infinite memory in the form of an **infinite memory tape** on which we can read and write).
+
+[^10]: This is in virtue of the prime numbers being **recursive** and therefore also recursively enumerable.
+
+[^11]: This includes Fermat's equation considered in the beginning, as well as more unusual equations such as $2x^{3y^{x}z+x^{2}} = 5x^{2}+yz$ [(Poonen 2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf). 
