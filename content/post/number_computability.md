@@ -7,6 +7,10 @@ mmark = true
 draft = false
 +++
 
+
+The Problem
+-------------------------
+
 In this article, we consider the problem of solving certain types of equations (called *polynomial equations*). For example, imagine you are given the equation
 $$
 \begin{align}
@@ -17,8 +21,8 @@ and asked to do the following: determine if there exists a solution for the vari
 
 Of course, not all equations of this form are as straightforward to solve. If we allow for a few additional variables and slightly larger constants, we quickly stumble upon innocent looking equations such as the following
 $$
-\begin{align*}
+\begin{align}
 (x^{3} + y^{3} + z^{3}) = 114,
-\end{align*}
+\end{align}
 $$
 whose solution (if it exists) continues to elude the many number theorists who are actively working on this and other related equations involving *sums of three cubes* of the form $x^{3} + y^{3} + z^{3} = a$.
