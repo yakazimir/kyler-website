@@ -7,7 +7,11 @@ mmark = true
 draft = false
 +++
 
-![where is the image](https://www.nlp-kyle.com/files/DPRM.jpeg) \ \
+![where is the image](https://www.nlp-kyle.com/files/DPRM.jpeg)
+
+
+
+
 
 Solving Equations
 -------------------------
