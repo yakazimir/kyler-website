@@ -224,7 +224,7 @@ Using the following result (as before, we leave the proof as a exercise for the 
 
 **Lemma 2**: If a set $A$ and its complement $\overline{A}$ are both recursively enumerable, then $A$ is recursive.
 
-we can demonstrate that the set of square numbers is recursive by showing that the set of non-square numbers is recursively enumerable. Here we will sketch an *algorithm* for doing this, which does the following: loops through/enumerates  each $i \in \mathbb{N}$, and print $i$ in the case when $\text{sqrt}$(i)$ (which is a computable function) does not return a whole number, and simply ignore the rest[^9].
+we can demonstrate that the set of square numbers is recursive by showing that the set of non-square numbers is recursively enumerable. Here we will sketch an *algorithm* for doing this, which does the following: loops through/enumerates  each $i \in \mathbb{N}$, and print $i$ in the case when $\text{sqrt}(i)$ (which is a computable function) does not return a whole number, and simply ignore the rest[^9].
 
 The most important result for Hilbert's 10th problem from computer science is that not all recursively enumerable sets are recursive, which we examine in some detail below.
 
