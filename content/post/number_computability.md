@@ -70,7 +70,7 @@ Asking whether a three square equation has solutions for a particular $a$ (e.g.,
 
 At its heart, Hilbert's 10th problem is what we now call a [*decision problem*](https://en.wikipedia.org/wiki/Decision_problem); what we want to prove is that there exists an algorithm that can decide (i.e., return a yes/no answer) whether a given equation has a solution or not, or equivalently whether a number is included in a set of solutions. Based on the work of Alonzo Church and Alan Turing, who were among the first to study modern decision problems, we know that some problems can be *undecidable*; that is, it can be proven that no such algorithm can exist no matter how hard one tries. This is what happens in the case of Hilbert's 10th problem: it is possible to define hypothetical sets of solutions for which it is provably impossible to build an algorithm that can decide set-membership. As a consequence, this undecidability proves that a general algorithm cannot exist (the surprising part is that we can talk about such sets without having to say very much about their corresponding equations, and in a way that entirely side-steps the practical issues involved with *explicitly* finding its members).
 
-Using the language of computability theory, we can specifically say the following: any *positive* solution to Hilbert's 10th problem (i.e., proof that a universal algorithm exists for solving arbitrary diophantine equations) would imply a positive solution to the **Halting Problem** of [Turing (1936)](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf), which is the most well-known undecidable problem in computer science. The goal of this article is explain what this means and to provide enough of the technical computer science background that is needed to sketch out this fascinating result.[^5]
+Using the language of computability theory, we can specifically say the following: **any positive solution to Hilbert's 10th problem (i.e., proof that a universal algorithm exists for solving arbitrary diophantine equations) would imply a positive solution to the Halting Problem** of [Turing (1936)](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf), which is the most well-known undecidable problem in computer science. The goal of this article is explain what this means and to provide enough of the technical computer science background that is needed to sketch out this fascinating result.[^5]
 
 Diophantine Equations and Sets
 -------------------------
@@ -88,9 +88,38 @@ We will consider each part of this problem statement in turn. Hilbert's notion o
 $$
 cx\_{1}^{k\_{1}},...,x\_{n}^{k\_{n}},
 $$
-where $c$ is an integer *coefficient* (i.e., positive and negative integers and zero, denoted as $\mathbb{Z}$) and $k\_{1},...,k\_{n}$ are natural numbers including zero (denoted as $\mathbb{N}$) that are, importantly, distinct from the polynomial's variables.
+where $c$ is an integer *coefficient* (i.e., positive and negative integers and zero, denoted as $\mathbb{Z}$) and $k\_{1},...,k\_{n}$ are natural numbers including zero (denoted as $\mathbb{N}$).
 
 Examples polynomial expressions include $x\_{1}^{2} - 4x\_{1} + 3$ (where, for convenience, subtraction is used in place of addition with a negative number, $+ -4x$), $4x\_{1}^{3} + 6x\_{2}$, $x\_{1}+x\_{2} + ... + x\_{4}$ (with all coefficients $c$ equal to 1) and so on.[^6] When talking about polynomials it is important to specify the range of their variables. Diophantine equations are special types of polynomial equations that restrict the range of variables in the manner specified below.
+
+**Definition 2** A **diophantine equation** is specific type of polynomial expression $p(x\_{1},...,x\_{n}) = 0$ (also known as a *polynomial equation* in *traditional form*) restricted to **integer** unknowns $x\_{1},...,x\_{n}$ (or what Hilbert calls *rational integers*).
+
+We will show momentarily that it suffices to modify the problem such that variables are restricted to natural numbers, which is a inconsequential variant of Hilbert's original description. We also note that it is sometimes easier to transform diophantine equations out of their **traditional form** $p(\cdot) = 0$ into equations of the following type:
+$$
+\begin{align}
+p\_{l}(x\_{1},...,x\_{n}) = p\_{r}(x\_{1},...,x\_{n})
+\end{align}
+$$
+where $p\_{l}$ and $p\_{r}$ are two separate diophantine equations defined over the same variables. For example, transformations of this type become convenient when we want to remove negative terms in an equation, which we might do with the following non-trivial diophantine equation:
+$$
+4x^{3}y - 2x^{3}z^{3} - 3y^{2}x + 5z = 0,
+$$
+to arrive at:
+$$4x^{3}y + 5z = 2x^{2}z^{3} + 3y^{2}x
+$$
+by transposing the negative terms.
+
+
+As briefly discussed in the last section, one of the big ideas is to define diophantine equations with additional variables called **parameters** $a$, as in $p(a,x\_{1},x\_{2},...,x\_{n})$ (where $x\_{1},...,x\_{n}$ continue to be what we previously called *unknowns*}), which allow us to describe abstract **families of diophantine equations**. This gives rise to an important concept called a **diophantine set**.
+
+**Definition 3**  A **diophantine representation** of a diophantine equation $p$ with integer *unknowns* $x\_{1},...,x\_{n}$ and a *parameter* $a$[^7] is the set (which we will henceforth call a **diophantine set**):
+$$
+\begin{align}
+S = \Big\\{ a \mid \exists x\_{1},...,x\_{n} [ p(a,x\_{1},...,x\_{n}) = 0 ]\Big\\}
+\end{align}
+$$
+We will also say that a given set of numbers $\\{a\_{1},a\_{2},...\\}$ **is diophantine** if and only if it has a diophantine representation.
+
 
 
 [^1]: This example is taken from [(Poonen 2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf). Other examples and explanations are adapted throughout from the following very readable surveys: [(Smith 2011)](https://www.logicmatters.net/resources/pdfs/MRDP.pdf),[(Pastern 2019)](https://imaginary.org/sites/default/files/snapshots/snapshots-2019-003.pdf)
@@ -104,3 +133,5 @@ Examples polynomial expressions include $x\_{1}^{2} - 4x\_{1} + 3$ (where, for c
 [^5]: We will only give a cursory overview of the number theoretic aspects of this problem that helped Matiyasevich and others to arrive at the final solution. The full details of this can be found in the surveys [(Davis 1973)](http://www.math.umd.edu/~laskow/Pubs/713/Diophantine.pdf).
 
 [^6]: When trying to map specific polynomials into a sum of monomials in the form provided, it is important to recall that each $k\_{j}$ exponent can be 0, which maps any number to 1. Therefore, in $p(x\_{1},x\_{2}) = 4x\_{1}^{3} + 6x\_{2}$, the first **term** $4x\_{1}^{3}$ in the sum (whose coefficient is $4$) is equal to $4x\_{1}^{3}x\_{2}^{0}$, whereas the second term is equal to $6x\_{1}^{0}x\_{2}^{1}$. Likewise, for any term without an explicit coefficient, it can be assumed that the coefficient is 1.
+
+[^7]: ] We note that it is also possible to consider equations with tuples of parameters, $(a\_{1},..,a\_{m})$, however our simplified version will suffice to prove the main result.
