@@ -120,6 +120,20 @@ S = \Big\\{ a \mid \exists x\_{1},...,x\_{n} [ p(a,x\_{1},...,x\_{n}) = 0 ]\Big\
 $$
 We will also say that a given set of numbers $\\{a\_{1},a\_{2},...\\}$ **is diophantine** if and only if it has a diophantine representation.
 
+Interestingly, this set construction will allow us to talk about number theoretic concepts without having to say very much about specific equations. That is, unlike in ordinary number theory where one usually starts with a specific equation or family of equations and attempts to arrive at a set of solutions and parameters, the **idea here is that we will start with a set and try to arrive at a family of equations to demonstrate that the set is diophantine**.
+
+**Examples** Let's illustrate this idea by starting with the set of natural numbers $\mathbb{N}$. **Is this set diophantine?** The answer is yes, which can be demonstrated by exploiting the following important theorem:
+
+
+**Theorem 1** [**Four-square theorem**](https://en.wikipedia.org/wiki/Lagrange%27s_four-square_theorem) (Lagrange 1770) Any natural number $a$ can be expressed a sum of four integer squares:
+
+$$
+\begin{align}
+a = x\_{0}^{2} + x\_{1}^{2} + x\_{2}^{2} + x\_{3}^{2}
+\end{align}
+$$
+
+Using this equation, we therefore have our polynomial equation that defines exactly the natural numbers. To make it have the desired diophantine form, we can simply move $a$ to the other side of the equation to arrive at $a - (x\_{0}^{2} + x\_{1}^{2} + x\_{2}^{2} + x\_{3}^{2}) = 0$. Now to ask if a given number such as 4 is in the set of natural numbers, we can also also ask whether $4 - x\_{0}^{2} + x\_{1}^{2} + x\_{2}^{2} + x\_{3}^{2} = 0$ has a solution. 
 
 
 [^1]: This example is taken from [(Poonen 2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf). Other examples and explanations are adapted throughout from the following very readable surveys: [(Smith 2011)](https://www.logicmatters.net/resources/pdfs/MRDP.pdf),[(Pastern 2019)](https://imaginary.org/sites/default/files/snapshots/snapshots-2019-003.pdf)
