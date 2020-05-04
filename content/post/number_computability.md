@@ -61,7 +61,7 @@ $$
 Solutions to this equation (i.e., particular values $a$ for which there exist solutions for the variables) can then be represented as sets of the following form:
 $$
 \begin{align}
-S = \\{ a \mid x^{3} + y^{3} + z^{3} = a  \emph{ holds for some integers $x,y,z$}\Big\\},
+S = \\{ a \mid x^{3} + y^{3} + z^{3} = a  \text{ holds for some integers $x,y,z$}\Big\\},
 \end{align}
 $$
 Asking whether a three square equation has solutions for a particular $a$ (e.g., 114) in this setting then reduces to asking whether $a$ is in the set $S$ (e.g., $114 \in S$?). Similarly, asking whether there are a unique set of solutions, or whether no solutions exist, involves asking questions about the size and scope of $S$ (is $S$ the empty set? is $S$ of size $k$?,...). When formulated in this way, the problem quickly starts to look like the types of problems encountered in theoretical computer science.
