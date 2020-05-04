@@ -4,7 +4,7 @@ description = "Some notes on the history and origins of the Lisp programming lan
 date = "2020-04-03"
 categories = ["computability theory","number theory","polynomials","Hilbert's 10 Problem", "diophantine equations"]
 mmark = true
-draft = false
+draft = true
 +++
 
 ![where is the image](https://www.nlp-kyle.com/files/cantor_infinity.jpeg)
@@ -296,7 +296,21 @@ Given the relatively low bar, practically speaking, for demonstrating whether a 
 
 **Lemma 3** The complement of the set $A$ from **Corollary 1** $\overline{A}$, **is not recursively enumerable**.
 
-**Proof** (*sketch*) $\overline{A}$ being recursively enumerable (i.e., having an algorithm to enumerate its members) would imply that $A$ is recursive (we could use such an algorithm for deciding $x \notin A$) and that the Halting Problem is decidable, in contradiction to what we have already proven.
+**Proof** (*sketch*) $\overline{A}$ being recursively enumerable (i.e., having an algorithm to enumerate its members) would imply that $A$ is recursive (we could use such an algorithm for deciding $x \notin A$) and that the Halting Problem is decidable, in contradiction to what we have already proven. □
+
+
+Number Theory Meets Computability
+-------------------------
+
+With the computer science background provided in the last section, we can now return to diophantine sets and rapidly state the main results. First, the following result is the first to relate diophantine sets and recursively enumerable sets and should be straightforward.
+
+**Theorem 3**: Any diophantine set of numbers is recursively enumerable.
+
+**Proof** By definition, a set being diophantine means that we have a corresponding polynomial $p(a,x\_{1},...,x\_{n})$. Using such a polynomial, an example (and again, highly impractical) algorithm for listing members of the set is one that simply enumerates  all $n+1$ tuples of numbers in parallel and print $a$ each time these numbers produce a 0 using the equation. □
+
+Now for the most surprising result called the **Matiyasevich Theorem** (or the *Davis-Putnam-Robinson-Matiyasevich* theorem (DPRM), so-called after the overall group of researchers that laid much of the ground work for this result):
+
+**Theorem 4**:  (**DPRM**) Any recursively enumerable set of numbers is diophantine. 
 
 
 [^1]: This example is taken from [(Poonen 2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf). Other examples and explanations are adapted throughout from the following very readable surveys: [(Smith 2011)](https://www.logicmatters.net/resources/pdfs/MRDP.pdf),[(Pastern 2019)](https://imaginary.org/sites/default/files/snapshots/snapshots-2019-003.pdf)
