@@ -4,7 +4,7 @@ description = "Some notes on the history and origins of the Lisp programming lan
 date = "2020-04-03"
 categories = ["computability theory","number theory","polynomials","Hilbert's 10 Problem", "diophantine equations"]
 mmark = true
-draft = true
+draft = false
 +++
 
 ![where is the image](https://www.nlp-kyle.com/files/DPRM.jpeg)
@@ -368,7 +368,51 @@ Regarding the questions asked in the beginning about whether particular equation
 
 **Getting to the DPRM Theorem (rough outline and history)** The DRPM Theorem is a truly remarkable result that had nonetheless been anticipated for several decades before its final resolution (recall again Emil Post's ominous conjecture nearly 25 years before that Hilbert's 10th problem *begs for an unsolvability proof*). A closely related result was obtained by Davis, Putnam and Robinson [(Davis et al. 1961)](https://www.jstor.org/stable/1970289) for **exponential diophantine equations** (i.e., diophantine equations extended to include **exponentials** in combination with addition and multiplication, as permitted in *ordinary* diophantine equations[^11]).
 
+**Theorem 6** Every recursively enumerable set has an **exponential Diophantine representation** of the form:
+$$\small
+\begin{align}
+S = \Big\\{ a \mid \exists x\_{1},...,x\_{n} [ p\_{E\_{1}}(a,x\_{1},...,x\_{m}) = p\_{E\_{2}}(a,x\_{1},...,x\_{n}) ]\Big\\}
+\end{align}
+$$
+for exponential diophantine equations $p\_{E\_{1}}$ and $p\_{E\_{2}}$.
 
+This immediately led to a negative solution to Hilbert's 10th problem for exponential diophantine equations.  As Matiyasevich often cites in [his lectures](https://logic.pdmi.ras.ru/~yumat/talks/talks.php), this result was met with the following criticism when related to the larger Hilbert problem, in this case by one reviewer of their article in 1962 for the *Mathematical Review*:
+
+> These results are superficially related to Hilbert's tenth Problem on (**ordinary**, i.e., non-exponential)
+> Diophantine equations. The proof the authors' result, though very elegant, does not use recondite facts
+> in the theory of numbers nor in the theory of r.e. [recursively enumerable] sets, and so it is likely that the
+> **present result is not closely connected with Hilbert's tenth Problem**. Also, it is not altogether
+> plausible that all (ordinary) Diophantine problems are uniformly reducible to those in a fixed number
+> of variables of fixed degree, **which would be the case if all r.e. sets were diophantine**.
+
+In other words, exponential diophantine equations were not exactly what Hilbert had in mind when he formulated the problem, hence this result did not suffice to provide a negative solution to the original problem (At the end of this comment, you can also see the reviewers' skepticism about all recursively enumerable sets being diophantine). Nonetheless, Matiyasevich writes that the significance and relevance of this result to the larger problem was overlooked by many people beyond this single reviewer, and even included his own advisor at the time who had initiated his interest in Hilbert's 10th problem. He recounts in [Matiyasevich (1992)](https://logic.pdmi.ras.ru/~yumat/Julia/index.html) the following dialogue:
+
+>I asked my scientific adviser, Sergel [sic] Maslov, what to do next. He answered:
+> `Try to prove the algorithmic unsolvability of Diophantine equations. This problem is
+> known as Hilbert's tenth problem, but that does not matter to you.' -- `But I haven't
+> learned any proof of the unsolvability of any decision problem.' -- `That also does not
+> matter. Unsolvability is nowadays usually proved by reducing a problem already known
+> to be unsolvable to the problem whose unsolvability one needs to establish, and you
+> understand the technique of reduction well enough.' -- `What should I read in advance?' --
+> `Well, there are some papers by American mathematicians about Hilbert's tenth problem,
+> but you need not study them.' -- `Why not?' -- `So far the Americans have not succeeded,
+> so their approach is most likely inadequate.'
+
+
+Building on the result above, the missing link involved proving that exponentiation is diophantine, or that the following set is diophantine[^12]:
+$$\small
+\begin{align}
+\Big\\{ (a,b,c) \in \mathbb{N}^{3} \mid c = a^{b} \Big\\}
+\end{align}
+$$
+
+by showing that it has a corresponding 3 variable diophantine equation $p\_{a}(a,b,c,x\_{1},...,x\_{n}) = 0$ (which one could use to transform any exponential diophantine equation into an ordinary diophantine equation, albeit with some additional variables). Julia Robinson had earlier proved some sufficient conditions for $p\_{a}$ to exist, namely that it would suffice to find a particular 2 variable diophantine equation $p\_{b}(a,b,x\_{1},...,x\_{n})$ that exhibits **exponential growth**. Building on recent work by Nikolai Vorobyov, Matiyasevich uses properties of [*Fibonacci numbers*](https://en.wikipedia.org/wiki/Fibonacci_number) ($F\_{n}$) to prove that the following set is diophantine: 
+\begin{align}
+\Big\\{ (a,b) \mid a > 0, b = F_{2a}\Big\\}
+\end{align} 
+which ultimately leads to DPRM (for full details of the proof, we again urge readers to consult [Davis (1973)](http://www.math.umd.edu/~laskow/Pubs/713/Diophantine.pdf) and [Matiyasevich (1993)](https://mitpress.mit.edu/books/hilberts-10th-problem).
+
+In terms of the larger theme, here we can see more clearly the curious way in which number theory is being studied under this approach: rather than starting an explicit diophantine equation and trying to prove properties of that equation (as ordinarily done in number theory), we are instead starting with a set then try to find an diophantine equation that characterizes that set. If such an equation is found, we can then say something about its properties by deferring to what we know about sets from computability theory. 
 
 
 [^1]: This example is taken from [(Poonen 2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf). Other examples and explanations are adapted throughout from the following very readable surveys: [(Smith 2011)](https://www.logicmatters.net/resources/pdfs/MRDP.pdf),[(Pastern 2019)](https://imaginary.org/sites/default/files/snapshots/snapshots-2019-003.pdf)
@@ -391,4 +435,6 @@ Regarding the questions asked in the beginning about whether particular equation
 
 [^10]: This is in virtue of the prime numbers being **recursive** and therefore also recursively enumerable.
 
-[^11]: This includes Fermat's equation considered in the beginning, as well as more unusual equations such as $2x^{3y^{x}z+x^{2}} = 5x^{2}+yz$ [(Poonen 2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf). 
+[^11]: Examples of exponential diophantine equations includes Fermat's equation considered in the beginning, as well as more unusual equations such as $2x^{3y^{x}z+x^{2}} = 5x^{2}+yz$ [(Poonen 2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf).
+
+[^12]: Assuming a slightly more complex definition of a diophantine set than so far considered, which in particular permits sets of $m-$tuples of $\mathbb{N}^{m}$ rather than only subsets of $\mathbb{N}$. See again Footnote [^7].
