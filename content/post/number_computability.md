@@ -4,7 +4,7 @@ description = "Some notes on the history and origins of the Lisp programming lan
 date = "2020-04-03"
 categories = ["computability theory","number theory","polynomials","Hilbert's 10 Problem", "diophantine equations"]
 mmark = true
-draft = true
+draft = false
 +++
 
 ![where is the image](https://www.nlp-kyle.com/files/cantor_infinity.jpeg)
@@ -72,8 +72,20 @@ At its heart, Hilbert's 10th problem is what we now call a [*decision problem*](
 
 Using the language of computability theory, we can specifically say the following: any *positive* solution to Hilbert's 10th problem (i.e., proof that a universal algorithm exists for solving arbitrary diophantine equations) would imply a positive solution to the **Halting Problem** of [Turing (1936)](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf), which is the most well-known undecidable problem in computer science. The goal of this article is explain what this means and to provide enough of the technical computer science background that is needed to sketch out this fascinating result.[^5]
 
-Cantor's Theorem
+Diophantine Equations and Sets
 -------------------------
+
+First, let's consider Hilbert's original description of the problem:
+>Given a **Diophantine equation** with *any number of unknown quantities* and with rational integral numerical coefficients: To **devise a process** according to which it can be determined in a finite number of operations **whether the equation is solvable in rational integers**.
+We will consider each part of this problem statement in turn. Hilbert's notion of a *process ..[involving] a finite number of operations* is what we would now call an **algorithm**, which was a rather fuzzy concept in 1900 (we will talk about algorithms in the next section). By *diophantine equation*, Hilbert's is referring to certain types of polynomial equations that characterize most of the equations we have considered so far.  A *polynomial* in our case will mean the following:
+
+**Definition 1** A **polynomial** expression over $n$ variables/*unknown quantities* $x_{1},x_{2},..,x_{n}$, denoted as $p(x_{1},...,x_{n})$, is any finite sum of *monomials*, or expressions of the form:
+$$
+cx_{1}^{k_{1}},...,x_{n}^{k_{n}},
+$$
+where $c$ is an integer *coefficient* (i.e., positive and negative integers and zero, denoted as $\mathbb{Z}$) and $k_{1},...,k_{n}$ are natural numbers including zero (denoted as $\mathbb{N}$) that are, importantly, distinct from the polynomial's variables.
+
+Examples polynomial expressions include $x_{1}^{2} - 4x_{1} + 3$ (where, for convenience, subtraction is used in place of addition with a negative number, $+ -4x$), $4x_{1}^{3} + 6x_{2}$, $x_{1}+x_{2} + ... + x_{4}$ (with all coefficients $c$ equal to 1) and so on.[^6] When talking about polynomials it is important to specify the range of their variables. Diophantine equations are special types of polynomial equations that restrict the range of variables in the manner specified below.
 
 
 [^1]: This example is taken from [(Poonen 2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf). Other examples and explanations are adapted throughout from the following very readable surveys: [(Smith 2011)](https://www.logicmatters.net/resources/pdfs/MRDP.pdf),[(Pastern 2019)](https://imaginary.org/sites/default/files/snapshots/snapshots-2019-003.pdf)
@@ -85,3 +97,5 @@ Cantor's Theorem
 [^4]: Emil Post famously had the following to say about Hilbert's 10th problem nearly 25 years before its final resolution: it `begs for an unsolvability proof'.
 
 [^5]: We will only give a cursory overview of the number theoretic aspects of this problem that helped Matiyasevich and others to arrive at the final solution. The full details of this can be found in the surveys [(Davis 1973)](http://www.math.umd.edu/~laskow/Pubs/713/Diophantine.pdf).
+
+[^6]: When trying to map specific polynomials into a sum of monomials in the form provided, it is important to recall that each $k_{j}$ exponent can be 0, which maps any number to 1. Therefore, in $p(x_{1},x_{2}) = 4x_{1}^{3} + 6x_{2}$, the first **term** $4x_{1}^{3}$ in the sum (whose coefficient is $4$) is equal to $4x_{1}^{3}x_{2}^{0}$, whereas the second term is equal to $6x_{1}^{0}x_{2}^{1}$. Likewise, for any term without an explicit coefficient, it can be assumed that the coefficient is 1.
