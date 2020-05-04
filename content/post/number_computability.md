@@ -409,7 +409,7 @@ by showing that it has a corresponding 3 variable diophantine equation $p\_{a}(a
 \begin{align}
 \Big\\{ (a,b) \mid a > 0, b = F_{2a}\Big\\}
 \end{align} 
-which ultimately leads to DPRM (for full details of the proof, we again urge readers to consult [Davis (1973)](http://www.math.umd.edu/~laskow/Pubs/713/Diophantine.pdf) and [Matiyasevich (1993)](https://mitpress.mit.edu/books/hilberts-10th-problem).
+which ultimately leads to DPRM (for full details of the proof, we again urge readers to consult [Davis (1973)](http://www.math.umd.edu/~laskow/Pubs/713/Diophantine.pdf) and [Matiyasevich (1993)](https://mitpress.mit.edu/books/hilberts-10th-problem)).
 
 In terms of the larger theme, here we can see more clearly the curious way in which number theory is being studied under this approach: rather than starting an explicit diophantine equation and trying to prove properties of that equation (as ordinarily done in number theory), we are instead starting with a set then try to find an diophantine equation that characterizes that set. If such an equation is found, we can then say something about its properties by deferring to what we know about sets from computability theory. 
 
