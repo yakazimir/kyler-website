@@ -339,8 +339,7 @@ $$
 &\-\[q+y(a-p-1)+s(2ap+2a-p^{2}-2p-2)-x\]^{2} \\\\ 
 &\-\[z+pl(a-p)+t(2ap-p^{2}-1)-pm\]^{2} \\\\ 
 &\-\[ai+k+1-l-i\]^{2} \\\\ 
-&\-\[p+l(a-n-1)+b(2an+2a-n^{2}-2n-n) -m\]^{2} \\\\
-\\}
+&\-\[p+l(a-n-1)+b(2an+2a-n^{2}-2n-n) -m\]^{2} \\}
 \end{align}
 $$
 assuming non-negative values for all variables.
