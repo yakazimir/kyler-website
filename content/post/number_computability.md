@@ -188,7 +188,7 @@ We will not delve into what exactly an algorithm means in this context, other th
 
 **Lemma 1**: The following definitions are equivalent:
 
-1. A is recursively enumerable (according **Definition 4**).
+1. A is recursively enumerable (according to **Definition 4**).
 2. A is empty or in the range of a total (computable) function $f : \mathbb{N} \to \mathbb{N}$
 3. A is in the domain of a partial (computable) function $f : \mathbb{N} \to \mathbb{N}$
 
@@ -274,7 +274,7 @@ $$\small
 $$
 which is again a contradiction, thus making our assertion that $K$ is decidable not tenable. □
 
-The main point here is that **for any universal algorithm that tries to determine membership in $K$, there will inevitably  be  inputs for which deciding membership will give raise to a contradiction** that makes it impossible for any algorithm to decide whether or not it is in the set (and hence will cause an algorithm to run forever. We note that the Halting Set as defined is not itself a set of numbers of the type we defined above (i.e., a subset of $\mathbb{N}$), however it can be used to build an explicit set of numbers. The standard example is called the **diagonal halting set** defined as
+The main point here is that **for any universal algorithm that tries to determine membership in $K$, there will inevitably  be  inputs for which deciding membership will give raise to a contradiction** that makes it impossible for any algorithm to decide whether or not it is in the set (and hence will cause an algorithm to run forever). We note that the Halting Set as defined is not itself a set of numbers of the type we defined above (i.e., a subset of $\mathbb{N}$), however it can be used to build an explicit set of numbers. The standard example is called the **diagonal halting set** defined as
 $$\small
 \begin{align}K\_{0} = \Big\\{ x \mid M\_{x}(x)\downarrow \Big\\},
 \end{align}
@@ -317,11 +317,11 @@ This immediately implies a negative solution to Hilbert's 10th problem (before l
 
 **Corollary 2**:  Hilbert's 10th problem is undecidable (i.e., no algorithm exists for solving arbitrary arbitrary diophantine equations).
 
-**Proof** Given the DPRM theorem, every recursively enumerable set is diophantine (or has a corresponding equation $p(a,x\_{1},..,x\_{n}) = 0$). It follows from this that the set $A$ from Corollary 1 is diophantine. Hence, the existence of an algorithm to solve Hilbert's 10th problem would imply an algorithm for determining set membership in $A$ (or any comparable set, such as the diagonal Halting set $K\_{0}$, which would then imply the decidability of the Halting Problem. □
+**Proof** Given the DPRM theorem, every recursively enumerable set is diophantine (or has a corresponding equation $p(a,x\_{1},..,x\_{n}) = 0$). It follows from this that the set $A$ from Corollary 1 is diophantine. Hence, the existence of an algorithm to solve Hilbert's 10th problem would imply an algorithm for determining set membership in $A$ (or any comparable set, such as the diagonal Halting set $K\_{0}$), which would then imply the decidability of the Halting Problem. □
 
 Okay, so we now have now stated the **negative solution** to Hilbert's 10th problem. Of course, really understanding how we got here involves saying a few words about the DPRM theorem, which is the least trivial part of the entire result. Before we do this, however, let's just consider some of the remarkable consequences of the DPRM Theorem outside of the main result above.
 
-**Corollary 3**: The set of prime numbers is diophantine[^10], i.e., there exists a polynomial equation $p(a,x\_{1},...,x\_{n}) = 0$ in positive values that has a solution if and only if $a$ is prime.
+**Corollary 3**: The set of [*prime numbers*](https://mathworld.wolfram.com/PrimeNumber.html) is diophantine[^10], i.e., there exists a polynomial equation $p(a,x\_{1},...,x\_{n}) = 0$ in positive values that has a solution if and only if $a$ is prime.
 
 While DPRM theorem wasn't proven until around 1970, it was conjectured to be true by Martin Davis dating back to the 1950's. Matiyasevich remarks that it was this corollary to the conjecture that led many mathematicians to doubt its validity (since prime numbers are known to have quite a random nature; the idea that they could be described in a single polynomial equation seemed far-fetched). Subsequent work based on DPRM led to the discovery of specific polynomial equations for primes, the most amusing of which is the following equation (which has 26 variables conveniently matching the number of letters in the alphabet):
 
@@ -363,7 +363,7 @@ As remarked in [Poonen (2008)](http://www-math.mit.edu/~poonen/papers/h10_notice
 > with high-level routines built out of more elementary ones, except that
 > instead of routines one has diophantine equations everywhere}.
 
-One consequence of DPRM is that it becomes possible to construct **universal diophantine equations** that can simulate Universal Turing Machines (or other equivalent (universal) models of computation)!
+One consequence of DPRM is that it becomes possible to construct **universal diophantine equations** that can simulate [*Universal Turing Machines*](https://en.wikipedia.org/wiki/Universal_Turing_machine) (or other equivalent (universal) models of computation)!
 
 Regarding the questions asked in the beginning about whether particular equations have a fixed number of solutions (or no solutions),  coming up with a universal algorithm here also turns out to be undecidable as a consequence of DPRM (for details see [Davis (1972)](https://www.jstor.org/stable/2037646)).
 
