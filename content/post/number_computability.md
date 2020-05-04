@@ -209,7 +209,7 @@ f(x) = x^{2}
 $$
 Putting all this together, it is clear that the range of this function i.e.,
 $$
-\textsc{ran}(f) =  \Big\\{ f(1),f(2),f(3),f(4),.. \Big\\}
+\text{ran}(f) =  \Big\\{ f(1),f(2),f(3),f(4),.. \Big\\}
 $$
 will only be square numbers and that $A$ is recursively enumerable (thus satisfying condition 2). 
 
@@ -225,14 +225,32 @@ Using the following result (as before, we leave the proof as a exercise for the 
 
 **Lemma 2**: If a set $A$ and its complement $\overline{A}$ are both recursively enumerable, then $A$ is recursive.
 
-we can demonstrate that the set of square numbers is recursive by showing that the set of non-square numbers is recursively enumerable. Here we will sketch an *algorithm* for doing this, which does the following: loops through/enumerates  each $i \in \mathbb{N}$, and print $i$ in the case when \textsc{sqrt}$(i)$ (which is a computable function) does not return a whole number, and simply ignore the rest[^9].
+we can demonstrate that the set of square numbers is recursive by showing that the set of non-square numbers is recursively enumerable. Here we will sketch an *algorithm* for doing this, which does the following: loops through/enumerates  each $i \in \mathbb{N}$, and print $i$ in the case when \text{sqrt}$(i)$ (which is a computable function) does not return a whole number, and simply ignore the rest[^9].
 
-The most important result for Hilbert's 10th problem from computer science is that not all recursively enumerable sets are recursive, which we examine in some detail below. 
+The most important result for Hilbert's 10th problem from computer science is that not all recursively enumerable sets are recursive, which we examine in some detail below.
+
+**Not all recursively enumerable sets are recursive** One common way to discover recursively enumerable sets that are not recursive is by exploiting the undecidability of the **Halting Problem**, which is one of the most famous theoretical results in computer science that was proved by Alan Turing. We take a brief detour to discuss this problem, then as a corollary provide an explicit set of numbers that it recursively enumerable though not recursive.
+
+
+**Definition 6** In our simplified version of the Halting Problem, we will consider the following set $K$ that we call the **Halting Set**:
+$$
+\begin{align}
+K = \Big\\{ (M\_{x},y) \mid \text{program $x$ }  (M\_{x}) \text{ halts on input } y \Leftrightarrow  M\_{x}(y) \downarrow  \Big\\}
+\end{align}
+$$
+which consists of all pairs of **Turing machines** $M\_{x}$ identified by the integer code $x$ (importantly, we will assume that we can assign numerical ids to all Turing machines M, which is a technique often referred to as [*Gödelization*](https://www.encyclopediaofmath.org/index.php/G%C3%B6delization)) and inputs $y$ such that $M\_{x}$ **halts** or terminates on input $y$, which we denote using the symbol $\downarrow$ (in contrast, $\uparrow$ will either mean *never halts* or *undefined*). The **Halting Problem** is therefore the problem of determining membership in $K$ given any arbitrary $M\_{x}$ and $y$.
+
+This definition seem simple enough, however it leads to difficulties centering around cases where the indices $x$ and inputs $y$ match one another (i.e., the numeric id $x$ happens to match the input $y$). These give rise to **diagonalization arguments**  of the sort first discovered by [*Cantor in relation to infinity*](https://www.nlp-kyle.com/post/infinity/).
+
+**Theorem 2**: The Halting Problem is undecidable (i.e., there exists no universal algorithm/program/Turing machine for deciding membership in $K$).
+
+**proof** 
+
 
 
 [^1]: This example is taken from [(Poonen 2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf). Other examples and explanations are adapted throughout from the following very readable surveys: [(Smith 2011)](https://www.logicmatters.net/resources/pdfs/MRDP.pdf),[(Pastern 2019)](https://imaginary.org/sites/default/files/snapshots/snapshots-2019-003.pdf)
 
-[^2]: Considerable empirical progress was made in 2019 on sum of three cubes problems when solutions for $a=33$ and $a=42$ were discovered by Andrew Booker and colleagues (see [(Booker 2019)](https://arxiv.org/abs/1903.04284)). In the former case, his investigation involved looking at positive and negative integers in the range of $10^{16}$, which required the equivalent of 23 years of continuous computation on a single computer; this resulted in the following highly unintuitive variable solutions: $(x=886612897528752,y=-877840544286223,z=-2736111468807 04)$. In the latter case, finding a solution required (the equivalent of) 1.3 million hours of compute time, which is likewise an unfathomable amount of computation time.
+[^2]: Considerable empirical progress was made in 2019 on sum of three cubes problems when solutions for $a=33$ and $a=42$ were discovered by Andrew Booker and colleagues (see [Booker (2019)](https://arxiv.org/abs/1903.04284)). In the former case, his investigation involved looking at positive and negative integers in the range of $10^{16}$, which required the equivalent of 23 years of continuous computation on a single computer; this resulted in the following highly unintuitive variable solutions: $(x=886612897528752,y=-877840544286223,z=-2736111468807 04)$. In the latter case, finding a solution required (the equivalent of) 1.3 million hours of compute time, which is likewise an unfathomable amount of computation time.
 
 [^3]: The story behind this conjecture is likely to be the most repeated anecdote in mathematics. Fermat had apparently scribbled this conjecture in 1637 into the margins of Diophantus' *Arithmetica* and claimed that he had *discovered a truly remarkable proof* that was too complex to fit in the margins. As mentioned above, the ultimate proof didn't arrive until over 350 years later.
 
