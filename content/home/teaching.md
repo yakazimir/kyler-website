@@ -15,4 +15,9 @@ weight = 60
 
 +++
 
-In the summer of 2016, I taught a Masters seminar on Semantic Parsing (my thesis topic) at the University of Stuttgart. The slides can be found [here](http://www.ims.uni-stuttgart.de/institut/mitarbeiter/kyle/wssp_course.html) (please note that the content is now a little dated). More material coming soon!
+In the summer of 2016, I taught a Masters seminar on Semantic Parsing
+(my thesis topic) at the University of Stuttgart. The slides can be
+found
+[here](http://www.ims.uni-stuttgart.de/institut/mitarbeiter/kyle/wssp_course.html)
+(please note that the content is now a little dated). More material
+coming soon!

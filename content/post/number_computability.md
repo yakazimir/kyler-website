@@ -7,11 +7,7 @@ mmark = true
 draft = false
 +++
 
-![where is the image](https://www.nlp-kyle.com/files/DPRM.jpeg)
-
-
-
-
+![where is the image](https://www.nlp-kyle.com/files/DPRM.jpeg) 
 
 Solving Equations
 -------------------------
@@ -323,7 +319,7 @@ This immediately implies a negative solution to Hilbert's 10th problem (before l
 
 **Proof** Given the DPRM theorem, every recursively enumerable set is diophantine (or has a corresponding equation $p(a,x\_{1},..,x\_{n}) = 0$). It follows from this that the set $A$ from Corollary 1 is diophantine. Hence, the existence of an algorithm to solve Hilbert's 10th problem would imply an algorithm for determining set membership in $A$ (or any comparable set, such as the diagonal Halting set $K\_{0}$, which would then imply the decidability of the Halting Problem. □
 
-Okay, so we now have now stated the \emph{negative solution} to Hilbert's 10th problem. Of course, really understanding how we got here involves saying a few words about the DPRM theorem, which is the least trivial part of the entire result. Before we do this, however, let's just consider some of the remarkable consequences of the DPRM Theorem outside of the main result above.
+Okay, so we now have now stated the **negative solution** to Hilbert's 10th problem. Of course, really understanding how we got here involves saying a few words about the DPRM theorem, which is the least trivial part of the entire result. Before we do this, however, let's just consider some of the remarkable consequences of the DPRM Theorem outside of the main result above.
 
 **Corollary 3**: The set of prime numbers is diophantine[^10], i.e., there exists a polynomial equation $p(a,x\_{1},...,x\_{n}) = 0$ in positive values that has a solution if and only if $a$ is prime.
 
@@ -430,7 +426,7 @@ In terms of the larger theme, here we can see more clearly the curious way in wh
 
 [^4]: Emil Post famously had the following to say about Hilbert's 10th problem nearly 25 years before its final resolution: it `begs for an unsolvability proof'.
 
-[^5]: We will only give a cursory overview of the number theoretic aspects of this problem that helped Matiyasevich and others to arrive at the final solution. The full details of this can be found in the surveys [(Davis 1973)](http://www.math.umd.edu/~laskow/Pubs/713/Diophantine.pdf).
+[^5]: We will only give a cursory overview of the number theoretic aspects of this problem that helped Matiyasevich and others to arrive at the final solution. The full details of this can be found in [(Davis 1973)](http://www.math.umd.edu/~laskow/Pubs/713/Diophantine.pdf).
 
 [^6]: When trying to map specific polynomials into a sum of monomials in the form provided, it is important to recall that each $k\_{j}$ exponent can be 0, which maps any number to 1. Therefore, in $p(x\_{1},x\_{2}) = 4x\_{1}^{3} + 6x\_{2}$, the first **term** $4x\_{1}^{3}$ in the sum (whose coefficient is $4$) is equal to $4x\_{1}^{3}x\_{2}^{0}$, whereas the second term is equal to $6x\_{1}^{0}x\_{2}^{1}$. Likewise, for any term without an explicit coefficient, it can be assumed that the coefficient is 1.
 
