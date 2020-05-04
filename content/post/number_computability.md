@@ -369,7 +369,7 @@ Regarding the questions asked in the beginning about whether particular equation
 
 **Getting to the DPRM Theorem (rough outline and history)** The DRPM Theorem is a truly remarkable result that had nonetheless been anticipated for several decades before its final resolution (recall again Emil Post's ominous conjecture nearly 25 years before that Hilbert's 10th problem *begs for an unsolvability proof*). A closely related result was obtained by Davis, Putnam and Robinson [(Davis et al. 1961)](https://www.jstor.org/stable/1970289) for **exponential diophantine equations** (i.e., diophantine equations extended to include **exponentials** in combination with addition and multiplication, as permitted in *ordinary* diophantine equations[^11]).
 
-**Theorem 6** Every recursively enumerable set has an **exponential Diophantine representation** of the form:
+**Theorem 6**: Every recursively enumerable set has an **exponential Diophantine representation** of the form:
 $$\small
 \begin{align}
 S = \Big\\{ a \mid \exists x\_{1},...,x\_{n} [ p\_{E\_{1}}(a,x\_{1},...,x\_{m}) = p\_{E\_{2}}(a,x\_{1},...,x\_{n}) ]\Big\\}
