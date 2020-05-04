@@ -27,7 +27,7 @@ $$
 (x^{3} + y^{3} + z^{3}) = 114,
 \end{align}
 $$
-whose solution (if it exists) continues to elude the many number theorists who are actively working on this and other related equations involving *sums of three cubes* of the form $x^{3} + y^{3} + z^{3} = a$. As before, it suffices to find a single solution for variables $x,y,z$, however searching the infinite space of integers, especially in the absence of a broader mathematical theory, can easily lead one astray.[^2]
+whose solution (if it exists) continues to elude the many number theorists who are actively working on this and other related equations involving [**sums of three cubes**](https://www.quantamagazine.org/why-the-sum-of-three-cubes-is-a-hard-math-problem-20191105/) of the form $x^{3} + y^{3} + z^{3} = a$. As before, it suffices to find a single solution for variables $x,y,z$, however searching the infinite space of integers, especially in the absence of a broader mathematical theory, can easily lead one astray.[^2]
 
 We can also ask seemingly more complicated follow-up questions, such as whether the specific equation below (known as the *Ljundggren* equation):
 $$
@@ -76,16 +76,21 @@ Diophantine Equations and Sets
 -------------------------
 
 First, let's consider Hilbert's original description of the problem:
->Given a **Diophantine equation** with *any number of unknown quantities* and with rational integral numerical coefficients: To **devise a process** according to which it can be determined in a finite number of operations **whether the equation is solvable in rational integers**.
+
+>Given a **Diophantine equation** with *any number of unknown quantities*
+> and with rational integral numerical coefficients:
+> To **devise a process** according to which it can be determined
+> in a finite number of operations **whether the equation is solvable in rational integers**.
+
 We will consider each part of this problem statement in turn. Hilbert's notion of a *process ..[involving] a finite number of operations* is what we would now call an **algorithm**, which was a rather fuzzy concept in 1900 (we will talk about algorithms in the next section). By *diophantine equation*, Hilbert's is referring to certain types of polynomial equations that characterize most of the equations we have considered so far.  A *polynomial* in our case will mean the following:
 
-**Definition 1** A **polynomial** expression over $n$ variables/*unknown quantities* $x_{1},x_{2},..,x_{n}$, denoted as $p(x_{1},...,x_{n})$, is any finite sum of *monomials*, or expressions of the form:
+**Definition 1** A **polynomial** expression over $n$ variables/*unknown quantities* $x\_{1},x\_{2},..,x\_{n}$, denoted as $p(x\_{1},...,x\_{n})$, is any finite sum of *monomials*, or expressions of the form:
 $$
-cx_{1}^{k_{1}},...,x_{n}^{k_{n}},
+cx\_{1}^{k\_{1}},...,x\_{n}^{k\_{n}},
 $$
-where $c$ is an integer *coefficient* (i.e., positive and negative integers and zero, denoted as $\mathbb{Z}$) and $k_{1},...,k_{n}$ are natural numbers including zero (denoted as $\mathbb{N}$) that are, importantly, distinct from the polynomial's variables.
+where $c$ is an integer *coefficient* (i.e., positive and negative integers and zero, denoted as $\mathbb{Z}$) and $k\_{1},...,k\_{n}$ are natural numbers including zero (denoted as $\mathbb{N}$) that are, importantly, distinct from the polynomial's variables.
 
-Examples polynomial expressions include $x_{1}^{2} - 4x_{1} + 3$ (where, for convenience, subtraction is used in place of addition with a negative number, $+ -4x$), $4x_{1}^{3} + 6x_{2}$, $x_{1}+x_{2} + ... + x_{4}$ (with all coefficients $c$ equal to 1) and so on.[^6] When talking about polynomials it is important to specify the range of their variables. Diophantine equations are special types of polynomial equations that restrict the range of variables in the manner specified below.
+Examples polynomial expressions include $x\_{1}^{2} - 4x\_{1} + 3$ (where, for convenience, subtraction is used in place of addition with a negative number, $+ -4x$), $4x\_{1}^{3} + 6x\_{2}$, $x\_{1}+x\_{2} + ... + x\_{4}$ (with all coefficients $c$ equal to 1) and so on.[^6] When talking about polynomials it is important to specify the range of their variables. Diophantine equations are special types of polynomial equations that restrict the range of variables in the manner specified below.
 
 
 [^1]: This example is taken from [(Poonen 2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf). Other examples and explanations are adapted throughout from the following very readable surveys: [(Smith 2011)](https://www.logicmatters.net/resources/pdfs/MRDP.pdf),[(Pastern 2019)](https://imaginary.org/sites/default/files/snapshots/snapshots-2019-003.pdf)
@@ -98,4 +103,4 @@ Examples polynomial expressions include $x_{1}^{2} - 4x_{1} + 3$ (where, for con
 
 [^5]: We will only give a cursory overview of the number theoretic aspects of this problem that helped Matiyasevich and others to arrive at the final solution. The full details of this can be found in the surveys [(Davis 1973)](http://www.math.umd.edu/~laskow/Pubs/713/Diophantine.pdf).
 
-[^6]: When trying to map specific polynomials into a sum of monomials in the form provided, it is important to recall that each $k_{j}$ exponent can be 0, which maps any number to 1. Therefore, in $p(x_{1},x_{2}) = 4x_{1}^{3} + 6x_{2}$, the first **term** $4x_{1}^{3}$ in the sum (whose coefficient is $4$) is equal to $4x_{1}^{3}x_{2}^{0}$, whereas the second term is equal to $6x_{1}^{0}x_{2}^{1}$. Likewise, for any term without an explicit coefficient, it can be assumed that the coefficient is 1.
+[^6]: When trying to map specific polynomials into a sum of monomials in the form provided, it is important to recall that each $k\_{j}$ exponent can be 0, which maps any number to 1. Therefore, in $p(x\_{1},x\_{2}) = 4x\_{1}^{3} + 6x\_{2}$, the first **term** $4x\_{1}^{3}$ in the sum (whose coefficient is $4$) is equal to $4x\_{1}^{3}x\_{2}^{0}$, whereas the second term is equal to $6x\_{1}^{0}x\_{2}^{1}$. Likewise, for any term without an explicit coefficient, it can be assumed that the coefficient is 1.
