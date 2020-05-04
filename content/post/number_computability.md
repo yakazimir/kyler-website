@@ -176,8 +176,26 @@ $$
 p((y\_{0,1}^{2} + y\_{0,2}^{2} + y\_{0,3}^{2} + y\_{0,4}^{2}),...,(y\_{n,1}^{2} + y\_{n,2}^{2} + y\_{n,3}^{2} + y\_{n,4}^{2})) = 0,
 \end{align}
 $$
-where each $y_{j} \in \mathbb{Z}$. The important point is the following: **To establish the unsolvability of Hilbert's 10th problem in its original form, it is sufficient to establish the unsolvability of its analog for non-negative solutions** [(Matiyasevich 1993)](https://mitpress.mit.edu/books/hilberts-10th-problem). For this reason, we limit ourselves exclusively to variables in natural numbers. *Thus, the problem of solving Hilbert's problem will crucially rely on understanding properties of set of natural numbers* and algorithms over sets, which we turn to in the next section. 
+where each $y_{j} \in \mathbb{Z}$. The important point is the following: **To establish the unsolvability of Hilbert's 10th problem in its original form, it is sufficient to establish the unsolvability of its analog for non-negative solutions** [(Matiyasevich 1993)](https://mitpress.mit.edu/books/hilberts-10th-problem). For this reason, we limit ourselves exclusively to variables in natural numbers. *Thus, the problem of solving Hilbert's problem will crucially rely on understanding properties of set of natural numbers* and algorithms over sets, which we turn to in the next section.
 
+Computability Theory 
+-------------------------
+
+In this section, we detail the basic ideas from computability theory that inform us about sets and their algorithmic properties. This centers around a discussion of **recursively enumerable** and **recursive** sets and, most importantly, understanding the differences between both classes of sets.
+
+**Definition 4**: A **recursively enumerable** (or *listable,computable,semi-decidable*) set is any subset $A \subseteq \mathbb{N}$ for which there exists an algorithm/Turing Machine/program that can print, with possible repeats, all the members of $A$ and nothing more[^8].
+
+We will not delve into what exactly an algorithm means in this context, other than to say that it can be any effective procedure that solves the task at hand. Evoking [**Church's thesis**](https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis), an algorithm being *effective* means that there should exist an accompanying [**Turing Machine**](https://plato.stanford.edu/entries/turing-machine/), which one might think of as a (correct and precise) mathematical model or simulation of the target algorithm and its hardware. The following result connects these notions more directly with ordinary functions.
+
+**Lemma 1**: The following definitions are equivalent:
+
+1. A is recursively enumerable (according **Definition 4**).
+2. A is empty or in the range of a total (computable) function $f : \mathbb{N} \to \mathbb{N}$
+3. A is in the domain of a partial (computable) function $f : \mathbb{N} \to \mathbb{N}$
+
+We leave the proof an an exercise to the reader (though we describe an example below). We will also gloss over the meaning of a \emph{computable function}, though it is worth pointing out that virtually all numerical functions encountered in ordinary mathematics (e.g., addition, multiplication, exponentiation, integer square root, ...)  are computable.
+
+**Example** 
 
 [^1]: This example is taken from [(Poonen 2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf). Other examples and explanations are adapted throughout from the following very readable surveys: [(Smith 2011)](https://www.logicmatters.net/resources/pdfs/MRDP.pdf),[(Pastern 2019)](https://imaginary.org/sites/default/files/snapshots/snapshots-2019-003.pdf)
 
@@ -192,3 +210,5 @@ where each $y_{j} \in \mathbb{Z}$. The important point is the following: **To es
 [^6]: When trying to map specific polynomials into a sum of monomials in the form provided, it is important to recall that each $k\_{j}$ exponent can be 0, which maps any number to 1. Therefore, in $p(x\_{1},x\_{2}) = 4x\_{1}^{3} + 6x\_{2}$, the first **term** $4x\_{1}^{3}$ in the sum (whose coefficient is $4$) is equal to $4x\_{1}^{3}x\_{2}^{0}$, whereas the second term is equal to $6x\_{1}^{0}x\_{2}^{1}$. Likewise, for any term without an explicit coefficient, it can be assumed that the coefficient is 1.
 
 [^7]: We note that it is also possible to consider equations with tuples of parameters, $(a\_{1},..,a\_{m})$, however our simplified version will suffice to prove the main result.
+
+[^8]: Note that we can make this definition more complex both by considering subsets of $\mathbb{N}^{m}$ (i.e., sets of $m-$tuples over $\mathbb{N}$), or  sets over $\mathbb{Z}$, however our restricted definition will suffice for proving our main results.
