@@ -134,7 +134,7 @@ $$
 
 Using this equation, we therefore have our polynomial equation that defines exactly the natural numbers. To make it have the desired diophantine form, we can simply move $a$ to the other side of the equation to arrive at $a - (x\_{0}^{2} + x\_{1}^{2} + x\_{2}^{2} + x\_{3}^{2}) = 0$. Now to ask if a given number such as 4 is in the set of natural numbers, we can also also ask whether $4 - x\_{0}^{2} + x\_{1}^{2} + x\_{2}^{2} + x\_{3}^{2} = 0$ has a solution.
 
-What about the set of [**composite numbers**](https://mathworld.wolfram.com/CompositeNumber.html) (i.e., non-prime positive integers): $\{4, 6, 8, 9, 10, 12, ...\}$? Here we have a slightly less intuitive equation:
+What about the set of [**composite numbers**](https://mathworld.wolfram.com/CompositeNumber.html) (i.e., non-prime positive integers): $\{4, 6, 8, 9, 10, 12, ...\}$? Here we have the following equation:
 $$
 \begin{align}
 (x\_{1} + 2)(x\_{2} +2) - a = 0,
@@ -420,7 +420,7 @@ In terms of the larger theme, here we can see more clearly the curious way in wh
 
 [^1]: This example is taken from [(Poonen 2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf). Other examples and explanations are adapted throughout from the following very readable surveys: [(Smith 2011)](https://www.logicmatters.net/resources/pdfs/MRDP.pdf),[(Pastern 2019)](https://imaginary.org/sites/default/files/snapshots/snapshots-2019-003.pdf)
 
-[^2]: Considerable empirical progress was made in 2019 on sum of three cubes problems when solutions for $a=33$ and $a=42$ were discovered by Andrew Booker and colleagues (see [Booker (2019)](https://arxiv.org/abs/1903.04284)). In the former case, his investigation involved looking at positive and negative integers in the range of $10^{16}$, which required the equivalent of 23 years of continuous computation on a single computer; this resulted in the following highly unintuitive variable solutions: $$(x=886612897528752,y=-877840544286223,z=-2736111468807 04)$$. In the latter case, finding a solution required (the equivalent of) 1.3 million hours of compute time, which is likewise an unfathomable amount of computation time.
+[^2]: Considerable empirical progress was made in 2019 on sum of three cubes problems when solutions for $a=33$ and $a=42$ were discovered by Andrew Booker and colleagues (see [Booker (2019)](https://arxiv.org/abs/1903.04284)). In the former case, his investigation involved looking at positive and negative integers in the range of $10^{16}$, which required the equivalent of 23 years of continuous computation on a single computer; this resulted in the following highly unintuitive variable solutions: $$\small (x=886612897528752,y=-877840544286223,z=-2736111468807 04)$$. In the latter case, finding a solution required (the equivalent of) 1.3 million hours of compute time, which is likewise an unfathomable amount of computation time.
 
 [^3]: The story behind this conjecture is likely to be the most repeated anecdote in mathematics. Fermat had apparently scribbled this conjecture in 1637 into the margins of Diophantus' *Arithmetica* and claimed that he had *discovered a truly remarkable proof* that was too complex to fit in the margins. As mentioned above, the ultimate proof didn't arrive until over 350 years later.
 
@@ -428,7 +428,7 @@ In terms of the larger theme, here we can see more clearly the curious way in wh
 
 [^5]: We will only give a cursory overview of the number theoretic aspects of this problem that helped Matiyasevich and others to arrive at the final solution. The full details of this can be found in [(Davis 1973)](http://www.math.umd.edu/~laskow/Pubs/713/Diophantine.pdf).
 
-[^6]: When trying to map specific polynomials into a sum of monomials in the form provided, it is important to recall that each $k\_{j}$ exponent can be 0, which maps any number to 1. Therefore, in $p(x\_{1},x\_{2}) = 4x\_{1}^{3} + 6x\_{2}$, the first **term** $4x\_{1}^{3}$ in the sum (whose coefficient is $4$) is equal to $4x\_{1}^{3}x\_{2}^{0}$, whereas the second term is equal to $6x\_{1}^{0}x\_{2}^{1}$. Likewise, for any term without an explicit coefficient, it can be assumed that the coefficient is 1.
+[^6]: When trying to map specific polynomials into a sum of monomials in the form provided, it is important to recall that each $k\_{j}$ exponent can be 0, which maps any number to 1. Therefore, in $$p(x\_{1},x\_{2}) = 4x\_{1}^{3} + 6x\_{2}$$, the first **term** $4x\_{1}^{3}$ in the sum (whose coefficient is $4$) is equal to $4x\_{1}^{3}x\_{2}^{0}$, whereas the second term is equal to $6x\_{1}^{0}x\_{2}^{1}$. Likewise, for any term without an explicit coefficient, it can be assumed that the coefficient is 1.
 
 [^7]: We note that it is also possible to consider equations with tuples of parameters, $(a\_{1},..,a\_{m})$, however our simplified version will suffice to prove the main result.
 
