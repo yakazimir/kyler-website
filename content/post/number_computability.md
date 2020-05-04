@@ -225,7 +225,7 @@ Using the following result (as before, we leave the proof as a exercise for the 
 
 **Lemma 2**: If a set $A$ and its complement $\overline{A}$ are both recursively enumerable, then $A$ is recursive.
 
-we can demonstrate that the set of square numbers is recursive by showing that the set of non-square numbers is recursively enumerable. Here we will sketch an *algorithm* for doing this, which does the following: loops through/enumerates  each $i \in \mathbb{N}$, and print $i$ in the case when \text{sqrt}$(i)$ (which is a computable function) does not return a whole number, and simply ignore the rest[^9].
+we can demonstrate that the set of square numbers is recursive by showing that the set of non-square numbers is recursively enumerable. Here we will sketch an *algorithm* for doing this, which does the following: loops through/enumerates  each $i \in \mathbb{N}$, and print $i$ in the case when $\text{sqrt}$(i)$ (which is a computable function) does not return a whole number, and simply ignore the rest[^9].
 
 The most important result for Hilbert's 10th problem from computer science is that not all recursively enumerable sets are recursive, which we examine in some detail below.
 
@@ -249,30 +249,29 @@ This definition seem simple enough, however it leads to difficulties centering a
 $$
 \begin{align}
     M'(x) = \begin{cases}
-               0               & \text{if }  M\_{x} \text{ does not halt on } x \Leftrightarrow (M\_{x},x) \notin K  \\
-               \uparrow               & \text{if } M\_{x} \text{ does halt on x} \hspace{.7cm} \Leftrightarrow (M\_{x},x) \in K \\
+               0               & \text{if }  M\_{x} \text{ does not halt on } x \Leftrightarrow (M\_{x},x) \notin K  \\\\
+               \uparrow               & \text{if } M\_{x} \text{ does halt on x} \hspace{.7cm} \Leftrightarrow (M\_{x},x) \in K \\\\
            \end{cases}
 \end{align}
 $$
 In simpler terms, we want $M'$ to terminate on programs with matching indices that do not halt:
 $$
 \begin{align} 
-M' \textbf{ halts on }x \emph{(i.e., returns 0)}\Leftrightarrow \textbf{ program }x \textbf{ does not halt on } x
-%$H'$ \text{ halts  on }x \Leftrightarrow \text{program } x d 
+M' \textbf{ halts on }x \text{(i.e., returns 0)}\Leftrightarrow \textbf{ program }x \textbf{ does not halt on } x
 \end{align}
 $$
 However, this leads to a contradiction when we recognize that $M'$ (in virtue of being a valid Turing Machine that we assume halts) has its own index, say $e$, and that it too **can be run on its own input $e$**. This gives rise to the following:
 $$
 \begin{align} 
-M\_{e} \textbf{ halts on }e &\Leftrightarrow \hspace{-1.5cm}&\text{ $[$program }x ] \textbf{ does not halt on } x  &&\hspace{-1.5cm}\emph{(definition)} \\ 
-M\_{e} \textbf{ halts on }e &\Leftrightarrow \hspace{-1.5cm}&[M\_{e}] \textbf{ does not halt on } e  &&\hspace{-1cm}\emph{(substitution with $e$)}
+M\_{e} \textbf{ halts on }e &\Leftrightarrow \hspace{-1.5cm}&\text{ $[$program }x ] \textbf{ does not halt on } x  &&\hspace{-1.5cm}\text{(definition)} \\\\ 
+M\_{e} \textbf{ halts on }e &\Leftrightarrow \hspace{-1.5cm}&[M\_{e}] \textbf{ does not halt on } e  &&\hspace{-1cm}\text{(substitution with $e$)}
 \end{align}
 $$
 the last of which is a clear contradiction. Translating this into an assertion about set membership, this amounts to saying
 \begin{align}
 (M\_{e},e) \in K  \Leftrightarrow (M\_{e},e) \notin K,
 \end{align}
-which is again a contradiction, thus making our assertion that $K$ is decidable not tenable.
+which is again a contradiction, thus making our assertion that $K$ is decidable not tenable. □
 
 
 
