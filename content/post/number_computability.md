@@ -208,7 +208,7 @@ f(x) = x^{2}
 \end{align}
 $$
 Putting all this together, it is clear that the range of this function i.e.,
-$$
+$$\small
 \text{ran}(f) =  \Big\\{ f(1),f(2),f(3),f(4),.. \Big\\}
 $$
 will only be square numbers and that $A$ is recursively enumerable (thus satisfying condition 2). 
@@ -261,7 +261,7 @@ M' \textbf{ halts on }x \text{(i.e., returns 0)}\Leftrightarrow \textbf{ program
 \end{align}
 $$
 However, this leads to a contradiction when we recognize that $M'$ (in virtue of being a valid Turing Machine that we assume halts) has its own index, say $e$, and that it too **can be run on its own input $e$**. This gives rise to the following:
-$$\small
+$$
 \begin{align} 
 M\_{e} \textbf{ halts on }e &\Leftrightarrow \hspace{-1.5cm}&\text{ $[$program }x ] \textbf{ does not halt on } x  &&\hspace{-1.5cm}\text{(definition)} \\\\ 
 M\_{e} \textbf{ halts on }e &\Leftrightarrow \hspace{-1.5cm}&[M\_{e}] \textbf{ does not halt on } e  &&\hspace{-1cm}\text{(substitution with $e$)}
@@ -273,6 +273,24 @@ the last of which is a clear contradiction. Translating this into an assertion a
 \end{align}
 which is again a contradiction, thus making our assertion that $K$ is decidable not tenable. □
 
+The main point here is that **for any universal algorithm that tries to determine membership in $K$, there will inevitably  be  inputs for which deciding membership will give raise to a contradiction** that makes it impossible for any algorithm to decide whether or not it is in the set (and hence will cause an algorithm to run forever. We note that the Halting Set as defined is not itself a set of numbers of the type we defined above (i.e., a subset of $\mathbb{N}$), however it can be used to build an explicit set of numbers. The standard example is called the **diagonal halting set** defined as
+$$
+\begin{align}K\_{0} = \Big\\{ x \mid M\_{x}(x)\downarrow \Big\\},
+\end{align}
+$$
+which can also be used as the basis of the proof above. We consider a different example set $A$ that  looks superficially closer the types of sets encountered in number theory, as described in the following corollary (which is the most important result in this section):
+
+**Corollary 1**: There exists recursively enumerable sets that are not recursive.
+
+**Proof** We have already basically proven this with $K$, though will make the case again using a specific example set from [(Poonen 2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf) to emphasize the larger point. Imagining again that we have an enumeration of Turing machines $M\_{1}$, $M\_{2}$, ..., consider the following set $A \subset \mathbb{N}$:
+$$
+\begin{align}
+A = \Big\\{  j = 2^{x}3^{y} \mid M\_{x}(y)\downarrow  \Big\\}
+\end{align}
+$$
+We will first establish  **$A$ is recursively enumerable**, which we  can do by imagining the following (completely impractical) algorithm:  using our enumeration of programs, we can  loop through all numbers and pairs $x,y=1,...,\infty$ and execute each $M\_{x}(y)$ in parallel. In cases where $M\_{x}(y)\downarrow$ is true, the computation has to stop after some finite number of steps, at which point we can simply print $2^{x}3^{y}$ (this will potentially lead to repeats, though this is fine according to our definition). We can then simply ignore cases where the programs run forever, since these are clearly cases where $M\_{x}(y)\downarrow$ is not true.
+
+In terms of this set not being recursive, clearly deciding membership in $A$ would require solving membership in $K$, which we have already shown is not possible given the undecidability of the Halting Problem. Therefore, for some inputs the program might run forever, which we can safely ignore in this case. □
 
 
 [^1]: This example is taken from [(Poonen 2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf). Other examples and explanations are adapted throughout from the following very readable surveys: [(Smith 2011)](https://www.logicmatters.net/resources/pdfs/MRDP.pdf),[(Pastern 2019)](https://imaginary.org/sites/default/files/snapshots/snapshots-2019-003.pdf)
@@ -291,4 +309,4 @@ which is again a contradiction, thus making our assertion that $K$ is decidable 
 
 [^8]: Note that we can make this definition more complex both by considering subsets of $\mathbb{N}^{m}$ (i.e., sets of $m-$tuples over $\mathbb{N}$), or  sets over $\mathbb{Z}$, however our restricted definition will suffice for proving our main results.
 
-[^9]: Clearly this algorithm is impractical since it requires looping through an infinite number of numbers in $\mathbb{N}$. When we argue about the existence of algorithms in mathematics, we are allowed to make unrealistic, even outlandish, assumptions about the amount of resources and time we are allowed (e.g., that we have an infinite of time/memory/parallel computations/..). Part of the reason why we describe abstract algorithms here in terms of Turing Machines, as opposed to Python or Java programs, say, is that they permit such excesses (e.g., by providing a infinite memory in the form of an **infinite memory tape** on which we can read and write). 
+[^9]: Clearly this algorithm is impractical since it requires looping through an infinite number of numbers in $\mathbb{N}$. When we argue about the existence of algorithms in mathematics, we are allowed to make unrealistic, even outlandish, assumptions about the amount of resources and time we are allowed (e.g., that we have an infinite of time/memory/parallel computations/..). Part of the reason why we describe abstract algorithms here in terms of Turing Machines, as opposed to Python or Java programs is that they permit such excesses (e.g., by providing a infinite memory in the form of an **infinite memory tape** on which we can read and write). 
