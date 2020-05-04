@@ -1,6 +1,6 @@
 +++
 title = "Number Theory Meets Computability Theory"
-description = ""
+description = "Some Notes on Hilbert's 10th problem"
 date = "2020-04-03"
 categories = ["computability theory","number theory","polynomials","Hilbert's 10 Problem", "diophantine equations"]
 mmark = true
@@ -8,6 +8,7 @@ draft = false
 +++
 
 ![where is the image](https://www.nlp-kyle.com/files/DPRM.jpeg)
+
 
 Solving Equations
 -------------------------
