@@ -440,6 +440,6 @@ In terms of the larger theme, here we can see more clearly the curious way in wh
 
 [^10]: This is in virtue of the prime numbers being **recursive** and therefore also recursively enumerable.
 
-[^11]: Examples of exponential diophantine equations includes Fermat's equation considered in the beginning, as well as more unusual equations such as $2x^{3y^{x}z+x^{2}} = 5x^{2}+yz$ [(Poonen 2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf).
+[^11]: Examples of exponential diophantine equations includes Fermat's equation considered in the beginning, as well as more unusual equations such as $$2x^{3y^{x}z+x^{2}} = 5x^{2}+yz$$ from [(Poonen 2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf).
 
 [^12]: Assuming a slightly more complex definition of a diophantine set than so far considered, which in particular permits sets of $m-$tuples of $\mathbb{N}^{m}$ rather than only subsets of $\mathbb{N}$. See again Footnote [^7].
