@@ -113,7 +113,7 @@ by transposing the negative terms.
 As briefly discussed in the last section, one of the big ideas is to define diophantine equations with additional variables called **parameters** $a$, as in $p(a,x\_{1},x\_{2},...,x\_{n})$ (where $x\_{1},...,x\_{n}$ continue to be what we previously called *unknowns*), which allow us to describe abstract *families of diophantine equations*. This gives rise to an important concept called a **diophantine set**.
 
 **Definition 3**:  A **diophantine representation** of a diophantine equation $p$ with integer *unknowns* $x\_{1},...,x\_{n}$ and a *parameter* $a$[^7] is the set (which we will henceforth call a **diophantine set**):
-$$
+$$\small
 \begin{align}
 S = \Big\\{ a \mid \exists x\_{1},...,x\_{n} [ p(a,x\_{1},...,x\_{n}) = 0 ]\Big\\}
 \end{align}
@@ -233,7 +233,7 @@ The most important result for Hilbert's 10th problem from computer science is th
 
 
 **Definition 6** In our simplified version of the Halting Problem, we will consider the following set $K$ that we call the **Halting Set**:
-$$
+$$\small
 \begin{align}
 K = \Big\\{ (M\_{x},y) \mid \text{program $x$ }  (M\_{x}) \text{ halts on input } y \Leftrightarrow  M\_{x}(y) \downarrow  \Big\\}
 \end{align}
@@ -261,7 +261,7 @@ M' \textbf{ halts on }x \text{(i.e., returns 0)}\Leftrightarrow \textbf{ program
 \end{align}
 $$
 However, this leads to a contradiction when we recognize that $M'$ (in virtue of being a valid Turing Machine that we assume halts) has its own index, say $e$, and that it too **can be run on its own input $e$**. This gives rise to the following:
-$$
+$$\small
 \begin{align} 
 M\_{e} \textbf{ halts on }e &\Leftrightarrow \hspace{-1.5cm}&\text{ $[$program }x ] \textbf{ does not halt on } x  &&\hspace{-1.5cm}\text{(definition)} \\\\ 
 M\_{e} \textbf{ halts on }e &\Leftrightarrow \hspace{-1.5cm}&[M\_{e}] \textbf{ does not halt on } e  &&\hspace{-1cm}\text{(substitution with $e$)}
@@ -274,7 +274,7 @@ the last of which is a clear contradiction. Translating this into an assertion a
 which is again a contradiction, thus making our assertion that $K$ is decidable not tenable. □
 
 The main point here is that **for any universal algorithm that tries to determine membership in $K$, there will inevitably  be  inputs for which deciding membership will give raise to a contradiction** that makes it impossible for any algorithm to decide whether or not it is in the set (and hence will cause an algorithm to run forever. We note that the Halting Set as defined is not itself a set of numbers of the type we defined above (i.e., a subset of $\mathbb{N}$), however it can be used to build an explicit set of numbers. The standard example is called the **diagonal halting set** defined as
-$$
+$$\small
 \begin{align}K\_{0} = \Big\\{ x \mid M\_{x}(x)\downarrow \Big\\},
 \end{align}
 $$
@@ -283,7 +283,7 @@ which can also be used as the basis of the proof above. We consider a different 
 **Corollary 1**: There exists recursively enumerable sets that are not recursive.
 
 **Proof** We have already basically proven this with $K$, though will make the case again using a specific example set from [(Poonen 2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf) to emphasize the larger point. Imagining again that we have an enumeration of Turing machines $M\_{1}$, $M\_{2}$, ..., consider the following set $A \subset \mathbb{N}$:
-$$
+$$\small
 \begin{align}
 A = \Big\\{  j = 2^{x}3^{y} \mid M\_{x}(y)\downarrow  \Big\\}
 \end{align}
