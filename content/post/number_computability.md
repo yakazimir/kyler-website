@@ -30,13 +30,13 @@ $$
 whose solution (if it exists) continues to elude the many number theorists who are actively working on this and other related equations involving [**sums of three cubes**](https://www.quantamagazine.org/why-the-sum-of-three-cubes-is-a-hard-math-problem-20191105/) of the form $x^{3} + y^{3} + z^{3} = a$. As before, it suffices to find a single solution for variables $x,y,z$, however searching the infinite space of integers, especially in the absence of a broader mathematical theory, can easily lead one astray.[^2]
 
 We can also ask seemingly more complicated follow-up questions, such as whether the specific equation below (known as the *Ljundggren* equation):
-$$
+$$\small
 \begin{align}
 x^{2} - 2y^{4} + 1 = 0
 \end{align}
 $$
 not only has a solution, but a fixed set of unique solutions (the Norwegian mathematician [*Wilhelm Ljundggren*](https://en.wikipedia.org/wiki/Wilhelm_Ljunggren), after whom the equation is named, proved in 1942 that this equation indeed only has the following two  solutions: $(x=1,y=1)$ and $(x=239,y=13)$). We can also ask whether *no solutions exist* for a given equation under certain conditions, for example whether it is true that the following equation (or family of equations):
-$$
+$$\small
 \begin{align}
 x^{n} + y^{n} = z^{n},
 \label{eq:fermat}
@@ -54,7 +54,7 @@ While this result closely relates to other *impossibility* results discovered in
 
 
 To see how this works, consider the general form of the three cube problem shown below (which we might think of as denoting the *family* of all the three cube equations):
-$$
+$$\small
 \begin{align}
 x^{3} + y^{3} + z^{3} = a.
 \label{eq:cube}
@@ -85,7 +85,7 @@ First, let's consider Hilbert's original description of the problem:
 We will consider each part of this problem statement in turn. Hilbert's notion of a *process ..[involving] a finite number of operations* is what we would now call an **algorithm**, which was a rather fuzzy concept in 1900 (we will talk about algorithms in the next section). By *diophantine equation*, Hilbert's is referring to certain types of polynomial equations that characterize most of the equations we have considered so far.  A *polynomial* in our case will mean the following:
 
 **Definition 1**: A **polynomial** expression over $n$ variables/*unknown quantities* $x\_{1},x\_{2},..,x\_{n}$, denoted as $p(x\_{1},...,x\_{n})$, is any finite sum of *monomials*, or expressions of the form:
-$$
+$$\small
 cx\_{1}^{k\_{1}},...,x\_{n}^{k\_{n}},
 $$
 where $c$ is an integer *coefficient* (i.e., positive and negative integers and zero, denoted as $\mathbb{Z}$) and $k\_{1},...,k\_{n}$ are natural numbers including zero (denoted as $\mathbb{N}$).
@@ -95,15 +95,15 @@ Examples polynomial expressions include $x\_{1}^{2} - 4x\_{1} + 3$ (where, for c
 **Definition 2**: A **diophantine equation** is specific type of polynomial expression $p(x\_{1},...,x\_{n}) = 0$ (also known as a *polynomial equation* in *traditional form*) restricted to **integer** unknowns $x\_{1},...,x\_{n}$ (or what Hilbert calls *rational integers*).
 
 We will show momentarily that it suffices to modify the problem such that variables are restricted to natural numbers, which is a inconsequential variant of Hilbert's original description. We also note that it is sometimes easier to transform diophantine equations out of their **traditional form** $p(\cdot) = 0$ into equations of the following type:
-$$
+$$\small
 \begin{align}
 p\_{l}(x\_{1},...,x\_{n}) = p\_{r}(x\_{1},...,x\_{n})
 \end{align}
 $$
 where $p\_{l}$ and $p\_{r}$ are two separate diophantine equations defined over the same variables. For example, transformations of this type become convenient when we want to remove negative terms in an equation, which we might do with the following non-trivial diophantine equation:
-$$
+$$\small
 4x^{3}y - 2x^{3}z^{3} - 3y^{2}x + 5z = 0,
-$$
+$$\small
 to arrive at:
 $$4x^{3}y + 5z = 2x^{2}z^{3} + 3y^{2}x
 $$
