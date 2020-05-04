@@ -14,7 +14,7 @@ Solving Equations
 -------------------------
 
 In this article, we consider the problem of solving certain types of equations (called [*polynomial equations*](https://mathworld.wolfram.com/Polynomial.html)). For example, imagine you are given the equation
-$$
+$$\small
 \begin{align}
 4 - x^{2} = 0
 \end{align}
@@ -325,7 +325,7 @@ Okay, so we now have now stated the \emph{negative solution} to Hilbert's 10th p
 While DPRM theorem wasn't proven until around 1970, it was conjectured to be true by Martin Davis dating back to the 1950's. Matiyasevich remarks that it was this corollary to the conjecture that led many mathematicians to doubt its validity (since prime numbers are known to have quite a random nature; the idea that they could be described in a single polynomial equation seemed far-fetched). Subsequent work based on DPRM led to the discovery of specific polynomial equations for primes, the most amusing of which is the following equation (which has 26 variables conveniently matching the number of letters in the alphabet):
 
 **Theorem 5**: The set of all prime numbers is equal to the set of all positive values $k$ of the following polynomial [(Jones et al. 1967)](http://www.math.umd.edu/~laskow/Pubs/713/Diorepofprimes.pdf):
-$$
+$$\small
 \begin{align}
 \(k + 2\) \\{ 1 &\-\[wx+h+j-q\]^{2} \\\\ 
 &\-\[(gk+2g+k+1)(h+j)+h-z\]^{2} \\\\ 
@@ -346,7 +346,7 @@ $$
 assuming non-negative values for all variables.
 
 This equation requires some explanation, since it clearly deviates from the standard diophantine form we have been considering. It involves an alternative way of describing polynomial equations that was first observed by Hilary Putnam in [**Putnam (1960)**](https://www.jstor.org/stable/2964679?seq=1). Given any diophantine set $S \subseteq \mathbb{N}$ (represented by a polynomial $p(a,x\_{1},...,x\_{n})$ with natural number variables), such a set has a corresponding polynomial in natural numbers $q(x\_{0},...,x\_{n})$ where
-$$
+$$\small
 \begin{align}
 q(x\_{0},...,x\_{n}) = x\_{0} \big(1 - p^{2}(x\_{0},...,x\_{n}) \big),
 \end{align}
@@ -406,10 +406,12 @@ $$\small
 \end{align}
 $$
 
-by showing that it has a corresponding 3 variable diophantine equation $p\_{a}(a,b,c,x\_{1},...,x\_{n}) = 0$ (which one could use to transform any exponential diophantine equation into an ordinary diophantine equation, albeit with some additional variables). Julia Robinson had earlier proved some sufficient conditions for $p\_{a}$ to exist, namely that it would suffice to find a particular 2 variable diophantine equation $p\_{b}(a,b,x\_{1},...,x\_{n})$ that exhibits **exponential growth**. Building on recent work by Nikolai Vorobyov, Matiyasevich uses properties of [*Fibonacci numbers*](https://en.wikipedia.org/wiki/Fibonacci_number) ($F\_{n}$) to prove that the following set is diophantine: 
+by showing that it has a corresponding 3 variable diophantine equation $p\_{a}(a,b,c,x\_{1},...,x\_{n}) = 0$ (which one could use to transform any exponential diophantine equation into an ordinary diophantine equation, albeit with some additional variables). Julia Robinson had earlier proved some sufficient conditions for $p\_{a}$ to exist, namely that it would suffice to find a particular 2 variable diophantine equation $p\_{b}(a,b,x\_{1},...,x\_{n})$ that exhibits **exponential growth**. Building on recent work by Nikolai Vorobyov, Matiyasevich uses properties of [*Fibonacci numbers*](https://en.wikipedia.org/wiki/Fibonacci_number) ($F\_{n}$) to prove that the following set is diophantine:
+$$\small
 \begin{align}
 \Big\\{ (a,b) \mid a > 0, b = F_{2a}\Big\\}
-\end{align} 
+\end{align}
+$$
 which ultimately leads to DPRM (for full details of the proof, we again urge readers to consult [Davis (1973)](http://www.math.umd.edu/~laskow/Pubs/713/Diophantine.pdf) and [Matiyasevich (1993)](https://mitpress.mit.edu/books/hilberts-10th-problem)).
 
 In terms of the larger theme, here we can see more clearly the curious way in which number theory is being studied under this approach: rather than starting an explicit diophantine equation and trying to prove properties of that equation (as ordinarily done in number theory), we are instead starting with a set then try to find an diophantine equation that characterizes that set. If such an equation is found, we can then say something about its properties by deferring to what we know about sets from computability theory. 
