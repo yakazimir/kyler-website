@@ -249,8 +249,8 @@ This definition seem simple enough, however it leads to difficulties centering a
 $$\small
 \begin{align}
     M'(x) = \begin{cases}
-               0               & \text{if }  M\_{x} \text{ does not halt on } x \Leftrightarrow (M\_{x},x) \notin K  \\\\
-               \uparrow               & \text{if } M\_{x} \text{ does halt on x} \hspace{.7cm} \Leftrightarrow (M\_{x},x) \in K \\\\
+               0               & \text{if }  M\_{x} \text{ does not halt on } x \Leftrightarrow (M\_{x},x) \notin K  \\\\\\
+               \uparrow               & \text{if } M\_{x} \text{ does halt on x} \hspace{.7cm} \Leftrightarrow (M\_{x},x) \in K \\\\\\
            \end{cases}
 \end{align}
 $$
