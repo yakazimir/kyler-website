@@ -246,7 +246,7 @@ This definition seem simple enough, however it leads to difficulties centering a
 
 **Proof** Let's imagine that $K$ is decidable (hence making the Halting Problem decidable). Then it is possible to define another Turing machine $M'$ that does the following (since $K$ being decidable would allow us to compute the membership conditions on the right):
 
-$$
+$$\small
 \begin{align}
     M'(x) = \begin{cases}
                0               & \text{if }  M\_{x} \text{ does not halt on } x \Leftrightarrow (M\_{x},x) \notin K  \\\\
@@ -255,13 +255,13 @@ $$
 \end{align}
 $$
 In simpler terms, we want $M'$ to terminate on programs with matching indices that do not halt:
-$$
+$$\small
 \begin{align} 
 M' \textbf{ halts on }x \text{(i.e., returns 0)}\Leftrightarrow \textbf{ program }x \textbf{ does not halt on } x
 \end{align}
 $$
 However, this leads to a contradiction when we recognize that $M'$ (in virtue of being a valid Turing Machine that we assume halts) has its own index, say $e$, and that it too **can be run on its own input $e$**. This gives rise to the following:
-$$
+$$\small
 \begin{align} 
 M\_{e} \textbf{ halts on }e &\Leftrightarrow \hspace{-1.5cm}&\text{ $[$program }x ] \textbf{ does not halt on } x  &&\hspace{-1.5cm}\text{(definition)} \\\\ 
 M\_{e} \textbf{ halts on }e &\Leftrightarrow \hspace{-1.5cm}&[M\_{e}] \textbf{ does not halt on } e  &&\hspace{-1cm}\text{(substitution with $e$)}
