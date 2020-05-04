@@ -153,7 +153,7 @@ $$
 (2x\_{1} + 1 - a)^{2} + ((x\_{2}+2)(x\_{3}+2) - a)^{2} = 0
 \end{align}
 $$
-In general, rather than talking about individual equations or family of equations, we can even discuss systems of equations by combing multiple diophantine equations (or decomposing complex equations into simpler ones) in the manner illustrated above.
+In general, rather than talking about individual equations or family of equations, we can even discuss **systems of equations** by combing multiple diophantine equations (or decomposing complex equations into simpler ones) in the manner illustrated above.
 
 **Solutions in Natural Numbers** The four-square theorem introduced above can be used to make a few important points about diophantine equations as detailed in [(Matiyasevich 1993, Chapter1)](https://mitpress.mit.edu/books/hilberts-10th-problem). First, if you imagine that we have the following diophantine equation:
 $$
@@ -193,9 +193,42 @@ We will not delve into what exactly an algorithm means in this context, other th
 2. A is empty or in the range of a total (computable) function $f : \mathbb{N} \to \mathbb{N}$
 3. A is in the domain of a partial (computable) function $f : \mathbb{N} \to \mathbb{N}$
 
-We leave the proof an an exercise to the reader (though we describe an example below). We will also gloss over the meaning of a \emph{computable function}, though it is worth pointing out that virtually all numerical functions encountered in ordinary mathematics (e.g., addition, multiplication, exponentiation, integer square root, ...)  are computable.
+We leave the proof an an exercise to the reader (though we describe an example below). We will also gloss over the meaning of a [**computable function**](https://en.wikipedia.org/wiki/Primitive_recursive_function), though it is worth pointing out that virtually all numerical functions encountered in ordinary mathematics (e.g., addition, multiplication, exponentiation, integer square root, ...)  are computable.
 
-**Example** 
+**Example** Let's take the set of square numbers considered already, i.e., $A = \\{ 1, 4, 9, 16, 25,.. \\}$. Is this set recursively enumerable? Yes, according to the following argumentation. We know that the following (diophantine) equation only has solution for $a$ only when $a$ is a square number:
+$$
+\begin{align}
+a - x^{2} = 0,
+\end{align}
+$$
+which we can exploit to define the following (computable) function (defined for all $x \in \mathbb{N}$):
+$$
+\begin{align}
+f(x) = x^{2}
+\end{align}
+$$
+Putting all this together, it is clear that the range of this function i.e.,
+$$
+\textsc{ran}(f) =  \Big\\{ f(1),f(2),f(3),f(4),.. \Big\\}
+$$
+will only be square numbers and that $A$ is recursively enumerable (thus satisfying condition 2). 
+
+What about condition 3? Here we can define the square root function for $sqrt : \mathbb{N} \to \mathbb{N}$ (which is a computable function). Clearly, this function is a [**partial function**](https://en.wikipedia.org/wiki/Partial_function), or its domain is only a subset of $\mathbb{N}$, which is exactly the set of square numbers.
+
+Notice that we didn't need to mention anything about an explicit algorithm or Turing Machine to make this case. What's more, **we did the following curious thing** (which started in the last section): we started by asking a question about an explicit set (which is often the starting point for many computer science or logic problems), then transformed this set into an equation. We could have gone the other way, i.e., start with an equation (which is often the starting point for a number theorist), then move from that equation to a set (then directly to an algorithm).
+
+One alternative way of defining a recursively enumerable set, which is consistent with the definition provided, is a set where there exists an algorithm for verifying membership among inputs that are in the set.  Generalizing from this, there is a more general class of sets that imposes stricter conditions:
+
+**Definition 5** A **recursive** (or *computable,decidable*) set is any subset $A \subseteq \mathbb{N}$ for which there exist an algorithm that can determine (full) *set membership* (i.e., definitively decide for any arbitrary number $x$ whether $x \in A$ or $x \notin A$).
+
+Using the following result (as before, we leave the proof as a exercise for the reader):
+
+**Lemma 2**: If a set $A$ and its complement $\overline{A}$ are both recursively enumerable, then $A$ is recursive.
+
+we can demonstrate that the set of square numbers is recursive by showing that the set of non-square numbers is recursively enumerable. Here we will sketch an *algorithm* for doing this, which does the following: loops through/enumerates  each $i \in \mathbb{N}$, and print $i$ in the case when \textsc{sqrt}$(i)$ (which is a computable function) does not return a whole number, and simply ignore the rest[^9].
+
+The most important result for Hilbert's 10th problem from computer science is that not all recursively enumerable sets are recursive, which we examine in some detail below. 
+
 
 [^1]: This example is taken from [(Poonen 2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf). Other examples and explanations are adapted throughout from the following very readable surveys: [(Smith 2011)](https://www.logicmatters.net/resources/pdfs/MRDP.pdf),[(Pastern 2019)](https://imaginary.org/sites/default/files/snapshots/snapshots-2019-003.pdf)
 
@@ -212,3 +245,5 @@ We leave the proof an an exercise to the reader (though we describe an example b
 [^7]: We note that it is also possible to consider equations with tuples of parameters, $(a\_{1},..,a\_{m})$, however our simplified version will suffice to prove the main result.
 
 [^8]: Note that we can make this definition more complex both by considering subsets of $\mathbb{N}^{m}$ (i.e., sets of $m-$tuples over $\mathbb{N}$), or  sets over $\mathbb{Z}$, however our restricted definition will suffice for proving our main results.
+
+[^9]: Clearly this algorithm is impractical since it requires looping through an infinite number of numbers in $\mathbb{N}$. When we argue about the existence of algorithms in mathematics, we are allowed to make unrealistic, even outlandish, assumptions about the amount of resources and time we are allowed (e.g., that we have an infinite of time/memory/parallel computations/..). Part of the reason why we describe abstract algorithms here in terms of Turing Machines, as opposed to Python or Java programs, say, is that they permit such excesses (e.g., by providing a infinite memory in the form of an **infinite memory tape** on which we can read and write). 
