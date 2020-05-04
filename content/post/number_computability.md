@@ -244,7 +244,35 @@ This definition seem simple enough, however it leads to difficulties centering a
 
 **Theorem 2**: The Halting Problem is undecidable (i.e., there exists no universal algorithm/program/Turing machine for deciding membership in $K$).
 
-**proof** 
+**Proof** Let's imagine that $K$ is decidable (hence making the Halting Problem decidable). Then it is possible to define another Turing machine $M'$ that does the following (since $K$ being decidable would allow us to compute the membership conditions on the right):
+
+$$
+\begin{align}
+    M'(x) = \begin{cases}
+               0               & \text{if }  M\_{x} \text{ does not halt on } x \Leftrightarrow (M\_{x},x) \notin K  \\
+               \uparrow               & \text{if } M\_{x} \text{ does halt on x} \hspace{.7cm} \Leftrightarrow (M\_{x},x) \in K \\
+           \end{cases}
+\end{align}
+$$
+In simpler terms, we want $M'$ to terminate on programs with matching indices that do not halt:
+$$
+\begin{align} 
+M' \textbf{ halts on }x \emph{(i.e., returns 0)}\Leftrightarrow \textbf{ program }x \textbf{ does not halt on } x
+%$H'$ \text{ halts  on }x \Leftrightarrow \text{program } x d 
+\end{align}
+$$
+However, this leads to a contradiction when we recognize that $M'$ (in virtue of being a valid Turing Machine that we assume halts) has its own index, say $e$, and that it too **can be run on its own input $e$**. This gives rise to the following:
+$$
+\begin{align} 
+M\_{e} \textbf{ halts on }e &\Leftrightarrow \hspace{-1.5cm}&\text{ $[$program }x ] \textbf{ does not halt on } x  &&\hspace{-1.5cm}\emph{(definition)} \\ 
+M\_{e} \textbf{ halts on }e &\Leftrightarrow \hspace{-1.5cm}&[M\_{e}] \textbf{ does not halt on } e  &&\hspace{-1cm}\emph{(substitution with $e$)}
+\end{align}
+$$
+the last of which is a clear contradiction. Translating this into an assertion about set membership, this amounts to saying
+\begin{align}
+(M\_{e},e) \in K  \Leftrightarrow (M\_{e},e) \notin K,
+\end{align}
+which is again a contradiction, thus making our assertion that $K$ is decidable not tenable.
 
 
 
