@@ -84,7 +84,7 @@ First, let's consider Hilbert's original description of the problem:
 
 We will consider each part of this problem statement in turn. Hilbert's notion of a *process ..[involving] a finite number of operations* is what we would now call an **algorithm**, which was a rather fuzzy concept in 1900 (we will talk about algorithms in the next section). By *diophantine equation*, Hilbert's is referring to certain types of polynomial equations that characterize most of the equations we have considered so far.  A *polynomial* in our case will mean the following:
 
-**Definition 1** A **polynomial** expression over $n$ variables/*unknown quantities* $x\_{1},x\_{2},..,x\_{n}$, denoted as $p(x\_{1},...,x\_{n})$, is any finite sum of *monomials*, or expressions of the form:
+**Definition 1: ** A **polynomial** expression over $n$ variables/*unknown quantities* $x\_{1},x\_{2},..,x\_{n}$, denoted as $p(x\_{1},...,x\_{n})$, is any finite sum of *monomials*, or expressions of the form:
 $$
 cx\_{1}^{k\_{1}},...,x\_{n}^{k\_{n}},
 $$
@@ -92,7 +92,7 @@ where $c$ is an integer *coefficient* (i.e., positive and negative integers and 
 
 Examples polynomial expressions include $x\_{1}^{2} - 4x\_{1} + 3$ (where, for convenience, subtraction is used in place of addition with a negative number, $+ -4x$), $4x\_{1}^{3} + 6x\_{2}$, $x\_{1}+x\_{2} + ... + x\_{4}$ (with all coefficients $c$ equal to 1) and so on.[^6] When talking about polynomials it is important to specify the range of their variables. Diophantine equations are special types of polynomial equations that restrict the range of variables in the manner specified below.
 
-**Definition 2** A **diophantine equation** is specific type of polynomial expression $p(x\_{1},...,x\_{n}) = 0$ (also known as a *polynomial equation* in *traditional form*) restricted to **integer** unknowns $x\_{1},...,x\_{n}$ (or what Hilbert calls *rational integers*).
+**Definition 2: ** A **diophantine equation** is specific type of polynomial expression $p(x\_{1},...,x\_{n}) = 0$ (also known as a *polynomial equation* in *traditional form*) restricted to **integer** unknowns $x\_{1},...,x\_{n}$ (or what Hilbert calls *rational integers*).
 
 We will show momentarily that it suffices to modify the problem such that variables are restricted to natural numbers, which is a inconsequential variant of Hilbert's original description. We also note that it is sometimes easier to transform diophantine equations out of their **traditional form** $p(\cdot) = 0$ into equations of the following type:
 $$
@@ -110,9 +110,9 @@ $$
 by transposing the negative terms.
 
 
-As briefly discussed in the last section, one of the big ideas is to define diophantine equations with additional variables called **parameters** $a$, as in $p(a,x\_{1},x\_{2},...,x\_{n})$ (where $x\_{1},...,x\_{n}$ continue to be what we previously called *unknowns*}), which allow us to describe abstract **families of diophantine equations**. This gives rise to an important concept called a **diophantine set**.
+As briefly discussed in the last section, one of the big ideas is to define diophantine equations with additional variables called **parameters** $a$, as in $p(a,x\_{1},x\_{2},...,x\_{n})$ (where $x\_{1},...,x\_{n}$ continue to be what we previously called *unknowns*), which allow us to describe abstract **families of diophantine equations**. This gives rise to an important concept called a **diophantine set**.
 
-**Definition 3**  A **diophantine representation** of a diophantine equation $p$ with integer *unknowns* $x\_{1},...,x\_{n}$ and a *parameter* $a$[^7] is the set (which we will henceforth call a **diophantine set**):
+**Definition 3: **  A **diophantine representation** of a diophantine equation $p$ with integer *unknowns* $x\_{1},...,x\_{n}$ and a *parameter* $a$[^7] is the set (which we will henceforth call a **diophantine set**):
 $$
 \begin{align}
 S = \Big\\{ a \mid \exists x\_{1},...,x\_{n} [ p(a,x\_{1},...,x\_{n}) = 0 ]\Big\\}
@@ -125,7 +125,7 @@ Interestingly, this set construction will allow us to talk about number theoreti
 **Examples** Let's illustrate this idea by starting with the set of natural numbers $\mathbb{N}$. **Is this set diophantine?** The answer is yes, which can be demonstrated by exploiting the following important theorem:
 
 
-**Theorem 1** [**Four-square theorem**](https://en.wikipedia.org/wiki/Lagrange%27s_four-square_theorem) (Lagrange 1770) Any natural number $a$ can be expressed a sum of four integer squares:
+**Theorem 1: ** [**Four-square theorem**](https://en.wikipedia.org/wiki/Lagrange%27s_four-square_theorem) (Lagrange 1770) Any natural number $a$ can be expressed a sum of four integer squares:
 
 $$
 \begin{align}
@@ -133,7 +133,50 @@ a = x\_{0}^{2} + x\_{1}^{2} + x\_{2}^{2} + x\_{3}^{2}
 \end{align}
 $$
 
-Using this equation, we therefore have our polynomial equation that defines exactly the natural numbers. To make it have the desired diophantine form, we can simply move $a$ to the other side of the equation to arrive at $a - (x\_{0}^{2} + x\_{1}^{2} + x\_{2}^{2} + x\_{3}^{2}) = 0$. Now to ask if a given number such as 4 is in the set of natural numbers, we can also also ask whether $4 - x\_{0}^{2} + x\_{1}^{2} + x\_{2}^{2} + x\_{3}^{2} = 0$ has a solution. 
+Using this equation, we therefore have our polynomial equation that defines exactly the natural numbers. To make it have the desired diophantine form, we can simply move $a$ to the other side of the equation to arrive at $a - (x\_{0}^{2} + x\_{1}^{2} + x\_{2}^{2} + x\_{3}^{2}) = 0$. Now to ask if a given number such as 4 is in the set of natural numbers, we can also also ask whether $4 - x\_{0}^{2} + x\_{1}^{2} + x\_{2}^{2} + x\_{3}^{2} = 0$ has a solution.
+
+What about the set of [**composite numbers**](https://mathworld.wolfram.com/CompositeNumber.html) (i.e., non-prime positive integers): $\{4, 6, 8, 9, 10, 12, ...\}$? Here we have a slightly less intuitive equation:
+$$
+\begin{align}
+(x\_{1} + 2)(x\_{2} +2) - a = 0,
+\end{align}
+$$
+which again gives us what we need to say that composite numbers are diophantine. How about the set of composite numbers that are odd? Well, we already have an equation for composite numbers, and we can express odd numbers with the following equation:
+$$
+\begin{align}
+2x\_{1} + 1 - a = 0
+\end{align}
+$$
+Defining this set can then be accomplished by combing both equations and squaring each individual equation (i.e., to ensure that they evaluate to 0):
+$$
+\begin{align}
+(2x\_{1} + 1 - a)^{2} + ((x\_{2}+2)(x\_{3}+2) - a)^{2} = 0
+\end{align}
+$$
+In general, rather than talking about individual equations or family of equations, we can even discuss systems of equations by combing multiple diophantine equations (or decomposing complex equations into simpler ones) in the manner illustrated above.
+
+**Solutions in Natural Numbers** The four-square theorem introduced above can be used to make a few important points about diophantine equations as detailed in [(Matiyasevich 1993, Chapter1)](https://mitpress.mit.edu/books/hilberts-10th-problem). First, if you imagine that we have the following diophantine equation:
+$$
+\begin{align}
+p(x\_{1},..,x\_{n}) = 0,
+\end{align}
+$$
+with solutions in arbitrary integers $\mathbb{Z}$, then clearly this solution includes solutions in natural numbers since $\mathbb{N} \subset \mathbb{Z}$. On the other hand, if this equation has a solution in natural numbers, then this solution also includes a solution in arbitrary integers since we can use the four square theorem to rewrite each $x\_{j}$ in the equation as:
+$$
+\begin{align}
+x\_{1} &= y\_{1,1}^{2} + y\_{1,2}^{2} + y\_{1,3}^{2} + y\_{1,4}^{2} \\ 
+x\_{2} &= y\_{2,1}^{2} + y\_{2,2}^{2} + y\_{2,3}^{2} + y\_{2,4}^{2} \\ 
+&... \\ 
+x\_{n} &= y\_{n,1}^{2} + y\_{n,2}^{2} + y\_{n,3}^{2} + y\_{n,4}^{2}
+\end{align}
+$$
+resulting in:
+$$
+\begin{align}
+p((y\_{0,1}^{2} + y\_{0,2}^{2} + y\_{0,3}^{2} + y\_{0,4}^{2}),...,(y\_{n,1}^{2} + y\_{n,2}^{2} + y\_{n,3}^{2} + y\_{n,4}^{2})) = 0,
+\end{align}
+$$
+where each $y_{j} \in \mathbb{Z}$. The important point is the following: **To establish the unsolvability of Hilbert's 10th problem in its original form, it is sufficient to establish the unsolvability of its analog for non-negative solutions** [(Matiyasevich 1993)](https://mitpress.mit.edu/books/hilberts-10th-problem). For this reason, we limit ourselves exclusively to variables in natural numbers. *Thus, the problem of solving Hilbert's problem will crucially rely on understanding properties of set of natural numbers* and algorithms over sets, which we turn to in the next section. 
 
 
 [^1]: This example is taken from [(Poonen 2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf). Other examples and explanations are adapted throughout from the following very readable surveys: [(Smith 2011)](https://www.logicmatters.net/resources/pdfs/MRDP.pdf),[(Pastern 2019)](https://imaginary.org/sites/default/files/snapshots/snapshots-2019-003.pdf)
@@ -148,4 +191,4 @@ Using this equation, we therefore have our polynomial equation that defines exac
 
 [^6]: When trying to map specific polynomials into a sum of monomials in the form provided, it is important to recall that each $k\_{j}$ exponent can be 0, which maps any number to 1. Therefore, in $p(x\_{1},x\_{2}) = 4x\_{1}^{3} + 6x\_{2}$, the first **term** $4x\_{1}^{3}$ in the sum (whose coefficient is $4$) is equal to $4x\_{1}^{3}x\_{2}^{0}$, whereas the second term is equal to $6x\_{1}^{0}x\_{2}^{1}$. Likewise, for any term without an explicit coefficient, it can be assumed that the coefficient is 1.
 
-[^7]: ] We note that it is also possible to consider equations with tuples of parameters, $(a\_{1},..,a\_{m})$, however our simplified version will suffice to prove the main result.
+[^7]: We note that it is also possible to consider equations with tuples of parameters, $(a\_{1},..,a\_{m})$, however our simplified version will suffice to prove the main result.
