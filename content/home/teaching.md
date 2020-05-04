@@ -19,5 +19,7 @@ In the summer of 2016, I taught a Masters seminar on Semantic Parsing
 (my thesis topic) at the University of Stuttgart. The slides can be
 found
 [here](http://www.ims.uni-stuttgart.de/institut/mitarbeiter/kyle/wssp_course.html)
-(please note that the content is now a little dated). More material
-coming soon!
+
+
+Some random notes and musings: [*Number Theory Meets Computability
+Theory*](https://www.nlp-kyle.com/files/h10.pdf) (see also [*blog post*](https://www.nlp-kyle.com/post/number_computability/))
