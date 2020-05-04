@@ -315,7 +315,7 @@ This immediately implies a negative solution to Hilbert's 10th problem (before l
 
 **Corollary 2**:  Hilbert's 10th problem is undecidable (i.e., no algorithm exists for solving arbitrary arbitrary diophantine equations).
 
-**Proof* Given the DPRM theorem, every recursively enumerable set is diophantine (or has a corresponding equation $p(a,x\_{1},..,x\_{n}) = 0$). It follows from this that the set $A$ from Corollary 1 is diophantine. Hence, the existence of an algorithm to solve Hilbert's 10th problem would imply an algorithm for determining set membership in $A$ (or any comparable set, such as the diagonal Halting set $K\_{0}$, which would then imply the decidability of the Halting Problem. □
+**Proof** Given the DPRM theorem, every recursively enumerable set is diophantine (or has a corresponding equation $p(a,x\_{1},..,x\_{n}) = 0$). It follows from this that the set $A$ from Corollary 1 is diophantine. Hence, the existence of an algorithm to solve Hilbert's 10th problem would imply an algorithm for determining set membership in $A$ (or any comparable set, such as the diagonal Halting set $K\_{0}$, which would then imply the decidability of the Halting Problem. □
 
 Okay, so we now have now stated the \emph{negative solution} to Hilbert's 10th problem. Of course, really understanding how we got here involves saying a few words about the DPRM theorem, which is the least trivial part of the entire result. Before we do this, however, let's just consider some of the remarkable consequences of the DPRM Theorem outside of the main result above.
 
@@ -326,7 +326,7 @@ While DPRM theorem wasn't proven until around 1970, it was conjectured to be tru
 **Theorem 5**: The set of all prime numbers is equal to the set of all positive values $k$ of the following polynomial [(Jones et al. 1967)](http://www.math.umd.edu/~laskow/Pubs/713/Diorepofprimes.pdf):
 $$
 \begin{align}
-(k + 2) \{ 1 &-[wx+h+j-q]^{2} \\\\ 
+(k + 2) \\{ 1 &-[wx+h+j-q]^{2} \\\\ 
 &-[(gk+2g+k+1)(h+j)+h-z]^{2} \\\\
 &-[2n+p+q+z-e]^{2} \\\\ 
 &-[16(k+1)^{3}(k+2)(n+1)^{2}+1-f^{2}]^{2} \\\\
@@ -339,7 +339,7 @@ $$
 &-[q+y(a-p-1)+s(2ap+2a-p^{2}-2p-2)-x]^{2} \\\\
 &-[z+pl(a-p)+t(2ap-p^{2}-1)-pm]^{2} \\\\
 &-[ai+k+1-l-i]^{2} \\\\
-&-[p+l(a-n-1)+b(2an+2a-n^{2}-2n-n) -m]^{2} \}  % \\\\
+&-[p+l(a-n-1)+b(2an+2a-n^{2}-2n-n) -m]^{2} \\}  % \\\\
 \end{align}
 $$
 assuming non-negative values for all variables.
