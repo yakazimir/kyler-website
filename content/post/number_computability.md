@@ -84,7 +84,7 @@ First, let's consider Hilbert's original description of the problem:
 
 We will consider each part of this problem statement in turn. Hilbert's notion of a *process ..[involving] a finite number of operations* is what we would now call an **algorithm**, which was a rather fuzzy concept in 1900 (we will talk about algorithms in the next section). By *diophantine equation*, Hilbert's is referring to certain types of polynomial equations that characterize most of the equations we have considered so far.  A *polynomial* in our case will mean the following:
 
-**Definition 1: ** A **polynomial** expression over $n$ variables/*unknown quantities* $x\_{1},x\_{2},..,x\_{n}$, denoted as $p(x\_{1},...,x\_{n})$, is any finite sum of *monomials*, or expressions of the form:
+**Definition 1**: A **polynomial** expression over $n$ variables/*unknown quantities* $x\_{1},x\_{2},..,x\_{n}$, denoted as $p(x\_{1},...,x\_{n})$, is any finite sum of *monomials*, or expressions of the form:
 $$
 cx\_{1}^{k\_{1}},...,x\_{n}^{k\_{n}},
 $$
@@ -92,7 +92,7 @@ where $c$ is an integer *coefficient* (i.e., positive and negative integers and 
 
 Examples polynomial expressions include $x\_{1}^{2} - 4x\_{1} + 3$ (where, for convenience, subtraction is used in place of addition with a negative number, $+ -4x$), $4x\_{1}^{3} + 6x\_{2}$, $x\_{1}+x\_{2} + ... + x\_{4}$ (with all coefficients $c$ equal to 1) and so on.[^6] When talking about polynomials it is important to specify the range of their variables. Diophantine equations are special types of polynomial equations that restrict the range of variables in the manner specified below.
 
-**Definition 2: ** A **diophantine equation** is specific type of polynomial expression $p(x\_{1},...,x\_{n}) = 0$ (also known as a *polynomial equation* in *traditional form*) restricted to **integer** unknowns $x\_{1},...,x\_{n}$ (or what Hilbert calls *rational integers*).
+**Definition 2**: A **diophantine equation** is specific type of polynomial expression $p(x\_{1},...,x\_{n}) = 0$ (also known as a *polynomial equation* in *traditional form*) restricted to **integer** unknowns $x\_{1},...,x\_{n}$ (or what Hilbert calls *rational integers*).
 
 We will show momentarily that it suffices to modify the problem such that variables are restricted to natural numbers, which is a inconsequential variant of Hilbert's original description. We also note that it is sometimes easier to transform diophantine equations out of their **traditional form** $p(\cdot) = 0$ into equations of the following type:
 $$
@@ -110,9 +110,9 @@ $$
 by transposing the negative terms.
 
 
-As briefly discussed in the last section, one of the big ideas is to define diophantine equations with additional variables called **parameters** $a$, as in $p(a,x\_{1},x\_{2},...,x\_{n})$ (where $x\_{1},...,x\_{n}$ continue to be what we previously called *unknowns*), which allow us to describe abstract **families of diophantine equations**. This gives rise to an important concept called a **diophantine set**.
+As briefly discussed in the last section, one of the big ideas is to define diophantine equations with additional variables called **parameters** $a$, as in $p(a,x\_{1},x\_{2},...,x\_{n})$ (where $x\_{1},...,x\_{n}$ continue to be what we previously called *unknowns*), which allow us to describe abstract *families of diophantine equations*. This gives rise to an important concept called a **diophantine set**.
 
-**Definition 3: **  A **diophantine representation** of a diophantine equation $p$ with integer *unknowns* $x\_{1},...,x\_{n}$ and a *parameter* $a$[^7] is the set (which we will henceforth call a **diophantine set**):
+**Definition 3**:  A **diophantine representation** of a diophantine equation $p$ with integer *unknowns* $x\_{1},...,x\_{n}$ and a *parameter* $a$[^7] is the set (which we will henceforth call a **diophantine set**):
 $$
 \begin{align}
 S = \Big\\{ a \mid \exists x\_{1},...,x\_{n} [ p(a,x\_{1},...,x\_{n}) = 0 ]\Big\\}
@@ -125,7 +125,7 @@ Interestingly, this set construction will allow us to talk about number theoreti
 **Examples** Let's illustrate this idea by starting with the set of natural numbers $\mathbb{N}$. **Is this set diophantine?** The answer is yes, which can be demonstrated by exploiting the following important theorem:
 
 
-**Theorem 1: ** [**Four-square theorem**](https://en.wikipedia.org/wiki/Lagrange%27s_four-square_theorem) (Lagrange 1770) Any natural number $a$ can be expressed a sum of four integer squares:
+**Theorem 1**: [**Four-square theorem**](https://en.wikipedia.org/wiki/Lagrange%27s_four-square_theorem) (Lagrange 1770) Any natural number $a$ can be expressed a sum of four integer squares:
 
 $$
 \begin{align}
@@ -164,9 +164,9 @@ $$
 with solutions in arbitrary integers $\mathbb{Z}$, then clearly this solution includes solutions in natural numbers since $\mathbb{N} \subset \mathbb{Z}$. On the other hand, if this equation has a solution in natural numbers, then this solution also includes a solution in arbitrary integers since we can use the four square theorem to rewrite each $x\_{j}$ in the equation as:
 $$
 \begin{align}
-x\_{1} &= y\_{1,1}^{2} + y\_{1,2}^{2} + y\_{1,3}^{2} + y\_{1,4}^{2} \\ 
-x\_{2} &= y\_{2,1}^{2} + y\_{2,2}^{2} + y\_{2,3}^{2} + y\_{2,4}^{2} \\ 
-&... \\ 
+x\_{1} &= y\_{1,1}^{2} + y\_{1,2}^{2} + y\_{1,3}^{2} + y\_{1,4}^{2} \\\\ 
+x\_{2} &= y\_{2,1}^{2} + y\_{2,2}^{2} + y\_{2,3}^{2} + y\_{2,4}^{2} \\\\ 
+&... \\\\ 
 x\_{n} &= y\_{n,1}^{2} + y\_{n,2}^{2} + y\_{n,3}^{2} + y\_{n,4}^{2}
 \end{align}
 $$
