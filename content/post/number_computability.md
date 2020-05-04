@@ -352,7 +352,7 @@ q(x\_{0},...,x\_{n}) = x\_{0} \big(1 - p^{2}(x\_{0},...,x\_{n}) \big),
 $$
 and hence the range of that polynomial includes exactly the numbers $a$ that solve $p$ (i.e., the factor $1-p^{2}$ must be positive, which is only possible when $p$ evaluates to 0). Therefore, it is possible to offer an equation in the form shown above and to express Corollary 3 in the following way:
 
-**Corollary 4**: There exists some polynomial equation $q(x_{1},...,x_{n}) = a$ which has a solution if and only if $a$ is a prime number.
+**Corollary 4**: There exists some polynomial equation $q(x\_{1},...,x\_{n}) = a$ which has a solution if and only if $a$ is a prime number.
 
 As remarked in [Poonen (2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf), to prove DPRM theorem the authors
 
@@ -387,15 +387,15 @@ This immediately led to a negative solution to Hilbert's 10th problem for expone
 In other words, exponential diophantine equations were not exactly what Hilbert had in mind when he formulated the problem, hence this result did not suffice to provide a negative solution to the original problem (At the end of this comment, you can also see the reviewers' skepticism about all recursively enumerable sets being diophantine). Nonetheless, Matiyasevich writes that the significance and relevance of this result to the larger problem was overlooked by many people beyond this single reviewer, and even included his own advisor at the time who had initiated his interest in Hilbert's 10th problem. He recounts in [Matiyasevich (1992)](https://logic.pdmi.ras.ru/~yumat/Julia/index.html) the following dialogue:
 
 >I asked my scientific adviser, Sergel [sic] Maslov, what to do next. He answered:
-> `Try to prove the algorithmic unsolvability of Diophantine equations. This problem is
-> known as Hilbert's tenth problem, but that does not matter to you.' -- `But I haven't
-> learned any proof of the unsolvability of any decision problem.' -- `That also does not
+> "Try to prove the algorithmic unsolvability of Diophantine equations. This problem is
+> known as Hilbert's tenth problem, but that does not matter to you." -- "But I haven't
+> learned any proof of the unsolvability of any decision problem." -- "That also does not
 > matter. Unsolvability is nowadays usually proved by reducing a problem already known
 > to be unsolvable to the problem whose unsolvability one needs to establish, and you
-> understand the technique of reduction well enough.' -- `What should I read in advance?' --
-> `Well, there are some papers by American mathematicians about Hilbert's tenth problem,
-> but you need not study them.' -- `Why not?' -- `So far the Americans have not succeeded,
-> so their approach is most likely inadequate.'
+> understand the technique of reduction well enough." -- "What should I read in advance?" --
+> "Well, there are some papers by American mathematicians about Hilbert's tenth problem,
+> but you need not study them."-- "Why not?" -- "So far the Americans have not succeeded,
+> so their approach is most likely inadequate."
 
 
 Building on the result above, the missing link involved proving that exponentiation is diophantine, or that the following set is diophantine[^12]:
