@@ -61,7 +61,7 @@ x^{3} + y^{3} + z^{3} = a.
 \end{align}
 $$
 Solutions to this equation (i.e., particular values $a$ for which there exist solutions for the variables) can then be represented as sets of the following form:
-$$
+$$\small
 \begin{align}
 S = \Big\\{ a \mid x^{3} + y^{3} + z^{3} = a  \text{ holds for some integers $x,y,z$}\Big\\},
 \end{align}
@@ -246,7 +246,7 @@ This definition seem simple enough, however it leads to difficulties centering a
 
 **Proof** Let's imagine that $K$ is decidable (hence making the Halting Problem decidable). Then it is possible to define another Turing machine $M'$ that does the following (since $K$ being decidable would allow us to compute the membership conditions on the right):
 
-$$\small
+$$
 \begin{align}
     M'(x) = \begin{cases}
                0               & \text{if }  M\_{x} \text{ does not halt on } x \Leftrightarrow (M\_{x},x) \notin K  \\\\\\
@@ -291,6 +291,12 @@ $$
 We will first establish  **$A$ is recursively enumerable**, which we  can do by imagining the following (completely impractical) algorithm:  using our enumeration of programs, we can  loop through all numbers and pairs $x,y=1,...,\infty$ and execute each $M\_{x}(y)$ in parallel. In cases where $M\_{x}(y)\downarrow$ is true, the computation has to stop after some finite number of steps, at which point we can simply print $2^{x}3^{y}$ (this will potentially lead to repeats, though this is fine according to our definition). We can then simply ignore cases where the programs run forever, since these are clearly cases where $M\_{x}(y)\downarrow$ is not true.
 
 In terms of this set not being recursive, clearly deciding membership in $A$ would require solving membership in $K$, which we have already shown is not possible given the undecidability of the Halting Problem. Therefore, for some inputs the program might run forever, which we can safely ignore in this case. □
+
+Given the relatively low bar, practically speaking, for demonstrating whether a set is recursively enumerable (i.e., we allow algorithms that look through infinite values of numbers and use infinite amounts of time and space), one might wonder whether there are any sets that are not recursively enumerable. To answer this, we have the following result (which might provide additional insight).
+
+**Lemma 3** The complement of the set $A$ from **Corollary 1** $\overline{A}$, **is not recursively enumerable**.
+
+**Proof** (*sketch*) $\overline{A}$ being recursively enumerable (i.e., having an algorithm to enumerate its members) would imply that $A$ is recursive (we could use such an algorithm for deciding $x \notin A$) and that the Halting Problem is decidable, in contradiction to what we have already proven.
 
 
 [^1]: This example is taken from [(Poonen 2008)](http://www-math.mit.edu/~poonen/papers/h10_notices.pdf). Other examples and explanations are adapted throughout from the following very readable surveys: [(Smith 2011)](https://www.logicmatters.net/resources/pdfs/MRDP.pdf),[(Pastern 2019)](https://imaginary.org/sites/default/files/snapshots/snapshots-2019-003.pdf)
