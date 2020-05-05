@@ -410,7 +410,7 @@ $$
 by showing that it has a corresponding 3 variable diophantine equation $p\_{a}(a,b,c,x\_{1},...,x\_{n}) = 0$ (which one could use to transform any exponential diophantine equation into an ordinary diophantine equation, albeit with some additional variables). Julia Robinson had earlier proved some sufficient conditions for $p\_{a}$ to exist, namely that it would suffice to find a particular 2 variable diophantine equation $p\_{b}(a,b,x\_{1},...,x\_{n})$ that exhibits **exponential growth**. Building on recent work by Nikolai Vorobyov, Matiyasevich uses properties of [*Fibonacci numbers*](https://en.wikipedia.org/wiki/Fibonacci_number) ($F\_{n}$) to prove that the following set is diophantine:
 $$\small
 \begin{align}
-\Big\\{ (a,b) \mid a > 0, b = F_{2a}\Big\\}
+\Big\\{ (a,b) \in \mathbb{N}^{2} \mid a > 0, b = F_{2a}\Big\\}
 \end{align}
 $$
 which ultimately leads to DPRM (for full details of the proof, we again urge readers to consult [Davis (1973)](http://www.math.umd.edu/~laskow/Pubs/713/Diophantine.pdf) and [Matiyasevich (1993)](https://mitpress.mit.edu/books/hilberts-10th-problem)).
