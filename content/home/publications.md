@@ -66,7 +66,7 @@ subtitle = ""
  css_class = ""
 +++
 
-Sumithra Bhakthavatsalam, Kyle Richardson, Niket Tandon, Peter Clark (2020) **Do Dogs have Whiskers? A New Knowledge Base of hasPart Relations** \[[arxiv](https://arxiv.org/pdf/2006.07510.pdf)]
+Sumithra Bhakthavatsalam, Kyle Richardson, Niket Tandon, Peter Clark (2020) **Do Dogs have Whiskers? A New Knowledge Base of hasPart Relations** \[[arxiv](https://arxiv.org/pdf/2006.07510.pdf)] \[[data](https://allenai.org/data/haspartkb)]
 
 Atticus Geiger, Kyle Richardson, Christopher Potts (2020) **Modular Representation Underlies Systematic Generalization in Neural Natural Language Inference Models** *work in progress* \[[arxiv](https://arxiv.org/pdf/2004.14623.pdf)]
 
