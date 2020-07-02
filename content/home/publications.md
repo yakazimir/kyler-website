@@ -76,7 +76,7 @@ Hai Hu, Qi Chen, Kyle Richardson, Atreyee Mukherjee, Lawrence S. Moss,Sandra Kue
 
 Kyle Richardson, Hai Hu, Lawrence S. Moss, Ashish Sabharwal (2020). **Probing Natural Language Inference Models through Semantic Fragments** *Proceedings of Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI 2020)* \[[arxiv](https://arxiv.org/abs/1909.07521)]\[[resources](https://github.com/yakazimir/semantic_fragments)]\[[slides](files/semantic_fragments.pdf)]
 
-Kyle Richardson, Ashish Sabharwal (2019). **What Does My QA Model Know? Devising Controlled Probes using Expert Knowledge**.  \[[arxiv](https://arxiv.org/abs/1912.13337)] 
+Kyle Richardson, Ashish Sabharwal (2020). **What Does My QA Model Know? Devising Controlled Probes using Expert Knowledge**.  (accepted) *Transactions of the Association for Computational Linguistics (TACL)* \[[arxiv](https://arxiv.org/abs/1912.13337)] 
 
 Peter Clark,Oren Etzioni, Daniel Khashabi, Tushar Khot, Bhavana Dalvi Mishra, Kyle Richardson, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord, Niket Tandon, Sumithra Bhakthavatsalam, Dirk Groeneveld,Michal Guerquin, Michael Schmitz (2019). **From 'F' to 'A' on the N.Y. Regents Science Exams: An Overview of the Aristo Project**\[[arxiv](https://arxiv.org/abs/1909.01958)]\[[New York Times](https://www.nytimes.com/2019/09/04/technology/artificial-intelligence-aristo-passed-test.html), [GeekWire](https://www.geekwire.com/2019/allen-institutes-aristo-ai-program-finally-passes-8th-grade-science-test/)]
 
