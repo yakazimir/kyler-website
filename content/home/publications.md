@@ -66,11 +66,13 @@ subtitle = ""
  css_class = ""
 +++
 
+Tushar Khot, Daniel Khashabi, Kyle Richardson, Peter Clark, Ashish Sabharwal (2020) **Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models** \[[arxiv](https://arxiv.org/abs/2009.00751)] 
+
 Sumithra Bhakthavatsalam, Kyle Richardson, Niket Tandon, Peter Clark (2020) **Do Dogs have Whiskers? A New Knowledge Base of hasPart Relations** \[[arxiv](https://arxiv.org/pdf/2006.07510.pdf)] \[[data](https://allenai.org/data/haspartkb)]
 
 Atticus Geiger, Kyle Richardson, Christopher Potts (2020) **Modular Representation Underlies Systematic Generalization in Neural Natural Language Inference Models** *work in progress* \[[arxiv](https://arxiv.org/pdf/2004.14623.pdf)]
 
-Peter Clark, Oyvind Tafjord, Kyle Richardson (2020). **Transformers as Soft Reasoners over Language**. *Proceedings of International Joint Conference on Artificial Intelligence (IJCAI 2020)* \[[arxiv](https://arxiv.org/pdf/2002.05867.pdf)]] \[[proceedings](https://www.ijcai.org/Proceedings/2020/0537.pdf)] \[[demo](https://rule-reasoning.apps.allenai.org/)]\[[data](https://rule-reasoning.apps.allenai.org/about)]
+Peter Clark, Oyvind Tafjord, Kyle Richardson (2020). **Transformers as Soft Reasoners over Language**. *Proceedings of International Joint Conference on Artificial Intelligence (IJCAI 2020)* \[[arxiv](https://arxiv.org/pdf/2002.05867.pdf)] \[[proceedings](https://www.ijcai.org/Proceedings/2020/0537.pdf)] \[[demo](https://rule-reasoning.apps.allenai.org/)]\[[data](https://rule-reasoning.apps.allenai.org/about)]
 
 Hai Hu, Qi Chen, Kyle Richardson, Atreyee Mukherjee, Lawrence S. Moss,Sandra Kuebler (2020). **MonaLog: a Lightweight System for Natural Language Inference Based on Monotonicity**. *Proceedings of Society for Computation in Linguistics (SCIL 2020)* \[[arxiv](https://arxiv.org/abs/1910.08772)] \[[proceedings](https://scholarworks.umass.edu/scil/vol3/iss1/31/)] \[[data](https://github.com/huhailinguist/SICK_correction)]
 
