@@ -71,11 +71,4 @@ user_groups:
 I am a research scientist at the
 [Allen Institute for Artificial Intelligence](https://allenai.org) in
 Seattle, Washington where I do work on natural language processing and
-machine learning on the [Aristo Project](https://allenai.org/aristo/)
-(see [here](https://www.nytimes.com/2019/09/04/technology/artificial-intelligence-aristo-passed-test.html)
-or [here](https://www.geekwire.com/2019/allen-institutes-aristo-ai-program-finally-passes-8th-grade-science-test/) for some recent media coverage of our work).  Prior to this, I was a researcher at the [Institute for Natural Language Processing](https://www.ims.uni-stuttgart.de/) (IMS) at the University of Stuttgart in Germany, where I received my PhD in October 2018. Before this, I received my B.A. from the University of Rochester in upstate New York (USA). 
-
-A talk about some of PhD work (from before) can be found {{% staticref
-"files/richardson_talk.pdf" "newtab" %}}here{{% /staticref %}} (see
-[here](https://www.youtube.com/watch?v=dP6N2hGC8Ys&t=478s)
-for a video of a related talk). My thesis can be found [here](https://elib.uni-stuttgart.de/handle/11682/10107?mode=full). 
+machine learning on the [Aristo Project](https://allenai.org/aristo/).  Prior to this, I was a researcher at the [Institute for Natural Language Processing](https://www.ims.uni-stuttgart.de/) (IMS) at the University of Stuttgart in Germany, where I received my PhD in October 2018. Before this, I received my B.A. from the University of Rochester in upstate New York (USA). 
