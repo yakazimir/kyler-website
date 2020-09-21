@@ -66,7 +66,7 @@ subtitle = ""
  css_class = ""
 +++
 
-Tushar Khot, Daniel Khashabi, Kyle Richardson, Peter Clark, Ashish Sabharwal (2020) **Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models** \[[arxiv](https://arxiv.org/abs/2009.00751)] 
+Tushar Khot, Daniel Khashabi, Kyle Richardson, Peter Clark, Ashish Sabharwal (2020) **Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models** \[[arxiv](https://arxiv.org/abs/2009.00751)] \[[code/data](https://github.com/allenai/modularqa)]
 
 Sumithra Bhakthavatsalam, Kyle Richardson, Niket Tandon, Peter Clark (2020) **Do Dogs have Whiskers? A New Knowledge Base of hasPart Relations** \[[arxiv](https://arxiv.org/pdf/2006.07510.pdf)] \[[data](https://allenai.org/data/haspartkb)]
 
@@ -78,7 +78,7 @@ Hai Hu, Qi Chen, Kyle Richardson, Atreyee Mukherjee, Lawrence S. Moss,Sandra Kue
 
 Kyle Richardson, Hai Hu, Lawrence S. Moss, Ashish Sabharwal (2020). **Probing Natural Language Inference Models through Semantic Fragments** *Proceedings of Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI 2020)* \[[arxiv](https://arxiv.org/abs/1909.07521)]\[[code/data](https://github.com/yakazimir/semantic_fragments)]\[[slides](files/semantic_fragments.pdf)]
 
-Kyle Richardson, Ashish Sabharwal (2020). **What Does My QA Model Know? Devising Controlled Probes using Expert Knowledge**.  (accepted) *Transactions of the Association for Computational Linguistics (TACL)* \[[arxiv](https://arxiv.org/abs/1912.13337)] \[[code/data](https://github.com/yakazimir/semantic_fragments)] 
+Kyle Richardson, Ashish Sabharwal (2020). **What Does My QA Model Know? Devising Controlled Probes using Expert Knowledge**.  *Transactions of the Association for Computational Linguistics (TACL)* \[[arxiv](https://arxiv.org/abs/1912.13337)] \[[journal](https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00331)] \[[code/data](https://github.com/yakazimir/semantic_fragments)] 
 
 Peter Clark,Oren Etzioni, Daniel Khashabi, Tushar Khot, Bhavana Dalvi Mishra, Kyle Richardson, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord, Niket Tandon, Sumithra Bhakthavatsalam, Dirk Groeneveld,Michal Guerquin, Michael Schmitz (2019). **From 'F' to 'A' on the N.Y. Regents Science Exams: An Overview of the Aristo Project**\[[arxiv](https://arxiv.org/abs/1909.01958)]\[[New York Times](https://www.nytimes.com/2019/09/04/technology/artificial-intelligence-aristo-passed-test.html), [GeekWire](https://www.geekwire.com/2019/allen-institutes-aristo-ai-program-finally-passes-8th-grade-science-test/)]
 
