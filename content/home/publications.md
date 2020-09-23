@@ -70,7 +70,7 @@ Niket Tandon, Keisuke Sakaguchi, Bhavana Dalvi, Dheeraj Rajagopal, Peter Clark, 
 
 Hai Hu, Kyle Richardson, Liang Xu, Lu Li, Sandra Kubler, Lawrence S. Moss. (2020) **OCNLI: Original Chinese Natural Language Inference** *(Findings of EMNLP)*
 
-Tushar Khot, Daniel Khashabi, Kyle Richardson, Peter Clark, Ashish Sabharwal (2020) **Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models** \[[arxiv](https://arxiv.org/abs/2009.00751)] \[[code/data](https://github.com/allenai/modularqa)] \[[demo](https://modularqa-demo.apps.allenai.org/)
+Tushar Khot, Daniel Khashabi, Kyle Richardson, Peter Clark, Ashish Sabharwal (2020) **Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models** \[[arxiv](https://arxiv.org/abs/2009.00751)] \[[code/data](https://github.com/allenai/modularqa)] \[[demo](https://modularqa-demo.apps.allenai.org/)]
 
 Sumithra Bhakthavatsalam, Kyle Richardson, Niket Tandon, Peter Clark (2020) **Do Dogs have Whiskers? A New Knowledge Base of hasPart Relations** \[[arxiv](https://arxiv.org/pdf/2006.07510.pdf)] \[[data](https://allenai.org/data/haspartkb)]
 
