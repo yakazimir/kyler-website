@@ -22,4 +22,4 @@ found
 
 
 Some random notes and musings: [*Number Theory Meets Computability
-Theory*](https://www.nlp-kyle.com/files/h10.pdf) (see also [*blog post*](https://www.nlp-kyle.com/post/number_computability/))
+Theory*](https://www.krichardson.me/files/h10.pdf) (see also [*blog post*](https://www.nlp-kyle.com/post/number_computability/))
