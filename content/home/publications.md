@@ -66,15 +66,15 @@ subtitle = ""
  css_class = ""
 +++
 
-Niket Tandon, Keisuke Sakaguchi, Bhavana Dalvi, Dheeraj Rajagopal, Peter Clark, Michal Guerquin, Kyle Richardson and Eduard Hovy. (2020) **A Dataset for Tracking Entities in Open Domain Procedural Text** *(EMNLP)*
+Niket Tandon, Keisuke Sakaguchi, Bhavana Dalvi, Dheeraj Rajagopal, Peter Clark, Michal Guerquin, Kyle Richardson and Eduard Hovy. (2020) **A Dataset for Tracking Entities in Open Domain Procedural Text** *EMNLP (accepted)*
 
-Hai Hu, Kyle Richardson, Liang Xu, Lu Li, Sandra Kubler, Lawrence S. Moss. (2020) **OCNLI: Original Chinese Natural Language Inference** *(Findings of EMNLP)*
+Hai Hu, Kyle Richardson, Liang Xu, Lu Li, Sandra Kubler, Lawrence S. Moss. (2020) **OCNLI: Original Chinese Natural Language Inference** *Findings of EMNLP (accepted)*
 
 Tushar Khot, Daniel Khashabi, Kyle Richardson, Peter Clark, Ashish Sabharwal (2020) **Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models** \[[arxiv](https://arxiv.org/abs/2009.00751)] \[[code/data](https://github.com/allenai/modularqa)] \[[demo](https://modularqa-demo.apps.allenai.org/)]
 
 Sumithra Bhakthavatsalam, Kyle Richardson, Niket Tandon, Peter Clark (2020) **Do Dogs have Whiskers? A New Knowledge Base of hasPart Relations** \[[arxiv](https://arxiv.org/pdf/2006.07510.pdf)] \[[data](https://allenai.org/data/haspartkb)]
 
-Atticus Geiger, Kyle Richardson, Christopher Potts (2020) **Modular Representation Underlies Systematic Generalization in Neural Natural Language Inference Models** *work in progress* \[[arxiv](https://arxiv.org/pdf/2004.14623.pdf)]
+Atticus Geiger, Kyle Richardson, Christopher Potts (2020) **Modular Representation Underlies Systematic Generalization in Neural Natural Language Inference Models** *workshop on BlackBoxNLP (accepted)* \[[arxiv](https://arxiv.org/pdf/2004.14623.pdf)]
 
 Kyle Richardson, Ashish Sabharwal (2020). **What Does My QA Model Know? Devising Controlled Probes using Expert Knowledge**.  *Transactions of the Association for Computational Linguistics (TACL)* \[[arxiv](https://arxiv.org/abs/1912.13337)] \[[journal](https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00331)] \[[code/data](https://github.com/yakazimir/semantic_fragments)] 
 
