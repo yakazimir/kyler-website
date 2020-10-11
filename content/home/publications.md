@@ -66,7 +66,7 @@ subtitle = ""
  css_class = ""
 +++
 
-Liang Xu, Hai Hu, Xuanwei Zhang, Lu Li, Chenjie Cao, Yudong Li, Yechen Xu, Kai Sun, Dian Yu, Cong Yu, Yin Tian, Qianqian Dong, Weitang Liu, Bo Shi, Yiming Cui, Junyi Li, Jun Zeng, Rongzhao Wang, Weijian Xie, Yanting Li, Yina Patterson, Zuoyu Tian, Yiwen Zhang, He Zhou, Shaoweihua Liu, Zhe Zhao, Qipeng Zhao, Cong Yue, Xinrui Zhang, Zhengliang Yang, Kyle Richardson, and Zhenzhong Lan. (2020) **CLUE: A Chinese language understanding evaluation benchmark.** *COLING (to appear)*
+Liang Xu, Hai Hu, Xuanwei Zhang, Lu Li, Chenjie Cao, Yudong Li, Yechen Xu, Kai Sun, Dian Yu, Cong Yu, Yin Tian, Qianqian Dong, Weitang Liu, Bo Shi, Yiming Cui, Junyi Li, Jun Zeng, Rongzhao Wang, Weijian Xie, Yanting Li, Yina Patterson, Zuoyu Tian, Yiwen Zhang, He Zhou, Shaoweihua Liu, Zhe Zhao, Qipeng Zhao, Cong Yue, Xinrui Zhang, Zhengliang Yang, Kyle Richardson, and Zhenzhong Lan. (2020) **CLUE: A Chinese Language Understanding Evaluation Benchmark.** *COLING (to appear)*
 
 Niket Tandon, Keisuke Sakaguchi, Bhavana Dalvi, Dheeraj Rajagopal, Peter Clark, Michal Guerquin, Kyle Richardson and Eduard Hovy. (2020) **A Dataset for Tracking Entities in Open Domain Procedural Text** *EMNLP (to appear)*
 
@@ -87,7 +87,7 @@ Hai Hu, Qi Chen, Kyle Richardson, Atreyee Mukherjee, Lawrence S. Moss,Sandra Kue
 Kyle Richardson, Hai Hu, Lawrence S. Moss, Ashish Sabharwal (2020). **Probing Natural Language Inference Models through Semantic Fragments** *Proceedings of Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI 2020)* \[[arxiv](https://arxiv.org/abs/1909.07521)]\[[aaai](https://aaai.org/ojs/index.php/AAAI/article/view/6397)]\[[code/data](https://github.com/yakazimir/semantic_fragments)]\[[slides](files/semantic_fragments.pdf)]
 
 
-Peter Clark,Oren Etzioni, Daniel Khashabi, Tushar Khot, Bhavana Dalvi Mishra, Kyle Richardson, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord, Niket Tandon, Sumithra Bhakthavatsalam, Dirk Groeneveld,Michal Guerquin, Michael Schmitz (2019). **From 'F' to 'A' on the N.Y. Regents Science Exams: An Overview of the Aristo Project**\[[arxiv](https://arxiv.org/abs/1909.01958)]\[[New York Times](https://www.nytimes.com/2019/09/04/technology/artificial-intelligence-aristo-passed-test.html), [GeekWire](https://www.geekwire.com/2019/allen-institutes-aristo-ai-program-finally-passes-8th-grade-science-test/)]
+Peter Clark,Oren Etzioni, Daniel Khashabi, Tushar Khot, Bhavana Dalvi Mishra, Kyle Richardson, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord, Niket Tandon, Sumithra Bhakthavatsalam, Dirk Groeneveld,Michal Guerquin, Michael Schmitz (2020). **From 'F' to 'A' on the N.Y. Regents Science Exams: An Overview of the Aristo Project** *AI Magazine (to appear)*\[[arxiv](https://arxiv.org/abs/1909.01958)]\[[New York Times](https://www.nytimes.com/2019/09/04/technology/artificial-intelligence-aristo-passed-test.html), [GeekWire](https://www.geekwire.com/2019/allen-institutes-aristo-ai-program-finally-passes-8th-grade-science-test/)]
 
 Kyle Richardson (2018) **New Resources and Ideas for Semantic Parser Induction**. *PhD Thesis, Institute for Natural Language Processing (IMS),  Faculty of Computer Science, Electrical Engineering and Information Technology*. University of Stuttgart, Germany \[[opus](https://elib.uni-stuttgart.de/handle/11682/10107)]\[[slides](files/richardson_talk.pdf)]\[[code/data](https://github.com/yakazimir/zubr_public)]\[[handout](files/print_handout.pdf)]
 
