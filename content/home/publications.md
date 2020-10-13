@@ -70,7 +70,7 @@ Liang Xu, Hai Hu, Xuanwei Zhang, Lu Li, Chenjie Cao, Yudong Li, Yechen Xu, Kai S
 
 Niket Tandon, Keisuke Sakaguchi, Bhavana Dalvi, Dheeraj Rajagopal, Peter Clark, Michal Guerquin, Kyle Richardson and Eduard Hovy. (2020) **A Dataset for Tracking Entities in Open Domain Procedural Text** *EMNLP (to appear)*
 
-Hai Hu, Kyle Richardson, Liang Xu, Lu Li, Sandra Kubler, Lawrence S. Moss. (2020) **OCNLI: Original Chinese Natural Language Inference** *Findings of EMNLP* \[[arxiv](https://arxiv.org/abs/2010.05444)] \[[code/data](https://github.com/CLUEbenchmark/OCNLI)]
+Hai Hu, Kyle Richardson, Liang Xu, Lu Li, Sandra Kubler, Lawrence S. Moss. (2020) **OCNLI: Original Chinese Natural Language Inference** *Findings of EMNLP* \[[arxiv](https://arxiv.org/abs/2010.05444)] \[[code/data](https://github.com/CLUEbenchmark/OCNLI)] \[[leaderboard](https://www.cluebenchmarks.com/nli.html)]
 
 Tushar Khot, Daniel Khashabi, Kyle Richardson, Peter Clark, Ashish Sabharwal (2020) **Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models** \[[arxiv](https://arxiv.org/abs/2009.00751)] \[[code/data](https://github.com/allenai/modularqa)] \[[demo](https://modularqa-demo.apps.allenai.org/)]
 
