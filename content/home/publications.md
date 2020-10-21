@@ -66,7 +66,7 @@ subtitle = ""
  css_class = ""
 +++
 
-Liang Xu, Hai Hu, Xuanwei Zhang, Lu Li, Chenjie Cao, Yudong Li, Yechen Xu, Kai Sun, Dian Yu, Cong Yu, Yin Tian, Qianqian Dong, Weitang Liu, Bo Shi, Yiming Cui, Junyi Li, Jun Zeng, Rongzhao Wang, Weijian Xie, Yanting Li, Yina Patterson, Zuoyu Tian, Yiwen Zhang, He Zhou, Shaoweihua Liu, Zhe Zhao, Qipeng Zhao, Cong Yue, Xinrui Zhang, Zhengliang Yang, Kyle Richardson, and Zhenzhong Lan. (2020) **CLUE: A Chinese Language Understanding Evaluation Benchmark.** *COLING (to appear)* \[[website/leaderboard](https://www.cluebenchmarks.com/en/index.html)]
+Liang Xu, Hai Hu, Xuanwei Zhang, Lu Li, Chenjie Cao, Yudong Li, Yechen Xu, Kai Sun, Dian Yu, Cong Yu, Yin Tian, Qianqian Dong, Weitang Liu, Bo Shi, Yiming Cui, Junyi Li, Jun Zeng, Rongzhao Wang, Weijian Xie, Yanting Li, Yina Patterson, Zuoyu Tian, Yiwen Zhang, He Zhou, Shaoweihua Liu, Zhe Zhao, Qipeng Zhao, Cong Yue, Xinrui Zhang, Zhengliang Yang, **Kyle Richardson**, and Zhenzhong Lan. (2020) **CLUE: A Chinese Language Understanding Evaluation Benchmark.** *COLING (to appear)* \[[website/leaderboard](https://www.cluebenchmarks.com/en/index.html)]
 
 Niket Tandon, Keisuke Sakaguchi, Bhavana Dalvi, Dheeraj Rajagopal, Peter Clark, Michal Guerquin, Kyle Richardson and Eduard Hovy. (2020) **A Dataset for Tracking Entities in Open Domain Procedural Text** *EMNLP (to appear)*
 
@@ -76,7 +76,7 @@ Tushar Khot, Daniel Khashabi, Kyle Richardson, Peter Clark, Ashish Sabharwal (20
 
 Sumithra Bhakthavatsalam, Kyle Richardson, Niket Tandon, Peter Clark (2020) **Do Dogs have Whiskers? A New Knowledge Base of hasPart Relations** \[[arxiv](https://arxiv.org/pdf/2006.07510.pdf)] \[[data](https://allenai.org/data/haspartkb)]
 
-Atticus Geiger, Kyle Richardson, Christopher Potts (2020) **Modular Representation Underlies Systematic Generalization in Neural Natural Language Inference Models** *BlackBoxNLP (to appear)* \[[arxiv](https://arxiv.org/pdf/2004.14623.pdf)]
+Atticus Geiger, Kyle Richardson, Christopher Potts (2020) **Neural Natural Language Inference Models Partially Embed Theories of Lexical Entailment and Negation** *BlackBoxNLP (to appear)* \[[arxiv](https://arxiv.org/pdf/2004.14623.pdf)]
 
 Kyle Richardson, Ashish Sabharwal (2020). **What Does My QA Model Know? Devising Controlled Probes using Expert Knowledge**.  *Transactions of the Association for Computational Linguistics (TACL)* \[[arxiv](https://arxiv.org/abs/1912.13337)] \[[journal](https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00331)] \[[code/data](https://github.com/yakazimir/semantic_fragments)] 
 
