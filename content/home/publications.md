@@ -78,7 +78,7 @@ Sumithra Bhakthavatsalam, Kyle Richardson, Niket Tandon, Peter Clark (2020) **Do
 
 Atticus Geiger, Kyle Richardson, Christopher Potts (2020) **Neural Natural Language Inference Models Partially Embed Theories of Lexical Entailment and Negation** *BlackBoxNLP (to appear)* \[[arxiv](https://arxiv.org/pdf/2004.14623.pdf)]
 
-Kyle Richardson, Ashish Sabharwal (2020). **What Does My QA Model Know? Devising Controlled Probes using Expert Knowledge**.  *Transactions of the Association for Computational Linguistics (TACL)* \[[arxiv](https://arxiv.org/abs/1912.13337)] \[[journal](https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00331)] \[[code/data](https://github.com/yakazimir/semantic_fragments)] 
+Kyle Richardson, Ashish Sabharwal (2020). **What Does My QA Model Know? Devising Controlled Probes using Expert Knowledge**.  *Transactions of the Association for Computational Linguistics (TACL)* \[[arxiv](https://arxiv.org/abs/1912.13337)] \[[journal](https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00331)] \[[code/data](https://github.com/yakazimir/semantic_fragments)][[slides (EMNLP2020)](files/emnlp_tacl.pdf)]
 
 Peter Clark, Oyvind Tafjord, Kyle Richardson (2020). **Transformers as Soft Reasoners over Language**. *Proceedings of International Joint Conference on Artificial Intelligence (IJCAI 2020)* \[[arxiv](https://arxiv.org/pdf/2002.05867.pdf)] \[[proceedings](https://www.ijcai.org/Proceedings/2020/0537.pdf)] \[[demo](https://rule-reasoning.apps.allenai.org/)]\[[data](https://rule-reasoning.apps.allenai.org/about)]
 
