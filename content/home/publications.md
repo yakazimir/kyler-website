@@ -66,6 +66,8 @@ subtitle = ""
  css_class = ""
 +++
 
+Ben Zhou, Kyle Richardson, Qiang Ning, Tushar Khot,  Ashish Sabharwal,  Dan Roth.  (2020) **Temporal Reasoning on Implicit Events from Distant Supervision** *work in progress* [[arxiv](https://arxiv.org/pdf/2010.12753.pdf)]
+
 Liang Xu, Hai Hu, Xuanwei Zhang, Lu Li, Chenjie Cao, Yudong Li, Yechen Xu, Kai Sun, Dian Yu, Cong Yu, Yin Tian, Qianqian Dong, Weitang Liu, Bo Shi, Yiming Cui, Junyi Li, Jun Zeng, Rongzhao Wang, Weijian Xie, Yanting Li, Yina Patterson, Zuoyu Tian, Yiwen Zhang, He Zhou, Shaoweihua Liu, Zhe Zhao, Qipeng Zhao, Cong Yue, Xinrui Zhang, Zhengliang Yang, **Kyle Richardson**, and Zhenzhong Lan. (2020) **CLUE: A Chinese Language Understanding Evaluation Benchmark.** *COLING (to appear)* \[[website/leaderboard](https://www.cluebenchmarks.com/en/index.html)]
 
 Niket Tandon, Keisuke Sakaguchi, Bhavana Dalvi, Dheeraj Rajagopal, Peter Clark, Michal Guerquin, Kyle Richardson and Eduard Hovy. (2020) **A Dataset for Tracking Entities in Open Domain Procedural Text** *EMNLP (to appear)*
@@ -85,7 +87,6 @@ Peter Clark, Oyvind Tafjord, Kyle Richardson (2020). **Transformers as Soft Reas
 Hai Hu, Qi Chen, Kyle Richardson, Atreyee Mukherjee, Lawrence S. Moss,Sandra Kuebler (2020). **MonaLog: a Lightweight System for Natural Language Inference Based on Monotonicity**. *Proceedings of Society for Computation in Linguistics (SCIL 2020)* \[[arxiv](https://arxiv.org/abs/1910.08772)] \[[proceedings](https://scholarworks.umass.edu/scil/vol3/iss1/31/)] \[[data](https://github.com/huhailinguist/SICK_correction)]
 
 Kyle Richardson, Hai Hu, Lawrence S. Moss, Ashish Sabharwal (2020). **Probing Natural Language Inference Models through Semantic Fragments** *Proceedings of Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI 2020)* \[[arxiv](https://arxiv.org/abs/1909.07521)]\[[aaai](https://aaai.org/ojs/index.php/AAAI/article/view/6397)]\[[code/data](https://github.com/yakazimir/semantic_fragments)]\[[slides](files/semantic_fragments.pdf)]
-
 
 Peter Clark,Oren Etzioni, Daniel Khashabi, Tushar Khot, Bhavana Dalvi Mishra, Kyle Richardson, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord, Niket Tandon, Sumithra Bhakthavatsalam, Dirk Groeneveld,Michal Guerquin, Michael Schmitz (2020). **From 'F' to 'A' on the N.Y. Regents Science Exams: An Overview of the Aristo Project** *AI Magazine (to appear)*\[[arxiv](https://arxiv.org/abs/1909.01958)]\[[New York Times](https://www.nytimes.com/2019/09/04/technology/artificial-intelligence-aristo-passed-test.html), [GeekWire](https://www.geekwire.com/2019/allen-institutes-aristo-ai-program-finally-passes-8th-grade-science-test/)]
 
