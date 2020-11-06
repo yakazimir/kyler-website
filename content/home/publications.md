@@ -68,7 +68,7 @@ subtitle = ""
 
 Ben Zhou, Kyle Richardson, Qiang Ning, Tushar Khot,  Ashish Sabharwal,  Dan Roth.  (2020) **Temporal Reasoning on Implicit Events from Distant Supervision** *work in progress* [[arxiv](https://arxiv.org/pdf/2010.12753.pdf)]
 
-Liang Xu, Hai Hu, Xuanwei Zhang, Lu Li, Chenjie Cao, Yudong Li, Yechen Xu, Kai Sun, Dian Yu, Cong Yu, Yin Tian, Qianqian Dong, Weitang Liu, Bo Shi, Yiming Cui, Junyi Li, Jun Zeng, Rongzhao Wang, Weijian Xie, Yanting Li, Yina Patterson, Zuoyu Tian, Yiwen Zhang, He Zhou, Shaoweihua Liu, Zhe Zhao, Qipeng Zhao, Cong Yue, Xinrui Zhang, Zhengliang Yang, **Kyle Richardson**, and Zhenzhong Lan. (2020) **CLUE: A Chinese Language Understanding Evaluation Benchmark.** *COLING* \[[arxiv](https://arxiv.org/pdf/2004.05986.pdf)] \[[website/leaderboard](https://www.cluebenchmarks.com/en/index.html)]
+Liang Xu, Hai Hu, Xuanwei Zhang, Lu Li, Chenjie Cao, Yudong Li, Yechen Xu, Kai Sun, Dian Yu, Cong Yu, Yin Tian, Qianqian Dong, Weitang Liu, Bo Shi, Yiming Cui, Junyi Li, Jun Zeng, Rongzhao Wang, Weijian Xie, Yanting Li, Yina Patterson, Zuoyu Tian, Yiwen Zhang, He Zhou, Shaoweihua Liu, Zhe Zhao, Qipeng Zhao, Cong Yue, Xinrui Zhang, Zhengliang Yang, **Kyle Richardson**, and Zhenzhong Lan. (2020) **CLUE: A Chinese Language Understanding Evaluation Benchmark.** *COLING* \[[arxiv](https://arxiv.org/pdf/2004.05986.pdf)] \[[website/leaderboard](https://www.cluebenchmarks.com/en/index.html)] \[[code/data](https://github.com/CLUEbenchmark/CLUE)]
 
 Niket Tandon, Keisuke Sakaguchi, Bhavana Dalvi, Dheeraj Rajagopal, Peter Clark, Michal Guerquin, Kyle Richardson and Eduard Hovy. (2020) **A Dataset for Tracking Entities in Open Domain Procedural Text** *EMNLP (to appear)*
 
