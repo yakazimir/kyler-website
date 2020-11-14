@@ -78,7 +78,7 @@ Tushar Khot, Daniel Khashabi, Kyle Richardson, Peter Clark, Ashish Sabharwal (20
 
 Sumithra Bhakthavatsalam, Kyle Richardson, Niket Tandon, Peter Clark (2020) **Do Dogs have Whiskers? A New Knowledge Base of hasPart Relations** \[[arxiv](https://arxiv.org/pdf/2006.07510.pdf)] \[[data](https://allenai.org/data/haspartkb)]
 
-Atticus Geiger, Kyle Richardson, Christopher Potts (2020) **Neural Natural Language Inference Models Partially Embed Theories of Lexical Entailment and Negation** *BlackBoxNLP (to appear)* \[[arxiv](https://arxiv.org/pdf/2004.14623.pdf)]
+Atticus Geiger, Kyle Richardson, Christopher Potts (2020) **Neural Natural Language Inference Models Partially Embed Theories of Lexical Entailment and Negation** *BlackBoxNLP* \[[arxiv](https://arxiv.org/pdf/2004.14623.pdf)] \[[proceedings](https://www.aclweb.org/anthology/2020.blackboxnlp-1.16.pdf)]
 
 Kyle Richardson, Ashish Sabharwal (2020). **What Does My QA Model Know? Devising Controlled Probes using Expert Knowledge**.  *Transactions of the Association for Computational Linguistics (TACL)* \[[arxiv](https://arxiv.org/abs/1912.13337)] \[[journal](https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00331)] \[[code/data](https://github.com/yakazimir/semantic_fragments)][[slides (EMNLP2020)](files/emnlp_tacl.pdf)]
 
