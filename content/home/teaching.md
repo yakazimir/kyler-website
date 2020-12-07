@@ -16,9 +16,8 @@ weight = 60
 +++
 
 In the summer of 2016, I taught a Masters seminar on Semantic Parsing
-(my thesis topic) at the University of Stuttgart. The slides can be
-found
-[here]((https://www.krichardson.me/files/stuttgart_course.zip)
+(my thesis topic) at the University of Stuttgart. The slides and
+course materials can be found [**here**](https://www.krichardson.me/files/stuttgart_course.zip)
 
 
 Some random **notes and musings**: [**Number Theory Meets Computability
