@@ -78,7 +78,7 @@ Tushar Khot, Daniel Khashabi, **Kyle Richardson**, Peter Clark, Ashish Sabharwal
 
 Sumithra Bhakthavatsalam, **Kyle Richardson**, Niket Tandon, Peter Clark (2020) [**Do Dogs have Whiskers? A New Knowledge Base of hasPart Relations**](https://arxiv.org/pdf/2006.07510.pdf) \[[arxiv](https://arxiv.org/pdf/2006.07510.pdf)] \[[data](https://allenai.org/data/haspartkb)]
 
-Atticus Geiger, **Kyle Richardson**, Christopher Potts (2020) [**Neural Natural Language Inference Models Partially Embed Theories of Lexical Entailment and Negation**](https://arxiv.org/pdf/2004.14623.pdf) in *Workshop on Analzying and interpreting neural networks for NLP* (**BlackBoxNLP**) \[[arxiv](https://arxiv.org/pdf/2004.14623.pdf)] \[[proceedings](https://www.aclweb.org/anthology/2020.blackboxnlp-1.16.pdf)]
+Atticus Geiger, **Kyle Richardson**, Christopher Potts (2020) [**Neural Natural Language Inference Models Partially Embed Theories of Lexical Entailment and Negation**](https://arxiv.org/pdf/2004.14623.pdf) in *Workshop on Analzying and interpreting neural networks for NL*P (**BlackBoxNLP**) \[[arxiv](https://arxiv.org/pdf/2004.14623.pdf)] \[[proceedings](https://www.aclweb.org/anthology/2020.blackboxnlp-1.16.pdf)]
 
 **Kyle Richardson**, Ashish Sabharwal (2020). [**What Does My QA Model Know? Devising Controlled Probes using Expert Knowledge**](https://arxiv.org/abs/1912.13337).  in *Transactions of the Association for Computational Linguistics* (**TACL**) \[[arxiv](https://arxiv.org/abs/1912.13337)] \[[journal](https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00331)] \[[code/data](https://github.com/yakazimir/semantic_fragments)][[slides (EMNLP2020)](files/emnlp_tacl.pdf)]
 
@@ -108,7 +108,7 @@ Cleo Condoravdi, **Kyle Richardson**, Vishal Sikka, Asuman Suenbuel, and Richard
 
 Cleo Condoravdi, **Kyle Richardson**, Vishal Sikka, Asuman Suenbuel, and Richard Waldinger (2014) [**Deduction for Natural Language Access to Data.**](https://www.researchgate.net/publication/264825628_Deduction_for_Natural_Language_Access_to_Data) *in University of Coimbra CS Technical Reports, CISUC/TR 2014-02. Presented at Joint Workshop on Natural Language and Computer Science (NLCS) and Natural Language Services for Reasoners (NLSR)*.
 
-Kyle Richardson and Jonas Kuhn (2014) [**UnixMan Corpus: A Resource for Language Learning in the Unix Domain.**](http://www.lrec-conf.org/proceedings/lrec2014/pdf/823_Paper.pdf) in *Proceedings of Language Resources and Evaluation* (**LREC**). \[[link](http://www.lrec-conf.org/proceedings/lrec2014/pdf/823_Paper.pdf)] \[[data](https://github.com/yakazimir/Code-Datasets/tree/master/data/unixman)]
+**Kyle Richardson** and Jonas Kuhn (2014) [**UnixMan Corpus: A Resource for Language Learning in the Unix Domain.**](http://www.lrec-conf.org/proceedings/lrec2014/pdf/823_Paper.pdf) in *Proceedings of Language Resources and Evaluation* (**LREC**). \[[link](http://www.lrec-conf.org/proceedings/lrec2014/pdf/823_Paper.pdf)] \[[data](https://github.com/yakazimir/Code-Datasets/tree/master/data/unixman)]
 
 Sina Zarriess and **Kyle Richardson**. (2013) [**An Automatic Method for Building a Data-to-Text Generator**](http://www.um.edu.mt/events/enlg2013/workshop-program.html).  in *Proceedings of 14th European Workshop on Natural Language Generation* (**ENLG**) \[[link](http://www.um.edu.mt/events/enlg2013/workshop-program.html)]
 
