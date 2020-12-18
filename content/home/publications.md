@@ -66,15 +66,18 @@ subtitle = ""
  css_class = ""
 +++
 
+Gregor Betz, Christian Voigt, **Kyle Richardson**.  (**2020**) [**Critical Thinking for Language Models
+**](https://arxiv.org/abs/2009.07185) *work in progress* \[[arxiv](https://arxiv.org/abs/2009.07185)] \[[data](https://github.com/debatelab/aacorpus)]
+
 Ben Zhou, **Kyle Richardson**, Qiang Ning, Tushar Khot,  Ashish Sabharwal,  Dan Roth.  (**2020**) [**Temporal Reasoning on Implicit Events from Distant Supervision**](https://arxiv.org/pdf/2010.12753.pdf) *work in progress* [[arxiv](https://arxiv.org/pdf/2010.12753.pdf)]
+
+Tushar Khot, Daniel Khashabi, **Kyle Richardson**, Peter Clark, Ashish Sabharwal (**2020**) [**Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models**](https://arxiv.org/abs/2009.00751) *work in progress* \[[arxiv](https://arxiv.org/abs/2009.00751)] \[[code/data](https://github.com/allenai/modularqa)] \[[demo](https://modularqa-demo.apps.allenai.org/)]
 
 Liang Xu, Hai Hu, Xuanwei Zhang, Lu Li, Chenjie Cao, Yudong Li, Yechen Xu, Kai Sun, Dian Yu, Cong Yu, Yin Tian, Qianqian Dong, Weitang Liu, Bo Shi, Yiming Cui, Junyi Li, Jun Zeng, Rongzhao Wang, Weijian Xie, Yanting Li, Yina Patterson, Zuoyu Tian, Yiwen Zhang, He Zhou, Shaoweihua Liu, Zhe Zhao, Qipeng Zhao, Cong Yue, Xinrui Zhang, Zhengliang Yang, **Kyle Richardson**, and Zhenzhong Lan. (**2020**) [**CLUE: A Chinese Language Understanding Evaluation Benchmark.**](https://arxiv.org/pdf/2004.05986.pdf) in *Proceedings of International Conference on Computational Linguistics* (**COLING**) \[[arxiv](https://arxiv.org/pdf/2004.05986.pdf)] \[[website/leaderboard](https://www.cluebenchmarks.com/en/index.html)] \[[code/data](https://github.com/CLUEbenchmark/CLUE)] \[[proceedings](https://www.aclweb.org/anthology/2020.coling-main.419)]
 
 Niket Tandon, Keisuke Sakaguchi, Bhavana Dalvi, Dheeraj Rajagopal, Peter Clark, Michal Guerquin, **Kyle Richardson** and Eduard Hovy. (**2020**) [**A Dataset for Tracking Entities in Open Domain Procedural Text**](https://arxiv.org/pdf/2011.08092.pdf) in *Proceedings of International Conference on Empirical Methods in Natural Language Processing* (**EMNLP**) [[proceedings](https://www.aclweb.org/anthology/2020.emnlp-main.520.pdf)] [[arxiv](https://arxiv.org/pdf/2011.08092.pdf)] [[dataset](https://allenai.org/data/openpi)]
 
 Hai Hu, **Kyle Richardson**, Liang Xu, Lu Li, Sandra Kubler, Lawrence S. Moss. (**2020**) [**OCNLI: Original Chinese Natural Language Inference**](https://arxiv.org/abs/2010.05444) **Findings of EMNLP** \[[arxiv](https://arxiv.org/abs/2010.05444)] \[[code/data](https://github.com/CLUEbenchmark/OCNLI)] \[[leaderboard](https://www.cluebenchmarks.com/nli.html)] \[[acl_anthonology](https://www.aclweb.org/anthology/2020.findings-emnlp.314/)]
-
-Tushar Khot, Daniel Khashabi, **Kyle Richardson**, Peter Clark, Ashish Sabharwal (**2020**) [**Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models**](https://arxiv.org/abs/2009.00751) *work in progress* \[[arxiv](https://arxiv.org/abs/2009.00751)] \[[code/data](https://github.com/allenai/modularqa)] \[[demo](https://modularqa-demo.apps.allenai.org/)]
 
 Sumithra Bhakthavatsalam, **Kyle Richardson**, Niket Tandon, Peter Clark (**2020**) [**Do Dogs have Whiskers? A New Knowledge Base of hasPart Relations**](https://arxiv.org/pdf/2006.07510.pdf) *technical note* \[[arxiv](https://arxiv.org/pdf/2006.07510.pdf)] \[[data](https://allenai.org/data/haspartkb)]
 
