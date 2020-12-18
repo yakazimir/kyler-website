@@ -65,7 +65,7 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-<span style="color:red">**Note**</span>: For the most up-to-date versions of virtually all my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions. 
+<span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
 Gregor Betz, Christian Voigt, **Kyle Richardson**.  (**2020**) [**Critical Thinking for Language Models**](https://arxiv.org/abs/2009.07185) *work in progress* \[[arxiv](https://arxiv.org/abs/2009.07185)] \[[data](https://github.com/debatelab/aacorpus)]
 
