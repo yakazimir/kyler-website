@@ -66,8 +66,7 @@ subtitle = ""
  css_class = ""
 +++
 
-Gregor Betz, Christian Voigt, **Kyle Richardson**.  (**2020**) [**Critical Thinking for Language Models
-**](https://arxiv.org/abs/2009.07185) *work in progress* \[[arxiv](https://arxiv.org/abs/2009.07185)] \[[data](https://github.com/debatelab/aacorpus)]
+Gregor Betz, Christian Voigt, **Kyle Richardson**.  (**2020**) [**Critical Thinking for Language Models**](https://arxiv.org/abs/2009.07185) *work in progress* \[[arxiv](https://arxiv.org/abs/2009.07185)] \[[data](https://github.com/debatelab/aacorpus)]
 
 Ben Zhou, **Kyle Richardson**, Qiang Ning, Tushar Khot,  Ashish Sabharwal,  Dan Roth.  (**2020**) [**Temporal Reasoning on Implicit Events from Distant Supervision**](https://arxiv.org/pdf/2010.12753.pdf) *work in progress* [[arxiv](https://arxiv.org/pdf/2010.12753.pdf)]
 
