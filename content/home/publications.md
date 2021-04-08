@@ -67,6 +67,8 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
+Gregor Betz, Christian Voigt, **Kyle Richardson**.  (**2020**) [**Thinking Aloud: Dynamic Context Generation Improves Zero-Shot Reasoning Performance of GPT-2**](https://arxiv.org/abs/2009.07185) *work in progress* \[[arxiv](https://arxiv.org/pdf/2103.13033.pdf)]
+
 Ben Zhou, **Kyle Richardson**, Qiang Ning, Tushar Khot,  Ashish Sabharwal,  Dan Roth.  (**2021**) [**Temporal Reasoning on Implicit Events from Distant Supervision**](https://arxiv.org/pdf/2010.12753.pdf) *Proceedings of the 2021 Annual Conference of the North American Chapter of the Association for Computational Linguistics* (**NAACL 2021**) (accepted) [[arxiv](https://arxiv.org/pdf/2010.12753.pdf)]
 
 Tushar Khot, Daniel Khashabi, **Kyle Richardson**, Peter Clark, Ashish Sabharwal (**2021**) [**Text Modular Networks: Learning to Decompose Tasks in the Language of Existing Models**](https://arxiv.org/abs/2009.00751) *Proceedings of the 2021 Annual Conference of the North American Chapter of the Association for Computational Linguistics* (**NAACL 2021**)  (accepted) \[[arxiv](https://arxiv.org/abs/2009.00751)] \[[code/data](https://github.com/allenai/modularqa)] \[[demo](https://modularqa-demo.apps.allenai.org/)]
