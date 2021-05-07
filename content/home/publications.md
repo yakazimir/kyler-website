@@ -67,6 +67,8 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
+Hai Hu, He Zhou, Zuoyu Tian, Yiwen Zhang, Yina Patterson, Yanting Li, Yixin Nie, **Kyle Richardson**.  (**2021**) [**Understanding Transfer Learning of Multi-lingual Pre-trained Language Models through Chinese Natural Language Inference**] *Findings of ACL* (to appear)
+
 Gregor Betz, Christian Voigt, **Kyle Richardson**.  (**2021**) [**Thinking Aloud: Dynamic Context Generation Improves Zero-Shot Reasoning Performance of GPT-2**](https://arxiv.org/abs/2009.07185) *work in progress* \[[arxiv](https://arxiv.org/pdf/2103.13033.pdf)]
 
 Ben Zhou, **Kyle Richardson**, Qiang Ning, Tushar Khot,  Ashish Sabharwal,  Dan Roth.  (**2021**) [**Temporal Reasoning on Implicit Events from Distant Supervision**](https://arxiv.org/pdf/2010.12753.pdf) *Proceedings of the 2021 Annual Conference of the North American Chapter of the Association for Computational Linguistics* (**NAACL 2021**)  [[arxiv](https://arxiv.org/pdf/2010.12753.pdf)]
