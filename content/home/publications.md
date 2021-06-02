@@ -67,7 +67,7 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
-Hai Hu, He Zhou, Zuoyu Tian, Yiwen Zhang, Yina Patterson, Yanting Li, Yixin Nie, **Kyle Richardson**.  (**2021**) **Understanding Transfer Learning of Multi-lingual Pre-trained Language Models through Chinese Natural Language Inference** *Findings of ACL* (to appear) \[[data](https://github.com/huhailinguist/ChineseNLIProbing)]
+Hai Hu, He Zhou, Zuoyu Tian, Yiwen Zhang, Yina Patterson, Yanting Li, Yixin Nie, **Kyle Richardson**.  (**2021**) **Investigating Transfer Learning of Multi-lingual Pre-trained Language Models through Chinese Natural Language Inference** *Findings of ACL* (to appear) \[[data](https://github.com/huhailinguist/ChineseNLIProbing)]
 
 Gregor Betz, Christian Voigt, **Kyle Richardson**.  (**2021**) [**Thinking Aloud: Dynamic Context Generation Improves Zero-Shot Reasoning Performance of GPT-2**](https://arxiv.org/abs/2009.07185) *work in progress* \[[arxiv](https://arxiv.org/pdf/2103.13033.pdf)]
 
@@ -87,7 +87,7 @@ Hai Hu, **Kyle Richardson**, Liang Xu, Lu Li, Sandra Kubler, Lawrence S. Moss. (
 
 Sumithra Bhakthavatsalam, **Kyle Richardson**, Niket Tandon, Peter Clark (**2020**) [**Do Dogs have Whiskers? A New Knowledge Base of hasPart Relations**](https://arxiv.org/pdf/2006.07510.pdf) *technical note* \[[arxiv](https://arxiv.org/pdf/2006.07510.pdf)] \[[data](https://allenai.org/data/haspartkb)]
 
-Atticus Geiger, **Kyle Richardson**, Christopher Potts (**2020**) [**Neural Natural Language Inference Models Partially Embed Theories of Lexical Entailment and Negation**](https://arxiv.org/pdf/2004.14623.pdf) in *Workshop on Analzying and Interpreting Neural Networks for NLP* (**BlackBoxNLP**) \[[arxiv](https://arxiv.org/pdf/2004.14623.pdf)] \[[proceedings](https://www.aclweb.org/anthology/2020.blackboxnlp-1.16.pdf)]
+Atticus Geiger, **Kyle Richardson**, Christopher Potts (**2020**) [**Neural Natural Language Inference Models Partially Embed Theories of Lexical Entailment and Negation**](https://arxiv.org/pdf/2004.14623.pdf) in *Workshop on Analzying and Interpreting Neural Networks for NLP* (**BlackBoxNLP**) \[[arxiv](https://arxiv.org/pdf/2004.14623.pdf)] \[[proceedings](https://www.aclweb.org/anthology/2020.blackboxnlp-1.16.pdf)] \[[data](https://github.com/atticusg/MoNLI)]
 
 **Kyle Richardson**, Ashish Sabharwal (**2020**). [**What Does My QA Model Know? Devising Controlled Probes using Expert Knowledge**](https://arxiv.org/abs/1912.13337).  in *Transactions of the Association for Computational Linguistics* (**TACL**) \[[arxiv](https://arxiv.org/abs/1912.13337)] \[[journal](https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00331)] \[[code/data](https://github.com/yakazimir/semantic_fragments)][[slides (EMNLP2020)](files/emnlp_tacl.pdf)]
 
