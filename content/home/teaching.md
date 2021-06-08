@@ -27,4 +27,7 @@ Theory**](https://www.krichardson.me/files/h10.pdf) (see also
 
 **Recent Talks** (see also below): Brief (10 minute) introduction to
   [**Natural Language Understanding (NLU) and Language Modeling**](https://www.krichardson.me/files/nlu_lm.pdf)
-  (*intended for a non-technical audience*); Overview of my recent work on [**diagnostic testing of neural models**](https://www.krichardson.me/files/probing.pdf).
+  (*intended for a non-technical audience*); Overview of my recent
+  work on  [**diagnostic testing of neural models**](https://www.krichardson.me/files/probing.pdf);
+  [**Text Modular Networks**](https://www.krichardson.me/files/tmns.pdf)
+  (*collaborative work*).
