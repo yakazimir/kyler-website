@@ -31,4 +31,4 @@ Theory**](https://www.krichardson.me/files/h10.pdf) (see also
   work on  [**diagnostic testing of neural models**](https://www.krichardson.me/files/probing.pdf);
   [**Text Modular Networks**](https://www.krichardson.me/files/TMNs_NAACL_final.pdf)
   (*collaborative work*);
-  [**Modeling Formal Fallacies**](https://debatelab.github.io/journal/fallacies-for-big-bench.html)  (**collaborative work, [big-bench](https://github.com/google/BIG-bench) contribution**)
+  [**Modeling Formal Fallacies**](https://debatelab.github.io/journal/fallacies-for-big-bench.html)  (*collaborative work, [big-bench](https://github.com/google/BIG-bench) contribution*)
