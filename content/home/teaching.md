@@ -22,7 +22,8 @@ course materials can be found [**here**](https://www.krichardson.me/files/stuttg
 
 Some recent  **notes and musings**: [**Number Theory Meets Computability
 Theory**](https://www.krichardson.me/files/h10.pdf) (see also
-[*blog post*](https://www.krichardson.me/post/number_computability/)).
+[*blog post*](https://www.krichardson.me/post/number_computability/));
+other lecture notes: [**Introduction to Probability**](https://www.krichardson.me/files/probability.pdf)
 
 
 **Recent Talks** (see also below): Brief (10 minute) introduction to
