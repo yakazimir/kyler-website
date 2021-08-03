@@ -67,7 +67,7 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
-Hai Hu, He Zhou, Zuoyu Tian, Yiwen Zhang, Yina Patterson, Yanting Li, Yixin Nie, **Kyle Richardson**.  (**2021**) [**Investigating Transfer Learning in Multi-lingual Pre-trained Language Models through Chinese Natural Language Inference**](https://arxiv.org/pdf/2106.03983.pdf) *Findings of ACL* \[[code/data](https://github.com/huhailinguist/ChineseNLIProbing)] \[[arxiv](https://arxiv.org/pdf/2106.03983.pdf)]
+Hai Hu, He Zhou, Zuoyu Tian, Yiwen Zhang, Yina Patterson, Yanting Li, Yixin Nie, **Kyle Richardson**.  (**2021**) [**Investigating Transfer Learning in Multi-lingual Pre-trained Language Models through Chinese Natural Language Inference**](https://arxiv.org/pdf/2106.03983.pdf) *Findings of ACL* \[[code/data](https://github.com/huhailinguist/ChineseNLIProbing)] \[[arxiv](https://arxiv.org/pdf/2106.03983.pdf)] \[[acl anthology](https://aclanthology.org/2021.findings-acl.331/)]
 
 Gregor Betz, Christian Voigt, **Kyle Richardson**.  (**2021**) [**Thinking Aloud: Dynamic Context Generation Improves Zero-Shot Reasoning Performance of GPT-2**](https://arxiv.org/abs/2009.07185) *work in progress* \[[arxiv](https://arxiv.org/pdf/2103.13033.pdf)]
 
