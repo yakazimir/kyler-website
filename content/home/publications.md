@@ -67,6 +67,11 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
+Tushar Khot, **Kyle Richardson** , Daniel Khashabi,  Ashish Sabharwal (**2021**) [**Learning to Solve Complex Tasks by Talking to Agents
+**](https://arxiv.org/abs/2110.08542) *Proceedings of the 2021 Annual Conference of the North American Chapter of the Association for Computational Linguistics* (**work in progress**) \[[arxiv](https://arxiv.org/abs/2009.00751)] \[[code/data](https://github.com/allenai/COMMAQA)]
+
+Gregor Betz,  **Kyle Richardson**.  (**2021**) [**DeepA2: A Modular Framework for Deep Argument Analysis with Pretrained Neural Text2Text Language Models**](https://arxiv.org/abs/2110.01509) *work in progress* \[[arxiv](https://arxiv.org/abs/2110.01509)]
+
 Hai Hu, He Zhou, Zuoyu Tian, Yiwen Zhang, Yina Patterson, Yanting Li, Yixin Nie, **Kyle Richardson**.  (**2021**) [**Investigating Transfer Learning in Multi-lingual Pre-trained Language Models through Chinese Natural Language Inference**](https://arxiv.org/pdf/2106.03983.pdf) *Findings of ACL* \[[code/data](https://github.com/huhailinguist/ChineseNLIProbing)] \[[arxiv](https://arxiv.org/pdf/2106.03983.pdf)] \[[acl anthology](https://aclanthology.org/2021.findings-acl.331/)]
 
 Gregor Betz, Christian Voigt, **Kyle Richardson**.  (**2021**) [**Thinking Aloud: Dynamic Context Generation Improves Zero-Shot Reasoning Performance of GPT-2**](https://arxiv.org/abs/2009.07185) *work in progress* \[[arxiv](https://arxiv.org/pdf/2103.13033.pdf)]
