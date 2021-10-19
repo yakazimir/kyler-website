@@ -67,8 +67,7 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
-Tushar Khot, **Kyle Richardson** , Daniel Khashabi,  Ashish Sabharwal (**2021**) [**Learning to Solve Complex Tasks by Talking to Agents
-**](https://arxiv.org/abs/2110.08542) *Proceedings of the 2021 Annual Conference of the North American Chapter of the Association for Computational Linguistics* (**work in progress**) \[[arxiv](https://arxiv.org/abs/2009.00751)] \[[code/data](https://github.com/allenai/COMMAQA)]
+Tushar Khot, **Kyle Richardson** , Daniel Khashabi,  Ashish Sabharwal (**2021**) [**Learning to Solve Complex Tasks by Talking to Agents**](https://arxiv.org/abs/2110.08542)  (**work in progress**) \[[arxiv](https://arxiv.org/abs/2009.00751)] \[[code/data](https://github.com/allenai/COMMAQA)]
 
 Gregor Betz,  **Kyle Richardson**.  (**2021**) [**DeepA2: A Modular Framework for Deep Argument Analysis with Pretrained Neural Text2Text Language Models**](https://arxiv.org/abs/2110.01509) *work in progress* \[[arxiv](https://arxiv.org/abs/2110.01509)]
 
