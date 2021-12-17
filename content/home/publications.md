@@ -67,7 +67,7 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
-**Kyle Richardson** , Ashish Sabharwal (**2022**) [**Pushing the Limits of Rule Rea- soning in Transformers through Natural Language Satisfiability**]()  (**to appear AAAI2022**) \[[arxiv](https://arxiv.org/abs/2110.08542)] \[[code/data](https://github.com/allenai/COMMAQA)]
+**Kyle Richardson** , Ashish Sabharwal (**2022**) [**Pushing the Limits of Rule Rea- soning in Transformers through Natural Language Satisfiability**](https://arxiv.org/abs/2112.09054)  (**to appear AAAI2022**) \[[arxiv](https://arxiv.org/abs/2112.09054)] \[[code/data](https://github.com/allenai/language_fragments)]
 
 Daniel Khashabi, Shane Lyu, Sewon Min, Lianhui Qin, **Kyle Richardson** ,  Sameer Singh, Sean Welleck, Hannaneh Hajishirzi, Tushar Khot, Ashish Sabharwal, Yejin Choi (**2021**) [**PROMPT WAYWARDNESS: The Curious Case of Discretized Interpretation of Continuous Prompts**](https://arxiv.org/abs/2112.08348)  (**work in progress**) \[[arxiv](https://arxiv.org/abs/2112.08348)] 
 
