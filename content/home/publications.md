@@ -75,7 +75,7 @@ Ronen Tamari, **Kyle Richardson** , Aviad Sar-Shalom,  Noam Kahlon, Nelson F. Li
 
 Tushar Khot, **Kyle Richardson** , Daniel Khashabi,  Ashish Sabharwal (**2021**) [**Learning to Solve Complex Tasks by Talking to Agents**](https://arxiv.org/abs/2110.08542)  (**work in progress**) \[[arxiv](https://arxiv.org/abs/2110.08542)] \[[code/data](https://github.com/allenai/COMMAQA)]
 
-Gregor Betz,  **Kyle Richardson**.  (**2021**) [**DeepA2: A Modular Framework for Deep Argument Analysis with Pretrained Neural Text2Text Language Models**](https://arxiv.org/abs/2110.01509) *work in progress* \[[arxiv](https://arxiv.org/abs/2110.01509)]
+Gregor Betz,  **Kyle Richardson**.  (**2021**) [**DeepA2: A Modular Framework for Deep Argument Analysis with Pretrained Neural Text2Text Language Models**](https://arxiv.org/abs/2110.01509) *work in progress* \[[arxiv](https://arxiv.org/abs/2110.01509)] \[[demo](https://huggingface.co/spaces/debatelab/deepa2-demo)] \[[dataset](https://huggingface.co/datasets/debatelab/aaac)] \[[model](https://huggingface.co/debatelab/argument-analyst)]
 
 Hai Hu, He Zhou, Zuoyu Tian, Yiwen Zhang, Yina Patterson, Yanting Li, Yixin Nie, **Kyle Richardson**.  (**2021**) [**Investigating Transfer Learning in Multi-lingual Pre-trained Language Models through Chinese Natural Language Inference**](https://arxiv.org/pdf/2106.03983.pdf) *Findings of ACL* \[[code/data](https://github.com/huhailinguist/ChineseNLIProbing)] \[[arxiv](https://arxiv.org/pdf/2106.03983.pdf)] \[[acl anthology](https://aclanthology.org/2021.findings-acl.331/)]
 
