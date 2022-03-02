@@ -67,13 +67,13 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
-**Kyle Richardson** , Ashish Sabharwal (**2022**) [**Pushing the Limits of Rule Reasoning in Transformers through Natural Language Satisfiability**](https://arxiv.org/abs/2112.09054)  (**to appear AAAI2022**) \[[arxiv](https://arxiv.org/abs/2112.09054)] \[[code/data](https://github.com/allenai/language_fragments)][[slides](https://www.krichardson.me/files/aaai_2022.pdf)] \[[poster](https://www.krichardson.me/files/aaai_22_poster.pdf)]
+Tushar Khot, **Kyle Richardson** , Daniel Khashabi,  Ashish Sabharwal (**2022**) [**Learning to Solve Complex Tasks by Talking to Agents**](https://arxiv.org/abs/2110.08542)  (**Findings of ACL**) \[[arxiv](https://arxiv.org/abs/2110.08542)] \[[code/data](https://github.com/allenai/COMMAQA)]
+
+**Kyle Richardson** , Ashish Sabharwal (**2022**) [**Pushing the Limits of Rule Reasoning in Transformers through Natural Language Satisfiability**](https://arxiv.org/abs/2112.09054)  (**AAAI2022**) \[[arxiv](https://arxiv.org/abs/2112.09054)] \[[code/data](https://github.com/allenai/language_fragments)][[slides](https://www.krichardson.me/files/aaai_2022.pdf)] \[[poster](https://www.krichardson.me/files/aaai_22_poster.pdf)]
 
 Daniel Khashabi, Shane Lyu, Sewon Min, Lianhui Qin, **Kyle Richardson** ,  Sameer Singh, Sean Welleck, Hannaneh Hajishirzi, Tushar Khot, Ashish Sabharwal, Yejin Choi (**2021**) [**PROMPT WAYWARDNESS: The Curious Case of Discretized Interpretation of Continuous Prompts**](https://arxiv.org/abs/2112.08348)  (**work in progress**) \[[arxiv](https://arxiv.org/abs/2112.08348)] 
 
 Ronen Tamari, **Kyle Richardson** , Aviad Sar-Shalom,  Noam Kahlon, Nelson F. Liu, Reut Tsarfaty and Dafna Shahaf (**2021**) [**Dyna-bAbI: unlocking bAbI’s potential with dynamic synthetic benchmarking**](https://arxiv.org/pdf/2112.00086.pdf)  (**work in progress**) \[[arxiv](https://arxiv.org/abs/2112.00086)] \[[code/data](https://tiny.one/8wjxwd7z)]
-
-Tushar Khot, **Kyle Richardson** , Daniel Khashabi,  Ashish Sabharwal (**2021**) [**Learning to Solve Complex Tasks by Talking to Agents**](https://arxiv.org/abs/2110.08542)  (**work in progress**) \[[arxiv](https://arxiv.org/abs/2110.08542)] \[[code/data](https://github.com/allenai/COMMAQA)]
 
 Gregor Betz,  **Kyle Richardson**.  (**2021**) [**DeepA2: A Modular Framework for Deep Argument Analysis with Pretrained Neural Text2Text Language Models**](https://arxiv.org/abs/2110.01509) *work in progress* \[[arxiv](https://arxiv.org/abs/2110.01509)] \[[demo](https://huggingface.co/spaces/debatelab/deepa2-demo)] \[[dataset](https://huggingface.co/datasets/debatelab/aaac)] \[[model](https://huggingface.co/debatelab/argument-analyst)]
 
