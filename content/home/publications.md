@@ -67,6 +67,8 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
+Matthew Finlayson, **Kyle Richardson** , Ashish Sabharwal, Peter Clark (**2022**) [**What Makes Instruction Learning Hard? An Investigation and a New Challenge in a Synthetic Environment**](https://arxiv.org/pdf/2204.09148.pdf)  (**work in progress**) \[[arxiv](https://arxiv.org/pdf/2204.09148.pdf)] \[[code/data]( https://github.com/allenai/RegSet)]
+
 Tushar Khot, **Kyle Richardson** , Daniel Khashabi,  Ashish Sabharwal (**2022**) [**Learning to Solve Complex Tasks by Talking to Agents**](https://arxiv.org/abs/2110.08542)  (**Findings of ACL**) \[[arxiv](https://arxiv.org/abs/2110.08542)] \[[code/data](https://github.com/allenai/COMMAQA)]
 
 **Kyle Richardson** , Ashish Sabharwal (**2022**) [**Pushing the Limits of Rule Reasoning in Transformers through Natural Language Satisfiability**](https://arxiv.org/abs/2112.09054)  (**AAAI2022**) \[[arxiv](https://arxiv.org/abs/2112.09054)] \[[code/data](https://github.com/allenai/language_fragments)][[slides](https://www.krichardson.me/files/aaai_2022.pdf)] \[[poster](https://www.krichardson.me/files/aaai_22_poster.pdf)]
