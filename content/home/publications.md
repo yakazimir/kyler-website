@@ -69,11 +69,11 @@ subtitle = ""
 
 Matthew Finlayson, **Kyle Richardson** , Ashish Sabharwal, Peter Clark (**2022**) [**What Makes Instruction Learning Hard? An Investigation and a New Challenge in a Synthetic Environment**](https://arxiv.org/pdf/2204.09148.pdf)  (**work in progress**) \[[arxiv](https://arxiv.org/pdf/2204.09148.pdf)] \[[code/data]( https://github.com/allenai/RegSet)]
 
-Tushar Khot, **Kyle Richardson** , Daniel Khashabi,  Ashish Sabharwal (**2022**) [**Learning to Solve Complex Tasks by Talking to Agents**](https://arxiv.org/abs/2110.08542)  (**Findings of ACL**) \[[arxiv](https://arxiv.org/abs/2110.08542)] \[[code/data](https://github.com/allenai/COMMAQA)]
+Tushar Khot, **Kyle Richardson** , Daniel Khashabi,  Ashish Sabharwal (**2022**) [**Learning to Solve Complex Tasks by Talking to Agents**](https://arxiv.org/abs/2110.08542)  (**Findings of ACL**) \[[arxiv](https://arxiv.org/abs/2110.08542)] \[[code/data](https://github.com/allenai/COMMAQA)] \[[slides](http://danielkhashabi.com/files/2022_commaqa/CommaQA_ACL_Presentation_v2.pptx)] \[[poster](http://danielkhashabi.com/files/2022_commaqa/CommaQA_ACL_Poster_v2.pdf)]
 
 **Kyle Richardson** , Ashish Sabharwal (**2022**) [**Pushing the Limits of Rule Reasoning in Transformers through Natural Language Satisfiability**](https://arxiv.org/abs/2112.09054)  (**AAAI2022**) \[[arxiv](https://arxiv.org/abs/2112.09054)] \[[code/data](https://github.com/allenai/language_fragments)][[slides](https://www.krichardson.me/files/aaai_2022.pdf)] \[[poster](https://www.krichardson.me/files/aaai_22_poster.pdf)]
 
-Daniel Khashabi, Shane Lyu, Sewon Min, Lianhui Qin, **Kyle Richardson** ,  Sameer Singh, Sean Welleck, Hannaneh Hajishirzi, Tushar Khot, Ashish Sabharwal, Yejin Choi (**2022**) [**PROMPT WAYWARDNESS: The Curious Case of Discretized Interpretation of Continuous Prompts**](https://arxiv.org/abs/2112.08348)  (**Proceedings of NAACL**) \[[arxiv](https://arxiv.org/abs/2112.08348)] 
+Daniel Khashabi, Shane Lyu, Sewon Min, Lianhui Qin, **Kyle Richardson** ,  Sameer Singh, Sean Welleck, Hannaneh Hajishirzi, Tushar Khot, Ashish Sabharwal, Yejin Choi (**2022**) [**PROMPT WAYWARDNESS: The Curious Case of Discretized Interpretation of Continuous Prompts**](https://arxiv.org/abs/2112.08348)  (**Proceedings of NAACL**) \[[arxiv](https://arxiv.org/abs/2112.08348)] \[[slides](http://danielkhashabi.com/files/2022_waywardness/waywardness-2022-ai2.pptx)]
 
 Ronen Tamari, **Kyle Richardson** , Aviad Sar-Shalom,  Noam Kahlon, Nelson F. Liu, Reut Tsarfaty and Dafna Shahaf (**2021**) [**Dyna-bAbI: unlocking bAbI’s potential with dynamic synthetic benchmarking**](https://arxiv.org/pdf/2112.00086.pdf)  (**work in progress**) \[[arxiv](https://arxiv.org/abs/2112.00086)] \[[code/data](https://tiny.one/8wjxwd7z)]
 
