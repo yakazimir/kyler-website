@@ -67,6 +67,8 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
+Aarohi Srivastava et al (*+441 authors*) (**2022**) [**Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models**](https://arxiv.org/pdf/2206.04615.pdf) \[[arxiv](https://arxiv.org/abs/2206.04615)] \[[repo](https://github.com/google/BIG-bench)]
+
 Matthew Finlayson, **Kyle Richardson** , Ashish Sabharwal, Peter Clark (**2022**) [**What Makes Instruction Learning Hard? An Investigation and a New Challenge in a Synthetic Environment**](https://arxiv.org/pdf/2204.09148.pdf)  (**work in progress**) \[[arxiv](https://arxiv.org/pdf/2204.09148.pdf)] \[[code/data]( https://github.com/allenai/RegSet)]
 
 Tushar Khot, **Kyle Richardson** , Daniel Khashabi,  Ashish Sabharwal (**2022**) [**Learning to Solve Complex Tasks by Talking to Agents**](https://arxiv.org/abs/2110.08542)  (**Findings of ACL**) \[[arxiv](https://arxiv.org/abs/2110.08542)] \[[code/data](https://github.com/allenai/COMMAQA)] \[[slides](http://danielkhashabi.com/files/2022_commaqa/CommaQA_ACL_Presentation_v2.pptx)] \[[poster](http://danielkhashabi.com/files/2022_commaqa/CommaQA_ACL_Poster_v2.pdf)]
