@@ -19,11 +19,12 @@ In the summer of 2016, I taught a Masters seminar on Semantic Parsing
 (my thesis topic) at the University of Stuttgart. The slides and
 course materials can be found [**here**](https://www.krichardson.me/files/stuttgart_course.zip).
 
-
 Some recent  **notes and musings**: [**Number Theory Meets Computability
 Theory**](https://www.krichardson.me/files/h10.pdf) (see also
 [*blog post*](https://www.krichardson.me/post/number_computability/));
-other lecture notes: [**Introduction to Probability**](https://www.krichardson.me/files/probability.pdf)
+other lecture notes: [**Introduction to
+Probability**](https://www.krichardson.me/files/probability.pdf),
+[**Negation as Failure**](https://www.krichardson.me/files/naf.pdf)
 
 
 **Recent Talks** (see also below): Brief (10 minute) introduction to
