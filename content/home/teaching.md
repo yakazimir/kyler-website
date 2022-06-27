@@ -29,5 +29,18 @@ Probability**](https://www.krichardson.me/files/probability.pdf),
 
 **Recent Talks** from me and my extended group: Brief (10 minute) introduction to
   [**Natural Language Understanding (NLU) and Language Modeling**](https://www.krichardson.me/files/nlu_lm.pdf)
-  (*intended for a non-technical audience*); Overview of my work on  [**diagnostic testing of neural models**](https://www.krichardson.me/files/probing.pdf); [**Text Modular Networks**](https://www.krichardson.me/files/TMNs_NAACL_final.pdf)(NAACL 2021);[**Modeling Formal Fallacies**](https://debatelab.github.io/journal/fallacies-for-big-bench.html)
-  ([big-bench](https://github.com/google/BIG-bench) contribution*); [**Temporal Reasoning on Implicit Events from Distance  Supervision**](https://www.krichardson.me/files/NAACL21_temporal.pdf)(NAACL 2021), [**Pushing the Limits of Rule Reasoning in Transformers**](https://www.krichardson.me/files/aaai_2022.pdf) (*AAAI 2022*),[**Hey AI, Can You Solve Complex Tasks by Talking to Agents?**](https://www.youtube.com/watch?v=suRNuXgOXVw) (ACLFindings 2022),[**Prompt Waywardness: The Curious Case of Discretized Interpretation  of Continuous  Prompts.**](https://www.youtube.com/watch?v=EfGaSciDN9Y) (*NAACL 2022*)
+  (*intended for a non-technical audience*); Overview of my work on
+  [**diagnostic testing of neural
+  models**](https://www.krichardson.me/files/probing.pdf); [**Text
+  Modular
+  Networks**](https://www.krichardson.me/files/TMNs_NAACL_final.pdf)(NAACL2021);
+  [**Modeling Formal
+  Fallacies**](https://debatelab.github.io/journal/fallacies-for-big-bench.html)([big-bench](https://github.com/google/BIG-bench)
+  contribution); [**Temporal Reasoning on Implicit Events from
+  Distance
+  Supervision**](https://www.krichardson.me/files/NAACL21_temporal.pdf)(NAACL
+  2021), [**Pushing the Limits of Rule Reasoning in
+  Transformers**](https://www.krichardson.me/files/aaai_2022.pdf)
+  (*AAAI 2022*), [**Hey AI, Can You Solve Complex Tasks by Talking to
+  Agents?**](https://www.youtube.com/watch?v=suRNuXgOXVw) (ACLFindings
+  2022), [**Prompt Waywardness: The Curious Case of Discretized Interpretation  of Continuous  Prompts.**](https://www.youtube.com/watch?v=EfGaSciDN9Y) (*NAACL 2022*)
