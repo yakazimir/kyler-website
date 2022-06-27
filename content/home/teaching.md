@@ -33,13 +33,13 @@ Probability**](https://www.krichardson.me/files/probability.pdf),
   [**diagnostic testing of neural
   models**](https://www.krichardson.me/files/probing.pdf); [**Text
   Modular
-  Networks**](https://www.krichardson.me/files/TMNs_NAACL_final.pdf)(NAACL2021);
+  Networks**](https://www.krichardson.me/files/TMNs_NAACL_final.pdf) (NAACL2021);
   [**Modeling Formal
-  Fallacies**](https://debatelab.github.io/journal/fallacies-for-big-bench.html)([big-bench](https://github.com/google/BIG-bench)
+  Fallacies**] (https://debatelab.github.io/journal/fallacies-for-big-bench.html)([big-bench](https://github.com/google/BIG-bench)
   contribution); [**Temporal Reasoning on Implicit Events from
   Distance
-  Supervision**](https://www.krichardson.me/files/NAACL21_temporal.pdf)(NAACL
-  2021), [**Pushing the Limits of Rule Reasoning in
+  Supervision**](https://www.krichardson.me/files/NAACL21_temporal.pdf)
+  (NAACL 2021), [**Pushing the Limits of Rule Reasoning in
   Transformers**](https://www.krichardson.me/files/aaai_2022.pdf)
   (*AAAI 2022*), [**Hey AI, Can You Solve Complex Tasks by Talking to
   Agents?**](https://www.youtube.com/watch?v=suRNuXgOXVw) (ACLFindings
