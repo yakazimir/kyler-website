@@ -24,7 +24,8 @@ Theory**](https://www.krichardson.me/files/h10.pdf) (see also
 [*blog post*](https://www.krichardson.me/post/number_computability/));
 other lecture notes: [**Introduction to
 Probability**](https://www.krichardson.me/files/probability.pdf),
-[**Negation as Failure**](https://www.krichardson.me/files/naf.pdf)
+[**Negation as Failure**](https://www.krichardson.me/files/naf.pdf),
+[**Mixing Logic and Deep Learning: The `Logic as Loss Function` Approach**](https://www.krichardson.me/files/logic_dl.pdf)
 
 
 **Recent Talks** from me and my extended group: Brief (10 minute) introduction to
