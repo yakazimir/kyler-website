@@ -75,7 +75,7 @@ Matthew Finlayson, **Kyle Richardson** , Ashish Sabharwal, Peter Clark (**2022**
 
 Tushar Khot, Harsh Trivedi, Matthew Finlayson, Yao Fu, **Kyle Richardson**, Peter Clark, Ashish Sabharwal (**2022**) [**Decomposed Prompting: A Modular Approach for Solving Complex Tasks**](https://arxiv.org/abs/2210.02406) \[[arxiv](https://arxiv.org/pdf/2210.02406)]
 
-Gregor Betz, **Kyle Richardson**. (2022) [**Judgement Aggregation, Discursive Dilemma and Reflective Equilibrium: Neural Language Models as Self- Improving Doxastic Agents**]. Frontiers in Artificial Intelligence. \[[publisher](https://www.frontiersin.org/articles/10.3389/frai.2022.900943/full)]
+Gregor Betz, **Kyle Richardson**. (2022) [**Judgement Aggregation, Discursive Dilemma and Reflective Equilibrium: Neural Language Models as Self- Improving Doxastic Agents**](https://www.frontiersin.org/articles/10.3389/frai.2022.900943/full). Frontiers in Artificial Intelligence. \[[publisher](https://www.frontiersin.org/articles/10.3389/frai.2022.900943/full)]
 
 Aarohi Srivastava et al (*+441 authors*) (**2022**) [**Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models**](https://arxiv.org/pdf/2206.04615.pdf) \[[arxiv](https://arxiv.org/abs/2206.04615)] \[[resources](https://github.com/google/BIG-bench)]
 
