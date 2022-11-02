@@ -67,11 +67,17 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
+**Kyle Richardson**, Ronen Tamari, Oren Sultan, Dafna Shahaf, Reut Tsarfaty and Ashish Sabharwal. (2022) **Breakpoint Transformers for Modeling and Tracking Intermediate Beliefs**. *to appear* (**EMNLP 2022**)
+
+Ben Zhou, **Kyle Richardson**, Xiaodong Yu and Dan Roth. (2022) **Learning to Decompose: Hypothetical Question Decomposition Based on Comparable Texts**. *to appear*, (**EMNLP 2022**)
+
+Matthew Finlayson, **Kyle Richardson** , Ashish Sabharwal, Peter Clark (**2022**) [**What Makes Instruction Learning Hard? An Investigation and a New Challenge in a Synthetic Environment**](https://arxiv.org/pdf/2204.09148.pdf)  (**EMNLP 2022**) \[[arxiv](https://arxiv.org/pdf/2204.09148.pdf)] \[[code/data]( https://github.com/allenai/RegSet)]
+
 Tushar Khot, Harsh Trivedi, Matthew Finlayson, Yao Fu, **Kyle Richardson**, Peter Clark, Ashish Sabharwal (**2022**) [**Decomposed Prompting: A Modular Approach for Solving Complex Tasks**](https://arxiv.org/abs/2210.02406) \[[arxiv](https://arxiv.org/pdf/2210.02406)]
 
-Aarohi Srivastava et al (*+441 authors*) (**2022**) [**Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models**](https://arxiv.org/pdf/2206.04615.pdf) \[[arxiv](https://arxiv.org/abs/2206.04615)] \[[resources](https://github.com/google/BIG-bench)]
+Gregor Betz, **Kyle Richardson**. (2022) [**Judgement Aggregation, Discursive Dilemma and Reflective Equilibrium: Neural Language Models as Self- Improving Doxastic Agents**]. Frontiers in Artificial Intelligence. \[[publisher](https://www.frontiersin.org/articles/10.3389/frai.2022.900943/full)]
 
-Matthew Finlayson, **Kyle Richardson** , Ashish Sabharwal, Peter Clark (**2022**) [**What Makes Instruction Learning Hard? An Investigation and a New Challenge in a Synthetic Environment**](https://arxiv.org/pdf/2204.09148.pdf)  (**work in progress**) \[[arxiv](https://arxiv.org/pdf/2204.09148.pdf)] \[[code/data]( https://github.com/allenai/RegSet)]
+Aarohi Srivastava et al (*+441 authors*) (**2022**) [**Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models**](https://arxiv.org/pdf/2206.04615.pdf) \[[arxiv](https://arxiv.org/abs/2206.04615)] \[[resources](https://github.com/google/BIG-bench)]
 
 Tushar Khot, **Kyle Richardson** , Daniel Khashabi,  Ashish Sabharwal (**2022**) [**Learning to Solve Complex Tasks by Talking to Agents**](https://arxiv.org/abs/2110.08542)  (**Findings of ACL**) \[[arxiv](https://arxiv.org/abs/2110.08542)] \[[code/data](https://github.com/allenai/COMMAQA)] \[[slides](http://danielkhashabi.com/files/2022_commaqa/CommaQA_ACL_Presentation_v2.pptx)] \[[poster](http://danielkhashabi.com/files/2022_commaqa/CommaQA_ACL_Poster_v2.pdf)]
 
