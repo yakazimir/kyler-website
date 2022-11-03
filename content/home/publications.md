@@ -69,7 +69,7 @@ subtitle = ""
 
 **Kyle Richardson**, Ronen Tamari, Oren Sultan, Dafna Shahaf, Reut Tsarfaty and Ashish Sabharwal. (2022) **Breakpoint Transformers for Modeling and Tracking Intermediate Beliefs**. *to appear* (**EMNLP 2022**)
 
-Ben Zhou, **Kyle Richardson**, Xiaodong Yu and Dan Roth. (2022) [**Learning to Decompose: Hypothetical Question Decomposition Based on Comparable Texts**](https://arxiv.org/abs/2210.16865)  (**EMNLP 2022**) \[[axiv](https://arxiv.org/abs/2210.16865)]
+Ben Zhou, **Kyle Richardson**, Xiaodong Yu and Dan Roth. (2022) [**Learning to Decompose: Hypothetical Question Decomposition Based on Comparable Texts**](https://arxiv.org/abs/2210.16865)  (**EMNLP 2022**) \[[arxiv](https://arxiv.org/abs/2210.16865)] \[[data/code](https://cogcomp.seas.upenn.edu/page/publication_view/992)]
 
 Matthew Finlayson, **Kyle Richardson** , Ashish Sabharwal, Peter Clark (**2022**) [**What Makes Instruction Learning Hard? An Investigation and a New Challenge in a Synthetic Environment**](https://arxiv.org/pdf/2204.09148.pdf)  (**EMNLP 2022**) \[[arxiv](https://arxiv.org/pdf/2204.09148.pdf)] \[[code/data]( https://github.com/allenai/RegSet)]
 
