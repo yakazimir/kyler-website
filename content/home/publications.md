@@ -67,6 +67,9 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
+Zeming Chen, Qiyue Gao, **Kyle Richardson**,  Antoine Bosselut, Ashish Sabharwal. (2022) [**DISCO: Distilling Phrasal Counterfactuals with Large Language Models**](https://arxiv.org/abs/2212.10534). (**work in progress**) [[arxiv](https://arxiv.org/abs/2212.10534)] 
+
+
 **Kyle Richardson**, Ronen Tamari, Oren Sultan, Dafna Shahaf, Reut Tsarfaty and Ashish Sabharwal. (2022) [**Breakpoint Transformers for Modeling and Tracking Intermediate Beliefs**](https://arxiv.org/abs/2211.07950). *to appear* (**EMNLP 2022**) [[arxiv](https://arxiv.org/abs/2211.07950)] [[code](https://github.com/allenai/situation_modeling/tree/main/etc/emnlp_2022_scripts)]
 
 Ben Zhou, **Kyle Richardson**, Xiaodong Yu and Dan Roth. (2022) [**Learning to Decompose: Hypothetical Question Decomposition Based on Comparable Texts**](https://arxiv.org/abs/2210.16865)  (**EMNLP 2022**) \[[arxiv](https://arxiv.org/abs/2210.16865)] \[[data/code](https://cogcomp.seas.upenn.edu/page/publication_view/992)]
