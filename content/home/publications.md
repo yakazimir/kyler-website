@@ -67,16 +67,15 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
+Tushar Khot, Harsh Trivedi, Matthew Finlayson, Yao Fu, **Kyle Richardson**, Peter Clark, Ashish Sabharwal (**2023**) [**Decomposed Prompting: A Modular Approach for Solving Complex Tasks**](https://arxiv.org/abs/2210.02406) *to appear* (**ICLR 2023**)  \[[arxiv](https://arxiv.org/pdf/2210.02406)]
+
 Zeming Chen, Qiyue Gao, **Kyle Richardson**,  Antoine Bosselut, Ashish Sabharwal. (2022) [**DISCO: Distilling Phrasal Counterfactuals with Large Language Models**](https://arxiv.org/abs/2212.10534). (**work in progress**) [[arxiv](https://arxiv.org/abs/2212.10534)] 
 
-
-**Kyle Richardson**, Ronen Tamari, Oren Sultan, Dafna Shahaf, Reut Tsarfaty and Ashish Sabharwal. (2022) [**Breakpoint Transformers for Modeling and Tracking Intermediate Beliefs**](https://arxiv.org/abs/2211.07950). *to appear* (**EMNLP 2022**) [[arxiv](https://arxiv.org/abs/2211.07950)] [[code](https://github.com/allenai/situation_modeling/tree/main/etc/emnlp_2022_scripts)]
+**Kyle Richardson**, Ronen Tamari, Oren Sultan, Dafna Shahaf, Reut Tsarfaty and Ashish Sabharwal. (2022) [**Breakpoint Transformers for Modeling and Tracking Intermediate Beliefs**](https://arxiv.org/abs/2211.07950). (**EMNLP 2022**) [[arxiv](https://arxiv.org/abs/2211.07950)] [[code](https://github.com/allenai/situation_modeling/tree/main/etc/emnlp_2022_scripts)]
 
 Ben Zhou, **Kyle Richardson**, Xiaodong Yu and Dan Roth. (2022) [**Learning to Decompose: Hypothetical Question Decomposition Based on Comparable Texts**](https://arxiv.org/abs/2210.16865)  (**EMNLP 2022**) \[[arxiv](https://arxiv.org/abs/2210.16865)] \[[data/code](https://cogcomp.seas.upenn.edu/page/publication_view/992)]
 
 Matthew Finlayson, **Kyle Richardson** , Ashish Sabharwal, Peter Clark (**2022**) [**What Makes Instruction Learning Hard? An Investigation and a New Challenge in a Synthetic Environment**](https://arxiv.org/pdf/2204.09148.pdf)  (**EMNLP 2022**) \[[arxiv](https://arxiv.org/pdf/2204.09148.pdf)] \[[code/data]( https://github.com/allenai/RegSet)]
-
-Tushar Khot, Harsh Trivedi, Matthew Finlayson, Yao Fu, **Kyle Richardson**, Peter Clark, Ashish Sabharwal (**2022**) [**Decomposed Prompting: A Modular Approach for Solving Complex Tasks**](https://arxiv.org/abs/2210.02406) \[[arxiv](https://arxiv.org/pdf/2210.02406)]
 
 Gregor Betz, **Kyle Richardson**. (2022) [**Judgement Aggregation, Discursive Dilemma and Reflective Equilibrium: Neural Language Models as Self- Improving Doxastic Agents**](https://www.frontiersin.org/articles/10.3389/frai.2022.900943/full). Frontiers in Artificial Intelligence. \[[publisher](https://www.frontiersin.org/articles/10.3389/frai.2022.900943/full)]
 
@@ -88,9 +87,9 @@ Tushar Khot, **Kyle Richardson** , Daniel Khashabi,  Ashish Sabharwal (**2022**)
 
 Daniel Khashabi, Shane Lyu, Sewon Min, Lianhui Qin, **Kyle Richardson** ,  Sameer Singh, Sean Welleck, Hannaneh Hajishirzi, Tushar Khot, Ashish Sabharwal, Yejin Choi (**2022**) [**PROMPT WAYWARDNESS: The Curious Case of Discretized Interpretation of Continuous Prompts**](https://arxiv.org/abs/2112.08348)  (**Proceedings of NAACL**) \[[arxiv](https://arxiv.org/abs/2112.08348)] \[[slides](http://danielkhashabi.com/files/2022_waywardness/waywardness-2022-ai2.pptx)]
 
-Ronen Tamari, **Kyle Richardson** , Aviad Sar-Shalom,  Noam Kahlon, Nelson F. Liu, Reut Tsarfaty and Dafna Shahaf (**2022**) [**Dyna-bAbI: unlocking bAbI’s potential with dynamic synthetic benchmarking**](https://arxiv.org/pdf/2112.00086.pdf)  (**Accepted *SEM2022**) \[[arxiv](https://arxiv.org/abs/2112.00086)] \[[code/data](https://tiny.one/8wjxwd7z)]
+Ronen Tamari, **Kyle Richardson** , Aviad Sar-Shalom,  Noam Kahlon, Nelson F. Liu, Reut Tsarfaty and Dafna Shahaf (**2022**) [**Dyna-bAbI: unlocking bAbI’s potential with dynamic synthetic benchmarking**](https://arxiv.org/pdf/2112.00086.pdf)  (***SEM2022**) \[[arxiv](https://arxiv.org/abs/2112.00086)] \[[code/data](https://tiny.one/8wjxwd7z)]
 
-Gregor Betz,  **Kyle Richardson**.  (**2022**) [**DeepA2: A Modular Framework for Deep Argument Analysis with Pretrained Neural Text2Text Language Models**](https://arxiv.org/abs/2110.01509) (**Accepted *SEM2022**) \[[arxiv](https://arxiv.org/abs/2110.01509)] \[[demo](https://huggingface.co/spaces/debatelab/deepa2-demo)] \[[dataset](https://huggingface.co/datasets/debatelab/aaac)] \[[model](https://huggingface.co/debatelab/argument-analyst)]
+Gregor Betz,  **Kyle Richardson**.  (**2022**) [**DeepA2: A Modular Framework for Deep Argument Analysis with Pretrained Neural Text2Text Language Models**](https://arxiv.org/abs/2110.01509) (***SEM2022**) \[[arxiv](https://arxiv.org/abs/2110.01509)] \[[demo](https://huggingface.co/spaces/debatelab/deepa2-demo)] \[[dataset](https://huggingface.co/datasets/debatelab/aaac)] \[[model](https://huggingface.co/debatelab/argument-analyst)]
 
 Hai Hu, He Zhou, Zuoyu Tian, Yiwen Zhang, Yina Patterson, Yanting Li, Yixin Nie, **Kyle Richardson**.  (**2021**) [**Investigating Transfer Learning in Multi-lingual Pre-trained Language Models through Chinese Natural Language Inference**](https://arxiv.org/pdf/2106.03983.pdf) *Findings of ACL* \[[code/data](https://github.com/huhailinguist/ChineseNLIProbing)] \[[arxiv](https://arxiv.org/pdf/2106.03983.pdf)] \[[acl anthology](https://aclanthology.org/2021.findings-acl.331/)]
 
@@ -122,7 +121,7 @@ Hai Hu, Qi Chen, **Kyle Richardson**, Atreyee Mukherjee, Lawrence S. Moss,Sandra
 
 **Kyle Richardson**, Hai Hu, Lawrence S. Moss, Ashish Sabharwal (**2020**). [**Probing Natural Language Inference Models through Semantic Fragments**](https://arxiv.org/abs/1909.07521). *Proceedings of Thirty-Fourth AAAI Conference on Artificial Intelligence* (**AAAI**) \[[arxiv](https://arxiv.org/abs/1909.07521)]\[[aaai](https://aaai.org/ojs/index.php/AAAI/article/view/6397)]\[[code/data](https://github.com/yakazimir/semantic_fragments)]\[[slides](files/semantic_fragments.pdf)]
 
-Peter Clark,Oren Etzioni, Daniel Khashabi, Tushar Khot, Bhavana Dalvi Mishra, **Kyle Richardson**, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord, Niket Tandon, Sumithra Bhakthavatsalam, Dirk Groeneveld,Michal Guerquin, Michael Schmitz (**2020**). [**From 'F' to 'A' on the N.Y. Regents Science Exams: An Overview of the Aristo Project**](https://arxiv.org/abs/1909.01958) **AI Magazine (to appear)**\[[arxiv](https://arxiv.org/abs/1909.01958)]\[[New York Times](https://www.nytimes.com/2019/09/04/technology/artificial-intelligence-aristo-passed-test.html), [GeekWire](https://www.geekwire.com/2019/allen-institutes-aristo-ai-program-finally-passes-8th-grade-science-test/)]
+Peter Clark,Oren Etzioni, Daniel Khashabi, Tushar Khot, Bhavana Dalvi Mishra, **Kyle Richardson**, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord, Niket Tandon, Sumithra Bhakthavatsalam, Dirk Groeneveld,Michal Guerquin, Michael Schmitz (**2020**). [**From 'F' to 'A' on the N.Y. Regents Science Exams: An Overview of the Aristo Project**](https://arxiv.org/abs/1909.01958) **AI Magazine**\[[arxiv](https://arxiv.org/abs/1909.01958)]\[[New York Times](https://www.nytimes.com/2019/09/04/technology/artificial-intelligence-aristo-passed-test.html), [GeekWire](https://www.geekwire.com/2019/allen-institutes-aristo-ai-program-finally-passes-8th-grade-science-test/)]
 
 **Kyle Richardson** (**2018**) [**New Resources and Ideas for Semantic Parser Induction**](https://elib.uni-stuttgart.de/handle/11682/10107). **PhD Thesis**, *Institute for Natural Language Processing (IMS),  Faculty of Computer Science, Electrical Engineering and Information Technology. University of Stuttgart, Germany* \[[opus](https://elib.uni-stuttgart.de/handle/11682/10107)]\[[slides](files/richardson_talk.pdf)]\[[code/data](https://github.com/yakazimir/zubr_public)]\[[handout](files/print_handout.pdf)]
 
