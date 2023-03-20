@@ -67,7 +67,7 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
-Tushar Khot, Harsh Trivedi, Matthew Finlayson, Yao Fu, **Kyle Richardson**, Peter Clark, Ashish Sabharwal (**2023**) [**Decomposed Prompting: A Modular Approach for Solving Complex Tasks**](https://arxiv.org/abs/2210.02406) *to appear* (**ICLR 2023**)  \[[arxiv](https://arxiv.org/pdf/2210.02406)]
+Tushar Khot, Harsh Trivedi, Matthew Finlayson, Yao Fu, **Kyle Richardson**, Peter Clark, Ashish Sabharwal (**2023**) [**Decomposed Prompting: A Modular Approach for Solving Complex Tasks**](https://arxiv.org/abs/2210.02406) (**ICLR 2023**)  \[[arxiv](https://arxiv.org/pdf/2210.02406)] \[[code](https://github.com/allenai/DecomP)]
 
 Zeming Chen, Qiyue Gao, **Kyle Richardson**,  Antoine Bosselut, Ashish Sabharwal. (2022) [**DISCO: Distilling Phrasal Counterfactuals with Large Language Models**](https://arxiv.org/abs/2212.10534). (**work in progress**) [[arxiv](https://arxiv.org/abs/2212.10534)] 
 
