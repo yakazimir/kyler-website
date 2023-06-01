@@ -37,5 +37,5 @@ Probability**](https://www.krichardson.me/files/probability.pdf)
   models**](https://www.krichardson.me/files/probing.pdf);
    [**Pushing the Limits of Rule Reasoning in
   Transformers**](https://www.krichardson.me/files/aaai_2022.pdf)
-  (*AAAI 2022*),  [**breakpoint modeling**](https://www.krichardson.me/files/emnlp_teaser.pdf) (EMNLP 2022)  [**Decomposed Prompting**](https://www.krichardson.me/files/DecomposedPrompting.pdf)
+  (*AAAI 2022*),  [**Breakpoint Transformers**](https://www.krichardson.me/files/emnlp_teaser.pdf) (EMNLP 2022)  [**Decomposed Prompting**](https://www.krichardson.me/files/DecomposedPrompting.pdf)
   (ICLR 2023);
