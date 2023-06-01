@@ -61,15 +61,19 @@ subtitle = ""
 [advanced]
  # Custom CSS. 
  css_style = ""
- 
+ s
  # CSS class.
  css_class = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
+Nora Kassner, Oyvind Tafjord, Ashish Sabharwal, **Kyle Richardson**, Hinrich Schütze and Peter Clark. (2023) [**Language Models with Rationality**](https://arxiv.org/pdf/2305.14250.pdf)  (**work in progress**) [[arxiv](https://arxiv.org/pdf/2305.14250.pdf)]
+
+Zeming Chen, Qiyue Gao,  Antoine Bosselut, Ashish Sabharwal, **Kyle Richardson** (2023) [**DISCO: Distilling Phrasal Counterfactuals with Large Language Models**](https://arxiv.org/abs/2212.10534). (**ACL 2023**) [[arxiv](https://arxiv.org/abs/2212.10534)] [[code](https://github.com/eric11eca/disco)]
+
 Tushar Khot, Harsh Trivedi, Matthew Finlayson, Yao Fu, **Kyle Richardson**, Peter Clark, Ashish Sabharwal (**2023**) [**Decomposed Prompting: A Modular Approach for Solving Complex Tasks**](https://arxiv.org/abs/2210.02406) (**ICLR 2023**)  \[[arxiv](https://arxiv.org/pdf/2210.02406)] \[[code](https://github.com/allenai/DecomP)]
 
-Zeming Chen, Qiyue Gao, **Kyle Richardson**,  Antoine Bosselut, Ashish Sabharwal. (2022) [**DISCO: Distilling Phrasal Counterfactuals with Large Language Models**](https://arxiv.org/abs/2212.10534). (**work in progress**) [[arxiv](https://arxiv.org/abs/2212.10534)] 
+Gregor Betz, **Kyle Richardson**.  (**2023**) [**Probabilistic coherence, logical consistency, and Bayesian learning: Neural language models as epistemic agents**](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0281372) PLOS One [[publisher](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0281372)] [[data/resources](https://wandb.ai/doxlm2/projects)]
 
 **Kyle Richardson**, Ronen Tamari, Oren Sultan, Dafna Shahaf, Reut Tsarfaty and Ashish Sabharwal. (2022) [**Breakpoint Transformers for Modeling and Tracking Intermediate Beliefs**](https://arxiv.org/abs/2211.07950). (**EMNLP 2022**) [[arxiv](https://arxiv.org/abs/2211.07950)] [[code](https://github.com/allenai/situation_modeling/tree/main/etc/emnlp_2022_scripts)]
 
