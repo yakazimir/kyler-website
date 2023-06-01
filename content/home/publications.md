@@ -71,7 +71,7 @@ Nora Kassner, Oyvind Tafjord, Ashish Sabharwal, **Kyle Richardson**, Hinrich Sch
 
 Zeming Chen, Qiyue Gao,  Antoine Bosselut, Ashish Sabharwal, **Kyle Richardson** (2023) [**DISCO: Distilling Phrasal Counterfactuals with Large Language Models**](https://arxiv.org/abs/2212.10534). (**ACL 2023**) [[arxiv](https://arxiv.org/abs/2212.10534)] [[code](https://github.com/eric11eca/disco)]
 
-Tushar Khot, Harsh Trivedi, Matthew Finlayson, Yao Fu, **Kyle Richardson**, Peter Clark, Ashish Sabharwal (**2023**) [**Decomposed Prompting: A Modular Approach for Solving Complex Tasks**](https://arxiv.org/abs/2210.02406) (**ICLR 2023**)  \[[arxiv](https://arxiv.org/pdf/2210.02406)] \[[code](https://github.com/allenai/DecomP)]
+Tushar Khot, Harsh Trivedi, Matthew Finlayson, Yao Fu, **Kyle Richardson**, Peter Clark, Ashish Sabharwal (**2023**) [**Decomposed Prompting: A Modular Approach for Solving Complex Tasks**](https://arxiv.org/abs/2210.02406) (**ICLR 2023**)  \[[arxiv](https://arxiv.org/pdf/2210.02406)] \[[code](https://github.com/allenai/DecomP)] \[[poster](https://www.krichardson.me/files/iclr_23_posterv2.pdf)] \[[slides](https://www.krichardson.me/files/DecomposedPrompting.pdf)]
 
 Gregor Betz, **Kyle Richardson**.  (**2023**) [**Probabilistic coherence, logical consistency, and Bayesian learning: Neural language models as epistemic agents**](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0281372) (**PLOS One** journal) [[publisher](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0281372)] [[data/resources](https://wandb.ai/doxlm2/projects)]
 
