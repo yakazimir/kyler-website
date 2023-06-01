@@ -73,9 +73,9 @@ Zeming Chen, Qiyue Gao,  Antoine Bosselut, Ashish Sabharwal, **Kyle Richardson**
 
 Tushar Khot, Harsh Trivedi, Matthew Finlayson, Yao Fu, **Kyle Richardson**, Peter Clark, Ashish Sabharwal (**2023**) [**Decomposed Prompting: A Modular Approach for Solving Complex Tasks**](https://arxiv.org/abs/2210.02406) (**ICLR 2023**)  \[[arxiv](https://arxiv.org/pdf/2210.02406)] \[[code](https://github.com/allenai/DecomP)]
 
-Gregor Betz, **Kyle Richardson**.  (**2023**) [**Probabilistic coherence, logical consistency, and Bayesian learning: Neural language models as epistemic agents**](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0281372) PLOS One [[publisher](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0281372)] [[data/resources](https://wandb.ai/doxlm2/projects)]
+Gregor Betz, **Kyle Richardson**.  (**2023**) [**Probabilistic coherence, logical consistency, and Bayesian learning: Neural language models as epistemic agents**](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0281372) (**PLOS One** journal) [[publisher](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0281372)] [[data/resources](https://wandb.ai/doxlm2/projects)]
 
-**Kyle Richardson**, Ronen Tamari, Oren Sultan, Dafna Shahaf, Reut Tsarfaty and Ashish Sabharwal. (2022) [**Breakpoint Transformers for Modeling and Tracking Intermediate Beliefs**](https://arxiv.org/abs/2211.07950). (**EMNLP 2022**) [[arxiv](https://arxiv.org/abs/2211.07950)] [[code](https://github.com/allenai/situation_modeling/tree/main/etc/emnlp_2022_scripts)]
+**Kyle Richardson**, Ronen Tamari, Oren Sultan, Dafna Shahaf, Reut Tsarfaty and Ashish Sabharwal. (2022) [**Breakpoint Transformers for Modeling and Tracking Intermediate Beliefs**](https://arxiv.org/abs/2211.07950). (**EMNLP 2022**) [[arxiv](https://arxiv.org/abs/2211.07950)] [[code](https://github.com/allenai/situation_modeling/tree/main/etc/emnlp_2022_scripts)] [[slides](https://www.krichardson.me/files/emnlp_teaser.pdf)]
 
 Ben Zhou, **Kyle Richardson**, Xiaodong Yu and Dan Roth. (2022) [**Learning to Decompose: Hypothetical Question Decomposition Based on Comparable Texts**](https://arxiv.org/abs/2210.16865)  (**EMNLP 2022**) \[[arxiv](https://arxiv.org/abs/2210.16865)] \[[data/code](https://cogcomp.seas.upenn.edu/page/publication_view/992)]
 
