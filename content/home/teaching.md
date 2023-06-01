@@ -29,8 +29,8 @@ Transformers**](https://www.krichardson.me/files/lms.pdf),
 Approach**](https://www.krichardson.me/files/logic_dl.pdf), [**Introduction to
 Probability**](https://www.krichardson.me/files/probability.pdf). **upcoming**:
 [**Formal Techniques for Neural-symbolic
-Modeling**(https://2023.esslli.eu/courses-workshops-accepted/course-information.html#1-22)]
-To be taught at [*ESSLLI 2023*(https://2023.esslli.eu/)] 
+Modeling**](https://2023.esslli.eu/courses-workshops-accepted/course-information.html#1-22)
+To be taught at [*ESSLLI 2023*](https://2023.esslli.eu/courses-workshops-accepted/course-information.html#1-22) 
 
 
 **Recent Talks** from me and my extended group: Brief (10 minute) introduction to
@@ -40,5 +40,7 @@ To be taught at [*ESSLLI 2023*(https://2023.esslli.eu/)]
   models**](https://www.krichardson.me/files/probing.pdf);
    [**Pushing the Limits of Rule Reasoning in
   Transformers**](https://www.krichardson.me/files/aaai_2022.pdf)
-  (*AAAI 2022*),  [**Breakpoint Transformers**](https://www.krichardson.me/files/emnlp_teaser.pdf) (EMNLP 2022)  [**Decomposed Prompting**](https://www.krichardson.me/files/DecomposedPrompting.pdf)
+  (*AAAI 2022*),  [**Breakpoint
+  Transformers**](https://www.krichardson.me/files/emnlp_teaser.pdf)
+  (EMNLP 2022); [**Learning to Decompose**](https://www.krichardson.me/files/EMNLP22_com.pdf) (EMNLP 2022)  [**Decomposed Prompting**](https://www.krichardson.me/files/DecomposedPrompting.pdf)
   (ICLR 2023);
