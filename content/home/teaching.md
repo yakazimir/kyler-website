@@ -27,7 +27,10 @@ Transformers**](https://www.krichardson.me/files/lms.pdf),
 [**Negation as Failure**](https://www.krichardson.me/files/naf.pdf),
 [**Mixing Logic and Deep Learning: The `Logic as Loss Function`
 Approach**](https://www.krichardson.me/files/logic_dl.pdf), [**Introduction to
-Probability**](https://www.krichardson.me/files/probability.pdf)
+Probability**](https://www.krichardson.me/files/probability.pdf). **upcoming**:
+[**Formal Techniques for Neural-symbolic
+Modeling**(https://2023.esslli.eu/courses-workshops-accepted/course-information.html#1-22)]
+To be taught at [*ESSLLI 2023*(https://2023.esslli.eu/)] 
 
 
 **Recent Talks** from me and my extended group: Brief (10 minute) introduction to
