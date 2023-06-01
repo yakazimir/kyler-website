@@ -30,3 +30,12 @@ Approach**](https://www.krichardson.me/files/logic_dl.pdf), [**Introduction to
 Probability**](https://www.krichardson.me/files/probability.pdf)
 
 
+**Recent Talks** from me and my extended group: Brief (10 minute) introduction to
+  [**Natural Language Understanding (NLU) and Language Modeling**](https://www.krichardson.me/files/nlu_lm.pdf)
+  (*intended for a non-technical audience*); Overview of my work on
+  [**diagnostic testing of neural
+  models**](https://www.krichardson.me/files/probing.pdf);
+   [**Pushing the Limits of Rule Reasoning in
+  Transformers**](https://www.krichardson.me/files/aaai_2022.pdf)
+  (*AAAI 2022*),  [**breakpoint modeling**](https://www.krichardson.me/files/emnlp_teaser.pdf) (EMNLP 2022)  [**Decomposed Prompting**](https://www.krichardson.me/files/DecomposedPrompting.pdf)
+  (ICLR 2023);
