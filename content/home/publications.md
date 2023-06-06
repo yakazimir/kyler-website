@@ -69,7 +69,7 @@ subtitle = ""
 
 Nora Kassner, Oyvind Tafjord, Ashish Sabharwal, **Kyle Richardson**, Hinrich Schütze and Peter Clark. (**2023**) [**Language Models with Rationality**](https://arxiv.org/pdf/2305.14250.pdf)  (**work in progress**) [[arxiv](https://arxiv.org/pdf/2305.14250.pdf)]
 
-Zeming Chen, Qiyue Gao,  Antoine Bosselut, Ashish Sabharwal, **Kyle Richardson** (**2023**) [**DISCO: Distilling Phrasal Counterfactuals with Large Language Models**](https://arxiv.org/abs/2212.10534). (**ACL 2023**) [[arxiv](https://arxiv.org/abs/2212.10534)] [[code](https://github.com/eric11eca/disco)]
+Zeming Chen, Qiyue Gao,  Antoine Bosselut, Ashish Sabharwal, **Kyle Richardson** (**2023**) [**DISCO: Distilling Counterfactuals with Large Language Models**](https://arxiv.org/abs/2212.10534). (**ACL 2023**) [[arxiv](https://arxiv.org/abs/2212.10534)] [[code](https://github.com/eric11eca/disco)]
 
 Tushar Khot, Harsh Trivedi, Matthew Finlayson, Yao Fu, **Kyle Richardson**, Peter Clark, Ashish Sabharwal (**2023**) [**Decomposed Prompting: A Modular Approach for Solving Complex Tasks**](https://arxiv.org/abs/2210.02406) (**ICLR 2023**)  \[[arxiv](https://arxiv.org/pdf/2210.02406)] \[[code](https://github.com/allenai/DecomP)] \[[poster](https://www.krichardson.me/files/iclr_23_posterv2.pdf)] \[[slides](https://www.krichardson.me/files/DecomposedPrompting.pdf)]
 
