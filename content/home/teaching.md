@@ -30,7 +30,7 @@ Approach**](https://www.krichardson.me/files/logic_dl.pdf), [**Introduction to
 Probability**](https://www.krichardson.me/files/probability.pdf). **upcoming**:
 [**Formal Techniques for Neural-symbolic
 Modeling**](https://2023.esslli.eu/courses-workshops-accepted/course-information.html#1-22)
-To be taught at [*ESSLLI 2023*](https://2023.esslli.eu/courses-workshops-accepted/course-information.html#1-22) 
+To be taught at [*ESSLLI 2023*](https://github.com/yakazimir/esslli_neural_symbolic) 
 
 
 **Recent Talks** from me and my extended group: Brief (10 minute) introduction to
