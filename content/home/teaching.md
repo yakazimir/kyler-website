@@ -15,10 +15,6 @@ weight = 60
 
 +++
 
-In the summer of 2016, I taught a Masters seminar on Semantic Parsing
-(my thesis topic) at the University of Stuttgart. The slides and
-course materials can be found [**here**](https://www.krichardson.me/files/stuttgart_course.zip).
-
 Some miscellaneous  **notes and musings**:  [**Number Theory Meets Computability
 Theory**](https://www.krichardson.me/files/h10.pdf) (see also
 [*blog post*](https://www.krichardson.me/post/number_computability/));
@@ -27,7 +23,7 @@ Transformers**](https://www.krichardson.me/files/lms.pdf),
 [**Negation as Failure**](https://www.krichardson.me/files/naf.pdf),
 [**Mixing Logic and Deep Learning: The `Logic as Loss Function`
 Approach**](https://www.krichardson.me/files/logic_dl.pdf), [**Introduction to
-Probability**](https://www.krichardson.me/files/probability.pdf). **upcoming**:
+Probability**](https://www.krichardson.me/files/probability.pdf).
 [**Formal Techniques for Neural-symbolic Modeling**](https://github.com/yakazimir/esslli_neural_symbolic)
 recently taught at [*ESSLLI 2023*](https://2023.esslli.eu/courses-workshops-accepted/course-information.html#1) 
 
