@@ -69,7 +69,7 @@ subtitle = ""
 
 Jiangjie Chen, Siyu Yuan, Rong Ye, Bodhisattwa Prasad Majumder, **Kyle Richardson**. (**2023**) [**Put Your Money Where Your Mouth Is: Evaluating Strategic Planning and Execution of LLM Agents in an Auction Arena**](https://browse.arxiv.org/pdf/2310.05746.pdf)  (**work in progress**) [[arxiv](https://arxiv.org/abs/2310.05746)] [[project page](https://auction-arena.github.io/)]
 
-Nora Kassner, Oyvind Tafjord, Ashish Sabharwal, **Kyle Richardson**, Hinrich Schütze and Peter Clark. (**2023**) [**Language Models with Rationality**](https://arxiv.org/pdf/2305.14250.pdf)  (**Accepted EMNLP 2023**) [[arxiv](https://arxiv.org/pdf/2305.14250.pdf)]
+Nora Kassner, Oyvind Tafjord, Ashish Sabharwal, **Kyle Richardson**, Hinrich Schütze and Peter Clark. (**2023**) [**Language Models with Rationality**](https://arxiv.org/pdf/2305.14250.pdf)  (**EMNLP 2023**) [[arxiv](https://arxiv.org/pdf/2305.14250.pdf)] [[project page](https://allenai.github.io/reflex/)]
 
 Zeming Chen, Qiyue Gao,  Antoine Bosselut, Ashish Sabharwal, **Kyle Richardson** (**2023**) [**DISCO: Distilling Counterfactuals with Large Language Models**](https://arxiv.org/abs/2212.10534). (**ACL 2023**) [[arxiv](https://arxiv.org/abs/2212.10534)] [[code](https://github.com/eric11eca/disco)]
 
