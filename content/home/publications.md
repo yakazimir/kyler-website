@@ -67,6 +67,10 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
+Ian Magnusson, Akshita Bhagia, Valentin Hofmann, Luca Soldaini, Ananya Harsh Jha, Oyvind Tafjord, Dustin Schwenk, Evan Pete Walsh, Yanai Elazar, Kyle Lo, Dirk Groeneveld, Iz Beltagy, Hannaneh Hajishirzi, Noah A. Smith, **Kyle Richardson**, Jesse Dodge. (**2023**) [**PALOMA: A Benchmark for Evaluating Language Model Fit**](https://arxiv.org/pdf/2312.10523.pdf) [[code](https://github.com/allenai/ai2-olmo-eval)] [[data](https://huggingface.co/collections/allenai/paloma-6580bf704daa78a2f2668838)]
+
+Dirk Groenveld, Anas Awadalla, Iz Beltagy, Akshita Bhagia, Ian Magnusson, Hao Peng, Oyvind Tafjord, Pete Walsh, **Kyle Richardson**,  Jesse Dodge. (**2023**) [**Catwalk: A Unified Language Mdel Evaluation Framework for Many Datasets**](https://arxiv.org/abs/2312.10253) (*technical report*) [[**github**](https://github.com/allenai/catwalk)] [[**olmo eval**](https://github.com/allenai/ai2-olmo-eval)] 
+
 **Kyle Richardson**,  Ian Magnusson, Oyvind Tafjord, Akshita Bhagia, Iz Beltagy, Arman Cohan, Pradeep Dasigi, Jesse Dodge, Dirk Groeneveld, Yuling Gu, Ananya Harsh Jha,  Tushar Khot,  Nishant Subramani. (**2023**) **Robust Tooling and New Resources for Large Language Model Evaluation via Catwalk.** (extended abstract, accepted to [**GEM 2023**](https://gem-benchmark.com/workshop)) (*details forthcoming*)
 
 Jiangjie Chen, Siyu Yuan, Rong Ye, Bodhisattwa Prasad Majumder, **Kyle Richardson**. (**2023**) [**Put Your Money Where Your Mouth Is: Evaluating Strategic Planning and Execution of LLM Agents in an Auction Arena**](https://browse.arxiv.org/pdf/2310.05746.pdf)  (**work in progress**) [[arxiv](https://arxiv.org/abs/2310.05746)] [[project page](https://auction-arena.github.io/)]
