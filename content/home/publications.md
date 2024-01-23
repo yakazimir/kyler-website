@@ -73,7 +73,7 @@ Dirk Groenveld, Anas Awadalla, Iz Beltagy, Akshita Bhagia, Ian Magnusson, Hao Pe
 
 **Kyle Richardson**,  Ian Magnusson, Oyvind Tafjord, Akshita Bhagia, Iz Beltagy, Arman Cohan, Pradeep Dasigi, Jesse Dodge, Dirk Groeneveld, Yuling Gu, Ananya Harsh Jha,  Tushar Khot,  Nishant Subramani. (**2023**) **Robust Tooling and New Resources for Large Language Model Evaluation via Catwalk.** (extended abstract, accepted to [**GEM 2023**](https://gem-benchmark.com/workshop)) (*details forthcoming*)
 
-Jiangjie Chen, Siyu Yuan, Rong Ye, Bodhisattwa Prasad Majumder, **Kyle Richardson**. (**2023**) [**Put Your Money Where Your Mouth Is: Evaluating Strategic Planning and Execution of LLM Agents in an Auction Arena**](https://browse.arxiv.org/pdf/2310.05746.pdf)  (**work in progress**) [[arxiv](https://arxiv.org/abs/2310.05746)] [[project page](https://auction-arena.github.io/)]
+Jiangjie Chen, Siyu Yuan, Rong Ye, Bodhisattwa Prasad Majumder, **Kyle Richardson**. (**2023**) [**Put Your Money Where Your Mouth Is: Evaluating Strategic Planning and Execution of LLM Agents in an Auction Arena**](https://browse.arxiv.org/pdf/2310.05746.pdf)  (**work in progress**) [[arxiv](https://arxiv.org/abs/2310.05746)] [[project page](https://auction-arena.github.io/)] [[code](https://github.com/jiangjiechen/auction-arena)]
 
 Nora Kassner, Oyvind Tafjord, Ashish Sabharwal, **Kyle Richardson**, Hinrich Schütze and Peter Clark. (**2023**) [**Language Models with Rationality**](https://arxiv.org/pdf/2305.14250.pdf)  (**EMNLP 2023**) [[arxiv](https://arxiv.org/pdf/2305.14250.pdf)] [[project page](https://allenai.github.io/reflex/)]
 
