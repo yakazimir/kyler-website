@@ -69,7 +69,7 @@ subtitle = ""
 
 Ian Magnusson, Akshita Bhagia, Valentin Hofmann, Luca Soldaini, Ananya Harsh Jha, Oyvind Tafjord, Dustin Schwenk, Evan Pete Walsh, Yanai Elazar, Kyle Lo, Dirk Groeneveld, Iz Beltagy, Hannaneh Hajishirzi, Noah A. Smith, **Kyle Richardson**, Jesse Dodge. (**2023**) [**PALOMA: A Benchmark for Evaluating Language Model Fit**](https://arxiv.org/pdf/2312.10523.pdf) [[code](https://github.com/allenai/ai2-olmo-eval/tree/main/paloma)] [[data](https://huggingface.co/collections/allenai/paloma-6580bf704daa78a2f2668838)]
 
-Dirk Groenveld, Anas Awadalla, Iz Beltagy, Akshita Bhagia, Ian Magnusson, Hao Peng, Oyvind Tafjord, Pete Walsh, **Kyle Richardson**,  Jesse Dodge. (**2023**) [**Catwalk: A Unified Language Mdel Evaluation Framework for Many Datasets**](https://arxiv.org/abs/2312.10253) (*technical report*) [[github](https://github.com/allenai/catwalk)] [[code](https://github.com/allenai/ai2-olmo-eval)] 
+Dirk Groenveld, Anas Awadalla, Iz Beltagy, Akshita Bhagia, Ian Magnusson, Hao Peng, Oyvind Tafjord, Pete Walsh, **Kyle Richardson**,  Jesse Dodge. (**2023**) [**Catwalk: A Unified Language Model Evaluation Framework for Many Datasets**](https://arxiv.org/abs/2312.10253) (*technical report*) [[github](https://github.com/allenai/catwalk)] [[code](https://github.com/allenai/ai2-olmo-eval)] 
 
 **Kyle Richardson**,  Ian Magnusson, Oyvind Tafjord, Akshita Bhagia, Iz Beltagy, Arman Cohan, Pradeep Dasigi, Jesse Dodge, Dirk Groeneveld, Yuling Gu, Ananya Harsh Jha,  Tushar Khot,  Nishant Subramani. (**2023**) **Robust Tooling and New Resources for Large Language Model Evaluation via Catwalk.** (extended abstract, accepted to [**GEM 2023**](https://gem-benchmark.com/workshop)) (*details forthcoming*)
 
