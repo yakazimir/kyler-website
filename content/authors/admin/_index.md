@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Research Scientist
+role: Senior Research Scientist
 
 # Organizations/Affiliations
 organizations:
@@ -68,7 +68,7 @@ user_groups:
 ---
 
 
-I am a research scientist at the
+I am a senior research scientist at the
 [**Allen Institute for Artificial Intelligence**](https://allenai.org) in
 Seattle, Washington where I do work on natural language processing and
 machine learning on the [**Aristo Project**](https://allenai.org/aristo/).  Prior to this, I was a researcher at the [**Institute for Natural Language Processing**](https://www.ims.uni-stuttgart.de/) (IMS) at the [**University of Stuttgart**](https://www.uni-stuttgart.de/en/) in Germany, where I received my [**PhD**](https://elib.uni-stuttgart.de/handle/11682/10107) in October 2018. Before this, I received my B.A. from the University of Rochester in upstate New York (USA). 
