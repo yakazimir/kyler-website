@@ -67,6 +67,10 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
+Dirk Groeneveld, Iz Beltagy, Pete Walsh, Akshita Bhagia, Rodney Kinney, Oyvind Tafjord, Ananya Harsh Jha, Hamish Ivison, Ian Magnusson, Yizhong Wang, Shane Arora, David Atkinson, Russell Authur, Khyathi Raghavi Chandu, Arman Cohan, Jennifer Dumas, et al... Nathan Lambert, **Kyle Richardson**, Luke Zettlemoyer, Jesse Dodge, Kyle Lo, Luca Soldaini, Noah A. Smith, Hannaneh Hajishirzi (**2024**) [**OLMo: Accelerating the Science of Language Models**](https://arxiv.org/abs/2402.00838)
+
+Luca Soldaini, Rodney Kinney, Akshita Bhagia, Dustin Schwenk, David Atkinson, Russell Authur, Ben Bogin, Khyathi Chandu, Jennifer Dumas, Yanai Elazar, Valentin Hofmann, Ananya Harsh Jha, Sachin Kumar, Li Lucy, Xinxi Lyu, Nathan Lambert, Ian Magnusson, Jacob Morrison, Niklas Muennighoff, Aakanksha Naik, Crystal Nam, Matthew E. Peters, Abhilasha Ravichander, **Kyle Richardson**, et al. (**2024**) [**Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research**](https://arxiv.org/abs/2402.00159)
+
 Ian Magnusson, Akshita Bhagia, Valentin Hofmann, Luca Soldaini, Ananya Harsh Jha, Oyvind Tafjord, Dustin Schwenk, Evan Pete Walsh, Yanai Elazar, Kyle Lo, Dirk Groeneveld, Iz Beltagy, Hannaneh Hajishirzi, Noah A. Smith, **Kyle Richardson**, Jesse Dodge. (**2023**) [**PALOMA: A Benchmark for Evaluating Language Model Fit**](https://arxiv.org/pdf/2312.10523.pdf) [[code](https://github.com/allenai/ai2-olmo-eval/tree/main/paloma)] [[data](https://huggingface.co/collections/allenai/paloma-6580bf704daa78a2f2668838)]
 
 Dirk Groenveld, Anas Awadalla, Iz Beltagy, Akshita Bhagia, Ian Magnusson, Hao Peng, Oyvind Tafjord, Pete Walsh, **Kyle Richardson**,  Jesse Dodge. (**2023**) [**Catwalk: A Unified Language Model Evaluation Framework for Many Datasets**](https://arxiv.org/abs/2312.10253) (*technical report*) [[github](https://github.com/allenai/catwalk)] [[code](https://github.com/allenai/ai2-olmo-eval)] 
