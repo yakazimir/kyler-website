@@ -67,6 +67,8 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
+Yikai Zhang, Siyu Yuan, Caiyu Hu, **Kyle Richardson**, Yanghua Xiao, Jiangjie Chen. (**2024**) [**TimeArena: Shaping Efficient Multitasking Language Agents in a Time-Aware Simulation**](https://arxiv.org/abs/2402.05733) [[project page](https://time-arena.github.io/)] 
+
 Dirk Groeneveld, Iz Beltagy, Pete Walsh, Akshita Bhagia, Rodney Kinney, Oyvind Tafjord, Ananya Harsh Jha, Hamish Ivison, Ian Magnusson, Yizhong Wang, Shane Arora, David Atkinson, Russell Authur, Khyathi Raghavi Chandu, Arman Cohan, Jennifer Dumas, et al... Nathan Lambert, **Kyle Richardson**, Luke Zettlemoyer, Jesse Dodge, Kyle Lo, Luca Soldaini, Noah A. Smith, Hannaneh Hajishirzi (**2024**) [**OLMo: Accelerating the Science of Language Models**](https://arxiv.org/abs/2402.00838) [[code](https://github.com/allenai/OLMo)] [[data](https://huggingface.co/datasets/allenai/dolma)] [[model](https://huggingface.co/allenai/OLMo-7B)]
 
 Luca Soldaini, Rodney Kinney, Akshita Bhagia, Dustin Schwenk, David Atkinson, Russell Authur, Ben Bogin, Khyathi Chandu, Jennifer Dumas, Yanai Elazar, Valentin Hofmann, Ananya Harsh Jha, Sachin Kumar, Li Lucy, Xinxi Lyu, Nathan Lambert, Ian Magnusson, Jacob Morrison, Niklas Muennighoff, Aakanksha Naik, Crystal Nam, Matthew E. Peters, Abhilasha Ravichander, **Kyle Richardson**, et al. (**2024**) [**Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research**](https://arxiv.org/abs/2402.00159) [[code](https://github.com/allenai/dolma)] [[data](https://huggingface.co/datasets/allenai/dolma)]
