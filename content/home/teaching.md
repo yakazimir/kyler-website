@@ -7,7 +7,7 @@ active = true
 date = 2016-04-20T00:00:00
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
-title = "Teaching/Talks"
+title = "Teaching/Talks/Activities"
 subtitle = ""
 
 # Order that this section will appear in.
@@ -26,7 +26,6 @@ Approach**](https://www.krichardson.me/files/logic_dl.pdf), [**Introduction to
 Probability**](https://www.krichardson.me/files/probability.pdf).
 [**Formal Techniques for Neural-symbolic Modeling**](https://github.com/yakazimir/esslli_neural_symbolic)
 recently taught at [*ESSLLI 2023*](https://2023.esslli.eu/courses-workshops-accepted/course-information.html#1) 
-
 
 **Recent Talks** from me and my extended group: Brief (10 minute) introduction to
   [**Natural Language Understanding (NLU) and Language Modeling**](https://www.krichardson.me/files/nlu_lm.pdf)
