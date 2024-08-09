@@ -25,7 +25,11 @@ Transformers**](https://www.krichardson.me/files/lms.pdf),
 Approach**](https://www.krichardson.me/files/logic_dl.pdf), [**Introduction to
 Probability**](https://www.krichardson.me/files/probability.pdf).
 [**Formal Techniques for Neural-symbolic Modeling**](https://github.com/yakazimir/esslli_neural_symbolic)
-recently taught at [*ESSLLI 2023*](https://2023.esslli.eu/courses-workshops-accepted/course-information.html#1) 
+taught at [*ESSLLI
+2023*](https://2023.esslli.eu/courses-workshops-accepted/course-information.html#1),
+[**Language Model
+Programming**](https://github.com/yakazimir/esslli_2024_llm_programming)
+taught at [**ESSLLI 2024**](https://2024.esslli.eu/) 
 
 **Recent Talks** from me and my extended group: Brief (10 minute) introduction to
   [**Natural Language Understanding (NLU) and Language Modeling**](https://www.krichardson.me/files/nlu_lm.pdf)
