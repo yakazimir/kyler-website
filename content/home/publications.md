@@ -67,6 +67,8 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
+Ben Bogin, Kejuan Yang, Shashank Gupta, **Kyle Richardson**, Erin Bransom, Peter Clark, Ashish Sabharwal, Tushar Khot (**2024**) [**SUPER: Evaluating Agents on Setting Up and Executing Tasks from Research Repositories**](https://arxiv.org/pdf/2409.07440)
+
 Ruihan Yang, Jiangjie Chen, Yikai Zhang, Siyu Yuan, Aili Chen, **Kyle Richardson**, Yanghua Xiao, Deqing Yang (**2024**) [**SelfGoal: Your Language Agents Already Know How to Achieve High-level Goals**](https://arxiv.org/pdf/2406.04784) (*work in progress*) [[project page](https://selfgoal-agent.github.io/)]
 
 Yikai Zhang, Siyu Yuan, Caiyu Hu, **Kyle Richardson**, Yanghua Xiao, Jiangjie Chen. (**2024**) [**TimeArena: Shaping Efficient Multitasking Language Agents in a Time-Aware Simulation**](https://arxiv.org/abs/2402.05733) (**ACL 2024**) [[project page](https://time-arena.github.io/)]
