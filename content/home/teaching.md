@@ -49,4 +49,8 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
   [**OLMO**](https://arxiv.org/abs/2402.00838),
   [**DOLMA**](https://arxiv.org/abs/2402.00159) (*our work on open-source
   large language models*) and [**TimeArena**](https://arxiv.org/abs/2402.05733) (agent
-  modeling with time constraints). 
+  modeling with time constraints). Two papers at **EMNLP 2024**:
+  [**SUPER**](https://arxiv.org/pdf/2409.07440) (*LLM experiment
+  agents*), [**Event causality via Synthetic
+  Control**](https://www.seas.upenn.edu/~why16gzl/Event_Causality_Identification_with_Synthetic_Control.pdf)
+  (*novel causal analysis techniquee for detecting event causality*)
