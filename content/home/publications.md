@@ -69,7 +69,7 @@ subtitle = ""
 
 Haoyu Wang, Fengze Liu, Jiayao Zhang, Dan Roth, **Kyle Richardson**. [**Event Causality Identification with Synthetic Control**](https://www.seas.upenn.edu/~why16gzl/Event_Causality_Identification_with_Synthetic_Control.pdf) (**EMNLP 2024**)
 
-Ben Bogin, Kejuan Yang, Shashank Gupta, **Kyle Richardson**, Erin Bransom, Peter Clark, Ashish Sabharwal, Tushar Khot (**2024**) [**SUPER: Evaluating Agents on Setting Up and Executing Tasks from Research Repositories**](https://arxiv.org/pdf/2409.07440) (**EMNLP 2024**(
+Ben Bogin, Kejuan Yang, Shashank Gupta, **Kyle Richardson**, Erin Bransom, Peter Clark, Ashish Sabharwal, Tushar Khot (**2024**) [**SUPER: Evaluating Agents on Setting Up and Executing Tasks from Research Repositories**](https://arxiv.org/pdf/2409.07440) (**EMNLP 2024**)
 
 Ruihan Yang, Jiangjie Chen, Yikai Zhang, Siyu Yuan, Aili Chen, **Kyle Richardson**, Yanghua Xiao, Deqing Yang (**2024**) [**SelfGoal: Your Language Agents Already Know How to Achieve High-level Goals**](https://arxiv.org/pdf/2406.04784) (*work in progress*) [[project page](https://selfgoal-agent.github.io/)]
 
