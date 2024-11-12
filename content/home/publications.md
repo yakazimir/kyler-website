@@ -67,7 +67,7 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
-Haoyu Wang, Fengze Liu, Jiayao Zhang, Dan Roth, **Kyle Richardson**. [**Event Causality Identification with Synthetic Control**](https://www.seas.upenn.edu/~why16gzl/Event_Causality_Identification_with_Synthetic_Control.pdf) (**EMNLP 2024**)
+Haoyu Wang, Fengze Liu, Jiayao Zhang, Dan Roth, **Kyle Richardson**. [**Event Causality Identification with Synthetic Control**](https://aclanthology.org/2024.emnlp-main.103/) (**EMNLP 2024**) [[code](https://cogcomp.seas.upenn.edu/page/publication_view/1043)]
 
 Ben Bogin, Kejuan Yang, Shashank Gupta, **Kyle Richardson**, Erin Bransom, Peter Clark, Ashish Sabharwal, Tushar Khot (**2024**) [**SUPER: Evaluating Agents on Setting Up and Executing Tasks from Research Repositories**](https://arxiv.org/pdf/2409.07440) (**EMNLP 2024**)
 
