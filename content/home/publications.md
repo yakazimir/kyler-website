@@ -75,7 +75,6 @@ Ian Magnusson, Akshita Bhagia, Valentin Hofmann, Luca Soldaini, Ananya Harsh Jha
 
 Ruihan Yang, Jiangjie Chen, Yikai Zhang, Siyu Yuan, Aili Chen, **Kyle Richardson**, Yanghua Xiao, Deqing Yang (**2024**) [**SelfGoal: Your Language Agents Already Know How to Achieve High-level Goals**](https://arxiv.org/pdf/2406.04784) (*work in progress*) [[project page](https://selfgoal-agent.github.io/)]
 
-
 Yikai Zhang, Siyu Yuan, Caiyu Hu, **Kyle Richardson**, Yanghua Xiao, Jiangjie Chen. (**2024**) [**TimeArena: Shaping Efficient Multitasking Language Agents in a Time-Aware Simulation**](https://arxiv.org/abs/2402.05733) (**ACL 2024**) [[project page](https://time-arena.github.io/)]
 
 Dirk Groeneveld, Iz Beltagy, Pete Walsh, Akshita Bhagia, Rodney Kinney, Oyvind Tafjord, Ananya Harsh Jha, Hamish Ivison, Ian Magnusson, Yizhong Wang, Shane Arora, David Atkinson, Russell Authur, Khyathi Raghavi Chandu, Arman Cohan, Jennifer Dumas, et al... Nathan Lambert, **Kyle Richardson**, Luke Zettlemoyer, Jesse Dodge, Kyle Lo, Luca Soldaini, Noah A. Smith, Hannaneh Hajishirzi (**2024**) [**OLMo: Accelerating the Science of Language Models**](https://arxiv.org/abs/2402.00838) (**ACL 2024**) [[code](https://github.com/allenai/OLMo)] [[data](https://huggingface.co/datasets/allenai/dolma)] [[model](https://huggingface.co/allenai/OLMo-7B)] <span style="color:red">**Best Theme Paper Award (ACL)**</span>
