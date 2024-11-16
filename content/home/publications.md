@@ -69,7 +69,7 @@ subtitle = ""
 
 Haoyu Wang, Fengze Liu, Jiayao Zhang, Dan Roth, **Kyle Richardson**. [**Event Causality Identification with Synthetic Control**](https://aclanthology.org/2024.emnlp-main.103/) (**EMNLP 2024**) [[code](https://cogcomp.seas.upenn.edu/page/publication_view/1043)]
 
-Ben Bogin, Kejuan Yang, Shashank Gupta, **Kyle Richardson**, Erin Bransom, Peter Clark, Ashish Sabharwal, Tushar Khot (**2024**) [**SUPER: Evaluating Agents on Setting Up and Executing Tasks from Research Repositories**](https://arxiv.org/pdf/2409.07440) (**EMNLP 2024**)
+Ben Bogin, Kejuan Yang, Shashank Gupta, **Kyle Richardson**, Erin Bransom, Peter Clark, Ashish Sabharwal, Tushar Khot (**2024**) [**SUPER: Evaluating Agents on Setting Up and Executing Tasks from Research Repositories**](https://arxiv.org/pdf/2409.07440) (**EMNLP 2024**) <span style="color:red">**Outstanding paper award**</span>
 
 Ian Magnusson, Akshita Bhagia, Valentin Hofmann, Luca Soldaini, Ananya Harsh Jha, Oyvind Tafjord, Dustin Schwenk, Evan Pete Walsh, Yanai Elazar, Kyle Lo, Dirk Groeneveld, Iz Beltagy, Hannaneh Hajishirzi, Noah A. Smith, **Kyle Richardson**, Jesse Dodge. (**2024**) [**PALOMA: A Benchmark for Evaluating Language Model Fit**](https://arxiv.org/pdf/2312.10523.pdf)  (**NeurIPS 2024**) [[code](https://github.com/allenai/ai2-olmo-eval/tree/main/paloma)] [[data](https://huggingface.co/collections/allenai/paloma-6580bf704daa78a2f2668838)] 
 
