@@ -52,8 +52,16 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
 - **3 papers accepted to ACL 2024** on
   [**OLMO**](https://arxiv.org/abs/2402.00838), [**DOLMA**](https://arxiv.org/abs/2402.00159) (*our work on open-source
   large language models*) and [**TimeArena**](https://arxiv.org/abs/2402.05733) (agent
-  modeling with time constraints). Two papers at 
+  modeling with time constraints). 
 
-- **EMNLP 2024**: [**SUPER**](https://arxiv.org/pdf/2409.07440) (*LLM experiment
+- **2 papers accepted at EMNLP 2024**: [**SUPER**](https://arxiv.org/pdf/2409.07440) (*LLM experiment
   agents*), [**Event causality via Synthetic Control**](https://www.seas.upenn.edu/~why16gzl/Event_Causality_Identification_with_Synthetic_Control.pdf)
   (*novel causal analysis techniquee for detecting event causality*)
+
+- **Papers at NeurIPS 2024** [**Paloma**](https://arxiv.org/pdf/2312.10523)
+  (*LLM perplexity benchmarking**), [**Declarative Characterizations
+  of direct preference alignment**](https://openreview.net/forum?id=SDtdKJBTcI) (*draft of
+  recent work on formal characterizations of DPO, presented as M3L
+  workshop*), [**AucArena**](https://openreview.net/pdf?id=hKEzHiYJXc) (*work on
+  environment for interactive agent modeling; presented at OWA
+  workshop*), 
