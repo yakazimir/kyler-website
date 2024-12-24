@@ -41,7 +41,10 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
   (*AAAI 2022*),  [**Breakpoint
   Transformers**](https://www.krichardson.me/files/emnlp_teaser.pdf)
   (EMNLP 2022); [**Learning to Decompose**](https://www.krichardson.me/files/EMNLP22_com.pdf) (EMNLP 2022)  [**Decomposed Prompting**](https://www.krichardson.me/files/DecomposedPrompting.pdf)
-  (ICLR 2023);
+  (ICLR 2023); [**Language Modeling Programming: Themes and
+  Prospects**](https://www.krichardson.me/files/lm_programming.pdf) (*overview of my recent work, given at the University
+  of Tuebingen*); [**Declarative Characterizations of Direct
+  Preference Alignment Algorithms**](https://www.krichardson.me/files/declarative_alignment.pdf)
   
   **Recent News** 
   
