@@ -54,13 +54,13 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
 
 - **3 papers accepted to ACL 2024** on
   [**OLMO**](https://arxiv.org/abs/2402.00838), [**DOLMA**](https://arxiv.org/abs/2402.00159) (*our work on open-source
-  large language models*) and [**TimeArena**](https://arxiv.org/abs/2402.05733) (agent
+  large language models; both received best paper awards*) and [**TimeArena**](https://arxiv.org/abs/2402.05733) (agent
   modeling with time constraints). 
   
 - Taught a class this summer at ESSLLI with [**Gijs
   Wijnholds**](https://gijswijnholds.github.io/) on [**Language Model
   Programming**](https://github.com/yakazimir/esslli_2024_llm_programming)
-  (*our attempt to look at current NLP through the lens of conventional programming*)
+  (*our attempt to look at current NLP through the lens of conventional programming and programming theory*)
 
 - **2 papers accepted at EMNLP 2024**: [**SUPER**](https://arxiv.org/pdf/2409.07440) (*LLM experiment
   agents; received outstanding paper award*), [**Event causality via Synthetic Control**](https://www.seas.upenn.edu/~why16gzl/Event_Causality_Identification_with_Synthetic_Control.pdf)
