@@ -67,13 +67,17 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
+**Kyle Richardson**, Vivek Srikumar, Ashish Sabharwal. [**Understanding the Logic of Direct Preference Alignment through Logic**](https://arxiv.org/abs/2412.17696) (*work in progress*) [[M3L draft](https://openreview.net/forum?id=SDtdKJBTcI)] [[slides](https://www.krichardson.me/files/declarative_alignment.pdf)] [[M3L poster](https://www.krichardson.me/files/m3l_poster.pdf)]
+
 Haoyu Wang, Fengze Liu, Jiayao Zhang, Dan Roth, **Kyle Richardson**. [**Event Causality Identification with Synthetic Control**](https://aclanthology.org/2024.emnlp-main.103/) (**EMNLP 2024**) [[code](https://cogcomp.seas.upenn.edu/page/publication_view/1043)]
 
 Ben Bogin, Kejuan Yang, Shashank Gupta, **Kyle Richardson**, Erin Bransom, Peter Clark, Ashish Sabharwal, Tushar Khot (**2024**) [**SUPER: Evaluating Agents on Setting Up and Executing Tasks from Research Repositories**](https://arxiv.org/pdf/2409.07440) (**EMNLP 2024**) <span style="color:red">**Outstanding paper award**</span>
 
 Ian Magnusson, Akshita Bhagia, Valentin Hofmann, Luca Soldaini, Ananya Harsh Jha, Oyvind Tafjord, Dustin Schwenk, Evan Pete Walsh, Yanai Elazar, Kyle Lo, Dirk Groeneveld, Iz Beltagy, Hannaneh Hajishirzi, Noah A. Smith, **Kyle Richardson**, Jesse Dodge. (**2024**) [**PALOMA: A Benchmark for Evaluating Language Model Fit**](https://arxiv.org/pdf/2312.10523.pdf)  (**NeurIPS 2024**) [[code](https://github.com/allenai/ai2-olmo-eval/tree/main/paloma)] [[data](https://huggingface.co/collections/allenai/paloma-6580bf704daa78a2f2668838)] 
 
-Ruihan Yang, Jiangjie Chen, Yikai Zhang, Siyu Yuan, Aili Chen, **Kyle Richardson**, Yanghua Xiao, Deqing Yang (**2024**) [**SelfGoal: Your Language Agents Already Know How to Achieve High-level Goals**](https://arxiv.org/pdf/2406.04784) (*work in progress*) [[project page](https://selfgoal-agent.github.io/)]
+Jiangjie Chen, Siyu Yuan, Rong Ye, Bodhisattwa Prasad Majumder, **Kyle Richardson**. (**2023**) [**Put Your Money Where Your Mouth Is: Evaluating Strategic Planning and Execution of LLM Agents in an Auction Arena**](https://browse.arxiv.org/pdf/2310.05746.pdf)  (**appeared at NeurIPS OWA workshop**) [[arxiv](https://arxiv.org/abs/2310.05746)] [[project page](https://auction-arena.github.io/)] [[code](https://github.com/jiangjiechen/auction-arena)]
+
+Ruihan Yang, Jiangjie Chen, Yikai Zhang, Siyu Yuan, Aili Chen, **Kyle Richardson**, Yanghua Xiao, Deqing Yang (**2024**) [**SelfGoal: Your Language Agents Already Know How to Achieve High-level Goals**](https://arxiv.org/pdf/2406.04784) (*appeared at NeurIPS OWA workshop*) [[project page](https://selfgoal-agent.github.io/)]
 
 Yikai Zhang, Siyu Yuan, Caiyu Hu, **Kyle Richardson**, Yanghua Xiao, Jiangjie Chen. (**2024**) [**TimeArena: Shaping Efficient Multitasking Language Agents in a Time-Aware Simulation**](https://arxiv.org/abs/2402.05733) (**ACL 2024**) [[project page](https://time-arena.github.io/)]
 

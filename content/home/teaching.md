@@ -69,9 +69,9 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
 - **Papers at NeurIPS 2024** [**Paloma**](https://arxiv.org/pdf/2312.10523)
   (*LLM perplexity benchmarking*), [**Declarative Characterizations
   of direct preference alignment algorithms**](https://openreview.net/forum?id=SDtdKJBTcI) (*draft of
-  recent work on formal characterizations of DPO, presented as [M3L](https://sites.google.com/view/m3l-2024/)
+  recent work on formal characterizations of DPO, presented at [M3L](https://sites.google.com/view/m3l-2024/)
   workshop*), [**AucArena**](https://openreview.net/pdf?id=hKEzHiYJXc) (*work on
   environment for interactive agent modeling; presented at [OWA
   workshop](https://sites.google.com/view/open-world-agents/home)*), [**SelfGoal**](https://openreview.net/pdf?id=vrughWt2tr)
-  (*work on memory architectures for interactive agents; presented as
+  (*work on memory architectures for interactive agents; presented at
   [OWA workshop](https://sites.google.com/view/open-world-agents/home)*)
