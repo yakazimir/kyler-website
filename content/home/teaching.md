@@ -58,7 +58,9 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
   modeling with time constraints). 
   
 - Taught a class this summer at ESSLLI with [**Gijs
-  Wijnholds**](https://gijswijnholds.github.io/) on [**Language Model Programming**](https://github.com/yakazimir/esslli_2024_llm_programming)
+  Wijnholds**](https://gijswijnholds.github.io/) on [**Language Model
+  Programming**](https://github.com/yakazimir/esslli_2024_llm_programming)
+  (*our attempt at looking at current NLP through the lens of conventional programming*)
 
 - **2 papers accepted at EMNLP 2024**: [**SUPER**](https://arxiv.org/pdf/2409.07440) (*LLM experiment
   agents*), [**Event causality via Synthetic Control**](https://www.seas.upenn.edu/~why16gzl/Event_Causality_Identification_with_Synthetic_Control.pdf)
