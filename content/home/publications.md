@@ -67,6 +67,8 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
+Ruihan Yang, Jiangjie Chen, Yikai Zhang, Siyu Yuan, Aili Chen, **Kyle Richardson**, Yanghua Xiao, Deqing Yang (**2025**) [**SelfGoal: Your Language Agents Already Know How to Achieve High-level Goals**](https://arxiv.org/pdf/2406.04784) (*accepted NAACL 2025*) [[project page](https://selfgoal-agent.github.io/)]
+
 **Kyle Richardson**, Vivek Srikumar, Ashish Sabharwal. [**Understanding the Logic of Direct Preference Alignment through Logic**](https://arxiv.org/abs/2412.17696) (*work in progress*) [[M3L draft](https://openreview.net/forum?id=SDtdKJBTcI)] [[slides](https://www.krichardson.me/files/declarative_alignment.pdf)] [[M3L poster](https://www.krichardson.me/files/m3l_poster.pdf)]
 
 Haoyu Wang, Fengze Liu, Jiayao Zhang, Dan Roth, **Kyle Richardson**. [**Event Causality Identification with Synthetic Control**](https://aclanthology.org/2024.emnlp-main.103/) (**EMNLP 2024**) [[code](https://cogcomp.seas.upenn.edu/page/publication_view/1043)]
@@ -77,12 +79,9 @@ Ian Magnusson, Akshita Bhagia, Valentin Hofmann, Luca Soldaini, Ananya Harsh Jha
 
 Jiangjie Chen, Siyu Yuan, Rong Ye, Bodhisattwa Prasad Majumder, **Kyle Richardson**. (**2023**) [**Put Your Money Where Your Mouth Is: Evaluating Strategic Planning and Execution of LLM Agents in an Auction Arena**](https://browse.arxiv.org/pdf/2310.05746.pdf)  (**appeared at NeurIPS OWA workshop**) [[arxiv](https://arxiv.org/abs/2310.05746)] [[project page](https://auction-arena.github.io/)] [[code](https://github.com/jiangjiechen/auction-arena)]
 
-Ruihan Yang, Jiangjie Chen, Yikai Zhang, Siyu Yuan, Aili Chen, **Kyle Richardson**, Yanghua Xiao, Deqing Yang (**2024**) [**SelfGoal: Your Language Agents Already Know How to Achieve High-level Goals**](https://arxiv.org/pdf/2406.04784) (*appeared at NeurIPS OWA workshop*) [[project page](https://selfgoal-agent.github.io/)]
-
 Yikai Zhang, Siyu Yuan, Caiyu Hu, **Kyle Richardson**, Yanghua Xiao, Jiangjie Chen. (**2024**) [**TimeArena: Shaping Efficient Multitasking Language Agents in a Time-Aware Simulation**](https://arxiv.org/abs/2402.05733) (**ACL 2024**) [[project page](https://time-arena.github.io/)]
 
 Dirk Groeneveld, Iz Beltagy, Pete Walsh, Akshita Bhagia, Rodney Kinney, Oyvind Tafjord, Ananya Harsh Jha, Hamish Ivison, Ian Magnusson, Yizhong Wang, Shane Arora, David Atkinson, Russell Authur, Khyathi Raghavi Chandu, Arman Cohan, Jennifer Dumas, et al... Nathan Lambert, **Kyle Richardson**, Luke Zettlemoyer, Jesse Dodge, Kyle Lo, Luca Soldaini, Noah A. Smith, Hannaneh Hajishirzi (**2024**) [**OLMo: Accelerating the Science of Language Models**](https://arxiv.org/abs/2402.00838) (**ACL 2024**) [[code](https://github.com/allenai/OLMo)] [[data](https://huggingface.co/datasets/allenai/dolma)] [[model](https://huggingface.co/allenai/OLMo-7B)] <span style="color:red">**Best Theme Paper Award (ACL)**</span>
-
 
 Luca Soldaini, Rodney Kinney, Akshita Bhagia, Dustin Schwenk, David Atkinson, Russell Authur, Ben Bogin, Khyathi Chandu, Jennifer Dumas, Yanai Elazar, Valentin Hofmann, Ananya Harsh Jha, Sachin Kumar, Li Lucy, Xinxi Lyu, Nathan Lambert, Ian Magnusson, Jacob Morrison, Niklas Muennighoff, Aakanksha Naik, Crystal Nam, Matthew E. Peters, Abhilasha Ravichander, **Kyle Richardson**, et al. (**2024**) [**Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research**](https://arxiv.org/abs/2402.00159) (**ACL 2024**) [[code](https://github.com/allenai/dolma)] [[data](https://huggingface.co/datasets/allenai/dolma)] <span style="color:red">**Best Resource Paper Award (ACL)**</span>
 
