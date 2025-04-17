@@ -71,7 +71,7 @@ Bill Yuchen Lin, Ronan Le Bras, **Kyle Richardson**, Ashish Sabharwal, Radha Poo
 
 Ruihan Yang, Jiangjie Chen, Yikai Zhang, Siyu Yuan, Aili Chen, **Kyle Richardson**, Yanghua Xiao, Deqing Yang (**2025**) [**SelfGoal: Your Language Agents Already Know How to Achieve High-level Goals**](https://arxiv.org/pdf/2406.04784) (*NAACL 2025*) [[project page](https://selfgoal-agent.github.io/)]
 
-**Kyle Richardson**, Vivek Srikumar, Ashish Sabharwal. [**Understanding the Logic of Direct Preference Alignment through Logic**](https://arxiv.org/abs/2412.17696) (*work in progress*) [[M3L draft](https://openreview.net/forum?id=SDtdKJBTcI)] [[slides](https://www.krichardson.me/files/declarative_alignment.pdf)] [[M3L poster](https://www.krichardson.me/files/m3l_poster.pdf)]
+**Kyle Richardson**, Vivek Srikumar, Ashish Sabharwal. [**Understanding the Logic of Direct Preference Alignment through Logic**](https://arxiv.org/abs/2412.17696) (*work in progress*) [[M3L draft](https://openreview.net/forum?id=SDtdKJBTcI)] [[slides](https://www.krichardson.me/files/declarative_alignment.pdf)] [[M3L poster](https://www.krichardson.me/files/m3l_poster.pdf)] [[video](https://www.youtube.com/watch?v=hroBkYFinPs&t=1194s)
 
 Haoyu Wang, Fengze Liu, Jiayao Zhang, Dan Roth, **Kyle Richardson**. [**Event Causality Identification with Synthetic Control**](https://aclanthology.org/2024.emnlp-main.103/) (**EMNLP 2024**) [[code](https://cogcomp.seas.upenn.edu/page/publication_view/1043)]
 
