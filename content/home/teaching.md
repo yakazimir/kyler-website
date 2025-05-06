@@ -44,7 +44,11 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
   (ICLR 2023); [**Language Model Programming: Themes and
   Prospects**](https://www.krichardson.me/files/lm_programming.pdf) (*overview of my recent work, given at the University
   of Tuebingen*); [**Declarative Characterizations of Direct
-  Preference Alignment Algorithms**](https://www.krichardson.me/files/declarative_alignment.pdf)
+  Preference Alignment
+  Algorithms**](https://www.krichardson.me/files/declarative_alignment.pdf),
+  [**Language Modeling by Language Modeling**](https://www.krichardson.me/files/genesys.pdf) (*recent work on
+  automated scientific discovery, presented at the AI for scientific
+  discovery workshop at NAACL, preprint forthcoming*)  
   
   **Recent News** 
   

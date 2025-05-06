@@ -68,9 +68,9 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
-Bill Yuchen Lin, Ronan Le Bras, **Kyle Richardson**, Ashish Sabharwal, Radha Poovendran, Peter Clark, Yejin Choi (**2025**) [**ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning**](https://arxiv.org/pdf/2502.01100 (*accepted at ICML*) [[dataset](https://hf.co/spaces/WildEval/ZebraLogic)]
+Bill Yuchen Lin, Ronan Le Bras, **Kyle Richardson**, Ashish Sabharwal, Radha Poovendran, Peter Clark, Yejin Choi (**2025**) [**ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning**](https://arxiv.org/pdf/2502.01100) (*accepted to ICML*) [[dataset](https://hf.co/spaces/WildEval/ZebraLogic)]
 
-**Kyle Richardson**, Vivek Srikumar, Ashish Sabharwal. (**2025**)  [**Understanding the Logic of Direct Preference Alignment through Logic**](https://arxiv.org/abs/2412.17696) (*accepted at ICML*) [[M3L draft](https://openreview.net/forum?id=SDtdKJBTcI)] [[slides](https://www.krichardson.me/files/declarative_alignment.pdf)] [[M3L poster](https://www.krichardson.me/files/m3l_poster.pdf)] [[video](https://www.youtube.com/watch?v=hroBkYFinPs&t=1194s)]
+**Kyle Richardson**, Vivek Srikumar, Ashish Sabharwal. (**2025**)  [**Understanding the Logic of Direct Preference Alignment through Logic**](https://arxiv.org/abs/2412.17696) (*accepted to ICML*) [[M3L draft](https://openreview.net/forum?id=SDtdKJBTcI)] [[slides](https://www.krichardson.me/files/declarative_alignment.pdf)] [[M3L poster](https://www.krichardson.me/files/m3l_poster.pdf)] [[video](https://www.youtube.com/watch?v=hroBkYFinPs&t=1194s)]
 
 Ruihan Yang, Jiangjie Chen, Yikai Zhang, Siyu Yuan, Aili Chen, **Kyle Richardson**, Yanghua Xiao, Deqing Yang (**2025**) [**SelfGoal: Your Language Agents Already Know How to Achieve High-level Goals**](https://arxiv.org/pdf/2406.04784) (*NAACL 2025*) [[project page](https://selfgoal-agent.github.io/)]
 
