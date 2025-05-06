@@ -76,8 +76,8 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
   (*work on memory architectures for interactive agents; presented at
   [OWA workshop](https://sites.google.com/view/open-world-agents/home)*)
 
-- **recent pre-prints** [**Understanding the Logic of Direct Preference Alignment through Logic**](https://arxiv.org/abs/2412.17696) (*formal characterization
+- **Paper at NAACL 2025** [**SELFGOAL: Your Language Agents Already Know How to Achieve High-level Goals**](https://arxiv.org/pdf/2406.04784) (*LLM agent architectures*)
+
+- **Two papers accepted at ICML 2025** [**Understanding the Logic of Direct Preference Alignment through Logic**](https://arxiv.org/abs/2412.17696) (*formal characterization
   of direct preference alignment algorithms*), [**ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning**](https://arxiv.org/pdf/2502.01100) (*hard reasoning
   problems for LLMs*)
-  
-- **Paper at NAACL 2025** [**SELFGOAL: Your Language Agents Already Know How to Achieve High-level Goals**](https://arxiv.org/pdf/2406.04784) (*LLM agent architectures*)
