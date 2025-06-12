@@ -68,6 +68,8 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
+Junyan Cheng, Peter Clark, **Kyle Richardson** (**2025**) **Language Modeling by Language Models** [[slides](https://www.krichardson.me/files/genesys.pdf)] [[poster](https://www.krichardson.me/files/genesys.pdf)] [*pre-print forthcoming*]
+
 Bill Yuchen Lin, Ronan Le Bras, **Kyle Richardson**, Ashish Sabharwal, Radha Poovendran, Peter Clark, Yejin Choi (**2025**) [**ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning**](https://arxiv.org/pdf/2502.01100) (*accepted to ICML*) [[dataset](https://hf.co/spaces/WildEval/ZebraLogic)]
 
 **Kyle Richardson**, Vivek Srikumar, Ashish Sabharwal. (**2025**)  [**Understanding the Logic of Direct Preference Alignment through Logic**](https://arxiv.org/abs/2412.17696) (*accepted to ICML*) [[M3L draft](https://openreview.net/forum?id=SDtdKJBTcI)] [[slides](https://www.krichardson.me/files/declarative_alignment.pdf)] [[M3L poster](https://www.krichardson.me/files/m3l_poster.pdf)] [[video](https://www.youtube.com/watch?v=hroBkYFinPs&t=1194s)][[code](https://github.com/yakazimir/declarative_preference_alignment/tree/main/scripts/experiment)]
