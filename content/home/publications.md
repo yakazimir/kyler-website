@@ -70,9 +70,9 @@ subtitle = ""
 
 Junyan Cheng, Peter Clark, **Kyle Richardson** (**2025**) **Language Modeling by Language Models** [[slides](https://www.krichardson.me/files/genesys.pdf)] [[poster, NAACL AISD workshop](https://www.krichardson.me/files/genesys_poster.pdf)] [*pre-print forthcoming*]
 
-Bill Yuchen Lin, Ronan Le Bras, **Kyle Richardson**, Ashish Sabharwal, Radha Poovendran, Peter Clark, Yejin Choi (**2025**) [**ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning**](https://arxiv.org/pdf/2502.01100) (*accepted to ICML*) [[dataset](https://hf.co/spaces/WildEval/ZebraLogic)]
+Bill Yuchen Lin, Ronan Le Bras, **Kyle Richardson**, Ashish Sabharwal, Radha Poovendran, Peter Clark, Yejin Choi (**2025**) [**ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning**](https://arxiv.org/pdf/2502.01100) (*ICML 2025*) [[dataset](https://hf.co/spaces/WildEval/ZebraLogic)]
 
-**Kyle Richardson**, Vivek Srikumar, Ashish Sabharwal. (**2025**)  [**Understanding the Logic of Direct Preference Alignment through Logic**](https://arxiv.org/abs/2412.17696) (*accepted to ICML*) [[M3L draft](https://openreview.net/forum?id=SDtdKJBTcI)] [[slides](https://www.krichardson.me/files/declarative_alignment.pdf)] [[M3L poster](https://www.krichardson.me/files/m3l_poster.pdf)] [[video](https://www.youtube.com/watch?v=hroBkYFinPs&t=1194s)][[code](https://github.com/yakazimir/declarative_preference_alignment/tree/main/scripts/experiment)]
+**Kyle Richardson**, Vivek Srikumar, Ashish Sabharwal. (**2025**)  [**Understanding the Logic of Direct Preference Alignment through Logic**](https://arxiv.org/abs/2412.17696) (*ICML 2025*) [[M3L draft](https://openreview.net/forum?id=SDtdKJBTcI)] [[slides](https://www.krichardson.me/files/declarative_alignment.pdf)] [[M3L poster](https://www.krichardson.me/files/m3l_poster.pdf)] [[video](https://www.youtube.com/watch?v=hroBkYFinPs&t=1194s)][[code](https://github.com/yakazimir/declarative_preference_alignment/tree/main/scripts/experiment)]
 
 Ruihan Yang, Jiangjie Chen, Yikai Zhang, Siyu Yuan, Aili Chen, **Kyle Richardson**, Yanghua Xiao, Deqing Yang (**2025**) [**SelfGoal: Your Language Agents Already Know How to Achieve High-level Goals**](https://arxiv.org/pdf/2406.04784) (*NAACL 2025*) [[project page](https://selfgoal-agent.github.io/)]
 
@@ -92,7 +92,7 @@ Luca Soldaini, Rodney Kinney, Akshita Bhagia, Dustin Schwenk, David Atkinson, Ru
 
 Dirk Groenveld, Anas Awadalla, Iz Beltagy, Akshita Bhagia, Ian Magnusson, Hao Peng, Oyvind Tafjord, Pete Walsh, **Kyle Richardson**,  Jesse Dodge. (**2023**) [**Catwalk: A Unified Language Model Evaluation Framework for Many Datasets**](https://arxiv.org/abs/2312.10253) (*technical report*) [[toolkit code](https://github.com/allenai/catwalk)] [eval code](https://github.com/allenai/ai2-olmo-eval)] 
 
-**Kyle Richardson**,  Ian Magnusson, Oyvind Tafjord, Akshita Bhagia, Iz Beltagy, Arman Cohan, Pradeep Dasigi, Jesse Dodge, Dirk Groeneveld, Yuling Gu, Ananya Harsh Jha,  Tushar Khot,  Nishant Subramani. (**2023**) **Robust Tooling and New Resources for Large Language Model Evaluation via Catwalk.** (extended abstract, accepted to [**GEM 2023**](https://gem-benchmark.com/workshop)) (*details forthcoming*)
+**Kyle Richardson**,  Ian Magnusson, Oyvind Tafjord, Akshita Bhagia, Iz Beltagy, Arman Cohan, Pradeep Dasigi, Jesse Dodge, Dirk Groeneveld, Yuling Gu, Ananya Harsh Jha,  Tushar Khot,  Nishant Subramani. (**2023**) **Robust Tooling and New Resources for Large Language Model Evaluation via Catwalk.** (extended abstract [**GEM 2023**](https://gem-benchmark.com/workshop)) (*details forthcoming*)
 
 Nora Kassner, Oyvind Tafjord, Ashish Sabharwal, **Kyle Richardson**, Hinrich Schütze and Peter Clark. (**2023**) [**Language Models with Rationality**](https://arxiv.org/pdf/2305.14250.pdf)  (**EMNLP 2023**) [[arxiv](https://arxiv.org/pdf/2305.14250.pdf)] [[project page](https://allenai.github.io/reflex/)]
 
