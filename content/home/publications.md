@@ -68,7 +68,7 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
-Junyan Cheng, Peter Clark, **Kyle Richardson** (**2025**) **Language Modeling by Language Models** [[slides](https://www.krichardson.me/files/genesys.pdf)] [[poster](https://www.krichardson.me/files/genesys.pdf)] [*pre-print forthcoming*]
+Junyan Cheng, Peter Clark, **Kyle Richardson** (**2025**) **Language Modeling by Language Models** [[slides](https://www.krichardson.me/files/genesys.pdf)] [[poster, NAACL AISD workshop](https://www.krichardson.me/files/genesys_poster.pdf)] [*pre-print forthcoming*]
 
 Bill Yuchen Lin, Ronan Le Bras, **Kyle Richardson**, Ashish Sabharwal, Radha Poovendran, Peter Clark, Yejin Choi (**2025**) [**ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning**](https://arxiv.org/pdf/2502.01100) (*accepted to ICML*) [[dataset](https://hf.co/spaces/WildEval/ZebraLogic)]
 
