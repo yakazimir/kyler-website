@@ -83,5 +83,9 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
 - **Paper at NAACL 2025** [**SELFGOAL: Your Language Agents Already Know How to Achieve High-level Goals**](https://arxiv.org/pdf/2406.04784) (*LLM agent architectures*)
 
 - **Two papers accepted at ICML 2025** [**Understanding the Logic of Direct Preference Alignment through Logic**](https://arxiv.org/abs/2412.17696) (*formal characterization
-  of direct preference alignment algorithms*), [**ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning**](https://arxiv.org/pdf/2502.01100) (*hard reasoning
+  of direct preference alignment algorithms*, [**brief overview**](https://www.krichardson.me/files/icml_preference_5min_slides.pdf)), [**ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning**](https://arxiv.org/pdf/2502.01100) (*hard reasoning
   problems for LLMs*)
+
+- New talk on automated science discovery, [**Language Modeling by
+  Language Models**](https://www.krichardson.me/files/genesys.pdf),
+  *pre-print forthcoming*. Presented at the NAACL 2025 AISD workshop.  
