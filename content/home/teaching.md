@@ -87,5 +87,6 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
   problems for LLMs*)
 
 - New talk on automated science discovery, [**Language Modeling by
-  Language Models**](https://www.krichardson.me/files/genesys.pdf),
-  *pre-print forthcoming*. Presented at the NAACL 2025 AISD workshop.  
+  Language
+  Models**](https://www.krichardson.me/files/genesys.pdf). Presented
+  at the NAACL 2025 AISD workshop. Pre-print [**here**](https://arxiv.org/abs/2506.20249) 
