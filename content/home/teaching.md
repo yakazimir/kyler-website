@@ -93,6 +93,6 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
 
 - I taught another version of our [**Language Model Programming**](https://github.com/yakazimir/LMProgramming)
   course at ESSLLI 2025, with some new lectures on [*probabilistic
-  programming*](https://github.com/yakazimir/LMProgramming/blob/main/slides/lecture5.pdf)
+  programming for prompting*](https://github.com/yakazimir/LMProgramming/blob/main/slides/lecture5.pdf)
   and [*loss function decompilation*](https://github.com/yakazimir/LMProgramming/blob/main/slides/lecture3.pdf)
-  (*both recent research topics for me*). 
+  (*both recent research topics of mine*). 
