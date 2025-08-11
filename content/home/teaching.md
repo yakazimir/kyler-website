@@ -98,5 +98,5 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
   (*both recent research topics of mine*). 
 
 - I gave a keynote at the [NALOMA 2025
-  workshop](https://naloma.github.io/2025/index.html) entitlte:
+  workshop](https://naloma.github.io/2025/index.html) entitlted
   [**Understanding the Logic of Generative AI through Logic**](https://naloma.github.io/2025/slides/keynote-3.pdf)
