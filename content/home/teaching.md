@@ -100,3 +100,7 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
 - I gave a keynote at the [NALOMA 2025
   workshop](https://naloma.github.io/2025/index.html) entitlted
   [**Understanding the Logic of Generative AI through Logic**](https://naloma.github.io/2025/slides/keynote-3.pdf)
+
+- We released the [**astabench
+  leaderboard**](https://huggingface.co/spaces/allenai/asta-bench-leaderboard),
+  [technical paper](https://www.datocms-assets.com/64837/1756485374-astabench-2025-08-29.pdf)
