@@ -68,7 +68,7 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
-Jonathan Bragg et al. (**2025**) [**AstaBench: Rigorous Benchmarking of AI Agents with a Holistic Scientific Research Suite**](https://www.datocms-assets.com/64837/1756485374-astabench-2025-08-29.pdf)
+Jonathan Bragg et al. (**2025**) [**AstaBench: Rigorous Benchmarking of AI Agents with a Holistic Scientific Research Suite**](https://www.datocms-assets.com/64837/1756485374-astabench-2025-08-29.pdf) [[**dataset**](https://huggingface.co/datasets/allenai/asta-bench)]
 
 Junyan Cheng, Peter Clark, **Kyle Richardson** (**2025**) [**Language Modeling by Language Models**](https://arxiv.org/abs/2506.20249) [[slides](https://www.krichardson.me/files/genesys.pdf)] [[poster, NAACL AISD workshop](https://www.krichardson.me/files/genesys_poster.pdf)] [[Discovery Console](https://genesys.allen.ai/)]
 
