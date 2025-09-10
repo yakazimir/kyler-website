@@ -107,3 +107,7 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
   paper](https://www.datocms-assets.com/64837/1756485374-astabench-2025-08-29.pdf),
   a large initiative to comprehensively evaluate LLM agents across
   different science tasks. 
+
+- **Paper accepted at EMNLP 2025** **TinyScientist: An Interactive,
+  Extensible, and Controllable Framework for Building Research Agents**
+  (*library for automated research. Paper forthcoming*) 
