@@ -57,7 +57,7 @@ subtitle = ""
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  # text_color_light = true  
+  # text_color_light = true 
   
 [advanced]
  # Custom CSS. 
@@ -67,6 +67,8 @@ subtitle = ""
  css_class = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
+
+Haofei Yu, Keyang Xuan, Fenghai Li, Kunlun Zhu, Zijie Lei, Jiaxun Zhang, Ziheng Qi, **Kyle Richardson**, Jiaxuan You (**2025**) [**TinyScientist: An Interactive, Extensible, and Controllable Framework for Building Research Agents**](https://pypi.org/project/tiny-scientist/) (*accepted EMNLP 2025*) [[code](https://pypi.org/project/tiny-scientist/)] [*paper forthcoming*]
 
 Jonathan Bragg et al. (**2025**) [**AstaBench: Rigorous Benchmarking of AI Agents with a Holistic Scientific Research Suite**](https://www.datocms-assets.com/64837/1756485374-astabench-2025-08-29.pdf) [[**dataset**](https://huggingface.co/datasets/allenai/asta-bench)]
 
