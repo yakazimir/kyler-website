@@ -111,3 +111,7 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
 - **Paper accepted at EMNLP 2025** *TinyScientist: An Interactive,
   Extensible, and Controllable Framework for Building Research Agents*
   (*library for LLM-driven automated research. Paper forthcoming*) 
+
+- **Paper accepted at NeurIPS 2025** Our work on *Language Modeling by
+  Language Models* (*research agents for machine learning and neural
+  architecture discovery*) was accepted as a spolight paper. 
