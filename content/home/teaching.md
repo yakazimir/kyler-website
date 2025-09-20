@@ -87,8 +87,7 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
   problems for LLMs*)
 
 - New talk on automated science discovery, [**Language Modeling by
-  Language
-  Models**](https://www.krichardson.me/files/genesys.pdf). Presented
+  Language Models**](https://www.krichardson.me/files/genesys.pdf). Presented
   at the NAACL 2025 AISD workshop. Pre-print [**here**](https://arxiv.org/abs/2506.20249) 
 
 - I taught another version of our [**Language Model Programming**](https://github.com/yakazimir/LMProgramming)
@@ -101,10 +100,8 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
   workshop](https://naloma.github.io/2025/index.html) entitlted
   [**Understanding the Logic of Generative AI through Logic**](https://naloma.github.io/2025/slides/keynote-3.pdf)
 
-- We released the [**astabench
-  leaderboard**](https://huggingface.co/spaces/allenai/asta-bench-leaderboard),
-  [technical
-  paper](https://www.datocms-assets.com/64837/1756485374-astabench-2025-08-29.pdf),
+- We released the [**astabench leaderboard**](https://huggingface.co/spaces/allenai/asta-bench-leaderboard),
+  [technical  paper](https://www.datocms-assets.com/64837/1756485374-astabench-2025-08-29.pdf),
   a large initiative to comprehensively evaluate LLM agents across
   different science tasks. 
 
@@ -114,4 +111,4 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
 
 - **Paper accepted at NeurIPS 2025** Our work on [**Language Modeling
   by Language Models**](https://github.com/yakazimir/esslli_2024_llm_programming)
-  (*research agents for autonomous machine learning reseearch*) was accepted as a spolight paper. 
+  (*research agents for autonomous machine learning research*) was accepted as a spolight paper. 
