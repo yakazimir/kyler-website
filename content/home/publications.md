@@ -68,7 +68,7 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
-Junyan Cheng, Peter Clark, **Kyle Richardson** (**2025**) [**Language Modeling by Language Models**](https://arxiv.org/abs/2506.20249) (*accepted NeurIPS 2025**) [[slides](https://www.krichardson.me/files/genesys.pdf)] [[poster, NAACL AISD workshop](https://www.krichardson.me/files/genesys_poster.pdf)] [[Discovery Console](https://genesys.allen.ai/)] 
+Junyan Cheng, Peter Clark, **Kyle Richardson** (**2025**) [**Language Modeling by Language Models**](https://arxiv.org/abs/2506.20249) (**accepted NeurIPS 2025**) [[slides](https://www.krichardson.me/files/genesys.pdf)] [[poster, NAACL AISD workshop](https://www.krichardson.me/files/genesys_poster.pdf)] [[Discovery Console](https://genesys.allen.ai/)] 
 
 Haofei Yu, Keyang Xuan, Fenghai Li, Kunlun Zhu, Zijie Lei, Jiaxun Zhang, Ziheng Qi, **Kyle Richardson**, Jiaxuan You (**2025**) [**TinyScientist: An Interactive, Extensible, and Controllable Framework for Building Research Agents**](https://pypi.org/project/tiny-scientist/) (*accepted EMNLP 2025*) [[code](https://pypi.org/project/tiny-scientist/)] [*paper forthcoming*] [[demo](https://app.auto-research.dev/)]
 
