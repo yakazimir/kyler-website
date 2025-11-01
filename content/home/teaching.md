@@ -112,3 +112,6 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
 - **Paper accepted at NeurIPS 2025** Our work on [**Language Modeling
   by Language Models**](https://github.com/yakazimir/esslli_2024_llm_programming)
   (*research agents for autonomous machine learning research*) was accepted as a spolight paper. 
+
+- I gave an invited keynote at the [**International Workshop on
+  Symbolic-Neural Learning (SNL2025)**](https://im.sanken.osaka-u.ac.jp/snl2025/) in Osaka  Japan. Slides are [here](https://www.krichardson.me/files/snl_2025.pdf). 
