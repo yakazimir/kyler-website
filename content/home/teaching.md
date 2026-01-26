@@ -105,8 +105,8 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
   a large initiative to comprehensively evaluate LLM agents across
   different science tasks. 
 
-- **Paper accepted at EMNLP 2025** [*TinyScientist: An Interactive,
-  Extensible, and Controllable Framework for Building Research Agents*](https://arxiv.org/pdf/2510.06579)
+- **Paper accepted at EMNLP 2025** [**TinyScientist: An Interactive,
+  Extensible, and Controllable Framework for Building Research Agents**](https://arxiv.org/pdf/2510.06579)
   (*library for LLM-driven automated research.*) 
 
 - **Paper accepted at NeurIPS 2025** Our work on [**Language Modeling
@@ -122,4 +122,4 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
   (our work on LLM agent benchmarking), [**Analytica: Soft
   Propositional Reasoning for Robust and Scalable LLM-Driven
   Analysis**](https://openreview.net/forum?id=9cFT6u82uh&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions))
-  (LLM agents for forecasting, formaly analysis of agent systems; preprint coming soon)
+  (LLM agents for forecasting, formal analysis of agent systems; preprint coming soon)
