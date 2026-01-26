@@ -68,11 +68,13 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
+Jonathan Bragg et al. (**2026**) [**AstaBench: Rigorous Benchmarking of AI Agents with a Holistic Scientific Research Suite**](https://www.datocms-assets.com/64837/1756485374-astabench-2025-08-29.pdf) [[**dataset**](https://huggingface.co/datasets/allenai/asta-bench)] (accepted **ICLR 2026**) 
+
+Junyan Cheng, **Kyle Richardson**, Peter Chin (**2026**) [**Analytica: Soft  Propositional Reasoning for Robust and Scalable LLM-Driven Analysis**](https://openreview.net/forum?id=9cFT6u82uh&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions)) (accepted **ICLR 2026**)
+
 Junyan Cheng, Peter Clark, **Kyle Richardson** (**2025**) [**Language Modeling by Language Models**](https://arxiv.org/abs/2506.20249) (**NeurIPS 2025**) [[slides](https://www.krichardson.me/files/genesys.pdf)] [[poster, NAACL AISD workshop](https://www.krichardson.me/files/genesys_poster.pdf)] [[Discovery Console](https://genesys.allen.ai/)] <span style="color:red">**Spotlight paper**</span>
 
 Haofei Yu, Keyang Xuan, Fenghai Li, Kunlun Zhu, Zijie Lei, Jiaxun Zhang, Ziheng Qi, **Kyle Richardson**, Jiaxuan You (**2025**) [**TinyScientist: An Interactive, Extensible, and Controllable Framework for Building Research Agents**](https://arxiv.org/pdf/2510.06579) (*EMNLP 2025*) [[code](https://pypi.org/project/tiny-scientist/)] [paper](https://arxiv.org/pdf/2510.06579) [[demo](https://app.auto-research.dev/)]
-
-Jonathan Bragg et al. (**2025**) [**AstaBench: Rigorous Benchmarking of AI Agents with a Holistic Scientific Research Suite**](https://www.datocms-assets.com/64837/1756485374-astabench-2025-08-29.pdf) [[**dataset**](https://huggingface.co/datasets/allenai/asta-bench)]
 
 Bill Yuchen Lin, Ronan Le Bras, **Kyle Richardson**, Ashish Sabharwal, Radha Poovendran, Peter Clark, Yejin Choi (**2025**) [**ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning**](https://arxiv.org/pdf/2502.01100) (*ICML 2025*) [[dataset](https://hf.co/spaces/WildEval/ZebraLogic)]
 
