@@ -115,3 +115,11 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
 
 - I gave an invited keynote at the [**International Workshop on
   Symbolic-Neural Learning (SNL2025)**](https://im.sanken.osaka-u.ac.jp/snl2025/) in Osaka  Japan. Slides are [here](https://www.krichardson.me/files/snl_2025.pdf). 
+
+- Two papers accepted to **ICLR 2026**: [*AstaBench: Rigorous
+  Benchmarking of AI Agents with a Holistic Scientific Research
+  Suite*](https://www.datocms-assets.com/64837/1756485374-astabench-2025-08-29.pdf
+  (our work on LLM agent benchmarking), [*Analytica: Soft
+  Propositional Reasoning for Robust and Scalable LLM-Driven
+  Analysis*](https://openreview.net/forum?id=9cFT6u82uh&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions))
+  (LLM agents for forecasting, formaly analysis of agent systems; preprint coming soon)
