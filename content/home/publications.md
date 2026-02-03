@@ -68,7 +68,8 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
-Jonathan Bragg et al. (**2026**) [**AstaBench: Rigorous Benchmarking of AI Agents with a Holistic Scientific Research Suite**](https://www.datocms-assets.com/64837/1756485374-astabench-2025-08-29.pdf) [[**dataset**](https://huggingface.co/datasets/allenai/asta-bench)] (accepted **ICLR 2026**)
+
+Jonathan Bragg et al. (**2026**) [**AstaBench: Rigorous Benchmarking of AI Agents with a Holistic Scientific Research Suite**](https://www.datocms-assets.com/64837/1756485374-astabench-2025-08-29.pdf) (accepted **ICLR 2026**)
 
 Junyan Cheng, **Kyle Richardson**, Peter Chin (**2026**) [**Analytica: Soft  Propositional Reasoning for Robust and Scalable LLM-Driven Analysis**](https://openreview.net/forum?id=9cFT6u82uh&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions)) (accepted **ICLR 2026**)
 
