@@ -121,5 +121,5 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
   Suite**](https://www.datocms-assets.com/64837/1756485374-astabench-2025-08-29.pdf)
   (our work on LLM agent benchmarking), [**Analytica: Soft
   Propositional Reasoning for Robust and Scalable LLM-Driven
-  Analysis**](https://openreview.net/forum?id=9cFT6u82uh&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions))
-  (LLM agents for forecasting, formal analysis of agent systems; preprint coming soon)
+  Analysis**](https://openreview.net/forum?id=9cFT6u82uh)
+  (LLM agents for forecasting, formal analysis of agent systems)
