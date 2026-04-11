@@ -123,3 +123,5 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
   Propositional Reasoning for Robust and Scalable LLM-Driven
   Analysis**](https://openreview.net/forum?id=9cFT6u82uh)
   (LLM agents for forecasting, formal analysis of agent systems)
+
+- Recent [talk](https://www.krichardson.me/files/analytica_slides.pdf) about our work on **Analytica** and *soft propositional reasoning*
