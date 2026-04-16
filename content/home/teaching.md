@@ -125,3 +125,8 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
   (LLM agents for forecasting, formal analysis of agent systems)
 
 - Recent [talk](https://www.krichardson.me/files/analytica_slides.pdf) about our work on **Analytica** and *soft propositional reasoning*
+
+- A new paper on [**Probabilistic Programs of
+Thought**](https://starai.cs.ucla.edu/papers/GargPPoT26.pdf) (*arxiv
+preprint coming soon*) with the [UCLA StarAI
+lab](https://starai.cs.ucla.edu/). 
