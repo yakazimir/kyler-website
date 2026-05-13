@@ -48,7 +48,7 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
   Algorithms**](https://www.krichardson.me/files/declarative_alignment.pdf),
   [**Language Modeling by Language Models**](https://www.krichardson.me/files/genesys.pdf) (*recent work on
   automated scientific discovery, presented at the AI for scientific
-  discovery workshop at NAACL, preprint forthcoming*)  
+  discovery workshop at NAACL, preprint forthcoming*). 
   
   **Recent News** 
   

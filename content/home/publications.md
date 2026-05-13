@@ -68,11 +68,11 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
-Poorva Garg, Renato Geh, Daniel Israel, Todd Millstein, **Kyle Richardson** and Guy Van den Broeck. (**2026**) [**Probabilistic Programs of Thought**](https://starai.cs.ucla.edu/papers/GargPPoT26.pdf)
+Poorva Garg, Renato Geh, Daniel Israel, Todd Millstein, **Kyle Richardson** and Guy Van den Broeck. (**2026**) [**Probabilistic Programs of Thought**](https://starai.cs.ucla.edu/papers/GargPPoT26.pdf) [[code](https://github.com/PoorvaGarg/PPoT)]
 
-Jonathan Bragg et al. (**2026**) [**AstaBench: Rigorous Benchmarking of AI Agents with a Holistic Scientific Research Suite**](https://openreview.net/forum?id=M7TNf5J26u) (**ICLR 2026**)
+Jonathan Bragg et al. (**2026**) [**AstaBench: Rigorous Benchmarking of AI Agents with a Holistic Scientific Research Suite**](https://arxiv.org/abs/2510.21652) (**ICLR 2026**) [[code](https://github.com/allenai/asta-bench)]
 
-Junyan Cheng, **Kyle Richardson**, Peter Chin (**2026**) [**Analytica: Soft  Propositional Reasoning for Robust and Scalable LLM-Driven Analysis**](https://openreview.net/forum?id=9cFT6u82uh) (**ICLR 2026**)
+Junyan Cheng, **Kyle Richardson**, Peter Chin (**2026**) [**Analytica: Soft  Propositional Reasoning for Robust and Scalable LLM-Driven Analysis**](https://arxiv.org/abs/2604.23072) (**ICLR 2026**) [[code](https://github.com/chengjunyan1/analytica)] 
 
 Junyan Cheng, Peter Clark, **Kyle Richardson** (**2025**) [**Language Modeling by Language Models**](https://arxiv.org/abs/2506.20249) (**NeurIPS 2025**) [[slides](https://www.krichardson.me/files/genesys.pdf)] [[poster, NAACL AISD workshop](https://www.krichardson.me/files/genesys_poster.pdf)] [[Discovery Console](https://genesys.allen.ai/)] <span style="color:red">**Spotlight paper**</span>
 
