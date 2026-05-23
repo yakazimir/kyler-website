@@ -68,6 +68,8 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
+Haofei Yu, Jiaxuan You, Peter Clark, Bodhisattwa Prasad Majumder and **Kyle Richardson** [**ArtifactLinker: Linking Scientific Artifacts for Automatic State-of-the-Art Discovery**](https://arxiv.org/abs/2605.16902) [[code](https://github.com/allenai/artifact-linker)] [[dataset](https://huggingface.co/datasets/lwaekfjlk/artifact-bench)]
+
 Poorva Garg, Renato Geh, Daniel Israel, Todd Millstein, **Kyle Richardson** and Guy Van den Broeck. (**2026**) [**Probabilistic Programs of Thought**](https://starai.cs.ucla.edu/papers/GargPPoT26.pdf) [[code](https://github.com/PoorvaGarg/PPoT)]
 
 Jonathan Bragg et al. (**2026**) [**AstaBench: Rigorous Benchmarking of AI Agents with a Holistic Scientific Research Suite**](https://arxiv.org/abs/2510.21652) (**ICLR 2026**) [[code](https://github.com/allenai/asta-bench)]
