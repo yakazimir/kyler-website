@@ -130,3 +130,9 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
 Thought**](https://starai.cs.ucla.edu/papers/GargPPoT26.pdf) (*arxiv
 preprint coming soon*) with the [UCLA StarAI
 lab](https://starai.cs.ucla.edu/). 
+
+- New [preprint](https://arxiv.org/abs/2606.13649) on question decomposition using  [**operads**](https://en.wikipedia.org/wiki/Operad), a smaller
+  technical report is [here](https://arxiv.org/abs/2606.13634) and was
+  recently presented at the [Combing Theory and Benchmarks workshop](https://sites.google.com/view/icml-ctb/home) at ICML.
+
+- Paper accepted to [**COLM 2026**] on [**Artifact Linker**](https://arxiv.org/abs/2605.16902) and automated scientific discovery.
