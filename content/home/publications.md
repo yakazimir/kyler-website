@@ -68,7 +68,7 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
-Haofei Yu, Jiaxuan You, Peter Clark, Bodhisattwa Prasad Majumder and **Kyle Richardson** (**2026**) [**ArtifactLinker: Linking Scientific Artifacts for Automatic State-of-the-Art Discovery**](https://arxiv.org/abs/2605.16902) [[code](https://github.com/allenai/artifact-linker)] [[dataset](https://huggingface.co/datasets/lwaekfjlk/artifact-bench)] (**COLM 2026**)
+Haofei Yu, Jiaxuan You, Peter Clark, Bodhisattwa Prasad Majumder and **Kyle Richardson** (**2026**) [**ArtifactLinker: Linking Scientific Artifacts for Automatic State-of-the-Art Discovery**](https://arxiv.org/abs/2605.16902) (**COLM 2026**) [[code](https://github.com/allenai/artifact-linker)] [[dataset](https://huggingface.co/datasets/lwaekfjlk/artifact-bench)] 
 
 Nathaniel Bottman, Yinhon Liu, **Kyle Richardson** (**2026**) [**Operadic consistency: a label-free signal for compositional reasoning failures in LLMs**](https://arxiv.org/abs/2606.13649) [[code](https://github.com/natebottman/operadic-consistency-paper)] 
 
