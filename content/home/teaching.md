@@ -136,3 +136,7 @@ lab](https://starai.cs.ucla.edu/).
   recently presented at the [Combing Theory and Benchmarks workshop](https://sites.google.com/view/icml-ctb/home) at ICML.
 
 - Paper accepted to **COLM 2026** on [**Artifact Linker**](https://arxiv.org/abs/2605.16902) and automated scientific discovery.
+
+- Our paper on [**CoTs as Tractable Probabilistic Programs**] was
+  accepted at [**TPM@UAI**](https://tractable-probabilistic-modeling.github.io/tpm2026/)
+  (*pre-print coming soon). I will also be giving a keynote there. 
