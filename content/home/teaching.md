@@ -137,6 +137,7 @@ lab](https://starai.cs.ucla.edu/).
 
 - Paper accepted to **COLM 2026** on [**Artifact Linker**](https://arxiv.org/abs/2605.16902) and automated scientific discovery.
 
-- Our paper on **CoTs as Tractable Probabilistic Programs** was
-  accepted at [**TPM@UAI**](https://tractable-probabilistic-modeling.github.io/tpm2026/)
-  (*pre-print coming soon*). I will also be giving a keynote there. 
+- Our paper on [**CoTs as Tractable Probabilistic
+  Programs**](https://starai.cs.ucla.edu/papers/RichardsonTPM26.pdf)
+  was accepted at [**TPM@UAI**](https://tractable-probabilistic-modeling.github.io/tpm2026/)
+  (*longer pre-print coming soon*). I will also be giving a keynote there. 
