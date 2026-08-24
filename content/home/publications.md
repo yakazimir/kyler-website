@@ -68,7 +68,7 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
-**Kyle Richardson**, Yu Feng, Poorva Garg, Junyan Cheng, Guy Van den Broeck, Dan Roth (**2026**) [**CoTs as Tractable Probabilistic Programs**](https://starai.cs.ucla.edu/papers/RichardsonTPM26.pdf) (**The 9th Workshop on Tractable Probabilistic Modeling**) 
+**Kyle Richardson**, Yu Feng, Poorva Garg, Junyan Cheng, Guy Van den Broeck, Dan Roth (**2026**) [**CoTs as Tractable Probabilistic Programs**](https://starai.cs.ucla.edu/papers/RichardsonTPM26.pdf) (**The 9th Workshop on Tractable Probabilistic Modeling**) [[poster](https://www.krichardson.me/files/copper_poster.pdf)] [[tpm talk](https://www.krichardson.me/files/tpm.pdf)]
 
 Haofei Yu, Jiaxuan You, Peter Clark, Bodhisattwa Prasad Majumder and **Kyle Richardson** (**2026**) [**ArtifactLinker: Linking Scientific Artifacts for Automatic State-of-the-Art Discovery**](https://arxiv.org/abs/2605.16902) (**COLM 2026**) [[code](https://github.com/allenai/artifact-linker)] [[dataset](https://huggingface.co/datasets/lwaekfjlk/artifact-bench)] 
 

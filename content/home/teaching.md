@@ -140,4 +140,6 @@ lab](https://starai.cs.ucla.edu/).
 - Our paper on [**CoTs as Tractable Probabilistic
   Programs**](https://starai.cs.ucla.edu/papers/RichardsonTPM26.pdf)
   was accepted at [**TPM@UAI**](https://tractable-probabilistic-modeling.github.io/tpm2026/)
-  (*longer pre-print coming soon*). I will also be giving a keynote there. 
+  (*longer pre-print coming soon*). I also gave a keynote, slides
+  [**here**](https://www.krichardson.me/files/tpm.pdf). 
+  
