@@ -141,5 +141,5 @@ lab](https://starai.cs.ucla.edu/).
   Programs**](https://starai.cs.ucla.edu/papers/RichardsonTPM26.pdf)
   was accepted at [**TPM@UAI**](https://tractable-probabilistic-modeling.github.io/tpm2026/)
   (*longer pre-print coming soon*). I also gave a keynote, slides
-  [**here**](https://www.krichardson.me/files/tpm.pdf). 
+  [**here**](https://www.krichardson.me/files/tpm.pdf) and video [**here**](https://www.youtube.com/watch?v=HewW7K404h4&list=PLEtgJqvAiY8g&index=5)
   
