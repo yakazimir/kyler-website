@@ -114,4 +114,8 @@ lab](https://starai.cs.ucla.edu/).
   was accepted at [**TPM@UAI**](https://tractable-probabilistic-modeling.github.io/tpm2026/)
   (*longer pre-print coming soon*). I also gave a keynote, slides
   [**here**](https://www.krichardson.me/files/tpm.pdf) and video [**here**](https://www.youtube.com/watch?v=HewW7K404h4&list=PLEtgJqvAiY8g&index=5)
-  
+
+- Paper accepted at **EMNLP 2026**: **From Token Probabilities to
+  Semantic Constraints: Towards Declarative Probabilistic Evaluation
+  of Language Models** that looks at probabilistic semantic models of
+  LLM knowledge. 
