@@ -68,7 +68,7 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
-**Kyle Richardson**, Cullen Anderson, Pranav Balakrishnan, Takuto Ban, Daksha Ladia, Ankita Gupta, Marisa Hudspeth (**2026**) [**From Token Probabilities to Semantic Constraints: Towards Declarative Probabilistic Evaluation of Language Models**](https://arxiv.org/abs/2609.13520) (**EMNLP**) (*Pre-print forthcoming*)
+**Kyle Richardson**, Cullen Anderson, Pranav Balakrishnan, Takuto Ban, Daksha Ladia, Ankita Gupta, Marisa Hudspeth (**2026**) [**From Token Probabilities to Semantic Constraints: Towards Declarative Probabilistic Evaluation of Language Models**](https://arxiv.org/abs/2609.13520) (**EMNLP**) [[code](https://github.com/cullena20/ModelLog)]
 
 **Kyle Richardson**, Yu Feng, Poorva Garg, Junyan Cheng, Guy Van den Broeck, Dan Roth (**2026**) [**CoTs as Tractable Probabilistic Programs**](https://starai.cs.ucla.edu/papers/RichardsonTPM26.pdf) (**The 9th Workshop on Tractable Probabilistic Modeling**) [[poster](https://www.krichardson.me/files/copper_poster.pdf)] [[tpm talk](https://www.krichardson.me/files/tpm.pdf)]
 
