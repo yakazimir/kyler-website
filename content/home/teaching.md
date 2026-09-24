@@ -7,7 +7,7 @@ active = true
 date = 2016-04-20T00:00:00
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
-title = "Teaching/Talks/Activities"
+title = "Activities"
 subtitle = ""
 
 # Order that this section will appear in.
@@ -15,42 +15,18 @@ weight = 60
 
 +++
 
-Some miscellaneous  **notes and musings**:  [**Number Theory Meets Computability
-Theory**](https://www.krichardson.me/files/h10.pdf) (see also
-[*blog post*](https://www.krichardson.me/post/number_computability/));
-other lecture notes: [**Notes on Language Models, Attention and
-Transformers**](https://www.krichardson.me/files/lms.pdf),
-[**Negation as Failure**](https://www.krichardson.me/files/naf.pdf),
-[**Mixing Logic and Deep Learning: The `Logic as Loss Function`
-Approach**](https://www.krichardson.me/files/logic_dl.pdf), [**Introduction to
-Probability**](https://www.krichardson.me/files/probability.pdf).
-[**Formal Techniques for Neural-symbolic Modeling**](https://github.com/yakazimir/esslli_neural_symbolic)
-taught at [*ESSLLI
-2023*](https://2023.esslli.eu/courses-workshops-accepted/course-information.html#1),
-[**Language Model
-Programming**](https://github.com/yakazimir/esslli_2024_llm_programming)
-taught at [**ESSLLI 2024**](https://2024.esslli.eu/) 
-
-**Recent Talks** from me and my extended group: Brief (10 minute) introduction to
-  [**Natural Language Understanding (NLU) and Language Modeling**](https://www.krichardson.me/files/nlu_lm.pdf)
-  (*intended for a non-technical audience*); Overview of my work on
-  [**diagnostic testing of neural
-  models**](https://www.krichardson.me/files/probing.pdf);
-   [**Pushing the Limits of Rule Reasoning in
+**Recent Talks**: [**Tractable Language Model Programming: Themes and
+  Prospects**](https://www.krichardson.me/files/tpm.pdf),  [Analytica:
+  Soft Propositional Reasoning for Robust and Scalable LLM-driven
+  Analysis](https://www.krichardson.me/files/analytica_slides.pdf),
+  [**Language Modeling by Language
+  Models**](https://www.krichardson.me/files/genesys.pdf),
+  [**Understanding the Logic of Generative AI through
+  Logic**](https://naloma.github.io/2025/slides/keynote-3.pdf)
+  [**Language Model Programming: Themes and Prospects**](https://www.krichardson.me/files/lm_programming), [**Pushing the Limits of Rule Reasoning in
   Transformers**](https://www.krichardson.me/files/aaai_2022.pdf)
-  (*AAAI 2022*),  [**Breakpoint
-  Transformers**](https://www.krichardson.me/files/emnlp_teaser.pdf)
-  (EMNLP 2022); [**Learning to Decompose**](https://www.krichardson.me/files/EMNLP22_com.pdf) (EMNLP 2022)  [**Decomposed Prompting**](https://www.krichardson.me/files/DecomposedPrompting.pdf)
-  (ICLR 2023); [**Language Model Programming: Themes and
-  Prospects**](https://www.krichardson.me/files/lm_programming.pdf) (*overview of my recent work, given at the University
-  of Tuebingen*); [**Declarative Characterizations of Direct
-  Preference Alignment
-  Algorithms**](https://www.krichardson.me/files/declarative_alignment.pdf),
-  [**Language Modeling by Language Models**](https://www.krichardson.me/files/genesys.pdf) (*recent work on
-  automated scientific discovery, presented at the AI for scientific
-  discovery workshop at NAACL, preprint forthcoming*). 
-  
-  **Recent News** 
+
+**Recent News** 
 
 - Two papers accepted at **NeurIPS 2026**: [**Operads for
   compositional reasoning in LLMs**](https://arxiv.org/abs/2606.13649)
@@ -64,7 +40,7 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
   of Language Models**](https://arxiv.org/abs/2609.13520) that looks
   at probabilistic semantic models for language model evaluation. 
   
-  - Our paper on [**CoTs as Tractable Probabilistic
+- Our paper on [**CoTs as Tractable Probabilistic
   Programs**](https://starai.cs.ucla.edu/papers/RichardsonTPM26.pdf)
   was accepted at [**TPM@UAI**](https://tractable-probabilistic-modeling.github.io/tpm2026/)
   (*longer pre-print coming soon*). I also gave a **keynote** entitled
@@ -72,7 +48,9 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
   Prospects**](https://www.krichardson.me/files/tpm.pdf)  and video
   [**here**](https://www.youtube.com/watch?v=HewW7K404h4&list=PLEtgJqvAiY8g&index=5)
   
-  - Paper accepted to **COLM 2026** on [**Artifact Linker**](https://arxiv.org/abs/2605.16902) and automated scientific discovery.
+- Paper accepted to **COLM 2026** on [**Artifact
+  Linker**](https://arxiv.org/abs/2605.16902), a new benchmark and
+  environment for LLM-driven automated scientific discovery.
 
 - New [preprint](https://arxiv.org/abs/2606.13649) on modeling question decomposition using  [**operads**](https://en.wikipedia.org/wiki/Operad), a smaller
   technical report is [here](https://arxiv.org/abs/2606.13634) and was
