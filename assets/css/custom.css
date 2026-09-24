@@ -124,3 +124,110 @@
     display: none;
   }
 }
+/* Publication list: spacing, hierarchy, and compact venue badges. */
+#publications .home-accordion-content > h2 {
+  margin: 2.6rem 0 1.2rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  font-size: 1.45rem;
+}
+
+#publications .home-accordion-content > h2:first-of-type {
+  margin-top: 1.2rem;
+}
+
+#publications .pub-entry {
+  margin: 0 0 1.35rem;
+  padding: 0 0 1.35rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+#publications .pub-title {
+  margin: 0 0 0.3rem;
+  font-size: 1.08rem;
+  font-weight: 650;
+  line-height: 1.42;
+}
+
+#publications .pub-authors {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 0.94rem;
+  line-height: 1.5;
+}
+
+#publications .pub-meta {
+  margin-top: 0.45rem;
+}
+
+#publications .pub-venue {
+  display: inline-block;
+  padding: 0.16rem 0.5rem;
+  border-radius: 0.3rem;
+  background: rgba(41, 98, 255, 0.1);
+  color: #2449a8;
+  font-size: 0.78rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+}
+
+#publications .pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.55rem;
+}
+
+#publications .pub-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32rem;
+  padding: 0.22rem 0.56rem;
+  border: 1px solid rgba(41, 98, 255, 0.28);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+#publications .pub-link:hover {
+  background: rgba(41, 98, 255, 0.07);
+  text-decoration: none;
+}
+
+#publications .pub-award {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.28rem;
+  margin-left: 0.45rem;
+  color: #8a5a00;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.dark #publications .home-accordion-content > h2,
+.dark #publications .pub-entry {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.dark #publications .pub-authors {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.dark #publications .pub-venue {
+  background: rgba(116, 150, 255, 0.18);
+  color: #cbd7ff;
+}
+
+.dark #publications .pub-link {
+  border-color: rgba(255, 255, 255, 0.24);
+}
+
+.dark #publications .pub-link:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.dark #publications .pub-award {
+  color: #ffd166;
+}
