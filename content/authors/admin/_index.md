@@ -72,14 +72,13 @@ I am a senior research scientist at the
 [**Allen Institute for Artificial Intelligence**](https://allenai.org) in
 Seattle, Washington where I do work on natural language processing and
 machine learning on the [**Aristo
-Project**](https://allenai.org/aristo/).  My work centers on core language model development and applications, with a
-recent focus on applications of [formal methods for LLMs](https://www.krichardson.me/files/tpm.pdf) and [agents for
-scientific discovery](https://www.krichardson.me/files/genesys.pdf).  Prior to this, I was a
+Project**](https://allenai.org/aristo/).  My work centers on [core
+language model development](https://arxiv.org/abs/2402.00838) and
+applications, with a recent focus on applications of [formal methods for LLMs](https://www.krichardson.me/files/tpm.pdf) and [agents for
+scientific discovery](https://arxiv.org/abs/2506.20249).  Prior to this, I was a
 researcher at the [**Institute for Natural Language
 Processing**](https://www.ims.uni-stuttgart.de/) (IMS) at the
 [**University of Stuttgart**](https://www.uni-stuttgart.de/en/) in
-Germany, where I received my
-[**PhD**](https://elib.uni-stuttgart.de/handle/11682/10107) in
-October 2018. 
+Germany, where I received my PhD in October 2018. 
 
 Please see example talks below and my publications for more details. 
