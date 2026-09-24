@@ -45,8 +45,8 @@ weight = 60
   was accepted at [**TPM@UAI**](https://tractable-probabilistic-modeling.github.io/tpm2026/)
   (*longer pre-print coming soon*). I also gave a **keynote** entitled
   [**Tractable Language Model Programming: Themes and
-  Prospects**](https://www.krichardson.me/files/tpm.pdf)  and video
-  [**here**](https://www.youtube.com/watch?v=HewW7K404h4&list=PLEtgJqvAiY8g&index=5)
+  Prospects**](https://www.krichardson.me/files/tpm.pdf)  (
+  [**video**](https://www.youtube.com/watch?v=HewW7K404h4&list=PLEtgJqvAiY8g&index=5))
   
 - Paper accepted to **COLM 2026** on [**Artifact
   Linker**](https://arxiv.org/abs/2605.16902), a new benchmark and
