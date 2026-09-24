@@ -16,9 +16,9 @@ weight = 60
 +++
 
 **Recent Talks**: [**Tractable Language Model Programming: Themes and
-  Prospects**](https://www.krichardson.me/files/tpm.pdf),  [Analytica:
+  Prospects**](https://www.krichardson.me/files/tpm.pdf),  [**Analytica:
   Soft Propositional Reasoning for Robust and Scalable LLM-driven
-  Analysis](https://www.krichardson.me/files/analytica_slides.pdf),
+  Analysis**](https://www.krichardson.me/files/analytica_slides.pdf),
   [**Language Modeling by Language
   Models**](https://www.krichardson.me/files/genesys.pdf),
   [**Understanding the Logic of Generative AI through
