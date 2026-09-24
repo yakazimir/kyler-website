@@ -68,13 +68,15 @@ subtitle = ""
 +++
 <span style="color:red">**Note**</span>: For the most up-to-date versions of my papers, please refer to the [**arxiv**](https://arxiv.org/a/richardson_k_1.html) versions (unless stated otherwise). 
 
+**Kyle Richardson**, Yu Feng, Poorva Garg, Junyan Cheng, Guy Van den Broeck, Dan Roth (**2026**) **CoTs as Probabilistic Programs: A Programmatic View of Thinking Step-by-Step in Language Models**. (**NeurIPS 2026**) 
+
+Nathaniel Bottman, Yinhon Liu, **Kyle Richardson** (**2026**) [**Operadic consistency: a label-free signal for compositional reasoning failures in LLMs**](https://arxiv.org/abs/2606.13649) (**NeurIPS 2026**) [[code](https://github.com/natebottman/operadic-consistency-paper)] 
+
 **Kyle Richardson**, Cullen Anderson, Pranav Balakrishnan, Takuto Ban, Daksha Ladia, Ankita Gupta, Marisa Hudspeth (**2026**) [**From Token Probabilities to Semantic Constraints: Towards Declarative Probabilistic Evaluation of Language Models**](https://arxiv.org/abs/2609.13520) (**EMNLP**) [[code](https://github.com/cullena20/ModelLog)]
 
 **Kyle Richardson**, Yu Feng, Poorva Garg, Junyan Cheng, Guy Van den Broeck, Dan Roth (**2026**) [**CoTs as Tractable Probabilistic Programs**](https://starai.cs.ucla.edu/papers/RichardsonTPM26.pdf) (**The 9th Workshop on Tractable Probabilistic Modeling**) [[poster](https://www.krichardson.me/files/copper_poster.pdf)] [[tpm talk](https://www.krichardson.me/files/tpm.pdf)]
 
 Haofei Yu, Jiaxuan You, Peter Clark, Bodhisattwa Prasad Majumder and **Kyle Richardson** (**2026**) [**ArtifactLinker: Linking Scientific Artifacts for Automatic State-of-the-Art Discovery**](https://arxiv.org/abs/2605.16902) (**COLM 2026**) [[code](https://github.com/allenai/artifact-linker)] [[dataset](https://huggingface.co/datasets/lwaekfjlk/artifact-bench)] 
-
-Nathaniel Bottman, Yinhon Liu, **Kyle Richardson** (**2026**) [**Operadic consistency: a label-free signal for compositional reasoning failures in LLMs**](https://arxiv.org/abs/2606.13649) [[code](https://github.com/natebottman/operadic-consistency-paper)] 
 
 Nathaniel Bottman, **Kyle Richardson** (**2026**) [**Operads for Compositional Reasoning in LLMs**](https://arxiv.org/abs/2606.13634) (**CTB@ICML**)
 

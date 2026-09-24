@@ -52,42 +52,40 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
   
   **Recent News** 
 
-- **Paper at NAACL 2025** [**SELFGOAL: Your Language Agents Already Know How to Achieve High-level Goals**](https://arxiv.org/pdf/2406.04784) (*LLM agent architectures*)
+- Two papers accepted at **NeurIPS 2026**: [**Operads for
+  compositional reasoning in LLMs**](https://arxiv.org/abs/2606.13649)
+  (*formal models for problem decomposition in LLMs*)
+  and **CoTs as Probabilistic Programs: A Programmatic View of
+  Thinking Step-by-Step in Language Models** (*Probabilistic
+  programming models of CoT*)
 
-- **Two papers accepted at ICML 2025** [**Understanding the Logic of Direct Preference Alignment through Logic**](https://arxiv.org/abs/2412.17696) (*formal characterization
-  of direct preference alignment algorithms*, [**brief overview**](https://www.krichardson.me/files/icml_preference_5min_slides.pdf)), [**ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning**](https://arxiv.org/pdf/2502.01100) (*hard reasoning
-  problems for LLMs*)
+- Paper accepted at **EMNLP 2026**: [**From Token Probabilities to
+  Semantic Constraints: Towards Declarative Probabilistic Evaluation
+  of Language Models**](https://arxiv.org/abs/2609.13520) that looks
+  at probabilistic semantic models for language model evaluation. 
+  
+  - Our paper on [**CoTs as Tractable Probabilistic
+  Programs**](https://starai.cs.ucla.edu/papers/RichardsonTPM26.pdf)
+  was accepted at [**TPM@UAI**](https://tractable-probabilistic-modeling.github.io/tpm2026/)
+  (*longer pre-print coming soon*). I also gave a **keynote** entitled
+  [**Tractable Language Model Programming: Themes and
+  Prospects**](https://www.krichardson.me/files/tpm.pdf)  and video
+  [**here**](https://www.youtube.com/watch?v=HewW7K404h4&list=PLEtgJqvAiY8g&index=5)
+  
+  - Paper accepted to **COLM 2026** on [**Artifact Linker**](https://arxiv.org/abs/2605.16902) and automated scientific discovery.
 
-- New talk on automated science discovery, [**Language Modeling by
-  Language Models**](https://www.krichardson.me/files/genesys.pdf). Presented
-  at the NAACL 2025 AISD workshop. Pre-print [**here**](https://arxiv.org/abs/2506.20249) 
+- New [preprint](https://arxiv.org/abs/2606.13649) on modeling question decomposition using  [**operads**](https://en.wikipedia.org/wiki/Operad), a smaller
+  technical report is [here](https://arxiv.org/abs/2606.13634) and was
+  recently presented at the [Combing Theory and Benchmarks workshop](https://sites.google.com/view/icml-ctb/home) at ICML.
+  
+- A new paper on [**Probabilistic Programs of
+Thought**](https://starai.cs.ucla.edu/papers/GargPPoT26.pdf) (*arxiv
+preprint coming soon*) with the [UCLA StarAI
+lab](https://starai.cs.ucla.edu/). 
 
-- I taught another version of our [**Language Model Programming**](https://github.com/yakazimir/LMProgramming)
-  course at ESSLLI 2025, with some new lectures on [*probabilistic
-  programming for prompting*](https://github.com/yakazimir/LMProgramming/blob/main/slides/lecture5.pdf)
-  and [*loss function decompilation*](https://github.com/yakazimir/LMProgramming/blob/main/slides/lecture3.pdf)
-  (*both recent research topics of mine*). 
-
-- I gave a keynote at the [NALOMA 2025
-  workshop](https://naloma.github.io/2025/index.html) entitlted
-  [**Understanding the Logic of Generative AI through Logic**](https://naloma.github.io/2025/slides/keynote-3.pdf)
-
-- We released the [**astabench leaderboard**](https://huggingface.co/spaces/allenai/asta-bench-leaderboard),
-  [technical  paper](https://www.datocms-assets.com/64837/1756485374-astabench-2025-08-29.pdf),
-  a large initiative to comprehensively evaluate LLM agents across
-  different science tasks. 
-
-- **Paper accepted at EMNLP 2025** [**TinyScientist: An Interactive,
-  Extensible, and Controllable Framework for Building Research Agents**](https://arxiv.org/pdf/2510.06579)
-  (*library for LLM-driven automated research.*) 
-
-- **Paper accepted at NeurIPS 2025** Our work on [**Language Modeling
-  by Language Models**](https://github.com/yakazimir/esslli_2024_llm_programming)
-  (*research agents for autonomous machine learning research*) was accepted as a spolight paper. 
-
-- I gave an invited keynote at the [**International Workshop on
-  Symbolic-Neural Learning (SNL2025)**](https://im.sanken.osaka-u.ac.jp/snl2025/) in Osaka  Japan. Slides are [here](https://www.krichardson.me/files/snl_2025.pdf). 
-
+- Recent [talk](https://www.krichardson.me/files/analytica_slides.pdf)
+  about our work on **Analytica** and *soft propositional reasoning*
+  
 - Two papers accepted to **ICLR 2026**: [**AstaBench: Rigorous
   Benchmarking of AI Agents with a Holistic Scientific Research
   Suite**](https://www.datocms-assets.com/64837/1756485374-astabench-2025-08-29.pdf)
@@ -95,27 +93,42 @@ taught at [**ESSLLI 2024**](https://2024.esslli.eu/)
   Propositional Reasoning for Robust and Scalable LLM-Driven
   Analysis**](https://openreview.net/forum?id=9cFT6u82uh)
   (LLM agents for forecasting, formal analysis of agent systems)
+  
+  
+- I gave an invited keynote at the [**International Workshop on
+  Symbolic-Neural Learning (SNL2025)**](https://im.sanken.osaka-u.ac.jp/snl2025/) in Osaka  Japan. Slides are [here](https://www.krichardson.me/files/snl_2025.pdf). 
 
-- Recent [talk](https://www.krichardson.me/files/analytica_slides.pdf) about our work on **Analytica** and *soft propositional reasoning*
+- **Paper accepted at NeurIPS 2025** Our work on [**Language Modeling
+  by Language Models**](https://github.com/yakazimir/esslli_2024_llm_programming)
+  (*research agents for autonomous machine learning research*) was
+  accepted as a spolight paper. 
+  
+- **Paper accepted at EMNLP 2025** [**TinyScientist: An Interactive,
+  Extensible, and Controllable Framework for Building Research Agents**](https://arxiv.org/pdf/2510.06579)
+  (*library for LLM-driven automated research.*) 
+  
+  - We released the [**astabench leaderboard**](https://huggingface.co/spaces/allenai/asta-bench-leaderboard),
+  [technical  paper](https://www.datocms-assets.com/64837/1756485374-astabench-2025-08-29.pdf),
+  a large initiative to comprehensively evaluate LLM agents across
+  different science tasks. 
+  
+  - I gave a keynote at the [NALOMA 2025
+  workshop](https://naloma.github.io/2025/index.html) entitlted
+  [**Understanding the Logic of Generative AI through
+  Logic**](https://naloma.github.io/2025/slides/keynote-3.pdf)
+  
+- I taught another version of our [**Language Model Programming**](https://github.com/yakazimir/LMProgramming)
+  course at ESSLLI 2025, with some new lectures on [*probabilistic
+  programming for prompting*](https://github.com/yakazimir/LMProgramming/blob/main/slides/lecture5.pdf)
+  and [*loss function decompilation*](https://github.com/yakazimir/LMProgramming/blob/main/slides/lecture3.pdf)
+  (*both recent research topics of mine*). 
 
-- A new paper on [**Probabilistic Programs of
-Thought**](https://starai.cs.ucla.edu/papers/GargPPoT26.pdf) (*arxiv
-preprint coming soon*) with the [UCLA StarAI
-lab](https://starai.cs.ucla.edu/). 
+- New talk on automated science discovery, [**Language Modeling by
+  Language Models**](https://www.krichardson.me/files/genesys.pdf). Presented
+  at the NAACL 2025 AISD workshop. Pre-print [**here**](https://arxiv.org/abs/2506.20249) 
 
-- New [preprint](https://arxiv.org/abs/2606.13649) on modeling question decomposition using  [**operads**](https://en.wikipedia.org/wiki/Operad), a smaller
-  technical report is [here](https://arxiv.org/abs/2606.13634) and was
-  recently presented at the [Combing Theory and Benchmarks workshop](https://sites.google.com/view/icml-ctb/home) at ICML.
-
-- Paper accepted to **COLM 2026** on [**Artifact Linker**](https://arxiv.org/abs/2605.16902) and automated scientific discovery.
-
-- Our paper on [**CoTs as Tractable Probabilistic
-  Programs**](https://starai.cs.ucla.edu/papers/RichardsonTPM26.pdf)
-  was accepted at [**TPM@UAI**](https://tractable-probabilistic-modeling.github.io/tpm2026/)
-  (*longer pre-print coming soon*). I also gave a keynote, slides
-  [**here**](https://www.krichardson.me/files/tpm.pdf) and video [**here**](https://www.youtube.com/watch?v=HewW7K404h4&list=PLEtgJqvAiY8g&index=5)
-
-- Paper accepted at **EMNLP 2026**: [**From Token Probabilities to
-  Semantic Constraints: Towards Declarative Probabilistic Evaluation
-  of Language Models**](https://arxiv.org/abs/2609.13520) that looks at probabilistic semantic models of
-  LLM knowledge. 
+- **Two papers accepted at ICML 2025** [**Understanding the Logic of Direct Preference Alignment through Logic**](https://arxiv.org/abs/2412.17696) (*formal characterization
+  of direct preference alignment algorithms*, [**brief
+  overview**](https://www.krichardson.me/files/icml_preference_5min_slides.pdf)),
+  [**ZebraLogic: On the Scaling Limits of LLMs for Logical
+  Reasoning**](https://arxiv.org/pdf/2502.01100) (*hard reasoning problems for LLMs*)
