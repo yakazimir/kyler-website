@@ -15,16 +15,14 @@ weight = 60
 
 +++
 
-**Recent Talks**: [**Tractable Language Model Programming: Themes and
-  Prospects**](https://www.krichardson.me/files/tpm.pdf),  [**Analytica:
-  Soft Propositional Reasoning for Robust and Scalable LLM-driven
-  Analysis**](https://www.krichardson.me/files/analytica_slides.pdf),
-  [**Language Modeling by Language
-  Models**](https://www.krichardson.me/files/genesys.pdf),
-  [**Understanding the Logic of Generative AI through
-  Logic**](https://naloma.github.io/2025/slides/keynote-3.pdf)
-  [**Language Model Programming: Themes and Prospects**](https://www.krichardson.me/files/lm_programming), [**Pushing the Limits of Rule Reasoning in
-  Transformers**](https://www.krichardson.me/files/aaai_2022.pdf)
+## Selected Talks
+
+- [Tractable Language Model Programming: Themes and Prospects](https://www.krichardson.me/files/tpm.pdf) — Probabilistic programming techniques for LLMs
+- [Analytica: Soft Propositional Reasoning for Robust and Scalable LLM-Driven Analysis](https://www.krichardson.me/files/analytica_slides.pdf) — Probabilistic models for LLM agents
+- [Language Modeling by Language Models](https://www.krichardson.me/files/genesys.pdf) — Autonomous agents for scientific discovery
+- [Understanding the Logic of Generative AI through Logic](https://naloma.github.io/2025/slides/keynote-3.pdf) — Semantic models of post-training algorithms
+- [Language Model Programming: Themes and Prospects](https://www.krichardson.me/files/lm_programming) — Programmatic models for LLM decomposition
+- [Pushing the Limits of Rule Reasoning in Transformers](https://www.krichardson.me/files/aaai_2022.pdf) — Formal methods for LLM evaluation)
 
 **Recent News** 
 
