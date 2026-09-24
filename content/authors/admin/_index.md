@@ -73,7 +73,8 @@ I am a senior research scientist at the
 Seattle, Washington where I do work on natural language processing and
 machine learning on the [**Aristo
 Project**](https://allenai.org/aristo/).  My work centers on core language model development and applications, with a
-recent focus on formal methods and LLMs and applications of agents.  Prior to this, I was a
+recent focus on applications of [formal methods for LLMs](https://www.krichardson.me/files/tpm.pdf) and [agents for
+scientific discovery](https://www.krichardson.me/files/genesys.pdf).  Prior to this, I was a
 researcher at the [**Institute for Natural Language
 Processing**](https://www.ims.uni-stuttgart.de/) (IMS) at the
 [**University of Stuttgart**](https://www.uni-stuttgart.de/en/) in

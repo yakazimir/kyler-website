@@ -33,7 +33,7 @@ weight = 60
   (*formal models for problem decomposition in LLMs*)
   and **CoTs as Probabilistic Programs: A Programmatic View of
   Thinking Step-by-Step in Language Models** (*Probabilistic
-  programming models of CoT*)
+  Programming models of CoT*)
 
 - Paper accepted at **EMNLP 2026**: [**From Token Probabilities to
   Semantic Constraints: Towards Declarative Probabilistic Evaluation
