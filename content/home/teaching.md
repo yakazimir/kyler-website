@@ -85,12 +85,12 @@ lab](https://starai.cs.ucla.edu/).
   Extensible, and Controllable Framework for Building Research Agents**](https://arxiv.org/pdf/2510.06579)
   (*library for LLM-driven automated research.*) 
   
-  - We released the [**astabench leaderboard**](https://huggingface.co/spaces/allenai/asta-bench-leaderboard),
+- We released the [**astabench leaderboard**](https://huggingface.co/spaces/allenai/asta-bench-leaderboard),
   [technical  paper](https://www.datocms-assets.com/64837/1756485374-astabench-2025-08-29.pdf),
   a large initiative to comprehensively evaluate LLM agents across
   different science tasks. 
   
-  - I gave a keynote at the [NALOMA 2025
+- I gave a keynote at the [NALOMA 2025
   workshop](https://naloma.github.io/2025/index.html) entitlted
   [**Understanding the Logic of Generative AI through
   Logic**](https://naloma.github.io/2025/slides/keynote-3.pdf)
