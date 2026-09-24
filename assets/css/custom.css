@@ -1,0 +1,126 @@
+.home-accordion {
+  width: 100%;
+}
+
+.home-accordion-summary {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  column-gap: 30px;
+  align-items: baseline;
+  padding: 0.5rem 3rem 0.5rem 0;
+  cursor: pointer;
+  list-style: none;
+}
+
+.home-accordion-summary::-webkit-details-marker,
+.activity-posts > summary::-webkit-details-marker {
+  display: none;
+}
+
+.home-accordion-summary:focus-visible,
+.activity-posts > summary:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 0.35rem;
+}
+
+.home-accordion-title {
+  font-family: inherit;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.home-accordion-description {
+  color: rgba(0, 0, 0, 0.62);
+  font-size: 1rem;
+}
+
+.dark .home-accordion-description {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.home-accordion-icon,
+.activity-posts-icon {
+  position: absolute;
+  right: 0.25rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform 160ms ease;
+}
+
+.home-accordion-icon {
+  top: 0.85rem;
+}
+
+.home-accordion[open] > .home-accordion-summary .home-accordion-icon,
+.activity-posts[open] > summary .activity-posts-icon {
+  transform: rotate(225deg);
+}
+
+.home-accordion-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  column-gap: 30px;
+  margin-top: 1.75rem;
+}
+
+.activity-posts {
+  margin-top: 2.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.dark .activity-posts {
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.activity-posts > summary {
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  padding: 1rem 2.5rem 1rem 0;
+  cursor: pointer;
+  list-style: none;
+}
+
+.activity-posts-title {
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.activity-posts-meta {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 0.85rem;
+}
+
+.dark .activity-posts-meta {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.activity-posts-icon {
+  top: 1.25rem;
+}
+
+.activity-posts-list {
+  padding: 0.5rem 0 1rem;
+}
+
+@media (max-width: 991.98px) {
+  .home-accordion-summary,
+  .home-accordion-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .home-accordion-description {
+    margin-top: 0.35rem;
+  }
+
+  .home-accordion-layout > div:first-child {
+    display: none;
+  }
+}

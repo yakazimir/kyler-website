@@ -1,0 +1,35 @@
+{{ $st := .page }}
+{{ $posts := where site.RegularPages "Type" "post" }}
+{{ $posts = sort $posts "Date" "desc" }}
+
+<details class="home-accordion"{{ if $st.Params.open }} open{{ end }}>
+  <summary class="home-accordion-summary">
+    <span class="home-accordion-title">{{ $st.Title | markdownify | emojify }}</span>
+    <span class="home-accordion-description">
+      {{ with $st.Params.summary }}{{ . | markdownify | emojify }}{{ end }}
+    </span>
+    <span class="home-accordion-icon" aria-hidden="true"></span>
+  </summary>
+
+  <div class="home-accordion-layout">
+    <div aria-hidden="true"></div>
+    <div class="home-accordion-content">
+      {{ $st.Content }}
+
+      {{ if and $st.Params.show_posts (gt (len $posts) 0) }}
+      <details class="activity-posts">
+        <summary>
+          <span class="activity-posts-title">Older Posts</span>
+          <span class="activity-posts-meta">{{ len $posts }} archived essays</span>
+          <span class="activity-posts-icon" aria-hidden="true"></span>
+        </summary>
+        <div class="activity-posts-list">
+          {{ range $posts }}
+            {{ partial "li_compact" . }}
+          {{ end }}
+        </div>
+      </details>
+      {{ end }}
+    </div>
+  </div>
+</details>
