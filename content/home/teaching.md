@@ -41,6 +41,20 @@ weight = 60
 
 - We released [Probabilistic Programs of Thought](https://starai.cs.ucla.edu/papers/GargPPoT26.pdf), joint work with the [UCLA StarAI Lab](https://starai.cs.ucla.edu/).
 
-- I gave a [talk on Analytica and soft propositional reasoning](https://www.krichardson.me/files/analytica_slides.pdf).
-
 - **ICLR:** Two papers accepted: [AstaBench: Rigorous Benchmarking of AI Agents with a Holistic Scientific Research Suite](https://www.datocms-assets.com/64837/1756485374-astabench-2025-08-29.pdf) and [Analytica: Soft Propositional Reasoning for Robust and Scalable LLM-Driven Analysis](https://openreview.net/forum?id=9cFT6u82uh).
+
+### 2025
+
+- I gave an invited keynote at the [International Workshop on Symbolic-Neural Learning](https://im.sanken.osaka-u.ac.jp/snl2025/) in Osaka ([slides](https://www.krichardson.me/files/snl_2025.pdf)).
+
+- **NeurIPS:** [Language Modeling by Language Models](https://github.com/yakazimir/esslli_2024_llm_programming), our work on research agents for autonomous machine learning, was accepted as a spotlight paper.
+
+- **EMNLP:** [TinyScientist: An Interactive, Extensible, and Controllable Framework for Building Research Agents](https://arxiv.org/pdf/2510.06579) was accepted.
+
+- We released the [AstaBench leaderboard](https://huggingface.co/spaces/allenai/asta-bench-leaderboard) and accompanying [technical paper](https://www.datocms-assets.com/64837/1756485374-astabench-2025-08-29.pdf) for evaluating LLM agents across scientific tasks.
+
+- I taught an updated version of our [Language Model Programming](https://github.com/yakazimir/LMProgramming) course at ESSLLI, including new lectures on [probabilistic programming for prompting](https://github.com/yakazimir/LMProgramming/blob/main/slides/lecture5.pdf) and [loss-function decompilation](https://github.com/yakazimir/LMProgramming/blob/main/slides/lecture3.pdf).
+
+- I presented [Language Modeling by Language Models](https://www.krichardson.me/files/genesys.pdf), a talk on automated scientific discovery, at the NAACL Workshop on AI for Scientific Discovery ([preprint](https://arxiv.org/abs/2506.20249)).
+
+- **ICML:** Two papers accepted: [Understanding the Logic of Direct Preference Alignment through Logic](https://arxiv.org/abs/2412.17696) ([brief overview](https://www.krichardson.me/files/icml_preference_5min_slides.pdf)) and [ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning](https://arxiv.org/pdf/2502.01100).
