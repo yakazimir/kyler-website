@@ -4,7 +4,7 @@
 
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Posts now appear inside the Activities dropdown.
 weight = 60  # Order that this section will appear.
 
 title = "Recent Posts"
@@ -70,4 +70,3 @@ I recently starting converting some of my research notes into blog
 posts, with the hope that someone might find them useful (or, even
 better, that someone might correct me when I'm wrong, since many of
 the topics covered go outside of my area of expertise). 
-
