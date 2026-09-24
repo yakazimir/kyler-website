@@ -10,7 +10,7 @@ date = 2016-04-20T00:00:00
 title = "Activities"
 subtitle = ""
 summary = "Talks, news, courses, and older writing"
-open = false
+open = true
 show_posts = true
 
 # Order that this section will appear in.
