@@ -15,24 +15,25 @@ weight = 60
 
 +++
 
-## Selected Talks
-
-- [Tractable Language Model Programming: Themes and Prospects](https://www.krichardson.me/files/tpm.pdf) — Probabilistic programming techniques for LLMs
-- [Analytica: Soft Propositional Reasoning for Robust and Scalable LLM-Driven Analysis](https://www.krichardson.me/files/analytica_slides.pdf) — Probabilistic models for LLM agents
-- [Language Modeling by Language Models](https://www.krichardson.me/files/genesys.pdf) — Autonomous agents for scientific discovery
-- [Understanding the Logic of Generative AI through Logic](https://naloma.github.io/2025/slides/keynote-3.pdf) — Semantic models of post-training algorithms
-- [Language Model Programming: Themes and Prospects](https://www.krichardson.me/files/lm_programming) — Programmatic models for LLM decomposition
-- [Pushing the Limits of Rule Reasoning in Transformers](https://www.krichardson.me/files/aaai_2022.pdf) — Formal methods for LLM evaluation
+**Recent Talks**: [**Tractable Language Model Programming: Themes and
+  Prospects**](https://www.krichardson.me/files/tpm.pdf),  [**Analytica:
+  Soft Propositional Reasoning for Robust and Scalable LLM-driven
+  Analysis**](https://www.krichardson.me/files/analytica_slides.pdf),
+  [**Language Modeling by Language
+  Models**](https://www.krichardson.me/files/genesys.pdf),
+  [**Understanding the Logic of Generative AI through
+  Logic**](https://naloma.github.io/2025/slides/keynote-3.pdf)
+  [**Language Model Programming: Themes and Prospects**](https://www.krichardson.me/files/lm_programming), [**Pushing the Limits of Rule Reasoning in
+  Transformers**](https://www.krichardson.me/files/aaai_2022.pdf)
 
 **Recent News** 
-
 
 - Two papers accepted at **NeurIPS 2026**: [**Operads for
   compositional reasoning in LLMs**](https://arxiv.org/abs/2606.13649)
   (*formal models for problem decomposition in LLMs*)
   and **CoTs as Probabilistic Programs: A Programmatic View of
   Thinking Step-by-Step in Language Models** (*Probabilistic
-  Programming models of CoT*)
+  programming models of CoT*)
 
 - Paper accepted at **EMNLP 2026**: [**From Token Probabilities to
   Semantic Constraints: Towards Declarative Probabilistic Evaluation
@@ -84,7 +85,7 @@ lab](https://starai.cs.ucla.edu/).
   Extensible, and Controllable Framework for Building Research Agents**](https://arxiv.org/pdf/2510.06579)
   (*library for LLM-driven automated research.*) 
   
-- We released the [**astabench leaderboard**](https://huggingface.co/spaces/allenai/asta-bench-leaderboard),
+  - We released the [**astabench leaderboard**](https://huggingface.co/spaces/allenai/asta-bench-leaderboard),
   [technical  paper](https://www.datocms-assets.com/64837/1756485374-astabench-2025-08-29.pdf),
   a large initiative to comprehensively evaluate LLM agents across
   different science tasks. 
