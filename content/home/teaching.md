@@ -47,7 +47,7 @@ weight = 60
 
 - I gave an invited keynote at the [International Workshop on Symbolic-Neural Learning](https://im.sanken.osaka-u.ac.jp/snl2025/) in Osaka ([slides](https://www.krichardson.me/files/snl_2025.pdf)).
 
-- **NeurIPS:** [Language Modeling by Language Models](https://github.com/yakazimir/esslli_2024_llm_programming), our work on research agents for autonomous machine learning, was accepted as a spotlight paper.
+- **NeurIPS:** [Language Modeling by Language Models](https://github.com/yakazimir/esslli_2024_llm_programming), our work on research agents for autonomous machine learning, was accepted as a **spotlight paper**.
 
 - **EMNLP:** [TinyScientist: An Interactive, Extensible, and Controllable Framework for Building Research Agents](https://arxiv.org/pdf/2510.06579) was accepted.
 
