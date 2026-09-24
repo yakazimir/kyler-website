@@ -26,6 +26,7 @@ weight = 60
 
 **Recent News** 
 
+
 - Two papers accepted at **NeurIPS 2026**: [**Operads for
   compositional reasoning in LLMs**](https://arxiv.org/abs/2606.13649)
   (*formal models for problem decomposition in LLMs*)
