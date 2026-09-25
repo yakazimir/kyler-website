@@ -28,11 +28,11 @@ weight = 60
 - [Language Model Programming: Themes and Prospects](https://www.krichardson.me/files/lm_programming) — Programmatic models for LLM decomposition
 - [Pushing the Limits of Rule Reasoning in Transformers](https://www.krichardson.me/files/aaai_2022.pdf) — Formal methods for LLM evaluation
 
-## News
+## News Archive
 
 ### 2026
 
-- **NeurIPS:** Two papers accepted: [Operads for Compositional Reasoning in LLMs](https://arxiv.org/abs/2606.13649) and *CoTs as Probabilistic Programs: A Programmatic View of Thinking Step-by-Step in Language Models*.
+- **NeurIPS:** Two papers accepted: [Operadic Consistency: A Label-Free Signal for Compositional Reasoning Failures in LLMs](https://arxiv.org/abs/2606.13649) and *CoTs as Probabilistic Programs: A Programmatic View of Thinking Step-by-Step in Language Models*.
 
 - **EMNLP:** [From Token Probabilities to Semantic Constraints: Towards Declarative Probabilistic Evaluation of Language Models](https://arxiv.org/abs/2609.13520) was accepted.
 
