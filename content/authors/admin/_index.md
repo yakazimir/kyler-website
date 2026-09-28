@@ -72,7 +72,7 @@ Artificial Intelligence**](https://allenai.org) in Seattle, where I
 work on natural language processing and machine learning. My research
 focuses on [core language model
 development](https://arxiv.org/abs/2402.00838) and applications, with
-a recent focus on [formal and probabilistic methods for
+a recent emphasis on [formal and probabilistic methods for
 LLMs](https://www.krichardson.me/files/tpm.pdf) and [generative agents for scientific discovery](https://arxiv.org/abs/2506.20249).
 
 Previously, I was a researcher at the [**Institute for Natural Language Processing**](https://www.ims.uni-stuttgart.de/) at the [**University of Stuttgart**](https://www.uni-stuttgart.de/en/) in Germany, where I received my PhD in 2018.
