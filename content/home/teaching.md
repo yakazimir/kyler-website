@@ -25,7 +25,7 @@ weight = 60
   Probabilistic models for LLM research agents
 - [Language Modeling by Language Models](https://www.krichardson.me/files/genesys.pdf) — Autonomous agents for scientific discovery
 - [Understanding the Logic of Generative AI through Logic](https://naloma.github.io/2025/slides/keynote-3.pdf) — Semantic models for post-training
-- [Language Model Programming: Themes and Prospects](https://www.krichardson.me/files/lm_programming) — Programmatic models for LLM decomposition
+- [Language Model Programming: Themes and Prospects](https://www.krichardson.me/files/lm_programming.pdf) — Programmatic models for LLM decomposition
 - [Pushing the Limits of Rule Reasoning in Transformers](https://www.krichardson.me/files/aaai_2022.pdf) — Formal methods for LLM evaluation
 
 ## News Archive
