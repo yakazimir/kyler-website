@@ -24,7 +24,10 @@ For earlier work and a complete list, see my [Google Scholar profile](https://sc
   <div class="pub-title"><a href="https://arxiv.org/abs/2606.13649"><strong>Operadic Consistency: A Label-Free Signal for Compositional Reasoning Failures in LLMs</strong></a></div>
   <div class="pub-authors">Nathaniel Bottman, Yinhon Liu, and <strong>Kyle Richardson</strong></div>
   <div class="pub-meta"><span class="pub-venue">NeurIPS 2026</span></div>
-  <div class="pub-links"><a class="pub-link" href="https://github.com/natebottman/operadic-consistency-paper"><i class="fab fa-github" aria-hidden="true"></i> Code</a></div>
+  <div class="pub-links">
+    <a class="pub-link" href="https://github.com/natebottman/operadic-consistency-paper"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
+    <a class="pub-link" href="https://www.krichardson.me/files/emnlp_2026_poster.pdf"><i class="fas fa-image" aria-hidden="true"></i> Poster</a> 
+</div>
 </div>
 
 <div class="pub-entry">
