@@ -26,7 +26,6 @@ For earlier work and a complete list, see my [Google Scholar profile](https://sc
   <div class="pub-meta"><span class="pub-venue">NeurIPS 2026</span></div>
   <div class="pub-links">
     <a class="pub-link" href="https://github.com/natebottman/operadic-consistency-paper"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
-    <a class="pub-link" href="https://www.krichardson.me/files/emnlp_2026_poster.pdf"><i class="fas fa-image" aria-hidden="true"></i> Poster</a> 
 </div>
 </div>
 
@@ -34,7 +33,7 @@ For earlier work and a complete list, see my [Google Scholar profile](https://sc
   <div class="pub-title"><a href="https://arxiv.org/abs/2609.13520"><strong>From Token Probabilities to Semantic Constraints: Towards Declarative Probabilistic Evaluation of Language Models</strong></a></div>
   <div class="pub-authors"><strong>Kyle Richardson</strong>, Cullen Anderson, Pranav Balakrishnan, Takuto Ban, Daksha Ladia, Ankita Gupta, and Marisa Hudspeth</div>
   <div class="pub-meta"><span class="pub-venue">EMNLP 2026</span></div>
-  <div class="pub-links"><a class="pub-link" href="https://github.com/cullena20/ModelLog"><i class="fab fa-github" aria-hidden="true"></i> Code</a></div>
+  <div class="pub-links"><a class="pub-link" href="https://github.com/cullena20/ModelLog"><i class="fab fa-github" aria-hidden="true"></i> Code</a><a class="pub-link" href="https://www.krichardson.me/files/emnlp_2026_poster.pdf"><i class="fas fa-image" aria-hidden="true"></i> Poster</a></div>
 </div>
 
 <div class="pub-entry">
