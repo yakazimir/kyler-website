@@ -13,6 +13,11 @@ subtitle = ""
 
 <div class="news-list">
   <div class="news-item">
+    <time class="news-date" datetime="2026-10-24">Oct 2026</time>
+    <div class="news-copy"><strong>I am moving!</strong> I will soon be starting as a <strong>Professor of Computational Linguistics</strong> at the <a href="https://uni-tuebingen.de/en/">University of Tübingen</a> in Germany. More details coming soon.</div>
+  </div>
+
+  <div class="news-item">
     <time class="news-date" datetime="2026-09-24">Sep 2026</time>
     <div class="news-copy">Two papers were accepted to <strong>NeurIPS 2026</strong>: <a href="https://arxiv.org/abs/2606.13649">Operadic Consistency</a> and <em>CoTs as Probabilistic Programs</em>.</div>
   </div>

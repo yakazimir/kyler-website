@@ -69,7 +69,9 @@ user_groups:
 
 I am a senior research scientist at the [**Allen Institute for
 Artificial Intelligence**](https://allenai.org) in Seattle, where I
-work on natural language processing and machine learning. My research
+work on natural language processing and machine learning. I will soon be
+starting as a **Professor of Computational Linguistics** at the
+[**University of Tübingen**](https://uni-tuebingen.de/en/) in Germany. My research
 focuses on [core language model
 development](https://arxiv.org/abs/2402.00838) and applications, with
 a recent emphasis on [formal and probabilistic methods for
