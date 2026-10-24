@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Senior Research Scientist
+role: Senior Research Scientist (incoming Professor in Tübingen)
 
 # Organizations/Affiliations
 organizations:
