@@ -18,6 +18,11 @@ subtitle = ""
   </div>
 
   <div class="news-item">
+    <time class="news-date" datetime="2026-10-27">Oct 2026</time>
+    <div class="news-copy"><a href="https://arxiv.org/abs/2609.13520">From Token Probabilities to Semantic Constraints</a> received an <strong>Outstanding Paper Award</strong> at <strong>EMNLP 2026</strong>!</div>
+  </div>
+
+  <div class="news-item">
     <time class="news-date" datetime="2026-09-24">Sep 2026</time>
     <div class="news-copy">Two papers were accepted to <strong>NeurIPS 2026</strong>: <a href="https://arxiv.org/abs/2606.13649">Operadic Consistency</a> and <em>CoTs as Probabilistic Programs</em>.</div>
   </div>
