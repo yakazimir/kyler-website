@@ -23,6 +23,11 @@ subtitle = ""
   </div>
 
   <div class="news-item">
+    <time class="news-date" datetime="2026-10-22">Oct 2026</time>
+    <div class="news-copy">New preprint: <a href="https://arxiv.org/abs/2610.31709">Mining the Design Space of Multi-Agent Workflows</a>, on discovering reproducible design principles for LLM multi-agent systems from workflow search trajectories (<a href="https://junyan.ch/apex-paper/">website</a>).</div>
+  </div>
+
+  <div class="news-item">
     <time class="news-date" datetime="2026-09-24">Sep 2026</time>
     <div class="news-copy">Two papers were accepted to <strong>NeurIPS 2026</strong>: <a href="https://arxiv.org/abs/2606.13649">Operadic Consistency</a> and <em>CoTs as Probabilistic Programs</em>.</div>
   </div>

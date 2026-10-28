@@ -15,6 +15,13 @@ For earlier work and a complete list, see my [Google Scholar profile](https://sc
 ## 2026
 
 <div class="pub-entry">
+  <div class="pub-title"><a href="https://arxiv.org/abs/2610.31709"><strong>Mining the Design Space of Multi-Agent Workflows</strong></a></div>
+  <div class="pub-authors">Xavier Cadet, Junyan Cheng, Peter Chin, and <strong>Kyle Richardson</strong></div>
+  <div class="pub-meta"><span class="pub-venue">arXiv preprint 2026</span></div>
+  <div class="pub-links"><a class="pub-link" href="https://junyan.ch/apex-paper/"><i class="fas fa-globe" aria-hidden="true"></i> Website</a></div>
+</div>
+
+<div class="pub-entry">
   <div class="pub-title"><strong>CoTs as Probabilistic Programs: A Programmatic View of Thinking Step-by-Step in Language Models</strong></div>
   <div class="pub-authors"><strong>Kyle Richardson</strong>, Yu Feng, Poorva Garg, Junyan Cheng, Guy Van den Broeck, and Dan Roth</div>
   <div class="pub-meta"><span class="pub-venue">NeurIPS 2026</span></div>
