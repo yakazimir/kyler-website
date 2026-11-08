@@ -10,12 +10,14 @@ authors:
 superuser: true
 
 # Role/position
-role: Senior Research Scientist (incoming Professor in Tübingen)
+role: Professor
 
 # Organizations/Affiliations
 organizations:
-- name: Allen Institute for Artificial Intelligence
-  url: "https://allenai.org/"
+- name: University of Tübingen
+  url: "https://uni-tuebingen.de/en/"
+- name: TüLLI-AI
+  url: "https://github.com/TuLLI-AI"
 
 # Short bio (displayed in user profile at end of posts)
 #bio: My research interests include distributed robotics, mobile computing and programmable matter.
@@ -44,7 +46,7 @@ organizations:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:kyler@allenai.org  # For a direct email link, use "mailto:test@example.org".
+  link: mailto:kyle.richardson@uni-tuebingen.de  # For a direct email link, use "mailto:test@example.org".
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=LmJN-n4AAAAJ&hl=en
@@ -67,16 +69,20 @@ user_groups:
 - Visitors
 ---
 
-I am a senior research scientist at the [**Allen Institute for
-Artificial Intelligence**](https://allenai.org) in Seattle, where I
-work on natural language processing and machine learning. I will be
-starting as a **Professor of Computational Linguistics / NLP** at the
-[**University of Tübingen**](https://uni-tuebingen.de/en/). My research
-focuses on [core language model
-development](https://arxiv.org/abs/2402.00838) and applications, with
-a recent emphasis on [formal and probabilistic methods for
-LLMs](https://www.krichardson.me/files/tpm.pdf) and [generative agents for scientific discovery](https://arxiv.org/abs/2506.20249).
+I am a **Professor of Computational Linguistics / NLP** at the
+[**University of Tübingen**](https://uni-tuebingen.de/en/), where I
+head the [**Tübingen Language, Learning and Inference
+Group**](https://github.com/TuLLI-AI) (TüLLI-AI). My research focuses
+on [core language model development](https://arxiv.org/abs/2402.00838)
+and applications, with a recent emphasis on [formal and probabilistic
+methods for LLMs](https://www.krichardson.me/files/tpm.pdf) and [LLM
+agents for scientific discovery](https://arxiv.org/abs/2506.20249).
 
-Previously, I was a researcher at the [**Institute for Natural Language Processing**](https://www.ims.uni-stuttgart.de/) at the [**University of Stuttgart**](https://www.uni-stuttgart.de/en/) in Germany, where I received my PhD in 2018.
+From 2018–2026, I was a senior research scientist at the [**Allen
+Institute for AI**](https://allenai.org). Previous to this I was a
+researcher at the [**Institute for Natural Language
+Processing**](https://www.ims.uni-stuttgart.de/) at the [**University
+of Stuttgart**](https://www.uni-stuttgart.de/en/), where I received my
+PhD in 2018.
 
 See my publications and selected talks below for more details.
