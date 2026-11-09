@@ -78,7 +78,7 @@ and applications, with a recent emphasis on [formal and probabilistic
 methods for LLMs](https://www.krichardson.me/files/tpm.pdf) and [LLM
 agents for scientific discovery](https://arxiv.org/abs/2506.20249).
 
-From 2018–2026, I was a senior research scientist at the [**Allen
+From 2018–2026, I was a research scientist at the [**Allen
 Institute for AI**](https://allenai.org). Previous to this I was a
 researcher at the [**Institute for Natural Language
 Processing**](https://www.ims.uni-stuttgart.de/) at the [**University
