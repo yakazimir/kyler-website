@@ -13,7 +13,7 @@ subtitle = ""
 
 <div class="news-list">
   <div class="news-item">
-    <time class="news-date" datetime="2026-10-24">Oct 2026</time>
+    <time class="news-date" datetime="2026-11">Nov 2026</time>
     <div class="news-copy"><strong>I moved!</strong> I started as a <strong>Professor of Computational Linguistics / NLP</strong> at the <a href="https://uni-tuebingen.de/en/">University of Tübingen</a>.</div>
   </div>
 
