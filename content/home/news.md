@@ -14,7 +14,7 @@ subtitle = ""
 <div class="news-list">
   <div class="news-item">
     <time class="news-date" datetime="2026-11">Nov 2026</time>
-    <div class="news-copy"><strong>I moved!</strong> I started as a <strong>Professor of Computational Linguistics / NLP</strong> at the <a href="https://uni-tuebingen.de/en/">University of Tübingen</a>.</div>
+    <div class="news-copy"><strong>I moved!</strong> I started as a <strong>Professor of Computational Linguistics / NLP</strong> at the <a href="https://uni-tuebingen.de/en/">University of Tübingen</a>. My <a href="/files/lm_programming_talk.pdf">talk</a> outlines my work and plans at the University.</div>
   </div>
 
   <div class="news-item">
